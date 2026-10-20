@@ -1,0 +1,18 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+import {verifyMechanics} from '../qa/verify_mechanics.mjs';
+const root=path.dirname(path.dirname(fileURLToPath(import.meta.url)));
+const content=path.join(root,'content/game.json');
+if(!fs.existsSync(content))throw new Error('Author the reviewed bilingual content/game.json before building. No old story will be substituted.');
+const data=JSON.parse(fs.readFileSync(content,'utf8'));
+verifyMechanics(root,data);
+const raw=JSON.stringify(data,null,2)+'\n';
+fs.writeFileSync(path.join(root,'play/data.json'),raw);
+fs.writeFileSync(path.join(root,'play/data.js'),'window.R6_DATA = '+raw.trimEnd()+';\n');
+let standalone=fs.readFileSync(path.join(root,'play/index.html'),'utf8');
+standalone=standalone.replace('<link rel="stylesheet" href="style.css">','<style>'+fs.readFileSync(path.join(root,'play/style.css'),'utf8')+'</style>');
+for(const name of ['data.js','engine.js','figures.js','caper.js','app.js'])standalone=standalone.replace(`<script src="${name}"></script>`,'<script>'+fs.readFileSync(path.join(root,'play',name),'utf8').replace(/<\/script/gi,'<\\/script')+'</script>');
+standalone=standalone.replace('href="print.html"','href="play/print.html"');
+fs.writeFileSync(path.join(root,'R6_Offline.html'),standalone);
+console.log(JSON.stringify({version:data.version,stages:data.stages.length,offline:'R6_Offline.html',externalRuntimeRequests:false,mechanics:'unchanged'},null,2));

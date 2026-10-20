@@ -1,0 +1,629 @@
+{
+  "generated_at_utc": "2026-10-20T15:10:12.472715+00:00",
+  "content_sha256": "adc11c3abe3eb1d191e5b124063c22376ede1278d5be203ab95778de56a7b226",
+  "figures_sha256": "6828468ae94b026ba9dfa250231009b51593817d9ef01244ac107db75b768d40",
+  "caper_sha256": "2b597b5655285fb30697ed5ea038dd8b83d7f7c6e3bc75d5bc06eb5c336de8ae",
+  "scope": "Automated local HTML/PDF rendering and geometry; not physical, blind-user, or field validation.",
+  "physical_print_test": false,
+  "tourist_blind_test": false,
+  "field_test": false,
+  "documents": [
+    {
+      "name": "ZH",
+      "html_layout": [
+        {
+          "page": 1,
+          "title": "借景怪盗：消失的隅田川",
+          "height_px": 1020.47,
+          "content_bottom_px": 840.7,
+          "footer_top_px": 997.92,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 2,
+          "title": "带着同一条河出发",
+          "height_px": 1020.47,
+          "content_bottom_px": 637.45,
+          "footer_top_px": 997.92,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 3,
+          "title": "最后一幕，被他拿走了",
+          "height_px": 1020.47,
+          "content_bottom_px": 627.83,
+          "footer_top_px": 997.92,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 4,
+          "title": "01 · 留下被挡住的那一片",
+          "height_px": 1020.47,
+          "content_bottom_px": 698.08,
+          "footer_top_px": 997.92,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 5,
+          "title": "01B · 原景条与画框",
+          "height_px": 1020.47,
+          "content_bottom_px": 900.45,
+          "footer_top_px": 997.92,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 6,
+          "title": "02 · 一条河的两个名字",
+          "height_px": 1020.47,
+          "content_bottom_px": 679.42,
+          "footer_top_px": 997.92,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 7,
+          "title": "02A · 转正河图，再分开落签",
+          "height_px": 1020.47,
+          "content_bottom_px": 680.34,
+          "footer_top_px": 997.92,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 8,
+          "title": "02B · 河图另一面与两张标签",
+          "height_px": 1020.47,
+          "content_bottom_px": 739.98,
+          "footer_top_px": 997.92,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 9,
+          "title": "03 · 诗人很老，照片未必",
+          "height_px": 1020.47,
+          "content_bottom_px": 704.33,
+          "footer_top_px": 997.92,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 10,
+          "title": "03B · 两条时间线",
+          "height_px": 1020.47,
+          "content_bottom_px": 823.11,
+          "footer_top_px": 997.92,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 11,
+          "title": "04 · 不许替他清掉前景",
+          "height_px": 1020.47,
+          "content_bottom_px": 599.42,
+          "footer_top_px": 997.92,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 12,
+          "title": "04A · 让前后两层同时留下",
+          "height_px": 1020.47,
+          "content_bottom_px": 790.55,
+          "footer_top_px": 997.92,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 13,
+          "title": "04B · 公园图与观察端",
+          "height_px": 1020.47,
+          "content_bottom_px": 919.03,
+          "footer_top_px": 997.92,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 14,
+          "title": "05 · 把旧题签带到今天",
+          "height_px": 1020.47,
+          "content_bottom_px": 683.22,
+          "footer_top_px": 997.92,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 15,
+          "title": "05B · 名字与位置各归一行",
+          "height_px": 1020.47,
+          "content_bottom_px": 698.56,
+          "footer_top_px": 997.92,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 16,
+          "title": "终局 · 这一次，不切黑",
+          "height_px": 1020.47,
+          "content_bottom_px": 719.28,
+          "footer_top_px": 997.92,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 17,
+          "title": "回执与可折叠纪念片",
+          "height_px": 1020.47,
+          "content_bottom_px": 741.63,
+          "footer_top_px": 997.92,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 18,
+          "title": "史料随身读 · 1",
+          "height_px": 1020.47,
+          "content_bottom_px": 726.78,
+          "footer_top_px": 997.92,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 19,
+          "title": "史料随身读 · 2",
+          "height_px": 1020.47,
+          "content_bottom_px": 726.78,
+          "footer_top_px": 997.92,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 20,
+          "title": "史料随身读 · 3",
+          "height_px": 1020.47,
+          "content_bottom_px": 568.28,
+          "footer_top_px": 997.92,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 21,
+          "title": "核对 01 · 留下被挡住的那一片",
+          "height_px": 1020.47,
+          "content_bottom_px": 750.14,
+          "footer_top_px": 998.48,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 22,
+          "title": "核对 02 · 一条河的两个名字",
+          "height_px": 1020.47,
+          "content_bottom_px": 774.72,
+          "footer_top_px": 998.48,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 23,
+          "title": "核对 03 · 诗人很老，照片未必",
+          "height_px": 1020.47,
+          "content_bottom_px": 797.53,
+          "footer_top_px": 998.48,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 24,
+          "title": "核对 04 · 不许替他清掉前景",
+          "height_px": 1020.47,
+          "content_bottom_px": 848.78,
+          "footer_top_px": 998.48,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 25,
+          "title": "核对 05 · 把旧题签带到今天",
+          "height_px": 1020.47,
+          "content_bottom_px": 750.14,
+          "footer_top_px": 998.48,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 26,
+          "title": "这条河，留在同一幅景里",
+          "height_px": 1020.47,
+          "content_bottom_px": 564.52,
+          "footer_top_px": 997.92,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 27,
+          "title": "最后一幕归你们 · 1—2",
+          "height_px": 1020.47,
+          "content_bottom_px": 676.92,
+          "footer_top_px": 997.92,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 28,
+          "title": "最后一幕归你们 · 3—4",
+          "height_px": 1020.47,
+          "content_bottom_px": 676.92,
+          "footer_top_px": 997.92,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 29,
+          "title": "最后一幕归你们 · 5—6",
+          "height_px": 1020.47,
+          "content_bottom_px": 795.72,
+          "footer_top_px": 997.92,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 30,
+          "title": "把名字写在留下来的景旁",
+          "height_px": 1020.47,
+          "content_bottom_px": 686.2,
+          "footer_top_px": 997.92,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        }
+      ],
+      "material_geometry": {
+        "scene_strips": [
+          {
+            "width_mm": 53.33,
+            "height_mm": 57.99
+          },
+          {
+            "width_mm": 53.33,
+            "height_mm": 57.99
+          },
+          {
+            "width_mm": 53.33,
+            "height_mm": 57.99
+          }
+        ],
+        "frame_assembly_area": {
+          "width_mm": 160,
+          "height_mm": 58
+        },
+        "souvenir_faces": [
+          {
+            "width_mm": 86,
+            "height_mm": 67
+          },
+          {
+            "width_mm": 86,
+            "height_mm": 67
+          }
+        ],
+        "three_strips_fit_frame": true,
+        "scale": "CSS physical dimensions at 100%; no physical printer tolerance or cut test performed"
+      }
+    },
+    {
+      "name": "EN",
+      "html_layout": [
+        {
+          "page": 1,
+          "title": "The River Thief",
+          "height_px": 1020.47,
+          "content_bottom_px": 873.63,
+          "footer_top_px": 998.02,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 2,
+          "title": "Carry the same river",
+          "height_px": 1020.47,
+          "content_bottom_px": 805.63,
+          "footer_top_px": 998.02,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 3,
+          "title": "He has taken your last scene",
+          "height_px": 1020.47,
+          "content_bottom_px": 687.5,
+          "footer_top_px": 998.02,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 4,
+          "title": "01 · Keep the obscured piece",
+          "height_px": 1020.47,
+          "content_bottom_px": 755.03,
+          "footer_top_px": 998.02,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 5,
+          "title": "01B · Original strips and frame",
+          "height_px": 1020.47,
+          "content_bottom_px": 935.09,
+          "footer_top_px": 998.02,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 6,
+          "title": "02 · Two names for one river",
+          "height_px": 1020.47,
+          "content_bottom_px": 755.38,
+          "footer_top_px": 998.02,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 7,
+          "title": "02A · Orient the river; place both labels",
+          "height_px": 1020.47,
+          "content_bottom_px": 714.56,
+          "footer_top_px": 998.02,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 8,
+          "title": "02B · Alternate face and two labels",
+          "height_px": 1020.47,
+          "content_bottom_px": 756.66,
+          "footer_top_px": 998.02,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 9,
+          "title": "03 · An old poet, a newer view",
+          "height_px": 1020.47,
+          "content_bottom_px": 777.56,
+          "footer_top_px": 998.02,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 10,
+          "title": "03B · Two timelines",
+          "height_px": 1020.47,
+          "content_bottom_px": 875.53,
+          "footer_top_px": 998.02,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 11,
+          "title": "04 · Keep the foreground",
+          "height_px": 1020.47,
+          "content_bottom_px": 749.14,
+          "footer_top_px": 998.02,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 12,
+          "title": "04A · Keep foreground and background",
+          "height_px": 1020.47,
+          "content_bottom_px": 824.77,
+          "footer_top_px": 998.02,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 13,
+          "title": "04B · Park card and viewpoint",
+          "height_px": 1020.47,
+          "content_bottom_px": 936.31,
+          "footer_top_px": 998.02,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 14,
+          "title": "05 · Bring the caption into the present",
+          "height_px": 1020.47,
+          "content_bottom_px": 756.66,
+          "footer_top_px": 998.02,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 15,
+          "title": "05B · Names and location on separate tracks",
+          "height_px": 1020.47,
+          "content_bottom_px": 735.5,
+          "footer_top_px": 998.02,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 16,
+          "title": "Finale · This time, no blackout",
+          "height_px": 1020.47,
+          "content_bottom_px": 753.66,
+          "footer_top_px": 998.02,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 17,
+          "title": "Receipt and foldable souvenir",
+          "height_px": 1020.47,
+          "content_bottom_px": 790.3,
+          "footer_top_px": 998.02,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 18,
+          "title": "History to carry · 1",
+          "height_px": 1020.47,
+          "content_bottom_px": 792.91,
+          "footer_top_px": 998.02,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 19,
+          "title": "History to carry · 2",
+          "height_px": 1020.47,
+          "content_bottom_px": 843.86,
+          "footer_top_px": 998.02,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 20,
+          "title": "History to carry · 3",
+          "height_px": 1020.47,
+          "content_bottom_px": 668.38,
+          "footer_top_px": 998.02,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 21,
+          "title": "Check 01 · Keep the obscured piece",
+          "height_px": 1020.47,
+          "content_bottom_px": 819,
+          "footer_top_px": 998.48,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 22,
+          "title": "Check 02 · Two names for one river",
+          "height_px": 1020.47,
+          "content_bottom_px": 878.05,
+          "footer_top_px": 998.48,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 23,
+          "title": "Check 03 · An old poet, a newer view",
+          "height_px": 1020.47,
+          "content_bottom_px": 918.02,
+          "footer_top_px": 998.48,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 24,
+          "title": "Check 04 · Keep the foreground",
+          "height_px": 1020.47,
+          "content_bottom_px": 986.42,
+          "footer_top_px": 998.48,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 25,
+          "title": "Check 05 · Bring the caption into the present",
+          "height_px": 1020.47,
+          "content_bottom_px": 801.69,
+          "footer_top_px": 998.48,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 26,
+          "title": "Keep the river in the same picture",
+          "height_px": 1020.47,
+          "content_bottom_px": 657.7,
+          "footer_top_px": 998.02,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 27,
+          "title": "The last scene is yours · 1—2",
+          "height_px": 1020.47,
+          "content_bottom_px": 676.73,
+          "footer_top_px": 998.02,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 28,
+          "title": "The last scene is yours · 3—4",
+          "height_px": 1020.47,
+          "content_bottom_px": 676.73,
+          "footer_top_px": 998.02,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 29,
+          "title": "The last scene is yours · 5—6",
+          "height_px": 1020.47,
+          "content_bottom_px": 812.69,
+          "footer_top_px": 998.02,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 30,
+          "title": "Sign beside the scene that stayed",
+          "height_px": 1020.47,
+          "content_bottom_px": 754.64,
+          "footer_top_px": 998.02,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        }
+      ],
+      "material_geometry": {
+        "scene_strips": [
+          {
+            "width_mm": 53.33,
+            "height_mm": 57.99
+          },
+          {
+            "width_mm": 53.33,
+            "height_mm": 57.99
+          },
+          {
+            "width_mm": 53.33,
+            "height_mm": 57.99
+          }
+        ],
+        "frame_assembly_area": {
+          "width_mm": 160,
+          "height_mm": 58
+        },
+        "souvenir_faces": [
+          {
+            "width_mm": 86,
+            "height_mm": 67
+          },
+          {
+            "width_mm": 86,
+            "height_mm": 67
+          }
+        ],
+        "three_strips_fit_frame": true,
+        "scale": "CSS physical dimensions at 100%; no physical printer tolerance or cut test performed"
+      }
+    }
+  ],
+  "errors": [],
+  "automated_layout_pass": true,
+  "visual_review": "Full-page PNGs and contact sheets generated; human visual review must be recorded separately."
+}

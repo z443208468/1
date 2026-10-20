@@ -1,0 +1,374 @@
+{
+  "content_source": "content/game.json",
+  "content_sha256": "adc11c3abe3eb1d191e5b124063c22376ede1278d5be203ab95778de56a7b226",
+  "figures_sha256": "6828468ae94b026ba9dfa250231009b51593817d9ef01244ac107db75b768d40",
+  "caper_sha256": "2b597b5655285fb30697ed5ea038dd8b83d7f7c6e3bc75d5bc06eb5c336de8ae",
+  "required_material_categories_unchanged": true,
+  "print_instruction": "One language per team; A4 single-sided at 100%; prepare cuts and folds before the walk.",
+  "sections": {
+    "opening_and_preparation": [
+      1,
+      3
+    ],
+    "tasks_and_original_materials": [
+      4,
+      17
+    ],
+    "sources": [
+      18,
+      20
+    ],
+    "hints_and_checks": [
+      21,
+      26
+    ],
+    "complete_ending": [
+      27,
+      29
+    ],
+    "four_choice_combinations": [
+      30,
+      30
+    ]
+  },
+  "material_pages": [
+    4,
+    5,
+    7,
+    8,
+    10,
+    12,
+    13,
+    15,
+    17
+  ],
+  "materials": {
+    "view_cards": 3,
+    "horizontal_scene_strips": 3,
+    "frame": 1,
+    "river_map_faces": 2,
+    "river_labels": 2,
+    "timeline_tracks": 2,
+    "lower_bound_strip": 1,
+    "park_map_faces": 2,
+    "camera_markers": 4,
+    "purpose_labels": 2,
+    "facade_reference": 1,
+    "theatre_name_strips": 4,
+    "move_1928": 1,
+    "receipt": 1,
+    "folded_souvenir": 1
+  },
+  "languages": {
+    "zh": {
+      "pages": 30,
+      "page_index": [
+        {
+          "page": 1,
+          "key": "cover",
+          "title": "借景怪盗：消失的隅田川"
+        },
+        {
+          "page": 2,
+          "key": "rules",
+          "title": "带着同一条河出发"
+        },
+        {
+          "page": 3,
+          "key": "opening",
+          "title": "最后一幕，被他拿走了"
+        },
+        {
+          "page": 4,
+          "key": "s1",
+          "title": "01 · 留下被挡住的那一片"
+        },
+        {
+          "page": 5,
+          "key": "s1pieces",
+          "title": "01B · 原景条与画框"
+        },
+        {
+          "page": 6,
+          "key": "s2",
+          "title": "02 · 一条河的两个名字"
+        },
+        {
+          "page": 7,
+          "key": "s2work",
+          "title": "02A · 转正河图，再分开落签"
+        },
+        {
+          "page": 8,
+          "key": "s2back",
+          "title": "02B · 河图另一面与两张标签"
+        },
+        {
+          "page": 9,
+          "key": "s3",
+          "title": "03 · 诗人很老，照片未必"
+        },
+        {
+          "page": 10,
+          "key": "s3work",
+          "title": "03B · 两条时间线"
+        },
+        {
+          "page": 11,
+          "key": "s4",
+          "title": "04 · 不许替他清掉前景"
+        },
+        {
+          "page": 12,
+          "key": "s4work",
+          "title": "04A · 让前后两层同时留下"
+        },
+        {
+          "page": 13,
+          "key": "s4pieces",
+          "title": "04B · 公园图与观察端"
+        },
+        {
+          "page": 14,
+          "key": "s5",
+          "title": "05 · 把旧题签带到今天"
+        },
+        {
+          "page": 15,
+          "key": "s5work",
+          "title": "05B · 名字与位置各归一行"
+        },
+        {
+          "page": 16,
+          "key": "final",
+          "title": "终局 · 这一次，不切黑"
+        },
+        {
+          "page": 17,
+          "key": "souvenir",
+          "title": "回执与可折叠纪念片"
+        },
+        {
+          "page": 18,
+          "key": "sources1",
+          "title": "史料随身读 · 1"
+        },
+        {
+          "page": 19,
+          "key": "sources2",
+          "title": "史料随身读 · 2"
+        },
+        {
+          "page": 20,
+          "key": "sources3",
+          "title": "史料随身读 · 3"
+        },
+        {
+          "page": 21,
+          "key": "h1",
+          "title": "核对 01 · 留下被挡住的那一片"
+        },
+        {
+          "page": 22,
+          "key": "h2",
+          "title": "核对 02 · 一条河的两个名字"
+        },
+        {
+          "page": 23,
+          "key": "h3",
+          "title": "核对 03 · 诗人很老，照片未必"
+        },
+        {
+          "page": 24,
+          "key": "h4",
+          "title": "核对 04 · 不许替他清掉前景"
+        },
+        {
+          "page": 25,
+          "key": "h5",
+          "title": "核对 05 · 把旧题签带到今天"
+        },
+        {
+          "page": 26,
+          "key": "finalcheck",
+          "title": "这条河，留在同一幅景里"
+        },
+        {
+          "page": 27,
+          "key": "ending1",
+          "title": "最后一幕归你们 · 1—2"
+        },
+        {
+          "page": 28,
+          "key": "ending2",
+          "title": "最后一幕归你们 · 3—4"
+        },
+        {
+          "page": 29,
+          "key": "ending3",
+          "title": "最后一幕归你们 · 5—6"
+        },
+        {
+          "page": 30,
+          "key": "choices",
+          "title": "把名字写在留下来的景旁"
+        }
+      ]
+    },
+    "en": {
+      "pages": 30,
+      "page_index": [
+        {
+          "page": 1,
+          "key": "cover",
+          "title": "The River Thief"
+        },
+        {
+          "page": 2,
+          "key": "rules",
+          "title": "Carry the same river"
+        },
+        {
+          "page": 3,
+          "key": "opening",
+          "title": "He has taken your last scene"
+        },
+        {
+          "page": 4,
+          "key": "s1",
+          "title": "01 · Keep the obscured piece"
+        },
+        {
+          "page": 5,
+          "key": "s1pieces",
+          "title": "01B · Original strips and frame"
+        },
+        {
+          "page": 6,
+          "key": "s2",
+          "title": "02 · Two names for one river"
+        },
+        {
+          "page": 7,
+          "key": "s2work",
+          "title": "02A · Orient the river; place both labels"
+        },
+        {
+          "page": 8,
+          "key": "s2back",
+          "title": "02B · Alternate face and two labels"
+        },
+        {
+          "page": 9,
+          "key": "s3",
+          "title": "03 · An old poet, a newer view"
+        },
+        {
+          "page": 10,
+          "key": "s3work",
+          "title": "03B · Two timelines"
+        },
+        {
+          "page": 11,
+          "key": "s4",
+          "title": "04 · Keep the foreground"
+        },
+        {
+          "page": 12,
+          "key": "s4work",
+          "title": "04A · Keep foreground and background"
+        },
+        {
+          "page": 13,
+          "key": "s4pieces",
+          "title": "04B · Park card and viewpoint"
+        },
+        {
+          "page": 14,
+          "key": "s5",
+          "title": "05 · Bring the caption into the present"
+        },
+        {
+          "page": 15,
+          "key": "s5work",
+          "title": "05B · Names and location on separate tracks"
+        },
+        {
+          "page": 16,
+          "key": "final",
+          "title": "Finale · This time, no blackout"
+        },
+        {
+          "page": 17,
+          "key": "souvenir",
+          "title": "Receipt and foldable souvenir"
+        },
+        {
+          "page": 18,
+          "key": "sources1",
+          "title": "History to carry · 1"
+        },
+        {
+          "page": 19,
+          "key": "sources2",
+          "title": "History to carry · 2"
+        },
+        {
+          "page": 20,
+          "key": "sources3",
+          "title": "History to carry · 3"
+        },
+        {
+          "page": 21,
+          "key": "h1",
+          "title": "Check 01 · Keep the obscured piece"
+        },
+        {
+          "page": 22,
+          "key": "h2",
+          "title": "Check 02 · Two names for one river"
+        },
+        {
+          "page": 23,
+          "key": "h3",
+          "title": "Check 03 · An old poet, a newer view"
+        },
+        {
+          "page": 24,
+          "key": "h4",
+          "title": "Check 04 · Keep the foreground"
+        },
+        {
+          "page": 25,
+          "key": "h5",
+          "title": "Check 05 · Bring the caption into the present"
+        },
+        {
+          "page": 26,
+          "key": "finalcheck",
+          "title": "Keep the river in the same picture"
+        },
+        {
+          "page": 27,
+          "key": "ending1",
+          "title": "The last scene is yours · 1—2"
+        },
+        {
+          "page": 28,
+          "key": "ending2",
+          "title": "The last scene is yours · 3—4"
+        },
+        {
+          "page": 29,
+          "key": "ending3",
+          "title": "The last scene is yours · 5—6"
+        },
+        {
+          "page": 30,
+          "key": "choices",
+          "title": "Sign beside the scene that stayed"
+        }
+      ]
+    }
+  }
+}

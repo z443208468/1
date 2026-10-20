@@ -1,0 +1,295 @@
+{
+  "product": "R6.0-review",
+  "scope": "static completeness and D2 implementation conditions, not story-quality validation",
+  "source_sha256": "adc11c3abe3eb1d191e5b124063c22376ede1278d5be203ab95778de56a7b226",
+  "checks": [
+    {
+      "name": "five_complete_chapters",
+      "passed": true
+    },
+    {
+      "name": "bilingual_title",
+      "passed": true
+    },
+    {
+      "name": "bilingual_subtitle",
+      "passed": true
+    },
+    {
+      "name": "bilingual_opening",
+      "passed": true
+    },
+    {
+      "name": "bilingual_fictionNotice",
+      "passed": true
+    },
+    {
+      "name": "bilingual_originalCaption",
+      "passed": true
+    },
+    {
+      "name": "bilingual_parkAnnotation",
+      "passed": true
+    },
+    {
+      "name": "bilingual_finalTitle",
+      "passed": true
+    },
+    {
+      "name": "bilingual_finalIntro",
+      "passed": true
+    },
+    {
+      "name": "bilingual_paperEnding",
+      "passed": true
+    },
+    {
+      "name": "opening_has_three_spoken_lines",
+      "passed": true
+    },
+    {
+      "name": "s1_bilingual_title",
+      "passed": true
+    },
+    {
+      "name": "s1_bilingual_site",
+      "passed": true
+    },
+    {
+      "name": "s1_bilingual_intro",
+      "passed": true
+    },
+    {
+      "name": "s1_bilingual_operation",
+      "passed": true
+    },
+    {
+      "name": "s1_bilingual_prompt",
+      "passed": true
+    },
+    {
+      "name": "s1_bilingual_success",
+      "passed": true
+    },
+    {
+      "name": "s1_bilingual_lead",
+      "passed": true
+    },
+    {
+      "name": "s1_three_free_hints",
+      "passed": true
+    },
+    {
+      "name": "s1_before_and_after_actions",
+      "passed": true
+    },
+    {
+      "name": "s1_dialogue_bilingual",
+      "passed": true
+    },
+    {
+      "name": "s2_bilingual_title",
+      "passed": true
+    },
+    {
+      "name": "s2_bilingual_site",
+      "passed": true
+    },
+    {
+      "name": "s2_bilingual_intro",
+      "passed": true
+    },
+    {
+      "name": "s2_bilingual_operation",
+      "passed": true
+    },
+    {
+      "name": "s2_bilingual_prompt",
+      "passed": true
+    },
+    {
+      "name": "s2_bilingual_success",
+      "passed": true
+    },
+    {
+      "name": "s2_bilingual_lead",
+      "passed": true
+    },
+    {
+      "name": "s2_three_free_hints",
+      "passed": true
+    },
+    {
+      "name": "s2_before_and_after_actions",
+      "passed": true
+    },
+    {
+      "name": "s2_dialogue_bilingual",
+      "passed": true
+    },
+    {
+      "name": "s3_bilingual_title",
+      "passed": true
+    },
+    {
+      "name": "s3_bilingual_site",
+      "passed": true
+    },
+    {
+      "name": "s3_bilingual_intro",
+      "passed": true
+    },
+    {
+      "name": "s3_bilingual_operation",
+      "passed": true
+    },
+    {
+      "name": "s3_bilingual_prompt",
+      "passed": true
+    },
+    {
+      "name": "s3_bilingual_success",
+      "passed": true
+    },
+    {
+      "name": "s3_bilingual_lead",
+      "passed": true
+    },
+    {
+      "name": "s3_three_free_hints",
+      "passed": true
+    },
+    {
+      "name": "s3_before_and_after_actions",
+      "passed": true
+    },
+    {
+      "name": "s3_dialogue_bilingual",
+      "passed": true
+    },
+    {
+      "name": "s4_bilingual_title",
+      "passed": true
+    },
+    {
+      "name": "s4_bilingual_site",
+      "passed": true
+    },
+    {
+      "name": "s4_bilingual_intro",
+      "passed": true
+    },
+    {
+      "name": "s4_bilingual_operation",
+      "passed": true
+    },
+    {
+      "name": "s4_bilingual_prompt",
+      "passed": true
+    },
+    {
+      "name": "s4_bilingual_success",
+      "passed": true
+    },
+    {
+      "name": "s4_bilingual_lead",
+      "passed": true
+    },
+    {
+      "name": "s4_three_free_hints",
+      "passed": true
+    },
+    {
+      "name": "s4_before_and_after_actions",
+      "passed": true
+    },
+    {
+      "name": "s4_dialogue_bilingual",
+      "passed": true
+    },
+    {
+      "name": "s5_bilingual_title",
+      "passed": true
+    },
+    {
+      "name": "s5_bilingual_site",
+      "passed": true
+    },
+    {
+      "name": "s5_bilingual_intro",
+      "passed": true
+    },
+    {
+      "name": "s5_bilingual_operation",
+      "passed": true
+    },
+    {
+      "name": "s5_bilingual_prompt",
+      "passed": true
+    },
+    {
+      "name": "s5_bilingual_success",
+      "passed": true
+    },
+    {
+      "name": "s5_bilingual_lead",
+      "passed": true
+    },
+    {
+      "name": "s5_three_free_hints",
+      "passed": true
+    },
+    {
+      "name": "s5_before_and_after_actions",
+      "passed": true
+    },
+    {
+      "name": "s5_dialogue_bilingual",
+      "passed": true
+    },
+    {
+      "name": "six_complete_finale_scenes",
+      "passed": true
+    },
+    {
+      "name": "two_independent_strategy_responses",
+      "passed": true
+    },
+    {
+      "name": "two_complete_endings",
+      "passed": true
+    },
+    {
+      "name": "s4_has_theatre_year_sources_without_s5_gate",
+      "passed": true
+    },
+    {
+      "name": "clearing_annotation_present_at_opening",
+      "passed": true
+    },
+    {
+      "name": "source_ids_unique",
+      "passed": true
+    },
+    {
+      "name": "sources_have_two_languages",
+      "passed": true
+    },
+    {
+      "name": "no_rejected_characters_or_contest_in_player_source",
+      "passed": true
+    },
+    {
+      "name": "no_live_feed_claim",
+      "passed": true
+    },
+    {
+      "name": "no_new_required_site",
+      "passed": true
+    }
+  ],
+  "passed": 71,
+  "failed": 0,
+  "human_blind_test": "NOT_RUN",
+  "field_test": "NOT_RUN"
+}

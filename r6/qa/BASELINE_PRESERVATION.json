@@ -1,0 +1,430 @@
+{
+  "base_commit": "7a188794224cbc189adf5424e41bf50b6bea939e",
+  "base_tracked_files": 69,
+  "unchanged_original_files": 68,
+  "changed_original_files": [
+    "README.md"
+  ],
+  "allowed_changes": [
+    "README.md"
+  ],
+  "original_readme_archive": "revisions/R5_history_first_20261020/ROOT_README_BEFORE_R6.md",
+  "original_readme_archive_matches": true,
+  "records": [
+    {
+      "path": "1.txt",
+      "unchanged": true,
+      "base_sha256": "66ff8d2350f7086b09134f5d9593e1948ae3aafdf9bf188e7161e093833368c6",
+      "current_sha256": "66ff8d2350f7086b09134f5d9593e1948ae3aafdf9bf188e7161e093833368c6"
+    },
+    {
+      "path": "PROJECT_HANDOFF_FOR_NEXT_SESSION.md",
+      "unchanged": true,
+      "base_sha256": "f36ee6b85af9b5ec86e026377a9164c168e73d4f131228fc7df8ab14f980f4fa",
+      "current_sha256": "f36ee6b85af9b5ec86e026377a9164c168e73d4f131228fc7df8ab14f980f4fa"
+    },
+    {
+      "path": "README.md",
+      "unchanged": false,
+      "base_sha256": "297a6d881c613bf77f3c5bd2004757353de8a19a6e3600bab2d65cb1b86ca236",
+      "current_sha256": "055c7d9a6eb893bc00f59e39e4240cb5361ef5b24ef50fa1d2e7a2c0c2c9b91f"
+    },
+    {
+      "path": "commercial/01_PRODUCT_AND_COSTS.md",
+      "unchanged": true,
+      "base_sha256": "1885fd71dd5e9caf6545ea949049fbb2802acaf52c4fe580b7d2085ffe9c3e31",
+      "current_sha256": "1885fd71dd5e9caf6545ea949049fbb2802acaf52c4fe580b7d2085ffe9c3e31"
+    },
+    {
+      "path": "design/00_SCENE_DEPENDENCY_CONTRACT.md",
+      "unchanged": true,
+      "base_sha256": "8465e640aa234a0b9156d3b47bcecb01a87ca9ea9d316036a5daba576c907077",
+      "current_sha256": "8465e640aa234a0b9156d3b47bcecb01a87ca9ea9d316036a5daba576c907077"
+    },
+    {
+      "path": "design/01_R3_STORY.md",
+      "unchanged": true,
+      "base_sha256": "40fa11fc89e596d4c0ff0c9fd6b87d3714d7e4c4b1ba7ba4d60fc9a4bfd05bd6",
+      "current_sha256": "40fa11fc89e596d4c0ff0c9fd6b87d3714d7e4c4b1ba7ba4d60fc9a4bfd05bd6"
+    },
+    {
+      "path": "design/02_R3_MECHANICS.md",
+      "unchanged": true,
+      "base_sha256": "1ee195d2c3dca413d4accfb4bd1c7c546d560975bf23999652dab8f239aab730",
+      "current_sha256": "1ee195d2c3dca413d4accfb4bd1c7c546d560975bf23999652dab8f239aab730"
+    },
+    {
+      "path": "evidence/01_REVIEW_SCOPE_AND_PRESERVATION.md",
+      "unchanged": true,
+      "base_sha256": "55743962cf4317d3bcc1b2600d9d5e5e073966f45ea58c00332d2c4c71ea7163",
+      "current_sha256": "55743962cf4317d3bcc1b2600d9d5e5e073966f45ea58c00332d2c4c71ea7163"
+    },
+    {
+      "path": "evidence/02_SITE_BY_SITE_CROSSCHECK.md",
+      "unchanged": true,
+      "base_sha256": "3cddd4f6130abc020ea08e7dea18023aa98150089378ce4b8fc18c294641663f",
+      "current_sha256": "3cddd4f6130abc020ea08e7dea18023aa98150089378ce4b8fc18c294641663f"
+    },
+    {
+      "path": "evidence/04_GAPS_AND_DECISIONS.md",
+      "unchanged": true,
+      "base_sha256": "6d2aeb65fad73a585d974528be6176e8f4552ca9eadc87504b27bd72f5ad0565",
+      "current_sha256": "6d2aeb65fad73a585d974528be6176e8f4552ca9eadc87504b27bd72f5ad0565"
+    },
+    {
+      "path": "evidence/05_ARCHIVE_R2_VERIFICATION.json",
+      "unchanged": true,
+      "base_sha256": "7107292aeeebdbeb6136cdcbb675b94306ad973156e69aa82cf9d49cc12f0a3a",
+      "current_sha256": "7107292aeeebdbeb6136cdcbb675b94306ad973156e69aa82cf9d49cc12f0a3a"
+    },
+    {
+      "path": "methods/01_PLAYER_HYPOTHESES_AND_OPTIONS.md",
+      "unchanged": true,
+      "base_sha256": "5f4fbde25f89d78e0e26982ef11e74f4d182db398a85b4fe50ac06024ea0fee9",
+      "current_sha256": "5f4fbde25f89d78e0e26982ef11e74f4d182db398a85b4fe50ac06024ea0fee9"
+    },
+    {
+      "path": "methods/02_GAME_DESIGN_RESEARCH.md",
+      "unchanged": true,
+      "base_sha256": "0f30be6453a63ae097e290cd63b90fec9a2e284392d5c8177e2db399912e53e6",
+      "current_sha256": "0f30be6453a63ae097e290cd63b90fec9a2e284392d5c8177e2db399912e53e6"
+    },
+    {
+      "path": "methods/03_STORY_PLAYER_EXPERIENCE_R3.md",
+      "unchanged": true,
+      "base_sha256": "c8c703d2cb88ddab88523ef8bda0f0ae60e2c4e88b5ceb3ee93b15455a6b59b4",
+      "current_sha256": "c8c703d2cb88ddab88523ef8bda0f0ae60e2c4e88b5ceb3ee93b15455a6b59b4"
+    },
+    {
+      "path": "play/app.js",
+      "unchanged": true,
+      "base_sha256": "13086d3e63d2d8d74b2b10f39cdb81c183541ee8a795125861b563239106fb50",
+      "current_sha256": "13086d3e63d2d8d74b2b10f39cdb81c183541ee8a795125861b563239106fb50"
+    },
+    {
+      "path": "play/engine.js",
+      "unchanged": true,
+      "base_sha256": "fb7ccae9cff6a0021c9f77142b316a6972cdee7609809a77fd3965b08b31806e",
+      "current_sha256": "fb7ccae9cff6a0021c9f77142b316a6972cdee7609809a77fd3965b08b31806e"
+    },
+    {
+      "path": "play/figures.js",
+      "unchanged": true,
+      "base_sha256": "c9afd76dc744135875e469dbb8a447cd828dd6d2dc76223628ffc7510b6a7f3c",
+      "current_sha256": "c9afd76dc744135875e469dbb8a447cd828dd6d2dc76223628ffc7510b6a7f3c"
+    },
+    {
+      "path": "play/index.html",
+      "unchanged": true,
+      "base_sha256": "278e5687470f819e2eee028ecd6a981ac3bf4fbcb30dffd868625abab8b172a7",
+      "current_sha256": "278e5687470f819e2eee028ecd6a981ac3bf4fbcb30dffd868625abab8b172a7"
+    },
+    {
+      "path": "play/style.css",
+      "unchanged": true,
+      "base_sha256": "b4419f21c83b59e64e8e0fe555af52f761fa6aae04ebd73e7a04fe8afb5d1bee",
+      "current_sha256": "b4419f21c83b59e64e8e0fe555af52f761fa6aae04ebd73e7a04fe8afb5d1bee"
+    },
+    {
+      "path": "project/01_RESUME_CHECKPOINT.md",
+      "unchanged": true,
+      "base_sha256": "bbe1605a4026082d7599a63a720d0ca777f07d598daa7f6e9f1980ebacb846e0",
+      "current_sha256": "bbe1605a4026082d7599a63a720d0ca777f07d598daa7f6e9f1980ebacb846e0"
+    },
+    {
+      "path": "project/R3_CHECKPOINT.md",
+      "unchanged": true,
+      "base_sha256": "f4ea0f595dde15d39a3324aed99e578d51db1cef30003b6510fdba90b69ce047",
+      "current_sha256": "f4ea0f595dde15d39a3324aed99e578d51db1cef30003b6510fdba90b69ce047"
+    },
+    {
+      "path": "project/STATUS.md",
+      "unchanged": true,
+      "base_sha256": "82fb18b17a2555a5ea6b58803c3ecdb4b706a2a4fb1795ee8f12f959d4e1d2a7",
+      "current_sha256": "82fb18b17a2555a5ea6b58803c3ecdb4b706a2a4fb1795ee8f12f959d4e1d2a7"
+    },
+    {
+      "path": "qa/01_ACCEPTANCE_AND_REDTEAM.md",
+      "unchanged": true,
+      "base_sha256": "778de9d5cc74911cf4bd358082e2e3dc7829c4c00393081f42556ee158e05063",
+      "current_sha256": "778de9d5cc74911cf4bd358082e2e3dc7829c4c00393081f42556ee158e05063"
+    },
+    {
+      "path": "qa/02_R3_BENCHMARK_AND_LIMITS.md",
+      "unchanged": true,
+      "base_sha256": "a818fdd41aea2d0343b3c35aa188fb23160e75e7d6f9998e831f1e653f6389d1",
+      "current_sha256": "a818fdd41aea2d0343b3c35aa188fb23160e75e7d6f9998e831f1e653f6389d1"
+    },
+    {
+      "path": "qa/browser_results.json",
+      "unchanged": true,
+      "base_sha256": "35177dd4726790b38791aeddc42160088442266b2394191c85ead2d3af4e2855",
+      "current_sha256": "35177dd4726790b38791aeddc42160088442266b2394191c85ead2d3af4e2855"
+    },
+    {
+      "path": "qa/logic_results.json",
+      "unchanged": true,
+      "base_sha256": "5db96dd70f9db27f8e2e76d3500e0cb8bf027753ece51b4468675df4fb94fd05",
+      "current_sha256": "5db96dd70f9db27f8e2e76d3500e0cb8bf027753ece51b4468675df4fb94fd05"
+    },
+    {
+      "path": "qa/pdf_results.json",
+      "unchanged": true,
+      "base_sha256": "252df2f511a67cb2bd55c591ecb6f3aee4f73e912d29470c320782e17216aeb4",
+      "current_sha256": "252df2f511a67cb2bd55c591ecb6f3aee4f73e912d29470c320782e17216aeb4"
+    },
+    {
+      "path": "qa/test_browser.py",
+      "unchanged": true,
+      "base_sha256": "383357e75ab39ae20358427eebcf0c23f0abaffc1b4d1a71f4e43f649d63769c",
+      "current_sha256": "383357e75ab39ae20358427eebcf0c23f0abaffc1b4d1a71f4e43f649d63769c"
+    },
+    {
+      "path": "qa/test_logic.js",
+      "unchanged": true,
+      "base_sha256": "a9a192a8db43c1f343ebaf9b4d059bc8c4be7ff75aef50bd64276b52324ea69f",
+      "current_sha256": "a9a192a8db43c1f343ebaf9b4d059bc8c4be7ff75aef50bd64276b52324ea69f"
+    },
+    {
+      "path": "requirements/BASELINE_AND_REJECTIONS.md",
+      "unchanged": true,
+      "base_sha256": "3dac4cc0f1ceea8f50f86cd1399e01a386c1d35fbd9e9bb11e1260ae57f698f7",
+      "current_sha256": "3dac4cc0f1ceea8f50f86cd1399e01a386c1d35fbd9e9bb11e1260ae57f698f7"
+    },
+    {
+      "path": "research/00_SOURCE_REGISTER.md",
+      "unchanged": true,
+      "base_sha256": "454d8a71be25bc2322ebd6003a894198bf5ef4282e1c2f3c66197b194fd5d724",
+      "current_sha256": "454d8a71be25bc2322ebd6003a894198bf5ef4282e1c2f3c66197b194fd5d724"
+    },
+    {
+      "path": "research/01_FIVE_SITE_DOSSIERS.md",
+      "unchanged": true,
+      "base_sha256": "1ea53d979cc8e0f15322079555c8607c172d5b979436cb36aed94535aab4de14",
+      "current_sha256": "1ea53d979cc8e0f15322079555c8607c172d5b979436cb36aed94535aab4de14"
+    },
+    {
+      "path": "research/02_CONNECTIONS_AND_CORRECTIONS.md",
+      "unchanged": true,
+      "base_sha256": "a8b1622fbc3dad79908eae19a90ec3f6092be210f031f134f585d32351d26d79",
+      "current_sha256": "a8b1622fbc3dad79908eae19a90ec3f6092be210f031f134f585d32351d26d79"
+    },
+    {
+      "path": "research/03_FOLLOWUP_CORRECTIONS.md",
+      "unchanged": true,
+      "base_sha256": "2367d3e941490af03ef1b414ff28630618cdd682d6d3ec355882a1dfef3e8982",
+      "current_sha256": "2367d3e941490af03ef1b414ff28630618cdd682d6d3ec355882a1dfef3e8982"
+    },
+    {
+      "path": "research/04_RESUME_SOURCE_SUPPLEMENT.md",
+      "unchanged": true,
+      "base_sha256": "cab2cff7288e66f97a79defbad887f082cd62cf011449c48c02a2aa47ae56efa",
+      "current_sha256": "cab2cff7288e66f97a79defbad887f082cd62cf011449c48c02a2aa47ae56efa"
+    },
+    {
+      "path": "research/05_R3_SOURCE_LINKS.md",
+      "unchanged": true,
+      "base_sha256": "d064b5a3b984a50dfa38ebb53f097909a15ddd517d95c9b822d2ed815bc30500",
+      "current_sha256": "d064b5a3b984a50dfa38ebb53f097909a15ddd517d95c9b822d2ed815bc30500"
+    },
+    {
+      "path": "revisions/R4_story_20261020/README.md",
+      "unchanged": true,
+      "base_sha256": "dd9a69289ab6a2d06fd66c4ce1465c665b9ac340fb194a2b6a6416e1829613c7",
+      "current_sha256": "dd9a69289ab6a2d06fd66c4ce1465c665b9ac340fb194a2b6a6416e1829613c7"
+    },
+    {
+      "path": "revisions/R4_story_20261020/research/00_MECHANICS_LOCK.md",
+      "unchanged": true,
+      "base_sha256": "238291ac9ac5f768212923ad1741389e51752ffdcee52ddd260d41db2e7e38a7",
+      "current_sha256": "238291ac9ac5f768212923ad1741389e51752ffdcee52ddd260d41db2e7e38a7"
+    },
+    {
+      "path": "revisions/R4_story_20261020/research/01_REPO_AND_SOURCE_AUDIT.md",
+      "unchanged": true,
+      "base_sha256": "01b85a96dfe03c32611f4d90ccd5f4c75d7b268f5082e25dfdfc363d717e4bd9",
+      "current_sha256": "01b85a96dfe03c32611f4d90ccd5f4c75d7b268f5082e25dfdfc363d717e4bd9"
+    },
+    {
+      "path": "revisions/R4_story_20261020/research/02_STORY_REWRITE_ACCEPTANCE.md",
+      "unchanged": true,
+      "base_sha256": "7fa50b6dd2575860c06dc7497ae8aff168bf1d252097ea0ed57f6af2879805b9",
+      "current_sha256": "7fa50b6dd2575860c06dc7497ae8aff168bf1d252097ea0ed57f6af2879805b9"
+    },
+    {
+      "path": "revisions/R4_story_20261020/research/04_STORY_CHARACTER_THEORY.md",
+      "unchanged": true,
+      "base_sha256": "79c885308e43dd553c84af340794cb33f350ea43a969ce0b300ce784b2a307e4",
+      "current_sha256": "79c885308e43dd553c84af340794cb33f350ea43a969ce0b300ce784b2a307e4"
+    },
+    {
+      "path": "revisions/R4_story_20261020/research/05_TRPG_PLAYER_THEORY.md",
+      "unchanged": true,
+      "base_sha256": "b6f4b3700b7746276feb613b2e52708d64a8b14950a62bbaac76b748553828ae",
+      "current_sha256": "b6f4b3700b7746276feb613b2e52708d64a8b14950a62bbaac76b748553828ae"
+    },
+    {
+      "path": "revisions/R4_story_20261020/research/06_HISTORY_MATERIAL_MATRIX.md",
+      "unchanged": true,
+      "base_sha256": "532a949f3e589ed158ea2d9803b96abe4780b3dbac3f29ad3d70a91d685ba517",
+      "current_sha256": "532a949f3e589ed158ea2d9803b96abe4780b3dbac3f29ad3d70a91d685ba517"
+    },
+    {
+      "path": "revisions/R4_story_20261020/research/attachment_baseline_manifest.json",
+      "unchanged": true,
+      "base_sha256": "e6ff6d760b6d589015047ffaf6883bbc7ef1e4cb951c182a5cf264a53f60653b",
+      "current_sha256": "e6ff6d760b6d589015047ffaf6883bbc7ef1e4cb951c182a5cf264a53f60653b"
+    },
+    {
+      "path": "revisions/R4_story_20261020/research/final_baseline_check.json",
+      "unchanged": true,
+      "base_sha256": "47ad2db715b9055f3ec56f0d58d7c460caa7af19ad7842db138447d241697ca3",
+      "current_sha256": "47ad2db715b9055f3ec56f0d58d7c460caa7af19ad7842db138447d241697ca3"
+    },
+    {
+      "path": "revisions/R4_story_20261020/research/mechanics_contract.json",
+      "unchanged": true,
+      "base_sha256": "afabb1525f52418e6f2a87dc840600883cf54efcabb2879adfcddeaefee94987",
+      "current_sha256": "afabb1525f52418e6f2a87dc840600883cf54efcabb2879adfcddeaefee94987"
+    },
+    {
+      "path": "revisions/R4_story_20261020/story/00_CHARACTER_AND_EVENT.md",
+      "unchanged": true,
+      "base_sha256": "77cd78b7850bf49d0536962beefc8f522cccb4ab88a4ba5ff34763276a91c438",
+      "current_sha256": "77cd78b7850bf49d0536962beefc8f522cccb4ab88a4ba5ff34763276a91c438"
+    },
+    {
+      "path": "revisions/R4_story_20261020/story/01_FULL_STORY.md",
+      "unchanged": true,
+      "base_sha256": "e4a4a452756bffa306af52833b0f9fe82c8018a92c202ea982b158727f5e7801",
+      "current_sha256": "e4a4a452756bffa306af52833b0f9fe82c8018a92c202ea982b158727f5e7801"
+    },
+    {
+      "path": "revisions/R4_story_20261020/story/02_PLAYER_TEXT.md",
+      "unchanged": true,
+      "base_sha256": "2ee0e3c38226828dd1e7d5382e8cf6ab8fcb58b4457c22bab14cdb73155ada88",
+      "current_sha256": "2ee0e3c38226828dd1e7d5382e8cf6ab8fcb58b4457c22bab14cdb73155ada88"
+    },
+    {
+      "path": "revisions/R4_story_20261020/story/03_PLAYER_AGENCY_REVIEW.md",
+      "unchanged": true,
+      "base_sha256": "226c00b037eb4cb4dd36a87a9ab70d2ec2c640fa07b4c3265c83fb9c8d30c2fb",
+      "current_sha256": "226c00b037eb4cb4dd36a87a9ab70d2ec2c640fa07b4c3265c83fb9c8d30c2fb"
+    },
+    {
+      "path": "revisions/R4_story_20261020/story/04_COMPATIBILITY_AUDIT.md",
+      "unchanged": true,
+      "base_sha256": "1685229f04b91f8e1ff5ede9fede26d135213adb8bd7af9ea368f80a216a0e0c",
+      "current_sha256": "1685229f04b91f8e1ff5ede9fede26d135213adb8bd7af9ea368f80a216a0e0c"
+    },
+    {
+      "path": "revisions/R4_story_20261020/story/05_DECISIONS_AND_LIMITS.md",
+      "unchanged": true,
+      "base_sha256": "15efe329097b295e9d573a3ed1bb86d72fc809d51ea1de3eb347b95e51289c68",
+      "current_sha256": "15efe329097b295e9d573a3ed1bb86d72fc809d51ea1de3eb347b95e51289c68"
+    },
+    {
+      "path": "revisions/R5_history_first_20261020/00_WORKFLOW.md",
+      "unchanged": true,
+      "base_sha256": "fc3cc6fc48d688e99f3993b5f96c9260390f2c6d9f151c5f9f4f560b0870fd78",
+      "current_sha256": "fc3cc6fc48d688e99f3993b5f96c9260390f2c6d9f151c5f9f4f560b0870fd78"
+    },
+    {
+      "path": "revisions/R5_history_first_20261020/01_BASELINE_AND_EVIDENCE.md",
+      "unchanged": true,
+      "base_sha256": "977ca40e83115f001165e4d451fa9b4283ba07735ad382e818c3ceaa38fd697f",
+      "current_sha256": "977ca40e83115f001165e4d451fa9b4283ba07735ad382e818c3ceaa38fd697f"
+    },
+    {
+      "path": "revisions/R5_history_first_20261020/02_HISTORY_ATOMS.md",
+      "unchanged": true,
+      "base_sha256": "442d9a8109ac25c37ffa5f6433c473ca4f1925f23c0c14562981c988f8cb164b",
+      "current_sha256": "442d9a8109ac25c37ffa5f6433c473ca4f1925f23c0c14562981c988f8cb164b"
+    },
+    {
+      "path": "revisions/R5_history_first_20261020/03_CONNECTIONS_AND_CANDIDATES.md",
+      "unchanged": true,
+      "base_sha256": "3dd2e788bc2b1b771c8950c4f6b0d488c0c72392714b0ecc966c5eb45638f18b",
+      "current_sha256": "3dd2e788bc2b1b771c8950c4f6b0d488c0c72392714b0ecc966c5eb45638f18b"
+    },
+    {
+      "path": "revisions/R5_history_first_20261020/04_FIVE_SITE_CAUSAL_CONTRACT.md",
+      "unchanged": true,
+      "base_sha256": "db06c6401ad51f5dc673f08b92a8dd60e1fef63ee7fb42c3a94fb2245be5a47a",
+      "current_sha256": "db06c6401ad51f5dc673f08b92a8dd60e1fef63ee7fb42c3a94fb2245be5a47a"
+    },
+    {
+      "path": "revisions/R5_history_first_20261020/05_CHARACTERS_AND_KNOWLEDGE.md",
+      "unchanged": true,
+      "base_sha256": "5d33e330db381aca6b94a8ee5ceeffd8f9de99c3a0bead1d100fdf6132ed6eb3",
+      "current_sha256": "5d33e330db381aca6b94a8ee5ceeffd8f9de99c3a0bead1d100fdf6132ed6eb3"
+    },
+    {
+      "path": "revisions/R5_history_first_20261020/06_TRUTH_AND_REVEALS.md",
+      "unchanged": true,
+      "base_sha256": "2fe162e625fec925aba933f958b964d96da488619385381d0b6022b5b6c164b4",
+      "current_sha256": "2fe162e625fec925aba933f958b964d96da488619385381d0b6022b5b6c164b4"
+    },
+    {
+      "path": "revisions/R5_history_first_20261020/07_FULL_STORY.md",
+      "unchanged": true,
+      "base_sha256": "755a8ea6f5a22865a043e823c10e3403122e4d0024885e1f4959c3fda547a527",
+      "current_sha256": "755a8ea6f5a22865a043e823c10e3403122e4d0024885e1f4959c3fda547a527"
+    },
+    {
+      "path": "revisions/R5_history_first_20261020/08_FIELD_TEXT.md",
+      "unchanged": true,
+      "base_sha256": "4b86afb353b60c25c4378397c18363cbe75d2ba895b8412145721b642d9d04c3",
+      "current_sha256": "4b86afb353b60c25c4378397c18363cbe75d2ba895b8412145721b642d9d04c3"
+    },
+    {
+      "path": "revisions/R5_history_first_20261020/09_REVIEW_AND_REPAIR.md",
+      "unchanged": true,
+      "base_sha256": "bf3cf21e2d80e69b6a12aaecb21a54cb67c0bd0824c9f1b8c04e27a4d149aa5e",
+      "current_sha256": "bf3cf21e2d80e69b6a12aaecb21a54cb67c0bd0824c9f1b8c04e27a4d149aa5e"
+    },
+    {
+      "path": "revisions/R5_history_first_20261020/BASELINE_CHECK.json",
+      "unchanged": true,
+      "base_sha256": "d3319652e6298cdfbc695ed818b9e6e1ec63493daacf73e74139e39146456092",
+      "current_sha256": "d3319652e6298cdfbc695ed818b9e6e1ec63493daacf73e74139e39146456092"
+    },
+    {
+      "path": "revisions/R5_history_first_20261020/README.md",
+      "unchanged": true,
+      "base_sha256": "3bc2cf1057da996a8139ecaa408a15dd25208f1606a5302a3796d94b50cd4a46",
+      "current_sha256": "3bc2cf1057da996a8139ecaa408a15dd25208f1606a5302a3796d94b50cd4a46"
+    },
+    {
+      "path": "tools/apply_release_refinements.py",
+      "unchanged": true,
+      "base_sha256": "195cc9c82acc97a6c2146d50c8c08182c077f35a1c954ea08f81d777a75f34f5",
+      "current_sha256": "195cc9c82acc97a6c2146d50c8c08182c077f35a1c954ea08f81d777a75f34f5"
+    },
+    {
+      "path": "tools/build_data.py",
+      "unchanged": true,
+      "base_sha256": "6380e4187082bf2dff8767ae04ad66e7285818854d3af04eef22f606e9de8259",
+      "current_sha256": "6380e4187082bf2dff8767ae04ad66e7285818854d3af04eef22f606e9de8259"
+    },
+    {
+      "path": "tools/build_print.py",
+      "unchanged": true,
+      "base_sha256": "d7b2e5628ce4839db2a6939fad65d443ac2ab0cfc5d4c5d963fe27271c019816",
+      "current_sha256": "d7b2e5628ce4839db2a6939fad65d443ac2ab0cfc5d4c5d963fe27271c019816"
+    },
+    {
+      "path": "tools/build_release.py",
+      "unchanged": true,
+      "base_sha256": "ca6c902a870f2933e57163587b9ea660fadf21ca3e522297aff56c34afb74719",
+      "current_sha256": "ca6c902a870f2933e57163587b9ea660fadf21ca3e522297aff56c34afb74719"
+    },
+    {
+      "path": "tools/render_guide.py",
+      "unchanged": true,
+      "base_sha256": "5b542c9d4ea3d3224f758517a92f7b479d387a89ec1a5f64c572b962c9c52e27",
+      "current_sha256": "5b542c9d4ea3d3224f758517a92f7b479d387a89ec1a5f64c572b962c9c52e27"
+    }
+  ],
+  "pass": true
+}

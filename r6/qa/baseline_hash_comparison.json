@@ -1,0 +1,248 @@
+{
+  "repository_baseline": "7a188794224cbc189adf5424e41bf50b6bea939e",
+  "archive_path": "/workspace/scratch/dd7b8a58cbfe/upload/Tokyo_Scene_Express_R3_1(2).zip",
+  "archive_sha256": "570fdfb2b52f037978e3113f101f3ad6034a3b6219914968ee107aee71903144",
+  "archive_file_count": 34,
+  "manifest_records": 33,
+  "manifest_mismatches": [],
+  "files": [
+    {
+      "path": "MANIFEST.sha256",
+      "attachment_sha256": "9af7c1b4f65f2c033dfd4d55e3809294919f8c42d5df7d065951a56669c338b8",
+      "repo_before_build_sha256": null,
+      "reconstructed_sha256": null,
+      "reconstructed_matches_attachment": false
+    },
+    {
+      "path": "R3_Designer_Guide.html",
+      "attachment_sha256": "14ca9ed61394519707531954b4058f9537dfd0d2baf9fdc135ad9845fb464f5b",
+      "repo_before_build_sha256": null,
+      "reconstructed_sha256": null,
+      "reconstructed_matches_attachment": false
+    },
+    {
+      "path": "R3_Designer_Guide.pdf",
+      "attachment_sha256": "38cb04a179ffd60c2cbebe25ba26ac19d062ffc4e14e89600c0e03a97e65af61",
+      "repo_before_build_sha256": null,
+      "reconstructed_sha256": null,
+      "reconstructed_matches_attachment": false
+    },
+    {
+      "path": "R3_Offline.html",
+      "attachment_sha256": "8cfa78ebd32d5ab910d47ba75c1beea6ca3ae2550ec613b63b963df925b7e79e",
+      "repo_before_build_sha256": null,
+      "reconstructed_sha256": "8cfa78ebd32d5ab910d47ba75c1beea6ca3ae2550ec613b63b963df925b7e79e",
+      "reconstructed_matches_attachment": true
+    },
+    {
+      "path": "R3_Player_Kit_EN.pdf",
+      "attachment_sha256": "23ef5809a81b8ea469eb148f5ad60be35848d106c1f85d540d786b3df3d7d4d8",
+      "repo_before_build_sha256": null,
+      "reconstructed_sha256": null,
+      "reconstructed_matches_attachment": false
+    },
+    {
+      "path": "R3_Player_Kit_ZH.pdf",
+      "attachment_sha256": "53a40d7584cc001390a5ee5cf302999ef684545bc32bc61f0e4b29c82cbfea72",
+      "repo_before_build_sha256": null,
+      "reconstructed_sha256": null,
+      "reconstructed_matches_attachment": false
+    },
+    {
+      "path": "README.md",
+      "attachment_sha256": "9f21304bc8ddfcb02766c63a3434c0788647a8213ec760be652301257fc7da6c",
+      "repo_before_build_sha256": "297a6d881c613bf77f3c5bd2004757353de8a19a6e3600bab2d65cb1b86ca236",
+      "reconstructed_sha256": "297a6d881c613bf77f3c5bd2004757353de8a19a6e3600bab2d65cb1b86ca236",
+      "reconstructed_matches_attachment": false
+    },
+    {
+      "path": "commercial/01_PRODUCT_AND_COSTS.md",
+      "attachment_sha256": "354f7946d4c3912cf7f3845d52cf973a07c88927d4f6c88dfd5db6e466e3fcc0",
+      "repo_before_build_sha256": "1885fd71dd5e9caf6545ea949049fbb2802acaf52c4fe580b7d2085ffe9c3e31",
+      "reconstructed_sha256": "1885fd71dd5e9caf6545ea949049fbb2802acaf52c4fe580b7d2085ffe9c3e31",
+      "reconstructed_matches_attachment": false
+    },
+    {
+      "path": "design/01_R3_STORY.md",
+      "attachment_sha256": "2f624eaa58fab3b5e97610134d45d01aa839f3c677e8b7827486d8158d7779ae",
+      "repo_before_build_sha256": "40fa11fc89e596d4c0ff0c9fd6b87d3714d7e4c4b1ba7ba4d60fc9a4bfd05bd6",
+      "reconstructed_sha256": "40fa11fc89e596d4c0ff0c9fd6b87d3714d7e4c4b1ba7ba4d60fc9a4bfd05bd6",
+      "reconstructed_matches_attachment": false
+    },
+    {
+      "path": "design/02_R3_MECHANICS.md",
+      "attachment_sha256": "c32987c661b95f49d87973739a0acdc48a137c893bee51414267de6e010caf16",
+      "repo_before_build_sha256": "1ee195d2c3dca413d4accfb4bd1c7c546d560975bf23999652dab8f239aab730",
+      "reconstructed_sha256": "1ee195d2c3dca413d4accfb4bd1c7c546d560975bf23999652dab8f239aab730",
+      "reconstructed_matches_attachment": false
+    },
+    {
+      "path": "play/app.js",
+      "attachment_sha256": "3bb1c343144f66a97458ae86e646a78c2897da02b2dbf5d7d3140586f3905f65",
+      "repo_before_build_sha256": "13086d3e63d2d8d74b2b10f39cdb81c183541ee8a795125861b563239106fb50",
+      "reconstructed_sha256": "3bb1c343144f66a97458ae86e646a78c2897da02b2dbf5d7d3140586f3905f65",
+      "reconstructed_matches_attachment": true
+    },
+    {
+      "path": "play/data.js",
+      "attachment_sha256": "c72ce8bc6a35a080ff1fca1f7395497a508afe5010b425ff59497394e98d0e9f",
+      "repo_before_build_sha256": null,
+      "reconstructed_sha256": "c72ce8bc6a35a080ff1fca1f7395497a508afe5010b425ff59497394e98d0e9f",
+      "reconstructed_matches_attachment": true
+    },
+    {
+      "path": "play/data.json",
+      "attachment_sha256": "5b3a895d6372336d893e4aaa57d119d349d489cb086abc332fb7c7512c673322",
+      "repo_before_build_sha256": null,
+      "reconstructed_sha256": "5b3a895d6372336d893e4aaa57d119d349d489cb086abc332fb7c7512c673322",
+      "reconstructed_matches_attachment": true
+    },
+    {
+      "path": "play/engine.js",
+      "attachment_sha256": "fb7ccae9cff6a0021c9f77142b316a6972cdee7609809a77fd3965b08b31806e",
+      "repo_before_build_sha256": "fb7ccae9cff6a0021c9f77142b316a6972cdee7609809a77fd3965b08b31806e",
+      "reconstructed_sha256": "fb7ccae9cff6a0021c9f77142b316a6972cdee7609809a77fd3965b08b31806e",
+      "reconstructed_matches_attachment": true
+    },
+    {
+      "path": "play/figures.js",
+      "attachment_sha256": "6828468ae94b026ba9dfa250231009b51593817d9ef01244ac107db75b768d40",
+      "repo_before_build_sha256": "c9afd76dc744135875e469dbb8a447cd828dd6d2dc76223628ffc7510b6a7f3c",
+      "reconstructed_sha256": "6828468ae94b026ba9dfa250231009b51593817d9ef01244ac107db75b768d40",
+      "reconstructed_matches_attachment": true
+    },
+    {
+      "path": "play/index.html",
+      "attachment_sha256": "278e5687470f819e2eee028ecd6a981ac3bf4fbcb30dffd868625abab8b172a7",
+      "repo_before_build_sha256": "278e5687470f819e2eee028ecd6a981ac3bf4fbcb30dffd868625abab8b172a7",
+      "reconstructed_sha256": "278e5687470f819e2eee028ecd6a981ac3bf4fbcb30dffd868625abab8b172a7",
+      "reconstructed_matches_attachment": true
+    },
+    {
+      "path": "play/print.html",
+      "attachment_sha256": "86c5964eae5adefc38eb89b60eb2d03ae8eb1dbdeb82866a05c0110659ab0690",
+      "repo_before_build_sha256": null,
+      "reconstructed_sha256": "86c5964eae5adefc38eb89b60eb2d03ae8eb1dbdeb82866a05c0110659ab0690",
+      "reconstructed_matches_attachment": true
+    },
+    {
+      "path": "play/print_en.html",
+      "attachment_sha256": "e98fe75f995e5e560911725fb26ec1ea328d4c2531eeaef5fffcf636fa161319",
+      "repo_before_build_sha256": null,
+      "reconstructed_sha256": "166975b3bd6964e900a51ee0fd3ab90d0761e8916ead49e372ed6848bf9d9a44",
+      "reconstructed_matches_attachment": false
+    },
+    {
+      "path": "play/print_zh.html",
+      "attachment_sha256": "37e4abbf58afdaaba48eef5d515473eac081f54826c6a245c49b3fe58ba6bfe5",
+      "repo_before_build_sha256": null,
+      "reconstructed_sha256": "b073b274b5f8083aa5537c9177569297c6527eb0e2a888500e5803957e303392",
+      "reconstructed_matches_attachment": false
+    },
+    {
+      "path": "play/style.css",
+      "attachment_sha256": "b4419f21c83b59e64e8e0fe555af52f761fa6aae04ebd73e7a04fe8afb5d1bee",
+      "repo_before_build_sha256": "b4419f21c83b59e64e8e0fe555af52f761fa6aae04ebd73e7a04fe8afb5d1bee",
+      "reconstructed_sha256": "b4419f21c83b59e64e8e0fe555af52f761fa6aae04ebd73e7a04fe8afb5d1bee",
+      "reconstructed_matches_attachment": true
+    },
+    {
+      "path": "project/RELEASE.json",
+      "attachment_sha256": "d242fc35c213d17958356cd008f6ebea0760cdd0359d062d5efe08773e9e8cba",
+      "repo_before_build_sha256": null,
+      "reconstructed_sha256": null,
+      "reconstructed_matches_attachment": false
+    },
+    {
+      "path": "project/STATUS.md",
+      "attachment_sha256": "82fb18b17a2555a5ea6b58803c3ecdb4b706a2a4fb1795ee8f12f959d4e1d2a7",
+      "repo_before_build_sha256": "82fb18b17a2555a5ea6b58803c3ecdb4b706a2a4fb1795ee8f12f959d4e1d2a7",
+      "reconstructed_sha256": "82fb18b17a2555a5ea6b58803c3ecdb4b706a2a4fb1795ee8f12f959d4e1d2a7",
+      "reconstructed_matches_attachment": true
+    },
+    {
+      "path": "qa/02_R3_BENCHMARK_AND_LIMITS.md",
+      "attachment_sha256": "550a7a6e4c4b9b5862cff055b40403884b5a5b94e1f3449c26bb186df0752773",
+      "repo_before_build_sha256": "a818fdd41aea2d0343b3c35aa188fb23160e75e7d6f9998e831f1e653f6389d1",
+      "reconstructed_sha256": "a818fdd41aea2d0343b3c35aa188fb23160e75e7d6f9998e831f1e653f6389d1",
+      "reconstructed_matches_attachment": false
+    },
+    {
+      "path": "qa/browser_results.json",
+      "attachment_sha256": "fda5b72e067545fe398677b406e806ddc87b4a0faca8f9149e516ee1a6ea50b8",
+      "repo_before_build_sha256": "35177dd4726790b38791aeddc42160088442266b2394191c85ead2d3af4e2855",
+      "reconstructed_sha256": "35177dd4726790b38791aeddc42160088442266b2394191c85ead2d3af4e2855",
+      "reconstructed_matches_attachment": false
+    },
+    {
+      "path": "qa/logic_results.json",
+      "attachment_sha256": "dc34e223ce15fcc0761699be09bd2affcbca906392b3ab74bfdec9b1ebb44084",
+      "repo_before_build_sha256": "5db96dd70f9db27f8e2e76d3500e0cb8bf027753ece51b4468675df4fb94fd05",
+      "reconstructed_sha256": "dc34e223ce15fcc0761699be09bd2affcbca906392b3ab74bfdec9b1ebb44084",
+      "reconstructed_matches_attachment": true
+    },
+    {
+      "path": "qa/pdf_results.json",
+      "attachment_sha256": "cdf25ff869bbdafcb657a4aed2faa910946730132284b54ae3c46edd9f3c467f",
+      "repo_before_build_sha256": "252df2f511a67cb2bd55c591ecb6f3aee4f73e912d29470c320782e17216aeb4",
+      "reconstructed_sha256": "252df2f511a67cb2bd55c591ecb6f3aee4f73e912d29470c320782e17216aeb4",
+      "reconstructed_matches_attachment": false
+    },
+    {
+      "path": "qa/test_browser.py",
+      "attachment_sha256": "463494116dae506c420574e078a9847f4f36f60d6446587d7be879f0c61a4a55",
+      "repo_before_build_sha256": "383357e75ab39ae20358427eebcf0c23f0abaffc1b4d1a71f4e43f649d63769c",
+      "reconstructed_sha256": "383357e75ab39ae20358427eebcf0c23f0abaffc1b4d1a71f4e43f649d63769c",
+      "reconstructed_matches_attachment": false
+    },
+    {
+      "path": "qa/test_logic.js",
+      "attachment_sha256": "a9a192a8db43c1f343ebaf9b4d059bc8c4be7ff75aef50bd64276b52324ea69f",
+      "repo_before_build_sha256": "a9a192a8db43c1f343ebaf9b4d059bc8c4be7ff75aef50bd64276b52324ea69f",
+      "reconstructed_sha256": "a9a192a8db43c1f343ebaf9b4d059bc8c4be7ff75aef50bd64276b52324ea69f",
+      "reconstructed_matches_attachment": true
+    },
+    {
+      "path": "research/05_R3_SOURCE_LINKS.md",
+      "attachment_sha256": "d064b5a3b984a50dfa38ebb53f097909a15ddd517d95c9b822d2ed815bc30500",
+      "repo_before_build_sha256": "d064b5a3b984a50dfa38ebb53f097909a15ddd517d95c9b822d2ed815bc30500",
+      "reconstructed_sha256": "d064b5a3b984a50dfa38ebb53f097909a15ddd517d95c9b822d2ed815bc30500",
+      "reconstructed_matches_attachment": true
+    },
+    {
+      "path": "tools/apply_release_refinements.py",
+      "attachment_sha256": "195cc9c82acc97a6c2146d50c8c08182c077f35a1c954ea08f81d777a75f34f5",
+      "repo_before_build_sha256": "195cc9c82acc97a6c2146d50c8c08182c077f35a1c954ea08f81d777a75f34f5",
+      "reconstructed_sha256": "195cc9c82acc97a6c2146d50c8c08182c077f35a1c954ea08f81d777a75f34f5",
+      "reconstructed_matches_attachment": true
+    },
+    {
+      "path": "tools/build_data.py",
+      "attachment_sha256": "3839ddccc5e77d24c46a32917fa9e9f73e37fe1f2e97b01a9628d56906ee8b71",
+      "repo_before_build_sha256": "6380e4187082bf2dff8767ae04ad66e7285818854d3af04eef22f606e9de8259",
+      "reconstructed_sha256": "e778f71751b98e0aca2c7d5bf366a90b67b82152a0ce47a5a242308dfc30e848",
+      "reconstructed_matches_attachment": false
+    },
+    {
+      "path": "tools/build_print.py",
+      "attachment_sha256": "2d38163c9b2a41d71a23b59a7d1a908fcb6e736067bf684ade14234f5281cb0c",
+      "repo_before_build_sha256": "d7b2e5628ce4839db2a6939fad65d443ac2ab0cfc5d4c5d963fe27271c019816",
+      "reconstructed_sha256": "04c124f7a085892d9759df9cf238f2425208ae5badf61efc79ae31b1db26f33b",
+      "reconstructed_matches_attachment": false
+    },
+    {
+      "path": "tools/build_release.py",
+      "attachment_sha256": "ca6c902a870f2933e57163587b9ea660fadf21ca3e522297aff56c34afb74719",
+      "repo_before_build_sha256": "ca6c902a870f2933e57163587b9ea660fadf21ca3e522297aff56c34afb74719",
+      "reconstructed_sha256": "ca6c902a870f2933e57163587b9ea660fadf21ca3e522297aff56c34afb74719",
+      "reconstructed_matches_attachment": true
+    },
+    {
+      "path": "tools/render_guide.py",
+      "attachment_sha256": "5b542c9d4ea3d3224f758517a92f7b479d387a89ec1a5f64c572b962c9c52e27",
+      "repo_before_build_sha256": "5b542c9d4ea3d3224f758517a92f7b479d387a89ec1a5f64c572b962c9c52e27",
+      "reconstructed_sha256": "5b542c9d4ea3d3224f758517a92f7b479d387a89ec1a5f64c572b962c9c52e27",
+      "reconstructed_matches_attachment": true
+    }
+  ]
+}

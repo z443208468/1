@@ -1,0 +1,1539 @@
+{
+  "version": "R6.0-review",
+  "title": {
+    "zh": "借景怪盗：消失的隅田川",
+    "en": "The River Thief"
+  },
+  "subtitle": {
+    "zh": "东京五景点实景悬疑冒险 · 一条河，两个名字，一次没有成功的退场",
+    "en": "A five-stop Tokyo mystery · One river. Two names. One escape you will see through."
+  },
+  "opening": {
+    "zh": "河景刚铺开，一张黑色遮片从前方掠过。窗子再次亮起时，河不见了。留在画框上的只有一张题签：千歳座景／稲瀬川。\n你们本该收下这场旅行影戏的最后一幅景。现在，一个自称“空舟”的怪盗扣住了收场。他不逃出东京，只往你们没看见的那一侧走。\n你们要沿五处真实地点，复原取景、识破他的退场口，让他再试一次同样的把戏——这次，把人和河一起留在画面里。",
+    "en": "The river fills the little stage. A dark screen sweeps across the window. When the window clears, the river is gone. Only a caption remains: CHITOSE-ZA SCENE / INASE RIVER.\nThat final scene was meant to be yours to keep. Now a thief calling himself Utsuro has withheld the ending of this travelling picture show. He does not flee Tokyo. He steps into the part you cannot see.\nAt five real places, reconstruct the views and find his exit. Make him try the same trick again—with both the river and its thief in view."
+  },
+  "safety": {
+    "zh": "只在允许通行的公共区域观察。无需进入博物馆、体育中心或明治座，不移动现场物件，不接近围挡，不把路人当线索。芭蕉免费庭园有限时和休园日；以当日公告为准。人物、劫案与影戏为虚构，场馆未参与。可随时暂停；提示与辅助免费。",
+    "en": "Observe only from permitted public areas. No museum, sports-centre or theatre entry is needed. Do not move objects, approach barriers or treat passers-by as clues. The free Basho garden has opening hours and closed days; follow current notices. Characters, caper and picture show are fictional; venues are not participants. Pause whenever needed. Hints and assistance are free."
+  },
+  "stages": [
+    {
+      "id": "s1",
+      "title": {
+        "zh": "01 · 留下被挡住的那一片",
+        "en": "01 · Keep the obscured piece"
+      },
+      "site": {
+        "zh": "纽扣博物馆所在楼宇外公共街角 · 日本橋浜町1-11-8外部",
+        "en": "Public street corner outside the Button Museum building · 1-11-8 Nihonbashi-Hamacho"
+      },
+      "type": "sequence",
+      "intro": {
+        "zh": "先别扔。观察远塔、交通牌与馆楼边缘怎样落在同一片街景里。路牌遮住广告，不等于广告破了。馆方介绍的一类图画纽扣，把图画分画在薄板与玻璃背面，让小小画面有了远近。你们手中的不是古纽扣，而是用同样的观察思路制作的三张街景卡。把视野接好，让汐知道哪些部分必须一起留下。",
+        "en": "Do not throw it away yet. Compare the distant tower, traffic sign and building edge within one continuous street view. A sign covering an advertisement does not mean the advertisement is damaged. The museum describes picture buttons painted on separate plates and the back of glass to suggest depth. Your three view cards are original game materials, not antique buttons. Reconnect the view so Shio knows what must stay together."
+      },
+      "prompt": {
+        "zh": "只认稳定外形与遮挡关系；不用读广告缺字、数窗或移动路牌。",
+        "en": "Use stable shapes and overlaps. Do not reconstruct hidden lettering, count windows or move the sign."
+      },
+      "cards": [
+        {
+          "id": "roof",
+          "label": {
+            "zh": "馆楼／屋顶边缘",
+            "en": "Building / roof edge"
+          },
+          "icon": "roof"
+        },
+        {
+          "id": "tower",
+          "label": {
+            "zh": "远塔与前景建筑",
+            "en": "Distant tower / nearer block"
+          },
+          "icon": "tower"
+        },
+        {
+          "id": "sign",
+          "label": {
+            "zh": "交通牌／后方广告",
+            "en": "Traffic sign / advertisement"
+          },
+          "icon": "sign"
+        }
+      ],
+      "fields": [
+        {
+          "id": "reading",
+          "label": {
+            "zh": "应采用哪种读取方式？",
+            "en": "Which reading is justified?"
+          },
+          "options": [
+            [
+              "occlusion",
+              {
+                "zh": "保留前景：不同层次组成同一街景",
+                "en": "Keep the foreground: the layers belong to one view"
+              }
+            ],
+            [
+              "damage",
+              {
+                "zh": "补出所有缺失文字，当成完整地址",
+                "en": "Invent the missing text and treat each as an address"
+              }
+            ],
+            [
+              "touch",
+              {
+                "zh": "移动现场路牌来恢复画面",
+                "en": "Move the real sign to reveal the view"
+              }
+            ]
+          ]
+        }
+      ],
+      "answer": {
+        "order": [
+          "tower",
+          "sign",
+          "roof"
+        ],
+        "reading": "occlusion"
+      },
+      "hints": [
+        {
+          "zh": "三张卡来自同一段连续视野。先区分远处目标、前面的交通牌和馆楼边缘。",
+          "en": "The cards belong to one continuous view. Distinguish the distant landmark, the nearer traffic sign and the museum building edge."
+        },
+        {
+          "zh": "把远塔那张放在起端，馆楼／屋顶边缘放在另一端；交通牌卡接在中间。牌后的缺口是遮挡。",
+          "en": "Put the distant-tower card at the start and the building/roof edge at the other end. The traffic-sign card joins them. The gap behind the sign is an overlap."
+        },
+        {
+          "zh": "远塔→交通牌→馆楼／屋顶；选择保留前景遮挡。纸版将对应三条河景按此顺序接成一幅，不补写被挡文字。",
+          "en": "Tower → sign → building/roof. Keep the foreground overlap. Join the matching river strips in that order without inventing obscured text."
+        }
+      ],
+      "success": {
+        "zh": "三条景接成了同一条河。汐把刚要扔掉的一片推回框内，开场那个“断口”消失了。河没有被切成三处地址；空舟只让你们看见了其中一小块。原景留在你们手里，带到最后。",
+        "en": "The strips make one river. Shio slides the rejected piece back into the frame, closing the gap from the opening. The river was never three separate addresses: Utsuro showed you only a small part. Keep this same scene for the finale."
+      },
+      "lead": {
+        "zh": "沿公共街道前往两国桥。带上原景和“稲瀬川”题签：它是在告诉你现实位置，还是戏里的称呼？",
+        "en": "Continue along public streets to Ryogoku Bridge. Take the same scene and its Inase caption. Is it a real-world location, or the name used on stage?"
+      },
+      "evidence": "ONE_VIEW",
+      "sources": [
+        "B02",
+        "F01"
+      ],
+      "minutes": [
+        6,
+        9
+      ],
+      "shortTitle": {
+        "zh": "街角拼景",
+        "en": "The corner"
+      },
+      "beforeFigure": "fragments",
+      "afterFigure": "joined",
+      "before": [
+        {
+          "speaker": {
+            "zh": "汐",
+            "en": "Shio"
+          },
+          "text": {
+            "zh": "这片广告缺了一块。我把它拿掉，画面会不会干净一点？",
+            "en": "A piece of that advertisement is missing. Would the view look cleaner if I took this card out?"
+          }
+        },
+        {
+          "speaker": {
+            "zh": "空舟",
+            "en": "Utsuro"
+          },
+          "text": {
+            "zh": "干净，好。越干净越方便退场。",
+            "en": "Clean. Excellent. Much easier to leave."
+          }
+        }
+      ],
+      "operation": {
+        "zh": "排列三张街景卡，并判断遮挡应保留还是“修补”。实体版把对应的三条河景按同一顺序拼入原框；这些是横向景条，不是可拆景深机关。",
+        "en": "Order the three view cards and decide whether the overlap should remain or be “repaired”. On paper, put the matching three river strips into the frame in the same order. They join horizontally; they are not separate depth layers."
+      },
+      "after": [
+        {
+          "speaker": {
+            "zh": "汐",
+            "en": "Shio"
+          },
+          "text": {
+            "zh": "不是坏了，是有东西站在前面。那我不能替他把前面全删了。",
+            "en": "It is not broken. Something is in front of it. I should not remove everything in front just because he asks."
+          }
+        },
+        {
+          "speaker": {
+            "zh": "空舟",
+            "en": "Utsuro"
+          },
+          "text": {
+            "zh": "留下河也行。那请去稲瀬川找我——名字总不会挡住什么吧？",
+            "en": "Keep the river, then. Find me at Inase River. Surely a name cannot hide anything?"
+          }
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title": {
+        "zh": "02 · 一条河的两个名字",
+        "en": "02 · Two names for one river"
+      },
+      "site": {
+        "zh": "两国桥公共步道与可见河口 · 不在桥上铺开纸件",
+        "en": "Ryogoku Bridge public pavement and visible river junction · do not spread the kit across the walkway"
+      },
+      "type": "river",
+      "intro": {
+        "zh": "把河图转正、翻正，同时对照主河、神田川汇口和柳桥的关系。随身史料里有一件更有趣的事：在《小袖曾我薊色縫》中，舞台称“稲瀬川”，所借百本杭风景却来自隅田川一带。两个名字可以同时正确。这里的西两国露天戏棚，又连着你们收场题签上的剧场沿革。先保住这条河，别让一个合法舞台名把实景换走。",
+        "en": "Orient the river diagram using the main river, the Kanda River junction and Yanagi Bridge together. The source card reveals a useful distinction: in Kosode Soga Azami no Ironui, scenery associated with the Sumida’s riverside piles is used for a stage setting named Inase River. Both names can be correct. The open-air playhouses of west Ryogoku also begin the theatre history on your closing caption. Keep this river in the show; do not let a valid stage name replace its real source."
+      },
+      "prompt": {
+        "zh": "用三项地理关系一同校准；旧桥虚线是示意，不与现桥逐像素重合。",
+        "en": "Align all three geographical relationships. The old-bridge line is schematic, not an exact overlay on today’s bridge."
+      },
+      "fields": [
+        {
+          "id": "stage",
+          "label": {
+            "zh": "舞台称呼",
+            "en": "Stage name"
+          },
+          "options": [
+            [
+              "inase",
+              {
+                "zh": "稲瀬川 / Inase",
+                "en": "Inase River"
+              }
+            ],
+            [
+              "sumida",
+              {
+                "zh": "隅田川 / Sumida",
+                "en": "Sumida River"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "place",
+          "label": {
+            "zh": "真实借景地",
+            "en": "Real scenery"
+          },
+          "options": [
+            [
+              "sumida",
+              {
+                "zh": "隅田川 / Sumida",
+                "en": "Sumida River"
+              }
+            ],
+            [
+              "inase",
+              {
+                "zh": "稲瀬川 / Inase",
+                "en": "Inase River"
+              }
+            ]
+          ]
+        }
+      ],
+      "answer": {
+        "rotation": 0,
+        "mirror": false,
+        "stage": "inase",
+        "place": "sumida"
+      },
+      "hints": [
+        {
+          "zh": "只让主河竖直还不够；镜像图也能做到。再看支流从哪一岸进入、柳桥跨的是哪条河。",
+          "en": "A vertical main river is not enough: a mirror image can do that too. Check which bank the tributary enters from and which river Yanagi Bridge crosses."
+        },
+        {
+          "zh": "把指北针恢复向上，并让主支河、两国桥与柳桥同时符合对照图。舞台题签不必改成实地地名。",
+          "en": "Restore north to the top and match the main river, tributary and both bridges together. The stage caption does not have to become the real place name."
+        },
+        {
+          "zh": "标准朝向、非镜像；舞台称稲瀬川，真实借景是隅田川。纸图从反面改到正面后再旋转，直到三锚点同时对上。",
+          "en": "Use the canonical orientation, without mirroring. Stage: Inase. Real scenery: Sumida. On paper, change to the correct face and rotate until all three anchors match."
+        }
+      ],
+      "success": {
+        "zh": "汐没有擦掉“稲瀬川”。她把“隅田川”放进实景栏，同一条河重新回到框里。空舟的舞台名保住了，却再也不能把你们引到另一条河去。画框旁第一次同时亮着两个名字。",
+        "en": "Shio leaves Inase on the caption and places Sumida in the real-scenery field. The same river returns to the frame. Utsuro keeps his stage name, but it can no longer lead you to a different river. Both names now sit beside one view."
+      },
+      "lead": {
+        "zh": "前往常盤1-1-3的芭蕉庵史迹展望庭园。核对“被纪念的人”和“今天纪念他的设施”各自的时间。",
+        "en": "Continue to the Basho-an historic observation garden at 1-1-3 Tokiwa. Separate the lifetime of the person commemorated from the age of the place commemorating him."
+      },
+      "evidence": "BORROWED_SUMIDA",
+      "sources": [
+        "R02",
+        "R01",
+        "M01"
+      ],
+      "minutes": [
+        10,
+        15
+      ],
+      "shortTitle": {
+        "zh": "借景的河",
+        "en": "Borrowed river"
+      },
+      "beforeFigure": "riverWrong",
+      "afterFigure": "riverBoth",
+      "before": [
+        {
+          "speaker": {
+            "zh": "空舟",
+            "en": "Utsuro"
+          },
+          "text": {
+            "zh": "题签写的是稲瀬川。你们守着隅田川，我可就从另一个名字走了。",
+            "en": "The caption says Inase. Keep watching the Sumida, and I shall leave through the other name."
+          }
+        },
+        {
+          "speaker": {
+            "zh": "汐",
+            "en": "Shio"
+          },
+          "text": {
+            "zh": "我能把题签改掉。但改掉它，我们会不会连戏也认错？",
+            "en": "I could replace the caption. But would that misidentify the play as well?"
+          }
+        }
+      ],
+      "operation": {
+        "zh": "旋转／翻面河图，把“舞台称呼”和“真实借景地”分开落签。保留两者，才保留这场戏的借景关系。",
+        "en": "Rotate or turn over the river card. Place the stage-name and real-scenery labels separately. Keeping both preserves the relationship that makes this borrowed scene work."
+      },
+      "after": [
+        {
+          "speaker": {
+            "zh": "空舟",
+            "en": "Utsuro"
+          },
+          "text": {
+            "zh": "好，名字借不走你们。那年代呢？我这张，可是1930年的原始摄影。",
+            "en": "Very well. Names will not carry you away. What about time? This reference, you see, is an original photograph from 1930."
+          }
+        },
+        {
+          "speaker": {
+            "zh": "汐",
+            "en": "Shio"
+          },
+          "text": {
+            "zh": "他递来的是芭蕉庭园那页。诗人很早就在深川，可照片里的庭园也一样早吗？",
+            "en": "He means the Basho-garden reference. The poet lived in Fukagawa long ago. But did the garden in this view exist then?"
+          }
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title": {
+        "zh": "03 · 诗人很老，照片未必",
+        "en": "03 · An old poet, a newer view"
+      },
+      "site": {
+        "zh": "芭蕉庵史迹展望庭园 · 常盤1-1-3分馆屋顶免费区域",
+        "en": "Basho-an historic observation garden · free roof garden at the annex, 1-1-3 Tokiwa"
+      },
+      "type": "timeline",
+      "intro": {
+        "zh": "对照庭园中的坐像、台座与景观墙，阅读两条带来源的记录：芭蕉于1680年迁居深川；这座免费展望庭园于1995年4月开园。题图是现代参照的功能转绘，不是待鉴定的馆藏照片。你们要判断：空舟能否用“1930原始摄影”为这张参照背书？把可以证明的下界留住，不编出具体拍摄日期。",
+        "en": "Compare the seated figure, plinth and scenery wall with the supplied reference. Two sourced records matter: Basho moved to Fukagawa in 1680; this free observation garden opened in April 1995. The kit contains a functional drawing of a modern reference, not a museum photograph for authentication. Can Utsuro call that reference an original photograph from 1930? Establish its earliest possible date without inventing an exact shooting date."
+      },
+      "fields": [
+        {
+          "id": "life",
+          "label": {
+            "zh": "芭蕉迁居深川",
+            "en": "Basho moved to Fukagawa"
+          },
+          "options": [
+            [
+              1680,
+              "1680"
+            ],
+            [
+              1930,
+              "1930"
+            ],
+            [
+              1995,
+              "1995"
+            ]
+          ]
+        },
+        {
+          "id": "earliest",
+          "label": {
+            "zh": "题图所示现代设施的摄影年代下界",
+            "en": "Lower bound for a photograph of this setting"
+          },
+          "options": [
+            [
+              1930,
+              "1930"
+            ],
+            [
+              1981,
+              "1981"
+            ],
+            [
+              1995,
+              "1995"
+            ]
+          ]
+        },
+        {
+          "id": "dateMeaning",
+          "label": {
+            "zh": "这个下界究竟能证明什么？",
+            "en": "What does this lower bound establish?"
+          },
+          "options": [
+            [
+              "lower_bound",
+              {
+                "zh": "1995年或之后；不能推出具体拍摄年",
+                "en": "1995 or later; not the exact year"
+              }
+            ],
+            [
+              "exact",
+              {
+                "zh": "必定摄于1995年",
+                "en": "Exactly 1995"
+              }
+            ],
+            [
+              "1930",
+              {
+                "zh": "纪念古人，所以1930一定成立",
+                "en": "It commemorates an old person, so 1930 must be valid"
+              }
+            ]
+          ]
+        }
+      ],
+      "answer": {
+        "life": 1680,
+        "earliest": 1995,
+        "dateMeaning": "lower_bound"
+      },
+      "hints": [
+        {
+          "zh": "雕像纪念的人生活得很早，不代表含这座现代庭园的画面也一样早。分别查两条时间线。",
+          "en": "An old historical figure does not make a view containing this modern garden equally old. Check the two timelines separately."
+        },
+        {
+          "zh": "1680属于芭蕉迁居；1995属于此展望庭园开园。1981是本馆开馆，并非这处庭园的年份。",
+          "en": "1680 belongs to Basho’s move. 1995 belongs to this observation garden. 1981 is the main museum’s opening, not this garden’s."
+        },
+        {
+          "zh": "选1680、1995、1995或以后。只排除这张参照是1930原始摄影；不判定具体年份、作者或实时位置。",
+          "en": "Choose 1680, 1995, and “1995 or later”. This rules out the reference being a 1930 original photograph; it does not identify its exact year, maker or a live location."
+        }
+      ],
+      "success": {
+        "zh": "“1930原始摄影”的签被撤下，参照上只留下“1995或以后”。汐保留庭园，没有把它伪装成芭蕉亲眼所见的原庵。空舟失去了一张旧照片的权威，却没有放弃清场：今天拍到的景，难道就不能演旧时代？",
+        "en": "The “1930 original” label comes down. The reference now says only “1995 or later”. Shio keeps the garden without passing it off as the hut Basho knew. Utsuro has lost the authority of an old photograph, but not his argument for clearing the frame: cannot a present-day view still play an earlier time?"
+      },
+      "lead": {
+        "zh": "经允许通行的街道与新大桥方向前往浜町公园。带上开场清场批注，也可随时查看剧院年份条；它们从来没有上锁。",
+        "en": "Use permitted streets toward Shin-Ohashi and Hamacho Park. Keep the opening annotation. The theatre-year strips are available now, as they have been from the start."
+      },
+      "evidence": "MODERN_REFERENCE",
+      "sources": [
+        "H07",
+        "H01",
+        "H02"
+      ],
+      "minutes": [
+        7,
+        11
+      ],
+      "shortTitle": {
+        "zh": "庭园的时间",
+        "en": "Two timelines"
+      },
+      "beforeFigure": "oldClaim",
+      "afterFigure": "modernReference",
+      "before": [
+        {
+          "speaker": {
+            "zh": "空舟",
+            "en": "Utsuro"
+          },
+          "text": {
+            "zh": "古人的地方，当然得用古时候的画面。1930，这几个字总够分量吧？",
+            "en": "An old poet deserves an old view. “1930” ought to carry enough weight."
+          }
+        },
+        {
+          "speaker": {
+            "zh": "汐",
+            "en": "Shio"
+          },
+          "text": {
+            "zh": "先别替题签作证。我们分别查人和庭园。",
+            "en": "Let us not vouch for the label yet. We can check the poet and the garden separately."
+          }
+        }
+      ],
+      "operation": {
+        "zh": "把人物生活史与纪念设施史放进两条时间轨，再选择这个日期能证明到哪一步。",
+        "en": "Use separate timelines for the person and the memorial setting, then choose precisely what the date can establish."
+      },
+      "prompt": {
+        "zh": "“不早于某年”不等于“就在该年”，也不等于“今天直播”。",
+        "en": "“No earlier than” does not mean “exactly that year”, or “live today”."
+      },
+      "after": [
+        {
+          "speaker": {
+            "zh": "空舟",
+            "en": "Utsuro"
+          },
+          "text": {
+            "zh": "你们赢了照片的年份。可我演的是从前。公园里后来添的东西，还是该删。",
+            "en": "You have won the argument about the photograph. But I am staging the past. Later things in the park should still go."
+          }
+        },
+        {
+          "speaker": {
+            "zh": "汐",
+            "en": "Shio"
+          },
+          "text": {
+            "zh": "那就得查，他想留下的“古景”到底成不成立。我能把大锚点的校准资料交给你们，镜头该站在哪边还得你们判断。",
+            "en": "Then we must check whether the “old scene” he wants to keep is justified. I can share the large-anchor calibration. You will still have to decide where the camera belongs."
+          }
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "title": {
+        "zh": "04 · 不许替他清掉前景",
+        "en": "04 · Keep the foreground"
+      },
+      "site": {
+        "zh": "浜町公园案内图与游乐区一侧开放公共通道",
+        "en": "Hamacho Park map and permitted public path on the playground side"
+      },
+      "type": "park",
+      "intro": {
+        "zh": "空舟把开场那句清场批注推到你们面前。随身记录里有三个时间：千歳座1885，明治座1893，复兴公园1929。把它们放在“千歳座时期的浜町公园”这句话旁边：删掉现代游具，真的就能得到他所说的古景吗？\n再看今天的取景稿。翻正公园图，让河边、大场地、体育中心同时吻合。题图里游乐设施在前、菱形外墙在后；从哪一端看，才能留下这两个层次？",
+        "en": "Utsuro pushes the opening’s clearing instruction towards you. Your source cards give three dates: Chitose-za, 1885; Meiji-za, 1893; the reconstruction park, 1929. Place them beside “Hamacho Park in Chitose-za’s time”. Does removing modern play equipment really recover the old scene he claims?\nThen examine today’s view study. Orient the park map so the river edge, large field and sports centre all agree. The reference shows play equipment before a diamond-patterned facade. Which side keeps both in view?"
+      },
+      "fields": [
+        {
+          "id": "camera",
+          "label": {
+            "zh": "哪一侧能产生题图的前后关系？",
+            "en": "Which camera side gives the reference view?"
+          },
+          "options": [
+            [
+              "playground",
+              {
+                "zh": "游乐区域一侧",
+                "en": "Playground side"
+              }
+            ],
+            [
+              "river",
+              {
+                "zh": "河岸一侧",
+                "en": "River side"
+              }
+            ],
+            [
+              "entrance",
+              {
+                "zh": "圆形主入口一侧",
+                "en": "Circular-entrance side"
+              }
+            ],
+            [
+              "field",
+              {
+                "zh": "大运动场一侧",
+                "en": "Large-field side"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "building",
+          "label": {
+            "zh": "题图中的大楼",
+            "en": "Building in the reference"
+          },
+          "options": [
+            [
+              "sports",
+              {
+                "zh": "体育中心",
+                "en": "Sports centre"
+              }
+            ],
+            [
+              "theatre",
+              {
+                "zh": "明治座",
+                "en": "Meijiza"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "purpose",
+          "label": {
+            "zh": "本页在原件中的用途",
+            "en": "Purpose of this page"
+          },
+          "options": [
+            [
+              "capture",
+              {
+                "zh": "CAPTURE AT：取景定位",
+                "en": "CAPTURE AT: view location"
+              }
+            ],
+            [
+              "delivery",
+              {
+                "zh": "DELIVER TO：收件地址",
+                "en": "DELIVER TO: recipient address"
+              }
+            ]
+          ]
+        }
+      ],
+      "answer": {
+        "rotation": 0,
+        "mirror": false,
+        "camera": "playground",
+        "building": "sports",
+        "purpose": "capture"
+      },
+      "hints": [
+        {
+          "zh": "河边、大场地和体育中心一起校准；只对河边可能仍是镜像。史料中的1929不能替你旋转今天的图。",
+          "en": "Match river edge, field and sports centre together. Matching only the river may leave a mirror image. The historical date 1929 cannot orient today’s map for you."
+        },
+        {
+          "zh": "标准示意把河边画在上方，大场地在左、体育中心在右；游乐区在体育中心的另一侧。近景先遇到什么，就从那一侧看。",
+          "en": "In the canonical diagram the river edge is above, the field left and the sports centre right, with the playground beyond it. The foreground tells you which side the observer is on."
+        },
+        {
+          "zh": "标准朝向、非镜像；选游乐区侧、体育中心、CAPTURE AT取景定位。保留前景，不把体育中心当剧院或收件地点。",
+          "en": "Use the canonical orientation without mirroring. Select playground side, sports centre and CAPTURE AT. Keep the foreground; the sports centre is neither the theatre nor a delivery destination."
+        }
+      ],
+      "success": {
+        "zh": "1929才开园的浜町公园，不能靠删掉游具就复原成1885—1893千歳座时期的同一座公园。空舟清掉前景的借口失去了依据。\n你们又把游乐区前景和体育中心背景放回同一张图：相机在观察者这一端，没有被塞进大楼。遮片经过的近层完整留下。汐托住画框，知道该守住哪边了。",
+        "en": "A park opened in 1929 cannot be reconstructed as that same park in Chitose-za’s 1885–1893 period simply by deleting play equipment. Utsuro’s reason for clearing the foreground loses its basis.\nYou also restore the playground foreground and sports-centre background together. The camera belongs at the observer’s end, not inside the building. The near layer crossed by the screen remains visible. Shio holds the frame, knowing which side to keep."
+      },
+      "lead": {
+        "zh": "前往明治座外公共步道，核对旧题签的当代对应。公园的取景端与剧场外观是两处不同地点，不是同一现实镜头。",
+        "en": "Continue to Meijiza’s public exterior to identify the old caption’s present counterpart. The park viewpoint and theatre exterior are separate places, not one real camera shot."
+      },
+      "evidence": "CAPTURE_NOT_DELIVERY",
+      "sources": [
+        "P01",
+        "P02",
+        "M03",
+        "M04",
+        "P06",
+        "P04"
+      ],
+      "minutes": [
+        12,
+        18
+      ],
+      "shortTitle": {
+        "zh": "取景的一端",
+        "en": "The viewpoint"
+      },
+      "beforeFigure": "parkCrop",
+      "afterFigure": "parkFull",
+      "before": [
+        {
+          "speaker": {
+            "zh": "空舟",
+            "en": "Utsuro"
+          },
+          "text": {
+            "zh": "按老规矩：千歳座时期的浜町公园。游具删去，只留那栋像舞台的大楼。没有前景，多清爽。",
+            "en": "Our original instruction: Hamacho Park in Chitose-za’s time. Remove the play equipment. Keep that stage-like building. No foreground. Delightfully clear."
+          }
+        },
+        {
+          "speaker": {
+            "zh": "汐",
+            "en": "Shio"
+          },
+          "text": {
+            "zh": "等一等。他不是要一张更清楚的图。他是在挑哪些东西不许出现。",
+            "en": "Wait. He is not asking for a clearer view. He is choosing what must not appear."
+          }
+        }
+      ],
+      "operation": {
+        "zh": "先比较清场批注与年代记录，再独立校准现代图。选择相机所在侧、画中大楼和工作页用途；年代告诉你旧景主张是否可靠，眼前布局告诉你朝哪边看。",
+        "en": "Compare the clearing instruction with the dates, then orient the modern map independently. Choose the camera side, depicted building and purpose of the sheet. Dates test the old-scene claim; the present layout tells you which way to look."
+      },
+      "prompt": {
+        "zh": "CAPTURE AT指“从这里取景”，不是“把东西送进画中的楼”。只在开放通道观察，不进入儿童活动区或建筑。",
+        "en": "CAPTURE AT identifies a viewing position, not a building to deliver something into. Observe from an open public path, without entering play areas or buildings."
+      },
+      "after": [
+        {
+          "speaker": {
+            "zh": "汐",
+            "en": "Shio"
+          },
+          "text": {
+            "zh": "我先前只盯着那栋楼，以为我们要把东西送过去。原来图里记的是看它的位置。前景留下，不再听他的清场口令。",
+            "en": "I kept looking at the building, thinking we had to deliver something there. The sheet records where to see it from. This foreground stays. I am done clearing the frame on his say-so."
+          }
+        },
+        {
+          "speaker": {
+            "zh": "空舟",
+            "en": "Utsuro"
+          },
+          "text": {
+            "zh": "你们留得住景，留得住已经消失的千歳座吗？收场卷上的名字还没落到今天呢。",
+            "en": "You can keep the scene. Can you keep a vanished Chitose-za? The name on your closing reel still has no place in the present."
+          }
+        },
+        {
+          "speaker": {
+            "zh": "汐",
+            "en": "Shio"
+          },
+          "text": {
+            "zh": "那就补上它的来处和去处。不是再切一刀。",
+            "en": "Then we finish its history. We do not make another cut."
+          }
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "title": {
+        "zh": "05 · 把旧题签带到今天",
+        "en": "05 · Bring the caption into the present"
+      },
+      "site": {
+        "zh": "明治座外公共步道 · 核对竖招后让开入口",
+        "en": "Public pavement outside Meijiza · check the exterior sign, then move clear of the entrance"
+      },
+      "type": "lineage",
+      "intro": {
+        "zh": "把四个名字接成一条沿革，再将1928条放进另一栏。明治座的官方历史把前身接到西两国露天戏棚；喜昇、久松、千歳、明治这些名字不是四家互不相干的收件人。迁址又不是第五个名字。\n对照今天外部竖招，让开场那张“千歳座景”保留旧名，同时取得当代对应。你们是在给自己的收场景补齐身份，不是在给剧院递交物品。",
+        "en": "Join the four names into one history, then put 1928 on a separate track. Meijiza’s official history traces its predecessor to the open-air playhouses of west Ryogoku. Kisho, Hisamatsu, Chitose and Meiji are not four unrelated addressees. Relocation is not a fifth name.\nCheck the present exterior sign. Let the opening’s “Chitose-za scene” retain its old caption while gaining a present counterpart. You are completing your own closing scene, not delivering property to the theatre."
+      },
+      "cards": [
+        {
+          "id": "chitose",
+          "label": {
+            "zh": "千歳座 · 1885",
+            "en": "Chitose-za · 1885"
+          }
+        },
+        {
+          "id": "meiji",
+          "label": {
+            "zh": "明治座 · 1893",
+            "en": "Meiji-za · 1893"
+          }
+        },
+        {
+          "id": "kisho",
+          "label": {
+            "zh": "喜昇座 · 1873",
+            "en": "Kisho-za · 1873"
+          }
+        },
+        {
+          "id": "hisamatsu",
+          "label": {
+            "zh": "久松座 · 1879",
+            "en": "Hisamatsu-za · 1879"
+          }
+        }
+      ],
+      "fields": [
+        {
+          "id": "move",
+          "label": {
+            "zh": "1928年应放进哪个栏目？",
+            "en": "Where does 1928 belong?"
+          },
+          "options": [
+            [
+              "location",
+              {
+                "zh": "同一身份链中的迁址与再开场",
+                "en": "Relocation/reopening within the identity history"
+              }
+            ],
+            [
+              "fifth",
+              {
+                "zh": "第五个剧场名字",
+                "en": "A fifth theatre name"
+              }
+            ]
+          ]
+        }
+      ],
+      "answer": {
+        "order": [
+          "kisho",
+          "hisamatsu",
+          "chitose",
+          "meiji"
+        ],
+        "move": "location"
+      },
+      "hints": [
+        {
+          "zh": "先看哪四条是名称，哪一条是位置事件。别把一次迁址变成另一个剧院名。",
+          "en": "Separate the four names from the event about location. A move does not create another theatre name."
+        },
+        {
+          "zh": "喜昇早于久松，千歳在明治之前。两国桥的西两国戏棚是这条沿革的前身。",
+          "en": "Kisho comes before Hisamatsu; Chitose before Meiji. The west-Ryogoku playhouses are the predecessor in this history."
+        },
+        {
+          "zh": "喜昇座1873→久松座1879→千歳座1885→明治座1893；1928放迁址／再开场。今日对应明治座，实际回执交游戏主办方。",
+          "en": "Kisho-za 1873 → Hisamatsu-za 1879 → Chitose-za 1885 → Meiji-za 1893. Put 1928 under relocation/reopening. The present counterpart is Meijiza; the game host receives your actual receipt."
+        }
+      ],
+      "success": {
+        "zh": "开场的旧题签没有被撕掉。它现在连着西两国戏棚的来处，也连着明治座这个当代名字；1928另记在迁址栏。收场不再必须用空白代替。汐将同一套景条放回原创舞台，留住近景，准备让空舟再演一次。",
+        "en": "The opening caption remains intact. It now connects back to west Ryogoku’s playhouses and forward to Meijiza’s present name, with 1928 recorded separately as a move. The closing scene no longer needs a blank substitute. Shio returns the same strips to the original illustrated stage, keeps the foreground and invites Utsuro to try again."
+      },
+      "lead": {
+        "zh": "移到允许停留、不挡通行的位置整理回执。可立即提交完整判断；提前解出同样有效。",
+        "en": "Move to a permitted stopping place clear of pedestrian traffic and complete the receipt. Submit whenever your account is complete; an early solution is equally valid."
+      },
+      "evidence": "MEIJI_LINEAGE",
+      "sources": [
+        "M01",
+        "M02",
+        "M03",
+        "M04",
+        "M07",
+        "M05"
+      ],
+      "minutes": [
+        4,
+        7
+      ],
+      "shortTitle": {
+        "zh": "旧名的去向",
+        "en": "The old caption"
+      },
+      "beforeFigure": "oldExit",
+      "afterFigure": "lineageJoined",
+      "before": [
+        {
+          "speaker": {
+            "zh": "空舟",
+            "en": "Utsuro"
+          },
+          "text": {
+            "zh": "千歳座已经不在了。最漂亮的收场，难道不是留一个空框？",
+            "en": "Chitose-za is gone. Would not an empty frame make the most elegant ending?"
+          }
+        },
+        {
+          "speaker": {
+            "zh": "汐",
+            "en": "Shio"
+          },
+          "text": {
+            "zh": "空框给不了我们来处。两国桥的那段戏棚沿革，还在这套条子里。",
+            "en": "An empty frame tells us nothing of where this came from. The west-Ryogoku playhouses are still here in these history strips."
+          }
+        }
+      ],
+      "operation": {
+        "zh": "按沿革排列四名字条；把1928放在位置变化栏。旧名与今日对应同时保留，真实建筑／位置的变化单独记录。",
+        "en": "Order the four name strips. Place 1928 under location history. Keep the old name and present counterpart together, while recording changes of building and location separately."
+      },
+      "prompt": {
+        "zh": "这里是短时外观核对，高潮回到你们自己的影戏画框中完成。不买票，不找员工签收。",
+        "en": "This is a brief exterior check. The climax takes place in your own picture-show frame. Do not buy a ticket or ask theatre staff to sign."
+      },
+      "after": [
+        {
+          "speaker": {
+            "zh": "汐",
+            "en": "Shio"
+          },
+          "text": {
+            "zh": "河还用原来那条。题签也不换。只是这次，谁搬景，谁就留在画里。",
+            "en": "The same river. The same caption. This time, whoever moves the scenery stays in view."
+          }
+        },
+        {
+          "speaker": {
+            "zh": "空舟",
+            "en": "Utsuro"
+          },
+          "text": {
+            "zh": "各位，刚才那一下……容我再来。",
+            "en": "Ladies and gentlemen, that last disappearance…allow me another attempt."
+          }
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "B02",
+      "title": "纽扣博物馆：收蔵品 / Button Museum collection",
+      "url": "https://button-museum.jp/item/",
+      "fact": {
+        "zh": "馆方介绍的18世纪英国图画纽扣，在薄板及玻璃背面分别绘画以表现远近。这项工艺来自馆藏文字；街角没有相应免费实物展示。本游戏图形与景条为原创。",
+        "en": "The museum describes eighteenth-century English picture buttons painted on plates and the back of glass to suggest depth. This fact comes from the collection text, not a free outdoor display. The game drawings and strips are original."
+      }
+    },
+    {
+      "id": "F01",
+      "title": "既有街角实拍研究 / Existing corner-evidence review",
+      "url": "",
+      "fact": {
+        "zh": "沿用仓库evidence/02_SITE_BY_SITE_CROSSCHECK.md的街角连续视野与遮挡记录。此轮未重新取得或检查私人JPEG／MP4原像素；不公开原图，不据OCR补写被挡文字。",
+        "en": "Uses the continuous-view and overlap observations in evidence/02_SITE_BY_SITE_CROSSCHECK.md. Private JPEG/MP4 pixels were not reobtained or re-examined this session. No originals are published; hidden lettering is not reconstructed from OCR."
+      }
+    },
+    {
+      "id": "R02",
+      "title": "日本艺术文化振兴会：稲瀬川百本杭 / Japan Arts Council",
+      "url": "https://www2.ntj.jac.go.jp/dglib/contents/learn/edc17/sakuhin/d2/b.html",
+      "fact": {
+        "zh": "《小袖曾我薊色縫》以稲瀬川为舞台地名，借用隅田川百本杭一带景观。本游戏只采用特定作品的借景关系，不改编其人物事件，也不推成所有“稲瀬川”都指隅田川。",
+        "en": "In Kosode Soga Azami no Ironui, the Inase River stage setting borrows scenery associated with the Sumida’s riverside piles. The game uses only this specific scenic relationship, not the play’s characters or events, and not a rule for every use of “Inase”."
+      }
+    },
+    {
+      "id": "R01",
+      "title": "墨田区观光协会：旧两国桥 / Old Ryogoku Bridge",
+      "url": "https://visit-sumida.jp/spot/6182/",
+      "fact": {
+        "zh": "旧桥在现桥下游约50米；河岸有见世物与摊贩的历史。本游戏示意不进行古今桥位精确叠合，也不把现代护栏当旧百本杭计数。",
+        "en": "The old bridge was about 50 metres downstream of the present one; the riverbank has a history of sideshows and stalls. The game does not precisely overlay old and new bridge positions or count modern railings as historical piles."
+      }
+    },
+    {
+      "id": "H07",
+      "title": "江东区：芭蕉与深川 / Basho in Fukagawa",
+      "url": "https://www.city.koto.lg.jp/promotion/kotocity/bashou.html",
+      "fact": {
+        "zh": "芭蕉1680年由日本桥迁往深川。这是人物活动史，不是今日庭园、铜像或参照画面的制作年。",
+        "en": "Basho moved from Nihonbashi to Fukagawa in 1680. This belongs to his life, not to the creation date of the present garden, statue or reference view."
+      }
+    },
+    {
+      "id": "H01",
+      "title": "芭蕉纪念馆：馆概要 / Basho Museum outline",
+      "url": "https://www.kcf.or.jp/basho/outline/",
+      "fact": {
+        "zh": "本馆1981年开馆，分馆1995年1月开馆，分馆屋顶展望庭园1995年4月开园。庭园免费，公布开放9:15—16:30，面积101.88平方米。含该设施的参照只能得到1995或以后的下界。",
+        "en": "The main museum opened in 1981, the annex in January 1995 and its roof observation garden in April 1995. The garden is free, has published hours of 09:15–16:30 and covers 101.88 square metres. A reference showing this setting can establish only a lower bound of 1995 or later."
+      }
+    },
+    {
+      "id": "H02",
+      "title": "江东区：芭蕉记念馆 / Koto City garden access",
+      "url": "https://www.city.koto.lg.jp/promotion/spot/basho.html",
+      "fact": {
+        "zh": "免费庭园位于常盤1-1-3；不是常盤1-6-3本馆。官方列庭园第2、4周一休园，节假日顺延次日；临时公告优先。旧庵与现代纪念设施不可混同。",
+        "en": "The free garden is at 1-1-3 Tokiwa, distinct from the main museum at 1-6-3. Official information lists the second and fourth Mondays as closed, or the next day when a holiday falls on the Monday. Temporary notices take priority. The old hut and modern memorial are different."
+      }
+    },
+    {
+      "id": "P01",
+      "title": "东京都立图书馆：浜町公园 / Tokyo Metropolitan Library",
+      "url": "https://www.library.metro.tokyo.lg.jp/portals/0/tokyo/chapter2/park14.html",
+      "fact": {
+        "zh": "浜町公园于1929年开园，是帝都复兴事业规划的三大公园之一。因此不能把删掉现代游具后的今天公园，当作有据的“千歳座时期公园”复原。这个年份不证明任何现存大楼年份或精确旧地界。",
+        "en": "Hamacho Park opened in 1929 as one of three major parks planned in the imperial-capital reconstruction programme. Removing modern play equipment from today’s view is therefore not an evidenced reconstruction of a “Chitose-za-era park”. The year does not date any present building or establish old plot boundaries."
+      }
+    },
+    {
+      "id": "P02",
+      "title": "内阁府：帝都复兴 / Cabinet Office reconstruction history",
+      "url": "https://www.bousai.go.jp/kohou/kouhoubousai/r05/108/special_01.html",
+      "fact": {
+        "zh": "复兴事业涉及街区、道路、桥梁和公园的重构。本题不使用未取得的精确古图，不推定地下藏点、喷泉基址或1929设施坐标。",
+        "en": "Reconstruction reshaped blocks, roads, bridges and parks. This puzzle does not use an unavailable precise historical plan or infer underground caches, fountain foundations or 1929 facility coordinates."
+      }
+    },
+    {
+      "id": "P06",
+      "title": "既有公园实拍研究 / Existing park-evidence review",
+      "url": "",
+      "fact": {
+        "zh": "沿用IMG_3633(1).jpeg与IMG_3636(1).jpeg在仓库中的核查记录：河边、大场地、体育中心的相对布局，游乐设施在前、菱形外墙在后。此轮未重看原像素。题包是原创功能示意，非照片或导航地图。",
+        "en": "Uses the repository’s existing reviews of IMG_3633(1).jpeg and IMG_3636(1).jpeg: relative river-edge, field and sports-centre layout, with play equipment before the diamond facade. Original pixels were not re-examined this session. Kit images are original functional diagrams, not photographs or navigation maps."
+      }
+    },
+    {
+      "id": "P04",
+      "title": "中央区：公园部分休止 / Chuo City partial closure",
+      "url": "https://www.city.chuo.lg.jp/a0037/machizukuri/kouenryokka/kouen/oshirase/hamachosyuuhen.html",
+      "fact": {
+        "zh": "2026-10-20读取的现公告标注2026-09-03，写部分区域休止至2030年度。旧仓库曾记2029，现另行更正，不覆盖历史记录。案内图不证明今天每条通路开放；施工年不是题目答案。",
+        "en": "The current notice read on 20 October 2026, dated 3 September 2026, describes partial closure through fiscal 2030. Earlier repository notes said 2029; this is a documented correction, not an erasure of the old record. A map does not establish today’s access. The closure date is not a puzzle answer."
+      }
+    },
+    {
+      "id": "M01",
+      "title": "明治座：喜昇座时代 / Kisho-za",
+      "url": "https://www.meijiza.co.jp/anniversary/era1.html",
+      "fact": {
+        "zh": "官方沿革追到西两国广小路三兄弟露天戏棚；1873年喜昇座开场。这个关系连接两国桥与终点，不表示今日桥头就是1873剧场地址。",
+        "en": "The official history traces the predecessor to the open-air San Kyodai playhouses of west Ryogoku and the opening of Kisho-za in 1873. This connects the riverside history with the endpoint; it does not put the 1873 theatre at today’s bridgehead."
+      }
+    },
+    {
+      "id": "M02",
+      "title": "明治座：久松座时代 / Hisamatsu-za",
+      "url": "https://www.meijiza.co.jp/anniversary/era2.html",
+      "fact": {
+        "zh": "1879年8月6日以久松座之名开场。沿革是机构历史，不是同一建筑永远未变。",
+        "en": "The theatre opened under the Hisamatsu-za name on 6 August 1879. This is institutional history, not proof of an unchanged building."
+      }
+    },
+    {
+      "id": "M03",
+      "title": "明治座：千歳座时代 / Chitose-za",
+      "url": "https://www.meijiza.co.jp/anniversary/era3.html",
+      "fact": {
+        "zh": "1885年1月4日改称千歳座。年份条从游戏开始即可查看；S04可与1893改名及1929公园开园并读。",
+        "en": "The Chitose-za name began on 4 January 1885. The year strips are accessible from the start and may be read at S04 alongside the 1893 name change and the park’s 1929 opening."
+      }
+    },
+    {
+      "id": "M04",
+      "title": "明治座诞生 / The Meiji-za name",
+      "url": "https://www.meijiza.co.jp/anniversary/era4.html",
+      "fact": {
+        "zh": "1893年以明治座之名开场。喜昇→久松→千歳→明治是沿革顺序；不能由此推成跨地点同一镜头。",
+        "en": "The theatre opened under the Meiji-za name in 1893. Kisho → Hisamatsu → Chitose → Meiji is the historical sequence, not a continuous camera view across locations."
+      }
+    },
+    {
+      "id": "M07",
+      "title": "昭和的明治座 / Relocation",
+      "url": "https://www.meijiza.co.jp/anniversary/era7.html",
+      "fact": {
+        "zh": "震灾后迁到今浜町公园附近，1928年3月4日重新开场。此条是迁址／再开场，不是第五名字；不等于公园取景端能同时拍到剧场。",
+        "en": "After the earthquake the theatre moved near present-day Hamacho Park and reopened on 4 March 1928. This is relocation/reopening, not a fifth name, and does not show that the park viewpoint also frames the theatre."
+      }
+    },
+    {
+      "id": "M05",
+      "title": "明治座：初次来场 / Visiting Meijiza",
+      "url": "https://www.meijiza.co.jp/firstguide/",
+      "fact": {
+        "zh": "本游戏只核对外观，没有场馆合作、入场权益或员工签收。影戏题景是原创示意；回执向游戏主办方提交。",
+        "en": "This game uses exterior observation only. It grants no venue partnership, admission rights or staff signature. The theatrical view is an original illustration. Submit the receipt to the game host."
+      }
+    }
+  ],
+  "finalFields": [
+    {
+      "id": "scene",
+      "label": {
+        "zh": "实际借景地",
+        "en": "Real scenery"
+      },
+      "options": [
+        [
+          "sumida",
+          "隅田川 / Sumida"
+        ],
+        [
+          "inase",
+          "稲瀬川 / Inase"
+        ]
+      ]
+    },
+    {
+      "id": "stage",
+      "label": {
+        "zh": "舞台称呼",
+        "en": "Stage name"
+      },
+      "options": [
+        [
+          "inase",
+          "稲瀬川 / Inase"
+        ],
+        [
+          "sumida",
+          "隅田川 / Sumida"
+        ]
+      ]
+    },
+    {
+      "id": "object",
+      "label": {
+        "zh": "本场方案的性质",
+        "en": "Nature of this show’s project"
+      },
+      "options": [
+        [
+          "contemporary",
+          {
+            "zh": "当代历史借景方案",
+            "en": "Contemporary project borrowing historical scenery"
+          }
+        ],
+        [
+          "1930_original",
+          {
+            "zh": "1930原始摄影",
+            "en": "Original photograph from 1930"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "time",
+      "label": {
+        "zh": "现代题图照片的下界",
+        "en": "Lower bound of the referenced modern view"
+      },
+      "options": [
+        [
+          "1995_or_later",
+          {
+            "zh": "1995或以后，不是精确年",
+            "en": "1995 or later, not an exact date"
+          }
+        ],
+        [
+          "exact_1995",
+          {
+            "zh": "精确到1995",
+            "en": "Exactly 1995"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "park",
+      "label": {
+        "zh": "公园页的取景／交付关系",
+        "en": "Viewpoint or delivery destination?"
+      },
+      "options": [
+        [
+          "capture_sports_playground",
+          {
+            "zh": "体育中心游乐区侧的取景位置",
+            "en": "A camera position by the playground facing the sports centre"
+          }
+        ],
+        [
+          "deliver_sports",
+          {
+            "zh": "向体育中心交付收场景",
+            "en": "Deliver the closing scene to the sports centre"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "recipient",
+      "label": {
+        "zh": "旧名的当代对应",
+        "en": "Present counterpart of the old name"
+      },
+      "options": [
+        [
+          "meijiza",
+          "明治座 / Meijiza"
+        ],
+        [
+          "chitose_only",
+          "千歳座 / Chitose only"
+        ],
+        [
+          "museum",
+          "芭蕉纪念馆 / Basho Museum"
+        ]
+      ]
+    },
+    {
+      "id": "channel",
+      "label": {
+        "zh": "本场回执交到哪里",
+        "en": "Where does this game receipt go?"
+      },
+      "options": [
+        [
+          "game_receipt",
+          {
+            "zh": "向游戏主办方提交原景与回执",
+            "en": "Submit the original scene and receipt to the game host"
+          }
+        ],
+        [
+          "theatre_entry",
+          {
+            "zh": "凭道具进入剧院或找员工签收",
+            "en": "Use the prop for admission or ask theatre staff to sign"
+          }
+        ]
+      ]
+    }
+  ],
+  "finalAnswer": {
+    "scene": "sumida",
+    "stage": "inase",
+    "object": "contemporary",
+    "time": "1995_or_later",
+    "park": "capture_sports_playground",
+    "recipient": "meijiza",
+    "channel": "game_receipt"
+  },
+  "ending": {
+    "solo": {
+      "zh": "独立签收完成。你们复原了同一条河、保住两个名字、识破旧照片与旧景的借口，并从正确观察端看完了怪盗的退场。汐把签名位留给小队，替你们托住另一边。完整收场与原景纪念片归你们；空舟没有带走河，只带走了自己的遮片。",
+      "en": "Independent receipt complete. You reconstructed the same river, kept both names, challenged the old-photo and old-scene claims, and watched the thief’s complete exit from the justified viewpoint. Shio leaves the signature space to your team and supports the other edge. Keep the complete ending and original scene card. Utsuro leaves with his screen; the river stays."
+    },
+    "joint": {
+      "zh": "联合签收完成。你们与汐把取景、来源和旧名写在同一张回执上；她在你们旁边落款，最后才松手。你们看到了同样完整的退场，也带走同一幅原景。空舟的把戏输了，却终于在没有遮挡的画面里谢了幕。",
+      "en": "Joint receipt complete. You and Shio record the viewpoint, source and historical caption on one receipt. She signs beside you and lets go last. You see the same complete exit and keep the same original scene. Utsuro loses his trick, but finally takes his bow in an unobscured picture."
+    }
+  },
+  "buildNotes": {
+    "status": "complete_review_prototype_not_audience_or_field_validated",
+    "storyReview": "D2 worthy of full prototype; not a story-quality PASS",
+    "language": "zh/en",
+    "externalRequests": false,
+    "rawPhotosIncluded": false,
+    "mustVisitNewSites": false,
+    "mechanicsChanged": false,
+    "frozenBaselineSha256": "570fdfb2b52f037978e3113f101f3ad6034a3b6219914968ee107aee71903144",
+    "contentSource": "r6/content/game.json is the editable source; build_runtime.mjs generates play/data.json and the offline bundle",
+    "created": "2026-10-20"
+  },
+  "openingTitle": {
+    "zh": "最后一幕，被他拿走了",
+    "en": "He has taken your last scene"
+  },
+  "openingFigure": "caper_open",
+  "openingDialogue": [
+    {
+      "speaker": {
+        "zh": "空舟",
+        "en": "Utsuro"
+      },
+      "text": {
+        "zh": "最后一幕归谁？谁能看完我的退场，就归谁。先说规矩：按千歳座那会儿收景，后来添的，都退出画框。",
+        "en": "Who gets the last scene? Whoever sees my whole exit. One condition: dress the scene for Chitose-za’s time. Anything added later stays out of the frame."
+      }
+    },
+    {
+      "speaker": {
+        "zh": "汐",
+        "en": "Shio"
+      },
+      "text": {
+        "zh": "公园这页也让他改过：“浜町公园留作古景，游具删去。”我只有这些散开的取景稿。要直接切黑吗？……不，你们还没拿到收场。",
+        "en": "He has marked the park sheet too: “Keep Hamacho Park as old scenery. Remove the play equipment.” All I have are these loose view studies. Shall I cut to black? …No. You have not had your ending."
+      }
+    },
+    {
+      "speaker": {
+        "zh": "空舟",
+        "en": "Utsuro"
+      },
+      "text": {
+        "zh": "去追我的地址吧。请别追我的脚。",
+        "en": "Follow my address, if you like. Kindly ignore my feet."
+      }
+    }
+  ],
+  "fictionNotice": {
+    "zh": "人物与劫案发生在当代原创影戏中；屏幕不是直播，插图不是现场照片。你们在东京做的是观察与解谜，不追踪路人，不寻找真实嫌疑人。",
+    "en": "The characters and caper belong to a contemporary fictional picture show. The screen is not a live feed, and illustrations are not site photographs. Your real-world task is observation and puzzling, not following strangers or finding a real suspect."
+  },
+  "rules": [
+    {
+      "zh": "带着同一套景片走完五站。顺序是纽扣馆外→两国桥→芭蕉免费庭园→浜町公园→明治座外；所有章节和终局从开始即可打开。",
+      "en": "Carry the same scene through five stops: Button Museum exterior → Ryogoku Bridge → free Basho garden → Hamacho Park → Meijiza exterior. Every chapter and the finale are available from the start."
+    },
+    {
+      "zh": "先看现场，再操作自己的卡片。史料卡是免费可读的证据，不考日文记忆；图示不按比例，也不作导航。",
+      "en": "Look at the site, then manipulate your own cards. The free history cards are evidence, not a test of Japanese knowledge. Diagrams are not to scale and are not navigation maps."
+    },
+    {
+      "zh": "每关三个免费提示；辅助完成会留记录，仍有完整结尾和纪念景。正确早解同样有效，不用集齐过关印章。",
+      "en": "Each stop has three free hints. Assistance is recorded, with the complete ending and souvenir preserved. Correct early solutions count; no collection of chapter stamps is required."
+    },
+    {
+      "zh": "中段可独立核验或交换校准；终局可独立或联合落款。它们是两个独立选择，四种组合没有好坏结局。",
+      "en": "Midway, verify independently or exchange calibration. At the end, sign independently or jointly. These are separate choices; all four combinations receive the full ending."
+    },
+    {
+      "zh": "桌面试玩用图示和史料，不勾选现场观察。实地遇视线遮挡可用同样备用材料，并如实记录；勿为完成关卡越界。",
+      "en": "For desktop play use the diagrams and sources, without marking a site visit. On site, use those same backup materials if a view is blocked and record that fact. Never trespass to finish."
+    }
+  ],
+  "originalCaption": {
+    "zh": "千歳座景／稲瀬川。清场约定：凡后来加上的前景，退出画框。",
+    "en": "CHITOSE-ZA SCENE / INASE RIVER. Clearing instruction: anything added later stays outside the frame."
+  },
+  "parkAnnotation": {
+    "zh": "空舟的批注（角色主张，不是史实）：浜町公园留作古景；游具等后来物删去。",
+    "en": "Utsuro’s annotation (a character’s claim, not a historical fact): Keep Hamacho Park as old scenery; remove later additions such as play equipment."
+  },
+  "choiceLabels": {
+    "challenge": {
+      "zh": "独立核验这张图",
+      "en": "Verify the diagram independently"
+    },
+    "share": {
+      "zh": "交换校准资料",
+      "en": "Exchange calibration"
+    }
+  },
+  "choiceResponses": {
+    "challenge": {
+      "zh": "汐收起校准页：“好，我不替你们摆正。你们指哪一边，我就把那一边留在画里。”首次公园图保持原待校准状态。",
+      "en": "Shio puts the calibration aside. “All right. I will not orient it for you. Tell me which side to keep in view.” The park card begins in its original, uncalibrated state."
+    },
+    "share": {
+      "zh": "汐交出大锚点的方向：“河边、场地、大楼先对齐。相机站哪边，我不替你们选。”首次公园图已校准，取景端与用途仍由你们判断。",
+      "en": "Shio shares the large-anchor orientation. “River edge, field, building. Those are aligned. I will not choose the camera side for you.” The park card is initially calibrated; its viewpoint and purpose remain yours to determine."
+    }
+  },
+  "finalTitle": {
+    "zh": "终局 · 这一次，不切黑",
+    "en": "Finale · This time, no blackout"
+  },
+  "finalIntro": {
+    "zh": "汐已把手放在画框边。把你们保住的材料合成一份完整记录：哪条真河、什么舞台名、什么性质的方案、参照最早何时、由哪端取景、旧名今天对应哪里。收场发生在你们自己的影戏里，回执交游戏主办方。\n把关系写清，汐就照这个构图留住画面。请空舟用开场那张遮片再退一次。这回，看住他没让你们看的那一边。",
+    "en": "Shio has her hand on the frame. Bring the materials you kept into one account: real river, stage name, kind of project, earliest possible reference date, viewpoint and the old name’s present counterpart. The ending belongs to your own picture show; the game host receives the receipt.\nGive Shio the complete composition to hold. Invite Utsuro to try the opening’s screen again. This time, watch the part he did not want you to see."
+  },
+  "endingLabels": {
+    "solo": {
+      "zh": "独立落款 · 由我们签收",
+      "en": "Independent signature · our team receives the scene"
+    },
+    "joint": {
+      "zh": "联合落款 · 与汐一同签收",
+      "en": "Joint signature · receive the scene with Shio"
+    }
+  },
+  "finale": [
+    {
+      "title": {
+        "zh": "第一幕 · 同一条河",
+        "en": "1 · The same river"
+      },
+      "figure": "caper0",
+      "text": {
+        "zh": "原河景回到框里。稲瀬川的题签仍在，隅田川的来源也没有被擦掉。空舟站到开场的那一侧，举起同一张遮片。",
+        "en": "The original river returns. Its Inase caption remains, as does its Sumida source. Utsuro takes his opening position and raises the same screen."
+      },
+      "dialogue": [
+        {
+          "speaker": {
+            "zh": "空舟",
+            "en": "Utsuro"
+          },
+          "text": {
+            "zh": "照旧。各位看住我的手。",
+            "en": "As before. Watch my hands."
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "zh": "第二幕 · 留下边上",
+        "en": "2 · Keep the edges"
+      },
+      "figure": "caper1",
+      "text": {
+        "zh": "遮片横移。汐照你们恢复的构图托住画框，没有去碰切黑处。近层没有消失；空舟的脚步和遮片边缘一起留在宽画面里。",
+        "en": "The screen slides sideways. Shio holds the frame in the composition you restored, leaving the blackout untouched. The near layer stays. Utsuro’s feet and the screen’s edge remain in the wider view."
+      },
+      "dialogue": [
+        {
+          "speaker": {
+            "zh": "汐",
+            "en": "Shio"
+          },
+          "text": {
+            "zh": "这回，边上也留着。",
+            "en": "This time, we keep the edges too."
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "zh": "第三幕 · 怪盗还在画里",
+        "en": "3 · Still in the picture"
+      },
+      "figure": "caper2",
+      "text": {
+        "zh": "他绕到遮片后面，等着熟悉的黑场。没有黑场。整条河仍在后面，拿着遮片的人也还在。开场的“消失”，原来只占了窄窗那么大。",
+        "en": "He steps behind the screen and waits for the familiar blackout. None comes. The river is still there—and so is the person holding the screen. The opening’s disappearance was only as large as the narrow window."
+      },
+      "dialogue": [
+        {
+          "speaker": {
+            "zh": "空舟",
+            "en": "Utsuro"
+          },
+          "text": {
+            "zh": "你们连“画外”也算进来了？",
+            "en": "You have included the part outside the picture?"
+          }
+        },
+        {
+          "speaker": {
+            "zh": "汐",
+            "en": "Shio"
+          },
+          "text": {
+            "zh": "你还没退完场。",
+            "en": "You have not finished your exit."
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "zh": "第四幕 · 题签留下",
+        "en": "4 · Keep the caption"
+      },
+      "figure": "caper3",
+      "text": {
+        "zh": "空舟举起“千歳座”催切。汐将旧题签放在当代对应旁，把1928迁址留在另一行。没有哪个名字被抹掉，也没有哪个名字替他关上画面。",
+        "en": "Utsuro raises “Chitose-za” as a cue to cut. Shio places the old caption beside its present counterpart, keeping the 1928 move on another line. No name is erased; no name closes the picture for him."
+      },
+      "dialogue": [
+        {
+          "speaker": {
+            "zh": "汐",
+            "en": "Shio"
+          },
+          "text": {
+            "zh": "题签可以老。收场得让我们看完。",
+            "en": "The caption may be old. We still get to see the end."
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "zh": "第五幕 · 多了一个人",
+        "en": "5 · One more person"
+      },
+      "figure": "caper4",
+      "text": {
+        "zh": "空舟把遮片放下。被他扣住的收场终于完整露出来：还是你们从街角带来的三条景。他看了一眼自己露在画里的双手。",
+        "en": "Utsuro puts the screen down. The withheld ending is finally visible: the same three strips you brought from the street corner. He looks at his hands, now plainly in view."
+      },
+      "dialogue": [
+        {
+          "speaker": {
+            "zh": "空舟",
+            "en": "Utsuro"
+          },
+          "text": {
+            "zh": "连搬景的人都看见了，这还算奇迹吗？",
+            "en": "Now you can see the person moving the scenery. Does it still count as a wonder?"
+          }
+        },
+        {
+          "speaker": {
+            "zh": "汐",
+            "en": "Shio"
+          },
+          "text": {
+            "zh": "河没少。还多了一个人。",
+            "en": "The river is all here. And now there is one more person."
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "zh": "第六幕 · 完整的退场",
+        "en": "6 · A complete exit"
+      },
+      "figure": "caper5",
+      "text": {
+        "zh": "他第一次没有躲在遮片后鞠躬。帽沿、双手、迈下舞台的最后一步，都清清楚楚。河留在框里，最后一幕归你们。纸版此刻翻过同一张纪念片，移到框旁，让原三条景全部露出。",
+        "en": "For the first time he bows without hiding behind the screen. Hat, hands and the final step offstage are visible. The river stays in the frame. The last scene is yours. On paper, turn over the same souvenir card and place it beside the frame, revealing all three original strips."
+      },
+      "dialogue": [
+        {
+          "speaker": {
+            "zh": "空舟",
+            "en": "Utsuro"
+          },
+          "text": {
+            "zh": "那就借一声掌声。我把最后一幕还了。",
+            "en": "Then lend me a round of applause. I am giving the last scene back."
+          }
+        }
+      ],
+      "byEnding": {
+        "solo": {
+          "zh": "汐把落款的位置留给你们，自己托住画框另一边：“这回，我跟着你们看。”",
+          "en": "Shio leaves the signature space for your team and holds the other side of the frame. “This time, I follow your view.”"
+        },
+        "joint": {
+          "zh": "汐在你们旁边落款，签完才松开画框：“这次，我们谁也没被裁出去。”",
+          "en": "Shio signs beside your team and releases the frame only when she has finished. “This time, none of us was cropped out.”"
+        }
+      }
+    }
+  ],
+  "paperEnding": {
+    "zh": "保留S01拼好的三条横向河景。开场将双面纪念片的窄窗面并置在原框一端，部分覆盖景条。结尾逐幕读六幕；到第六幕，把同一纪念片翻到完整舞台面，移到框旁，完全露出同一幅景，再落款。这是纸面分镜，不是需要猜新动作的光学机关。",
+    "en": "Keep the three horizontal river strips assembled in the S01 frame. At the opening place the souvenir card’s narrow-window face across one end, partly covering the strips. Read the six-scene ending in order. At scene six, turn the same card to its complete-stage face and place it beside the frame, revealing the same entire scene. Then sign. This is a paper storyboard, not an optical device or an extra puzzle."
+  }
+}

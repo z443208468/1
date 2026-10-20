@@ -1,0 +1,256 @@
+{
+  "generated_at": "2026-10-20T15:10:05.646043+00:00",
+  "version": "R6.0-review",
+  "data_sha256": "adc11c3abe3eb1d191e5b124063c22376ede1278d5be203ab95778de56a7b226",
+  "bundle_sha256": "2f64af77bc704aa6a76b67b4ec07f51df452afe82792d1807e37304d60060d7b",
+  "app_sha256": "0944b5c5db1fcb0202fb56376b398c7f0b7590c46f31b0bc1c891a8433e8c9f3",
+  "checks": [
+    {
+      "name": "opening graphic is data-bound",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "opening masks without deleting river source",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "opening ends with pale blank sheet back",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "s1 before graphic is displayed",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "s1 successful action changes graphic",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "s2 before graphic is displayed",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "s2 successful action changes graphic",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "s3 before graphic is displayed",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "s3 successful action changes graphic",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "s4 before graphic is displayed",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "s4 successful action changes graphic",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "s5 before graphic is displayed",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "s5 successful action changes graphic",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "finale has exactly six data-driven scenes",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "caper0 is visible after existing final answer",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "caper1 is visible after existing final answer",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "same river source survives the repeated wide-frame move",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "wide-frame repetition shows same pale back",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "wide frame includes holder and feet with no narrow matte",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "caper2 is visible after existing final answer",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "caper3 is visible after existing final answer",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "caper4 is visible after existing final answer",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "caper5 is visible after existing final answer",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "six-scene performance can restart without new input",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "390px stage 1 has no horizontal overflow",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "390px stage 2 has no horizontal overflow",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "390px stage 4 has no horizontal overflow",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "390px stage 6 has no horizontal overflow",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "320px stage 1 has no horizontal overflow",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "320px stage 2 has no horizontal overflow",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "320px stage 4 has no horizontal overflow",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "320px stage 6 has no horizontal overflow",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "reduced motion displays explicit opening before/covered frames",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "reduced opening has no active animations",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "reduced motion 1 retains visible illustration",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "reduced motion 1 has no active animations",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "reduced motion 2 retains visible illustration",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "reduced motion 2 has no active animations",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "reduced motion 3 retains visible illustration",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "reduced motion 3 has no active animations",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "reduced motion 4 retains visible illustration",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "reduced motion 4 has no active animations",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "reduced motion 5 retains visible illustration",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "reduced motion 5 has no active animations",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "reduced motion 6 retains visible illustration",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "reduced motion 6 has no active animations",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "English reduced finale at 390px has no overflow",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "English reduced finale at 320px has no overflow",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "narrative visuals introduce no JavaScript errors",
+      "result": "PASS",
+      "detail": []
+    }
+  ],
+  "screenshots": "qa/caper_screenshots",
+  "scope": "Narrative graphic binding, opening/repeated action identity, six-scene navigation, 320/390px layout and reduced motion in actual file:// runtime. This does not establish story quality or visitor response."
+}

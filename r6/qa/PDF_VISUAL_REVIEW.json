@@ -1,0 +1,117 @@
+{
+  "reviewed_at_utc": "2026-10-20T15:21:36.874338+00:00",
+  "reviewer_type": "AI visual inspection by primary assistant and print-production agent; not a human tester",
+  "result": "NO_REMAINING_LAYOUT_ISSUE_OBSERVED_IN_REVIEWED_DIGITAL_PAGES",
+  "scope": "All final contact sheets representing 107 pages; selected high-resolution page inspection. This is a digital review, not a physical print or tourist test.",
+  "final_documents": [
+    {
+      "path": "output/pdf/R6_Player_Kit_ZH.pdf",
+      "pages": 30,
+      "sha256": "74025388ff7826e28c3c3f271ed19ff167692d112bf54b2a69ad3bedfbb6d598",
+      "bytes": 1788729
+    },
+    {
+      "path": "output/pdf/R6_Player_Kit_EN.pdf",
+      "pages": 30,
+      "sha256": "c6dca08add05e43832611dab9bdfde191c09b71d712e3d80bedc17fb90998594",
+      "bytes": 592908
+    },
+    {
+      "path": "output/pdf/R6_Designer_Guide.pdf",
+      "pages": 47,
+      "sha256": "c9e080241c6f82f9356d666102655e334fc174ff9f9ebbb5c6de95a5ccb17ff7",
+      "bytes": 1919521
+    }
+  ],
+  "final_contact_sheets_inspected_by_primary_assistant": [
+    {
+      "path": "qa/pdf_contacts/R6_Designer_Guide_contact_01.png",
+      "sha256": "3cb460067b95769cec547cd1a6c94f0a9b7ba5ea32ecbf8ab7a773a115d859c9"
+    },
+    {
+      "path": "qa/pdf_contacts/R6_Designer_Guide_contact_02.png",
+      "sha256": "59371c1559ad73b7cc011f344717fb5603cf518b72e566216cdd97edd320c530"
+    },
+    {
+      "path": "qa/pdf_contacts/R6_Designer_Guide_contact_03.png",
+      "sha256": "b843cdb9843310ab6017acdb4b266ca15f77ccfbc21018fc8f4bcecb06172205"
+    },
+    {
+      "path": "qa/pdf_contacts/R6_Designer_Guide_contact_04.png",
+      "sha256": "f65595b6798871d10b2b5fd83845d9850194905f59b553dc6ce374419d0d29ea"
+    },
+    {
+      "path": "qa/pdf_contacts/R6_Player_Kit_EN_contact_01.png",
+      "sha256": "885ba976601686cedd96dcfe2c9ea8707775bb36336f1e60731d4d35fc81eb73"
+    },
+    {
+      "path": "qa/pdf_contacts/R6_Player_Kit_EN_contact_02.png",
+      "sha256": "11174a4751a22bbcddeace60ef51b9b99858a5c4a99c0b769f060b9732f2d081"
+    },
+    {
+      "path": "qa/pdf_contacts/R6_Player_Kit_EN_contact_03.png",
+      "sha256": "c56278d08ec088316850ff279eff920098e11d14c43008fb134534ca326ce326"
+    },
+    {
+      "path": "qa/pdf_contacts/R6_Player_Kit_ZH_contact_01.png",
+      "sha256": "f714e12d747189635ad0fd146daff67619dc2a992c10c4cd384a6e9ad752c2df"
+    },
+    {
+      "path": "qa/pdf_contacts/R6_Player_Kit_ZH_contact_02.png",
+      "sha256": "d26c308c3c012a8f296985758df809d09804564670ce06bb980c492695815806"
+    },
+    {
+      "path": "qa/pdf_contacts/R6_Player_Kit_ZH_contact_03.png",
+      "sha256": "095c1c51f2ce466d52359428133c7ea0127c1f5b09fba4cf843fe6847a38adc7"
+    }
+  ],
+  "represented_pages": 107,
+  "high_resolution_pages_inspected": {
+    "primary_assistant": {
+      "R6_Player_Kit_ZH": [
+        5,
+        13,
+        17
+      ],
+      "R6_Player_Kit_EN": [
+        24,
+        29
+      ],
+      "R6_Designer_Guide": [
+        5,
+        24,
+        43
+      ]
+    },
+    "print_agent": {
+      "R6_Player_Kit_ZH": [
+        5
+      ],
+      "R6_Player_Kit_EN": [
+        13,
+        17,
+        24
+      ],
+      "R6_Designer_Guide": [
+        5,
+        24
+      ]
+    }
+  },
+  "revision_note": "ZH geometry/content did not change in the final font pass; final ZH contact sheets were checked again. EN all contact sheets and page 24, and Guide all contact sheets and page 24/43 were rechecked after the actual Nimbus Sans font fix.",
+  "issues_repaired_before_freeze": [
+    "Hint-appendix footer overflow found in earlier renders: pages redistributed.",
+    "Three horizontal scene strips measured to fit the original 160 x 58 mm assembly area.",
+    "Arial alias still selected CJK Latin glyphs; explicit Nimbus Sans corrected English apostrophe/quote spacing.",
+    "Guide mixed English text uses Nimbus Sans with CJK fallback, confirmed using actual Chromium font records."
+  ],
+  "observations": [
+    "No observed missing glyphs, obscured body text, accidental blank page, material boundary overflow or unreadable overlap in inspected pages.",
+    "Cut/fold edges and source labels remain visible.",
+    "Player package contains all three hints at each stop, checks, six ending scenes and independent choice responses."
+  ],
+  "physical_print_and_cut_test": "NOT_RUN",
+  "tourist_blind_test": "NOT_RUN",
+  "tokyo_field_test": "NOT_RUN",
+  "story_quality_approval": "NOT_CLAIMED"
+}

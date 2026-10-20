@@ -1,0 +1,229 @@
+{
+  "status": "BASELINE_RECOVERED",
+  "archive_verified": true,
+  "archive_files": 34,
+  "manifest_matches": 33,
+  "logic": {
+    "checks": 31,
+    "passed": 31,
+    "enumerated_cases": 445
+  },
+  "original_browser": {
+    "checks": 20,
+    "passed": 20
+  },
+  "supplemental": {
+    "scope": "Actual file URL in local Chromium; offline UI actions except state reads; not a field or enjoyment test.",
+    "checks": [
+      {
+        "name": "challenge+solo",
+        "result": "PASS",
+        "detail": {
+          "early_answer_accepted": true,
+          "localStorage_reload": true,
+          "initial_park_pose": [
+            3,
+            true
+          ],
+          "javascript_errors": []
+        }
+      },
+      {
+        "name": "challenge+joint",
+        "result": "PASS",
+        "detail": {
+          "early_answer_accepted": true,
+          "localStorage_reload": true,
+          "initial_park_pose": [
+            3,
+            true
+          ],
+          "javascript_errors": []
+        }
+      },
+      {
+        "name": "share+solo",
+        "result": "PASS",
+        "detail": {
+          "early_answer_accepted": true,
+          "localStorage_reload": true,
+          "initial_park_pose": [
+            0,
+            false
+          ],
+          "javascript_errors": []
+        }
+      },
+      {
+        "name": "share+joint",
+        "result": "PASS",
+        "detail": {
+          "early_answer_accepted": true,
+          "localStorage_reload": true,
+          "initial_park_pose": [
+            0,
+            false
+          ],
+          "javascript_errors": []
+        }
+      },
+      {
+        "name": "park work retained when strategy changed later",
+        "result": "PASS",
+        "detail": null
+      },
+      {
+        "name": "success state after clearing solved stage",
+        "result": "OBSERVED_DEFECT",
+        "detail": "The old success narrative remains after the current card sequence is cleared; no baseline code changed."
+      },
+      {
+        "name": "malformed imported card id",
+        "result": "OBSERVED_DEFECT",
+        "detail": [
+          "Cannot read properties of undefined (reading 'label')"
+        ]
+      }
+    ]
+  },
+  "pdfs": [
+    {
+      "folder": "r3-attachment",
+      "file": "R3_Designer_Guide.pdf",
+      "pages": 17,
+      "text_chars": [
+        1008,
+        1052,
+        883,
+        933,
+        878,
+        981,
+        991,
+        1200,
+        1266,
+        931,
+        335,
+        861,
+        910,
+        111,
+        950,
+        921,
+        517
+      ],
+      "replacement_chars": 0
+    },
+    {
+      "folder": "r3-attachment",
+      "file": "R3_Player_Kit_EN.pdf",
+      "pages": 13,
+      "text_chars": [
+        1315,
+        1028,
+        678,
+        705,
+        830,
+        1081,
+        890,
+        759,
+        751,
+        1031,
+        710,
+        1294,
+        1099
+      ],
+      "replacement_chars": 0
+    },
+    {
+      "folder": "r3-attachment",
+      "file": "R3_Player_Kit_ZH.pdf",
+      "pages": 13,
+      "text_chars": [
+        474,
+        431,
+        330,
+        345,
+        406,
+        535,
+        386,
+        499,
+        332,
+        457,
+        485,
+        756,
+        631
+      ],
+      "replacement_chars": 0
+    },
+    {
+      "folder": "r3-attachment-test",
+      "file": "R3_Designer_Guide.pdf",
+      "pages": 17,
+      "text_chars": [
+        1008,
+        1052,
+        883,
+        933,
+        878,
+        981,
+        991,
+        1200,
+        1266,
+        931,
+        335,
+        813,
+        958,
+        111,
+        950,
+        921,
+        517
+      ],
+      "replacement_chars": 0
+    },
+    {
+      "folder": "r3-attachment-test",
+      "file": "R3_Player_Kit_EN.pdf",
+      "pages": 13,
+      "text_chars": [
+        1288,
+        1015,
+        666,
+        694,
+        812,
+        1066,
+        876,
+        748,
+        737,
+        1011,
+        700,
+        1263,
+        1074
+      ],
+      "replacement_chars": 0
+    },
+    {
+      "folder": "r3-attachment-test",
+      "file": "R3_Player_Kit_ZH.pdf",
+      "pages": 13,
+      "text_chars": [
+        475,
+        431,
+        330,
+        345,
+        406,
+        535,
+        386,
+        499,
+        332,
+        457,
+        485,
+        756,
+        631
+      ],
+      "replacement_chars": 0
+    }
+  ],
+  "field_tested": false,
+  "commercial_ready": false,
+  "new_story_authored": false,
+  "repo_modified_by_this_task": false
+}

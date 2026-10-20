@@ -1,0 +1,374 @@
+{
+  "generated_at": "2026-10-20T15:10:02.684387+00:00",
+  "version": "R6.0-review",
+  "data_sha256": "adc11c3abe3eb1d191e5b124063c22376ede1278d5be203ab95778de56a7b226",
+  "bundle_sha256": "2f64af77bc704aa6a76b67b4ec07f51df452afe82792d1807e37304d60060d7b",
+  "app_sha256": "0944b5c5db1fcb0202fb56376b398c7f0b7590c46f31b0bc1c891a8433e8c9f3",
+  "browser": "Chromium 134.0.6998.35",
+  "load_method": "actual local file:// URL with browser network forcibly offline",
+  "checks": [
+    {
+      "name": "standalone file renders actual title",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "opening makes fictional status and prior park instruction explicit",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "empty submission rejected visibly",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "file URL localStorage survives reload",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "S01 solved with card controls",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "S02 solved with rotation and flip controls",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "S03 memorial identification diagram visible",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "exact 1995 overclaim rejected",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "share calibrates first park entry",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "S04 can directly read existing theatre dates and park opening evidence",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "calibration does not solve park interpretation",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "S04 camera building and purpose accepted",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "S05 name chain and relocation accepted",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "full route reaches complete ending and receipt",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "finale scene 2 accessible",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "finale scene 3 accessible",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "finale scene 4 accessible",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "finale scene 5 accessible",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "finale scene 6 accessible",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "finale can be replayed without new answers",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "ending selection updates completed receipt",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "English retains completion and uses translated ending",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "no horizontal overflow at 390",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "no horizontal overflow at 320",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "export contains release and all progress",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "challenge+solo correct park initial state",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "challenge+solo gets full early ending",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "challenge+solo all seven facts and souvenir retained",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "challenge+solo full visual scene 1",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "challenge+solo full visual scene 2",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "challenge+solo full visual scene 3",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "challenge+solo full visual scene 4",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "challenge+solo full visual scene 5",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "challenge+solo full visual scene 6",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "challenge+joint correct park initial state",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "challenge+joint gets full early ending",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "challenge+joint all seven facts and souvenir retained",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "challenge+joint full visual scene 1",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "challenge+joint full visual scene 2",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "challenge+joint full visual scene 3",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "challenge+joint full visual scene 4",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "challenge+joint full visual scene 5",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "challenge+joint full visual scene 6",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "share+solo correct park initial state",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "share+solo gets full early ending",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "share+solo all seven facts and souvenir retained",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "share+solo full visual scene 1",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "share+solo full visual scene 2",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "share+solo full visual scene 3",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "share+solo full visual scene 4",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "share+solo full visual scene 5",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "share+solo full visual scene 6",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "share+joint correct park initial state",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "share+joint gets full early ending",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "share+joint all seven facts and souvenir retained",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "share+joint full visual scene 1",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "share+joint full visual scene 2",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "share+joint full visual scene 3",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "share+joint full visual scene 4",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "share+joint full visual scene 5",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "share+joint full visual scene 6",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "strategy change does not reset begun park work",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "hints are free and capped at three",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "stage assistance is recorded and story remains complete",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "final assistance retains full receipt and finale",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "desktop never auto-claims on-site evidence",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "editing solved answer removes stale success display",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "unknown imported card is safely filtered",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "export imports and restores complete receipt",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "storage unavailable gives truthful export fallback",
+      "result": "PASS",
+      "detail": null
+    },
+    {
+      "name": "no automatic network requests",
+      "result": "PASS",
+      "detail": []
+    },
+    {
+      "name": "no JavaScript exceptions",
+      "result": "PASS",
+      "detail": []
+    }
+  ],
+  "javascript_errors": [],
+  "automatic_network_requests": [],
+  "scope": "UI controls, offline file loading, local persistence, hints, assistance, independent branches, early solution, import/export and responsive layout. No tourist blind test or on-site validation."
+}

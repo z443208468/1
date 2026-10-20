@@ -1,79 +1,41 @@
-# 东京五景点实景游戏｜R5历史优先重构
+# 东京五景点城市实景悬疑冒险｜R6完整审阅版
 
-2026-10-20。当前新故事为《东京脱框：不存在的1930》。**R2、R3、R3.1、R4故事已被用户否决，不再作为当前剧情基线；机制、史料、实拍研究和景点限制继续保留。**
+## 先读正式交接
 
-## 当前阅读入口
+接手项目请先完整阅读 [PROJECT_HANDOFF_FOR_NEXT_SESSION.md](PROJECT_HANDOFF_FOR_NEXT_SESSION.md)。其中的来源权威顺序、历史资料与冻结机制仍有效。**R2、R3、R3.1、R4、R5故事均已被用户否决，不能续写或换名重用。** 旧源代码、史料、实拍研究及历次文件全部保留。
 
-- [R5目录与提交顺序](revisions/R5_history_first_20261020/README.md)
-- [先行提交的详细创作流程](revisions/R5_history_first_20261020/00_WORKFLOW.md)
-- [历史事实与来源](revisions/R5_history_first_20261020/02_HISTORY_ATOMS.md)
-- [候选及实际否决理由](revisions/R5_history_first_20261020/03_CONNECTIONS_AND_CANDIDATES.md)
-- [五站联合因果合同](revisions/R5_history_first_20261020/04_FIVE_SITE_CAUSAL_CONTRACT.md)
-- [完整故事](revisions/R5_history_first_20261020/07_FULL_STORY.md)
-- [现场短版](revisions/R5_history_first_20261020/08_FIELD_TEXT.md)
-- [自查、修订与未验证边界](revisions/R5_history_first_20261020/09_REVIEW_AND_REPAIR.md)
+## 当前交付：《借景怪盗：消失的隅田川》 / The River Thief
 
-本次是故事文字层重构，**未接入下面的旧R3.1程序**。所有研究与源代码原路径保留；没有新增现场机关或场馆合作。新稿未获游客盲测、商业许可或用户剧情批准。
+版本：**R6.0-review**，2026-10-20。制作位于独立分支 `story/r6-history-adventure-20261020`，未覆盖旧游戏。完整双语玩家内容已接入新离线程序，并生成实际玩家PDF与设计指南。
 
-<details>
-<summary>以下为历史R4与R3.1说明，仅供档案／机制恢复，不代表当前故事获准</summary>
+- [完整交付ZIP](r6/release/Tokyo_Five_Sites_R6_Review_20261020.zip)（下载并解压）
+- [离线试玩HTML](r6/R6_Offline.html)（下载文件后直接打开）
+- [中文玩家题包，30页](r6/output/pdf/R6_Player_Kit_ZH.pdf)
+- [English player kit, 30 pages](r6/output/pdf/R6_Player_Kit_EN.pdf)
+- [完整设计指南](r6/output/pdf/R6_Designer_Guide.pdf)
+- [R6使用方法、构建命令与文件导航](r6/README.md)
 
-# 东京五景点实景解谜：R4故事修订与R3.1机制基线
+游客带着同一幅未完成的河景，沿纽扣博物馆外街角、两国桥、芭蕉免费展望庭园、浜町公园、明治座外的固定路线，拆解一个旅行影戏怪盗的退场。五站的操作逐步改变构图、题签、摄影年代的解释与取景方案；终局在同一景框里完成完整退场。
 
-## 最新：只改故事的R4修订
+## 可复核的制作与验证
 
-2026-10-20。新稿《借景急便：首演取消之前》已完成研究、人物、全文、现场短版与兼容审查。
+- [创作前论文与叙事研究](r6/research/00_NARRATIVE_RESEARCH.md)
+- [历史来源与因果边界](r6/research/01_HISTORY_AND_CAUSALITY.md)
+- [候选、否决与独立复核入口](r6/research/README.md)
+- [完整剧本、人物行动与真相时间线](r6/design/01_STORY_AND_TRUTH.md)
+- [五关机制与故事合同](r6/design/02_FIVE_STAGE_CONTRACTS.md)
+- [主持与完整纸面结尾](r6/design/03_HOST_AND_PAPER_ENDING.md)
+- [运营、路线与成本假设](r6/design/04_OPERATIONS_AND_COSTS.md)
+- [保留机制、变更边界与剩余体验风险](r6/design/05_MECHANICS_PRESERVATION_AND_LIMITS.md)
+- [实际测试范围与未执行事项](r6/qa/RELEASE_REVIEW.md)
+- [发布包解压校验](r6/release/package_validation.json)
 
-- [R4目录与研究说明](revisions/R4_story_20261020/README.md)
-- [完整新故事](revisions/R4_story_20261020/story/01_FULL_STORY.md)
-- [现场短版](revisions/R4_story_20261020/story/02_PLAYER_TEXT.md)
-- [兼容审查与边界](revisions/R4_story_20261020/story/04_COMPATIBILITY_AUDIT.md)
+原机制引擎与原题图保持字节一致，五关答案、终局七项、免费提示、辅助、早解与四种选择组合保留。正式R6内容已执行29项逻辑检查、445种组合枚举、72项离线浏览器检查和49项画面检查；另有71项静态内容核验。逐项证据保存在 `r6/qa/`，这些不是故事质量评分。
 
-五关机制按用户上传R3.1冻结。**新故事尚未接入下方旧离线程序；未获游客盲测或商业发行通过。** 原故事、代码与历史研究保留。
+**当前状态是完整、可运行、可打印、可测试的审阅产品。** 独立提纲审查仅同意进入完整制作，没有替用户宣布故事好玩或感人。真实游客盲测、东京现场复走、实体打印裁切与商业使用确认尚未执行，记录明确标为 `NOT_RUN`。
 
-## 以下为保留的R3.1基线说明
+## 历史档案
 
-# 东京五景点实景解谜：研究档案与R3.1功能原型
+原69个跟踪文件中，除本入口说明外均保留原字节；此前根README另存于 [ROOT_README_BEFORE_R6.md](revisions/R5_history_first_20261020/ROOT_README_BEFORE_R6.md)。旧目录中的“当前”“最新”等字样是历史记录，不覆盖正式交接对R2—R5故事的否决。
 
-当前项目：《借景急便：旧名收件人》/ SCENE EXPRESS。2026-10-20。
-完整作者稿、五站规则、双语离线原型、可打印道具与软件检查已经交付；不是经过实际游客和商业许可验收的发行成品。
-
-## 阅读入口
-- `project/STATUS.md`：当前完成度与恢复入口。
-- `design/01_R3_STORY.md`：完整故事、人物与暗线。
-- `design/02_R3_MECHANICS.md`：五关题面规格、答案、提示与终局。
-- `commercial/01_PRODUCT_AND_COSTS.md`：产品假设、成本公式、运营检查。
-- `qa/02_R3_BENCHMARK_AND_LIMITS.md`：对标口径、已测试与未测试边界。
-- `research/`、`evidence/`、`methods/`、`requirements/`：历次文献、实拍对照、设计理论、用户要求和已否决方案，全部保留。
-
-## 从仓库源码构建
-需要Python 3与Node.js。仓库存的是源码；不要在未构建时将缺少data.js的index.html当作完整发布包。
-
-```sh
-python tools/build_release.py
-# 得到 R3_Offline.html、play/data.js、play/data.json、双语打印HTML
-```
-
-打开`R3_Offline.html`可离线试玩，打开`play/print.html`选择中/英文打印。构建过程中幂等应用第三关参考图等小修订，不联网、不读取用户原件。
-
-PDF和完整浏览器复现另需Python依赖`playwright`、`markdown-it-py`以及Chromium：
-```sh
-python -m pip install playwright markdown-it-py
-# 设置 CHROMIUM_PATH 为本机Chromium/Chrome可执行路径；默认/usr/bin/chromium
-python tools/build_release.py --pdf
-```
-
-```sh
-node qa/test_logic.js
-python qa/test_browser.py
-```
-
-下载交付ZIP已带生成后的离线页、双语PDF和设计PDF，不需要安装以上依赖。代码执行结果与测试范围见qa报告。原测试环境禁止文件导航，采用精确离线HTML内容注入；不声称已部署网页或原生持久化验收。
-
-## 不变约束
-起点纽扣博物馆外部→两国桥→芭蕉免费区域→浜町公园→明治座外观；无新必去景点，不购额外场馆门票，不把明治座当获准使用的舞台。不采用第六颗纽扣旧案、日月拆字、公园编号密码、未证实的球纹机关。
-
-## 公开范围
-仓库为public；不发布原始路人图像、车牌、精确位置元数据、私人聊天或原视频，不附字体文件。研究为独立摘要与来源索引，不镜像第三方全文、付费题包或馆藏高清图。功能图为原创示意，不是官方测绘或历史原图。现实场馆没有为本产品提供合作授权。
-
-</details>
+本仓库是公开项目。不附私人实拍原件、付费题包、第三方全文或字体文件；示意图不冒充历史原图或现场测绘。现实场馆没有被写成合作方。
