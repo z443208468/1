@@ -1,0 +1,10 @@
+{
+  "original_zip_files": 34,
+  "original_files_unchanged": 34,
+  "original_zip_sha256": "570fdfb2b52f037978e3113f101f3ad6034a3b6219914968ee107aee71903144",
+  "core_answer_projection_unchanged": true,
+  "review": "author_static_review_not_independent_or_playtest",
+  "game_code_modified": false,
+  "story_integrated_into_game": false,
+  "blind_test_performed": false
+}

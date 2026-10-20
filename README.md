@@ -1,3 +1,23 @@
+# 东京五景点实景游戏｜R5历史优先重构
+
+2026-10-20。当前新故事为《东京脱框：不存在的1930》。**R2、R3、R3.1、R4故事已被用户否决，不再作为当前剧情基线；机制、史料、实拍研究和景点限制继续保留。**
+
+## 当前阅读入口
+
+- [R5目录与提交顺序](revisions/R5_history_first_20261020/README.md)
+- [先行提交的详细创作流程](revisions/R5_history_first_20261020/00_WORKFLOW.md)
+- [历史事实与来源](revisions/R5_history_first_20261020/02_HISTORY_ATOMS.md)
+- [候选及实际否决理由](revisions/R5_history_first_20261020/03_CONNECTIONS_AND_CANDIDATES.md)
+- [五站联合因果合同](revisions/R5_history_first_20261020/04_FIVE_SITE_CAUSAL_CONTRACT.md)
+- [完整故事](revisions/R5_history_first_20261020/07_FULL_STORY.md)
+- [现场短版](revisions/R5_history_first_20261020/08_FIELD_TEXT.md)
+- [自查、修订与未验证边界](revisions/R5_history_first_20261020/09_REVIEW_AND_REPAIR.md)
+
+本次是故事文字层重构，**未接入下面的旧R3.1程序**。所有研究与源代码原路径保留；没有新增现场机关或场馆合作。新稿未获游客盲测、商业许可或用户剧情批准。
+
+<details>
+<summary>以下为历史R4与R3.1说明，仅供档案／机制恢复，不代表当前故事获准</summary>
+
 # 东京五景点实景解谜：R4故事修订与R3.1机制基线
 
 ## 最新：只改故事的R4修订
@@ -55,3 +75,5 @@ python qa/test_browser.py
 
 ## 公开范围
 仓库为public；不发布原始路人图像、车牌、精确位置元数据、私人聊天或原视频，不附字体文件。研究为独立摘要与来源索引，不镜像第三方全文、付费题包或馆藏高清图。功能图为原创示意，不是官方测绘或历史原图。现实场馆没有为本产品提供合作授权。
+
+</details>
