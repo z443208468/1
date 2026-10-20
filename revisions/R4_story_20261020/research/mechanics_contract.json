@@ -1,0 +1,334 @@
+{
+  "version": "R3.1",
+  "stages": [
+    {
+      "id": "s1",
+      "type": "sequence",
+      "fields": [
+        {
+          "id": "reading",
+          "label": {
+            "zh": "应采用哪种读取方式？",
+            "en": "Which reading is justified?"
+          },
+          "options": [
+            [
+              "occlusion",
+              {
+                "zh": "保留前景：不同层次组成同一街景",
+                "en": "Keep the foreground: the layers belong to one view"
+              }
+            ],
+            [
+              "damage",
+              {
+                "zh": "补出所有缺失文字，当成完整地址",
+                "en": "Invent the missing text and treat each as an address"
+              }
+            ],
+            [
+              "touch",
+              {
+                "zh": "移动现场路牌来恢复画面",
+                "en": "Move the real sign to reveal the view"
+              }
+            ]
+          ]
+        }
+      ],
+      "answer": {
+        "order": [
+          "tower",
+          "sign",
+          "roof"
+        ],
+        "reading": "occlusion"
+      }
+    },
+    {
+      "id": "s2",
+      "type": "river",
+      "fields": [
+        {
+          "id": "stage",
+          "label": {
+            "zh": "舞台称呼",
+            "en": "Stage name"
+          },
+          "options": [
+            [
+              "inase",
+              {
+                "zh": "稲瀬川 / Inase",
+                "en": "Inase River"
+              }
+            ],
+            [
+              "sumida",
+              {
+                "zh": "隅田川 / Sumida",
+                "en": "Sumida River"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "place",
+          "label": {
+            "zh": "真实借景地",
+            "en": "Real scenery"
+          },
+          "options": [
+            [
+              "sumida",
+              {
+                "zh": "隅田川 / Sumida",
+                "en": "Sumida River"
+              }
+            ],
+            [
+              "inase",
+              {
+                "zh": "稲瀬川 / Inase",
+                "en": "Inase River"
+              }
+            ]
+          ]
+        }
+      ],
+      "answer": {
+        "rotation": 0,
+        "mirror": false,
+        "stage": "inase",
+        "place": "sumida"
+      }
+    },
+    {
+      "id": "s3",
+      "type": "timeline",
+      "fields": [
+        {
+          "id": "life",
+          "label": {
+            "zh": "芭蕉迁居深川",
+            "en": "Basho moved to Fukagawa"
+          },
+          "options": [
+            [
+              1680,
+              "1680"
+            ],
+            [
+              1930,
+              "1930"
+            ],
+            [
+              1995,
+              "1995"
+            ]
+          ]
+        },
+        {
+          "id": "earliest",
+          "label": {
+            "zh": "题图所示现代设施的摄影年代下界",
+            "en": "Lower bound for a photograph of this setting"
+          },
+          "options": [
+            [
+              1930,
+              "1930"
+            ],
+            [
+              1981,
+              "1981"
+            ],
+            [
+              1995,
+              "1995"
+            ]
+          ]
+        },
+        {
+          "id": "dateMeaning",
+          "label": {
+            "zh": "这个下界究竟能证明什么？",
+            "en": "What does this lower bound establish?"
+          },
+          "options": [
+            [
+              "lower_bound",
+              {
+                "zh": "1995年或之后；不能推出具体拍摄年",
+                "en": "1995 or later; not the exact year"
+              }
+            ],
+            [
+              "exact",
+              {
+                "zh": "必定摄于1995年",
+                "en": "Exactly 1995"
+              }
+            ],
+            [
+              "1930",
+              {
+                "zh": "纪念古人，所以1930一定成立",
+                "en": "It commemorates an old person, so 1930 must be valid"
+              }
+            ]
+          ]
+        }
+      ],
+      "answer": {
+        "life": 1680,
+        "earliest": 1995,
+        "dateMeaning": "lower_bound"
+      }
+    },
+    {
+      "id": "s4",
+      "type": "park",
+      "fields": [
+        {
+          "id": "camera",
+          "label": {
+            "zh": "哪一侧能产生题图的前后关系？",
+            "en": "Which camera side gives the reference view?"
+          },
+          "options": [
+            [
+              "playground",
+              {
+                "zh": "游乐区域一侧",
+                "en": "Playground side"
+              }
+            ],
+            [
+              "river",
+              {
+                "zh": "河岸一侧",
+                "en": "River side"
+              }
+            ],
+            [
+              "entrance",
+              {
+                "zh": "圆形主入口一侧",
+                "en": "Circular-entrance side"
+              }
+            ],
+            [
+              "field",
+              {
+                "zh": "大运动场一侧",
+                "en": "Large-field side"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "building",
+          "label": {
+            "zh": "题图中的大楼",
+            "en": "Building in the reference"
+          },
+          "options": [
+            [
+              "sports",
+              {
+                "zh": "体育中心",
+                "en": "Sports centre"
+              }
+            ],
+            [
+              "theatre",
+              {
+                "zh": "明治座",
+                "en": "Meijiza"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "purpose",
+          "label": {
+            "zh": "本页在原件中的用途",
+            "en": "Purpose of this page"
+          },
+          "options": [
+            [
+              "capture",
+              {
+                "zh": "CAPTURE AT：取景定位",
+                "en": "CAPTURE AT: view location"
+              }
+            ],
+            [
+              "delivery",
+              {
+                "zh": "DELIVER TO：收件地址",
+                "en": "DELIVER TO: recipient address"
+              }
+            ]
+          ]
+        }
+      ],
+      "answer": {
+        "rotation": 0,
+        "mirror": false,
+        "camera": "playground",
+        "building": "sports",
+        "purpose": "capture"
+      }
+    },
+    {
+      "id": "s5",
+      "type": "lineage",
+      "fields": [
+        {
+          "id": "move",
+          "label": {
+            "zh": "1928年应放进哪个栏目？",
+            "en": "Where does 1928 belong?"
+          },
+          "options": [
+            [
+              "location",
+              {
+                "zh": "同一身份链中的迁址与再开场",
+                "en": "Relocation/reopening within the identity history"
+              }
+            ],
+            [
+              "fifth",
+              {
+                "zh": "第五个剧场名字",
+                "en": "A fifth theatre name"
+              }
+            ]
+          ]
+        }
+      ],
+      "answer": {
+        "order": [
+          "kisho",
+          "hisamatsu",
+          "chitose",
+          "meiji"
+        ],
+        "move": "location"
+      }
+    }
+  ],
+  "finalAnswer": {
+    "scene": "sumida",
+    "stage": "inase",
+    "object": "contemporary",
+    "time": "1995_or_later",
+    "park": "capture_sports_playground",
+    "recipient": "meijiza",
+    "channel": "game_receipt"
+  },
+  "source": "User attachment R3.1; immutable mechanics fields only"
+}

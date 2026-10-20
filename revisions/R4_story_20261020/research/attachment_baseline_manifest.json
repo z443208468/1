@@ -1,0 +1,245 @@
+{
+  "attachment": "Tokyo_Scene_Express_R3_1(1).zip",
+  "archive_sha256": "570fdfb2b52f037978e3113f101f3ad6034a3b6219914968ee107aee71903144",
+  "remote_baseline": "4b69f65423b54f92f2a2b3e6e3f5420be89beeea",
+  "files": [
+    {
+      "path": "MANIFEST.sha256",
+      "bytes": 2856,
+      "sha256": "9af7c1b4f65f2c033dfd4d55e3809294919f8c42d5df7d065951a56669c338b8",
+      "remote_copy_present": false,
+      "same_bytes_as_remote": null
+    },
+    {
+      "path": "R3_Designer_Guide.html",
+      "bytes": 43313,
+      "sha256": "14ca9ed61394519707531954b4058f9537dfd0d2baf9fdc135ad9845fb464f5b",
+      "remote_copy_present": false,
+      "same_bytes_as_remote": null
+    },
+    {
+      "path": "R3_Designer_Guide.pdf",
+      "bytes": 1397169,
+      "sha256": "38cb04a179ffd60c2cbebe25ba26ac19d062ffc4e14e89600c0e03a97e65af61",
+      "remote_copy_present": false,
+      "same_bytes_as_remote": null
+    },
+    {
+      "path": "R3_Offline.html",
+      "bytes": 58507,
+      "sha256": "8cfa78ebd32d5ab910d47ba75c1beea6ca3ae2550ec613b63b963df925b7e79e",
+      "remote_copy_present": false,
+      "same_bytes_as_remote": null
+    },
+    {
+      "path": "R3_Player_Kit_EN.pdf",
+      "bytes": 381922,
+      "sha256": "23ef5809a81b8ea469eb148f5ad60be35848d106c1f85d540d786b3df3d7d4d8",
+      "remote_copy_present": false,
+      "same_bytes_as_remote": null
+    },
+    {
+      "path": "R3_Player_Kit_ZH.pdf",
+      "bytes": 1058756,
+      "sha256": "53a40d7584cc001390a5ee5cf302999ef684545bc32bc61f0e4b29c82cbfea72",
+      "remote_copy_present": false,
+      "same_bytes_as_remote": null
+    },
+    {
+      "path": "README.md",
+      "bytes": 2581,
+      "sha256": "9f21304bc8ddfcb02766c63a3434c0788647a8213ec760be652301257fc7da6c",
+      "remote_copy_present": true,
+      "same_bytes_as_remote": true
+    },
+    {
+      "path": "commercial/01_PRODUCT_AND_COSTS.md",
+      "bytes": 4837,
+      "sha256": "354f7946d4c3912cf7f3845d52cf973a07c88927d4f6c88dfd5db6e466e3fcc0",
+      "remote_copy_present": true,
+      "same_bytes_as_remote": false
+    },
+    {
+      "path": "design/01_R3_STORY.md",
+      "bytes": 16072,
+      "sha256": "2f624eaa58fab3b5e97610134d45d01aa839f3c677e8b7827486d8158d7779ae",
+      "remote_copy_present": true,
+      "same_bytes_as_remote": false
+    },
+    {
+      "path": "design/02_R3_MECHANICS.md",
+      "bytes": 11509,
+      "sha256": "c32987c661b95f49d87973739a0acdc48a137c893bee51414267de6e010caf16",
+      "remote_copy_present": true,
+      "same_bytes_as_remote": false
+    },
+    {
+      "path": "play/app.js",
+      "bytes": 13202,
+      "sha256": "3bb1c343144f66a97458ae86e646a78c2897da02b2dbf5d7d3140586f3905f65",
+      "remote_copy_present": true,
+      "same_bytes_as_remote": false
+    },
+    {
+      "path": "play/data.js",
+      "bytes": 33198,
+      "sha256": "c72ce8bc6a35a080ff1fca1f7395497a508afe5010b425ff59497394e98d0e9f",
+      "remote_copy_present": false,
+      "same_bytes_as_remote": null
+    },
+    {
+      "path": "play/data.json",
+      "bytes": 33179,
+      "sha256": "5b3a895d6372336d893e4aaa57d119d349d489cb086abc332fb7c7512c673322",
+      "remote_copy_present": false,
+      "same_bytes_as_remote": null
+    },
+    {
+      "path": "play/engine.js",
+      "bytes": 1659,
+      "sha256": "fb7ccae9cff6a0021c9f77142b316a6972cdee7609809a77fd3965b08b31806e",
+      "remote_copy_present": true,
+      "same_bytes_as_remote": true
+    },
+    {
+      "path": "play/figures.js",
+      "bytes": 6236,
+      "sha256": "6828468ae94b026ba9dfa250231009b51593817d9ef01244ac107db75b768d40",
+      "remote_copy_present": true,
+      "same_bytes_as_remote": false
+    },
+    {
+      "path": "play/index.html",
+      "bytes": 1032,
+      "sha256": "278e5687470f819e2eee028ecd6a981ac3bf4fbcb30dffd868625abab8b172a7",
+      "remote_copy_present": true,
+      "same_bytes_as_remote": true
+    },
+    {
+      "path": "play/print.html",
+      "bytes": 218,
+      "sha256": "86c5964eae5adefc38eb89b60eb2d03ae8eb1dbdeb82866a05c0110659ab0690",
+      "remote_copy_present": false,
+      "same_bytes_as_remote": null
+    },
+    {
+      "path": "play/print_en.html",
+      "bytes": 29982,
+      "sha256": "e98fe75f995e5e560911725fb26ec1ea328d4c2531eeaef5fffcf636fa161319",
+      "remote_copy_present": false,
+      "same_bytes_as_remote": null
+    },
+    {
+      "path": "play/print_zh.html",
+      "bytes": 28943,
+      "sha256": "37e4abbf58afdaaba48eef5d515473eac081f54826c6a245c49b3fe58ba6bfe5",
+      "remote_copy_present": false,
+      "same_bytes_as_remote": null
+    },
+    {
+      "path": "play/style.css",
+      "bytes": 3260,
+      "sha256": "b4419f21c83b59e64e8e0fe555af52f761fa6aae04ebd73e7a04fe8afb5d1bee",
+      "remote_copy_present": true,
+      "same_bytes_as_remote": true
+    },
+    {
+      "path": "project/RELEASE.json",
+      "bytes": 398,
+      "sha256": "d242fc35c213d17958356cd008f6ebea0760cdd0359d062d5efe08773e9e8cba",
+      "remote_copy_present": false,
+      "same_bytes_as_remote": null
+    },
+    {
+      "path": "project/STATUS.md",
+      "bytes": 2210,
+      "sha256": "82fb18b17a2555a5ea6b58803c3ecdb4b706a2a4fb1795ee8f12f959d4e1d2a7",
+      "remote_copy_present": true,
+      "same_bytes_as_remote": true
+    },
+    {
+      "path": "qa/02_R3_BENCHMARK_AND_LIMITS.md",
+      "bytes": 4717,
+      "sha256": "550a7a6e4c4b9b5862cff055b40403884b5a5b94e1f3449c26bb186df0752773",
+      "remote_copy_present": true,
+      "same_bytes_as_remote": false
+    },
+    {
+      "path": "qa/browser_results.json",
+      "bytes": 1921,
+      "sha256": "fda5b72e067545fe398677b406e806ddc87b4a0faca8f9149e516ee1a6ea50b8",
+      "remote_copy_present": true,
+      "same_bytes_as_remote": false
+    },
+    {
+      "path": "qa/logic_results.json",
+      "bytes": 3574,
+      "sha256": "dc34e223ce15fcc0761699be09bd2affcbca906392b3ab74bfdec9b1ebb44084",
+      "remote_copy_present": true,
+      "same_bytes_as_remote": false
+    },
+    {
+      "path": "qa/pdf_results.json",
+      "bytes": 375,
+      "sha256": "cdf25ff869bbdafcb657a4aed2faa910946730132284b54ae3c46edd9f3c467f",
+      "remote_copy_present": true,
+      "same_bytes_as_remote": false
+    },
+    {
+      "path": "qa/test_browser.py",
+      "bytes": 5359,
+      "sha256": "463494116dae506c420574e078a9847f4f36f60d6446587d7be879f0c61a4a55",
+      "remote_copy_present": true,
+      "same_bytes_as_remote": false
+    },
+    {
+      "path": "qa/test_logic.js",
+      "bytes": 4498,
+      "sha256": "a9a192a8db43c1f343ebaf9b4d059bc8c4be7ff75aef50bd64276b52324ea69f",
+      "remote_copy_present": true,
+      "same_bytes_as_remote": true
+    },
+    {
+      "path": "research/05_R3_SOURCE_LINKS.md",
+      "bytes": 1207,
+      "sha256": "d064b5a3b984a50dfa38ebb53f097909a15ddd517d95c9b822d2ed815bc30500",
+      "remote_copy_present": true,
+      "same_bytes_as_remote": true
+    },
+    {
+      "path": "tools/apply_release_refinements.py",
+      "bytes": 3189,
+      "sha256": "195cc9c82acc97a6c2146d50c8c08182c077f35a1c954ea08f81d777a75f34f5",
+      "remote_copy_present": true,
+      "same_bytes_as_remote": true
+    },
+    {
+      "path": "tools/build_data.py",
+      "bytes": 23444,
+      "sha256": "3839ddccc5e77d24c46a32917fa9e9f73e37fe1f2e97b01a9628d56906ee8b71",
+      "remote_copy_present": true,
+      "same_bytes_as_remote": false
+    },
+    {
+      "path": "tools/build_print.py",
+      "bytes": 15064,
+      "sha256": "2d38163c9b2a41d71a23b59a7d1a908fcb6e736067bf684ade14234f5281cb0c",
+      "remote_copy_present": true,
+      "same_bytes_as_remote": false
+    },
+    {
+      "path": "tools/build_release.py",
+      "bytes": 872,
+      "sha256": "ca6c902a870f2933e57163587b9ea660fadf21ca3e522297aff56c34afb74719",
+      "remote_copy_present": true,
+      "same_bytes_as_remote": true
+    },
+    {
+      "path": "tools/render_guide.py",
+      "bytes": 1997,
+      "sha256": "5b542c9d4ea3d3224f758517a92f7b479d387a89ec1a5f64c572b962c9c52e27",
+      "remote_copy_present": true,
+      "same_bytes_as_remote": true
+    }
+  ]
+}
