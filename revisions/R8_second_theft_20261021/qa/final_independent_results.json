@@ -1,0 +1,1049 @@
+{
+  "reviewer": "/root/game_design_research",
+  "scope": "Independent source/design inspection and targeted actual-browser actions. The reviewer already knows the answers; this is not a blind playtest, a human test or fieldwork.",
+  "artifact": "R8_Offline.html",
+  "artifactSha256": "deffa64d0384bd101c37262aa0bfe3b0ab51127ca6e1763295f9252275f8e809",
+  "artifactBytes": 122493,
+  "sourceHashes": {
+    "content.json": "ccbbbc4b3dc8ba8d4a7f05edc436e58e25bb57df1eba9eda8b123fc919e69990",
+    "app.js": "f5bf5830904b761a8e0b0064bdbe0f5e67bbdb2bb524df9f1b8f5f6f514b2212",
+    "engine.js": "51692669d77e3d4b13a3a44e6ddcd8aa3a3b901e9a288fc3a7ab62293bc93559",
+    "figures.js": "f1da1572be28839f457b8211f3c281b5ae388e304fa629116bc90d2cdf30b36c"
+  },
+  "screenshotDirectory": "/workspace/scratch/04ab10133470/work/final_independent_review",
+  "checks": [
+    {
+      "id": "S03_zh_default_labels_do_not_assign_date_or_bound",
+      "passed": true,
+      "evidence": {
+        "dateLabel": "所读纪年对应哪一载体？",
+        "rangeLabel": "这项纪年可约束哪种材料？"
+      }
+    },
+    {
+      "id": "S03_zh_default_recognition_figure_is_not_solution_chain",
+      "passed": true,
+      "evidence": {
+        "sourceChainCount": 0,
+        "defaultText": "S03 / 芭蕉史迹展望庭园（免费屋顶）\n古人没有活在这张照片里\nA图自称“1930年未经改动的现场原照”。先核对其中描绘的对象和载体，看看这个说法能否成立。B图的“昨夜”则是另一项主张。\n现场任务；到场未认证\n在免费庭园比较题图与现场坐像、像座说明和整体环境。词表：原画=original portrait；模写=copy；制作=making。注意纪年属于哪一句话。不依赖坐像朝向，也不把本馆园内物件当作本地点。\n启用备用观察（留痕）\n连接四张载体卡。读取像座所见的纪年，将它放到对应载体；再判断它能约束销售图的什么范围。分别检验A、B和交出景芯的要求，选出当前证据支持撤回的主张。\n\n只用于识别完整纪念设施；不固定铜像朝向。\n\n包含完整设施的照片\n当代铜像\n后世模写\n肖像原画\n清空排列\n所读纪年对应哪一载体？\n选择你的判断\n肖像原画\n后世模写\n当代铜像\n包含完整设施的照片\n这项纪年可约束哪种材料？\n选择你的判断\n肖像原画\n后世模写\n当代铜像\n包含完整设施的照片\n像座上纪念设施的年代\n选择你的判断\n1680\n1930\n1995\n日期能证明到哪一步？\n选择你的判断\n不早于此年；不是精确拍摄年\n精确在此年拍摄\n只撤回哪项主张？\n选择你的判断\n只撤 A：1930 未经改动的实拍\n连同昨夜失窃一起否定\n直接证明景芯归谁\n提交本次判断\n免费提示 0/3\n取得完整解法（留痕）\n查看资料（记为辅助参照）\n下一站浜町公园：把“镜头在哪里”与“画里的对象在哪里”分开，再看同次演示如何留下假证言。\n建议路线：下一站\n随时检验全案"
+      }
+    },
+    {
+      "id": "S03_zh_history_is_explicit_recorded_source_action",
+      "passed": true,
+      "evidence": {
+        "reference": "field"
+      }
+    },
+    {
+      "id": "S03_zh_history_open_records_fallback_and_displays_source",
+      "passed": true,
+      "evidence": {
+        "reference": "fallback",
+        "records": [
+          "claims",
+          "date_source"
+        ]
+      }
+    },
+    {
+      "id": "S03_en_default_labels_do_not_assign_date_or_bound",
+      "passed": true,
+      "evidence": {
+        "dateLabel": "Which carrier does the observed date belong to?",
+        "rangeLabel": "Which material can this date constrain?"
+      }
+    },
+    {
+      "id": "S03_en_default_recognition_figure_is_not_solution_chain",
+      "passed": true,
+      "evidence": {
+        "sourceChainCount": 0,
+        "defaultText": "S03 / BASHO HISTORIC VIEWING GARDEN — FREE ROOFTOP AREA\nThe old figure is a later object\nImage A claims to be an unaltered original photograph from 1930. Identify the object and image carrier it depicts, and test that claim. Image B makes a separate claim about last night.\nField task; attendance not verified\nIn the free garden, compare the task image with the statue, its plaque and the surrounding setting. Word key: 原画 = original portrait; 模写 = copy; 制作 = making. Notice which statement the date belongs to. Do not rely on the statue’s orientation or objects in the separate museum garden.\nUse backup observation (recorded)\nConnect the four image-carrier cards. Read the date on the statue plaque and assign it to the carrier it describes. Decide what, if anything, it constrains about the sales image. Consider A, B and the demand for the inserts separately. Select the claim the evidence supports rejecting.\n\nRecognition of the complete memorial only; the statue’s orientation is not an answer.\n\nPhotograph of complete facilities\nModern bronze\nLater copy\nOriginal portrait\nClear order\nWhich carrier does the observed date belong to?\nChoose your conclusion\nOriginal portrait\nLater copy\nModern bronze\nPhotograph of complete facilities\nWhich material can this date constrain?\nChoose your conclusion\nOriginal portrait\nLater copy\nModern bronze\nPhotograph of complete facilities\nDate attached to the memorial\nChoose your conclusion\n1680\n1930\n1995\nWhat does that date establish?\nChoose your conclusion\nNo earlier than this year; not an exact photo date\nPhotographed in exactly this year\nWhich claim alone is disproved?\nChoose your conclusion\nOnly A: an unaltered on-site photo from 1930\nAlso disprove last night’s theft\nEstablish who owns the scene core\nCheck this answer\nFree hint 0/3\nUse complete solution (recorded)\nRead source material (recorded as reference use)\nNext: Hamacho Park. Separate the camera position from the subject position, then test the same-session demonstration record.\nSuggested route: next stop\nCheck the case at any time"
+      }
+    },
+    {
+      "id": "S03_en_history_is_explicit_recorded_source_action",
+      "passed": true,
+      "evidence": {
+        "reference": "field"
+      }
+    },
+    {
+      "id": "S03_en_history_open_records_fallback_and_displays_source",
+      "passed": true,
+      "evidence": {
+        "reference": "fallback",
+        "records": [
+          "claims",
+          "date_source"
+        ]
+      }
+    },
+    {
+      "id": "S03_direction_hint_vs_answer_hint_provenance",
+      "passed": true,
+      "evidence": {
+        "h1": "field",
+        "h2": "assisted_reference"
+      }
+    },
+    {
+      "id": "S05_default_task_does_not_supply_core_matching_answers",
+      "passed": true,
+      "evidence": {
+        "defaultText": "S05 / 明治座外公共步道\n第二次失窃，由你叫停\n从西两国露天戏棚延续而来的剧场，换过名字，也迁过地址。但这条真实历史没有把你手里的现代作品变成鹭泽的藏品。不要再追一个地址；现在处理交接。\n现场任务；到场未认证\n在不妨碍通行的位置确认今日剧场实体名称。完整年表不在已确认的外墙；本题沿革资料随包提供，不需要进场、问员工或找外墙密码。\n启用备用观察（留痕）\n将名字与迁址信息分到两条轨道，再把几份原记录与鹭泽的主张并排，决定每份证据实际回答哪个问题。核心事件可以在任意站检验；来源年代另记，不需要为了结算补齐所有题。选择公开处理或受控重演，最后执行物件归还。\n明治座\n千歳座\n久松座\n喜昇座\n清空排列\n1928 · 迁到今浜町公园附近后重新开场\n1928 年变化应放哪条轨？\n选择你的判断\n地址变化轨\n第五个名字\n进入真正的终局：分开主张与证据\n提交本次判断\n免费提示 0/3\n取得完整解法（留痕）\n随身资料与来源边界\n在此完成结局，或在任何方便的公共休息处完成。终点没有真人NPC，也没有需要领取的剧院票。\n随时检验全案"
+      }
+    },
+    {
+      "id": "S05_supplied_timeline_remains_accessible_and_logged",
+      "passed": true,
+      "evidence": {
+        "reference": "fallback"
+      }
+    },
+    {
+      "id": "early_refusal_and_spoiler_survive_reload_without_proving_case",
+      "passed": true,
+      "evidence": {
+        "earlyStopped": true,
+        "spoilerViewed": true,
+        "world": {
+          "coreHolder": "player",
+          "frameHolder": "narumi",
+          "transfer": "paused",
+          "frameDelivery": "unconfirmed",
+          "brokerRequest": "REQUEST_FRONT",
+          "brokerKnowsChallenge": false,
+          "recordRecipients": [],
+          "caseProven": false,
+          "sourceDateVerified": false,
+          "earlyRefusal": true,
+          "proofRoute": "records_and_claims_not_stamps"
+        }
+      }
+    },
+    {
+      "id": "D17_six_frames_match_opening_and_keep_original_disk_features",
+      "passed": true,
+      "evidence": {
+        "frames": [
+          {
+            "label": "D-17 · 00:00",
+            "diskCount": 1,
+            "cx": "160",
+            "cy": "90",
+            "screenX": "20",
+            "nick": "M44 23L49 31L54 23",
+            "crease": "M27 149L59 155L98 149L134 157"
+          },
+          {
+            "label": "D-17 · 00:01",
+            "diskCount": 1,
+            "cx": "160",
+            "cy": "90",
+            "screenX": "72.19999999999999",
+            "nick": "M44 23L49 31L54 23",
+            "crease": "M27 149L59 155L98 149L134 157"
+          },
+          {
+            "label": "D-17 · 00:02",
+            "diskCount": 1,
+            "cx": "160",
+            "cy": "90",
+            "screenX": "136",
+            "nick": "M44 23L49 31L54 23",
+            "crease": "M27 149L59 155L98 149L134 157"
+          },
+          {
+            "label": "D-17 · 00:03",
+            "diskCount": 1,
+            "cx": "160",
+            "cy": "90",
+            "screenX": "72.19999999999999",
+            "nick": "M44 23L49 31L54 23",
+            "crease": "M27 149L59 155L98 149L134 157"
+          },
+          {
+            "label": "D-17 · 00:04",
+            "diskCount": 1,
+            "cx": "160",
+            "cy": "90",
+            "screenX": "20",
+            "nick": "M44 23L49 31L54 23",
+            "crease": "M27 149L59 155L98 149L134 157"
+          },
+          {
+            "label": "D-17 · 00:05 · SIDE",
+            "diskCount": 1,
+            "cx": "160",
+            "cy": "90",
+            "screenX": "20",
+            "nick": "M44 23L49 31L54 23",
+            "crease": "M27 149L59 155L98 149L134 157"
+          }
+        ],
+        "openingB1Matches": true,
+        "openingB2Matches": true
+      }
+    },
+    {
+      "id": "quiet_expose_same_entry_and_early_proof",
+      "passed": true,
+      "evidence": {
+        "entryHash": "6dfb776b314b1c3db6087652e6f9a364776ccc403add829dc354201dd5c89c54",
+        "records": [
+          "claims",
+          "loan",
+          "production",
+          "d17"
+        ],
+        "acceptedStages": 0
+      }
+    },
+    {
+      "id": "quiet_expose_opponent_request_reads_actual_disclosure",
+      "passed": true,
+      "evidence": {
+        "coreHolder": "player",
+        "frameHolder": "narumi",
+        "transfer": "paused",
+        "frameDelivery": "paused",
+        "brokerRequest": "REQUEST_FRONT",
+        "brokerKnowsChallenge": false,
+        "recordRecipients": [],
+        "caseProven": true,
+        "sourceDateVerified": false,
+        "earlyRefusal": false,
+        "proofRoute": "records_and_claims_not_stamps"
+      }
+    },
+    {
+      "id": "quiet_expose_completed_outcome_reads_correct_route",
+      "passed": true,
+      "evidence": {
+        "completion": {
+          "disclosure": "quiet",
+          "resolution": "expose",
+          "alertedBefore": false,
+          "claims": {
+            "date": "",
+            "theft": "d17",
+            "custody": "loan_production",
+            "conclusion": "subject_not_title"
+          },
+          "records": [
+            "claims",
+            "loan",
+            "production",
+            "d17"
+          ],
+          "replay": {
+            "secured": false,
+            "insert": "empty",
+            "mask": 0,
+            "view": "front",
+            "frontSeen": false,
+            "sideSeen": false,
+            "diskStayed": true
+          },
+          "coreHolder": "akari",
+          "frameHolder": "akari",
+          "transfer": "cancelled",
+          "sourceDateVerified": false
+        },
+        "world": {
+          "coreHolder": "akari",
+          "frameHolder": "akari",
+          "transfer": "cancelled",
+          "frameDelivery": "returned",
+          "brokerRequest": "SALE_WITHDRAWN",
+          "brokerKnowsChallenge": true,
+          "recordRecipients": [
+            "akari",
+            "narumi",
+            "sagisawa"
+          ],
+          "caseProven": true,
+          "sourceDateVerified": false,
+          "earlyRefusal": false,
+          "proofRoute": "records_and_claims_not_stamps"
+        },
+        "receiptText": "RESOLUTION / 已经发生的处置\n第二次失窃没有发生\n你把两幅裁图和D-17并排，再把借用单与灯的完整制作记录放在一起：“这是演示被说成失窃；这才是今天的借用关系。我们不把片交给你。”\n鹭泽停下催交，改称供货争议并取消此次接收。他没有认下所有指控，也没有继续取得景芯。鸣海撤销那条被归给自己的见证，按原安排归还外框。你执行归还景芯，留下完整副本。A若尚未查验，就保留未核状态。\n真景芯\n已由玩家归还灯\n外框\n已由鸣海归还灯\n本次转交\n向鹭泽的转交已取消\n披露顺序\n先保密；结算时呈现证据\n处置方式\n独立证据公开质证\n核心取物\n由L+D、B与D-17对照证成\nA 来源年代\n本轮未独立核验\n先前拒交\n结算时取消\n\n这是虚构游戏的完成记录，不证明真实到场、真人测试或商业授权。\n\n打印这份记录"
+      }
+    },
+    {
+      "id": "completed_save_reload_import_and_old_draft_edit_preserve_events",
+      "passed": true,
+      "evidence": {
+        "reloaded": {
+          "coreHolder": "akari",
+          "frameHolder": "akari",
+          "transfer": "cancelled",
+          "frameDelivery": "returned",
+          "brokerRequest": "SALE_WITHDRAWN",
+          "brokerKnowsChallenge": true,
+          "recordRecipients": [
+            "akari",
+            "narumi",
+            "sagisawa"
+          ],
+          "caseProven": true,
+          "sourceDateVerified": false,
+          "earlyRefusal": false,
+          "proofRoute": "records_and_claims_not_stamps"
+        },
+        "imported": {
+          "coreHolder": "akari",
+          "frameHolder": "akari",
+          "transfer": "cancelled",
+          "frameDelivery": "returned",
+          "brokerRequest": "SALE_WITHDRAWN",
+          "brokerKnowsChallenge": true,
+          "recordRecipients": [
+            "akari",
+            "narumi",
+            "sagisawa"
+          ],
+          "caseProven": true,
+          "sourceDateVerified": false,
+          "earlyRefusal": false,
+          "proofRoute": "records_and_claims_not_stamps"
+        },
+        "edited": {
+          "coreHolder": "akari",
+          "frameHolder": "akari",
+          "transfer": "cancelled",
+          "frameDelivery": "returned",
+          "brokerRequest": "SALE_WITHDRAWN",
+          "brokerKnowsChallenge": true,
+          "recordRecipients": [
+            "akari",
+            "narumi",
+            "sagisawa"
+          ],
+          "caseProven": true,
+          "sourceDateVerified": false,
+          "earlyRefusal": false,
+          "proofRoute": "records_and_claims_not_stamps"
+        }
+      }
+    },
+    {
+      "id": "quiet_replay_same_entry_and_early_proof",
+      "passed": true,
+      "evidence": {
+        "entryHash": "6dfb776b314b1c3db6087652e6f9a364776ccc403add829dc354201dd5c89c54",
+        "records": [
+          "claims",
+          "loan",
+          "production",
+          "d17"
+        ],
+        "acceptedStages": 0
+      }
+    },
+    {
+      "id": "quiet_replay_opponent_request_reads_actual_disclosure",
+      "passed": true,
+      "evidence": {
+        "coreHolder": "player",
+        "frameHolder": "narumi",
+        "transfer": "paused",
+        "frameDelivery": "paused",
+        "brokerRequest": "REQUEST_FRONT",
+        "brokerKnowsChallenge": false,
+        "recordRecipients": [],
+        "caseProven": true,
+        "sourceDateVerified": false,
+        "earlyRefusal": false,
+        "proofRoute": "records_and_claims_not_stamps"
+      }
+    },
+    {
+      "id": "quiet_replay_cannot_finish_without_actions",
+      "passed": true,
+      "evidence": {
+        "feedback": "请先保管真景芯、置入演示片、移遮片形成正面图，再打开旁视。"
+      }
+    },
+    {
+      "id": "quiet_replay_actual_occlusion_keeps_disk",
+      "passed": true,
+      "evidence": {
+        "disks": 1,
+        "screenX": 136,
+        "cx": 160,
+        "r": 16
+      }
+    },
+    {
+      "id": "quiet_replay_side_shows_same_disk_on_separate_layer",
+      "passed": true,
+      "evidence": {
+        "replay": {
+          "secured": true,
+          "insert": "demo",
+          "mask": 100,
+          "view": "side",
+          "frontSeen": true,
+          "sideSeen": true,
+          "diskStayed": true
+        },
+        "feedback": "鹭泽仍要求正面确认；他至多确认画面相似，不等于承认盗窃。你再打开旁视，把这次可见状态确认与D-17并列保存。"
+      }
+    },
+    {
+      "id": "quiet_replay_completed_outcome_reads_correct_route",
+      "passed": true,
+      "evidence": {
+        "completion": {
+          "disclosure": "quiet",
+          "resolution": "replay",
+          "alertedBefore": false,
+          "claims": {
+            "date": "",
+            "theft": "d17",
+            "custody": "loan_production",
+            "conclusion": "subject_not_title"
+          },
+          "records": [
+            "claims",
+            "loan",
+            "production",
+            "d17"
+          ],
+          "replay": {
+            "secured": true,
+            "insert": "demo",
+            "mask": 100,
+            "view": "side",
+            "frontSeen": true,
+            "sideSeen": true,
+            "diskStayed": true
+          },
+          "coreHolder": "akari",
+          "frameHolder": "akari",
+          "transfer": "cancelled",
+          "sourceDateVerified": false
+        },
+        "world": {
+          "coreHolder": "akari",
+          "frameHolder": "akari",
+          "transfer": "cancelled",
+          "frameDelivery": "returned",
+          "brokerRequest": "SALE_WITHDRAWN",
+          "brokerKnowsChallenge": true,
+          "recordRecipients": [
+            "akari",
+            "narumi",
+            "sagisawa_front_record"
+          ],
+          "caseProven": true,
+          "sourceDateVerified": false,
+          "earlyRefusal": false,
+          "proofRoute": "records_and_claims_not_stamps"
+        },
+        "receiptText": "RESOLUTION / 已经发生的处置\n第二次失窃没有发生\n你先把真景芯留在保管区，只将斜线边演示圆片放进红匣。鹭泽尚未收到你的质疑，仍要求正面确认。遮片合上后，画面与他使用的裁图呈现相同的可见状态；这不等于他承认真物在匣里。\n你打开旁视：演示片一直在原槽，真景芯根本没有进入匣子。鸣海把这场新重演与D-17分开保存。鹭泽看到完整记录已公开，取消接收。你执行归还，失窃没有在你手上发生。\n真景芯\n已由玩家归还灯\n外框\n已由鸣海归还灯\n本次转交\n向鹭泽的转交已取消\n披露顺序\n先保密；结算时呈现证据\n处置方式\n实际完成前视与旁视重演\n核心取物\n由L+D、B与D-17对照证成\nA 来源年代\n本轮未独立核验\n先前拒交\n结算时取消\n\n这是虚构游戏的完成记录，不证明真实到场、真人测试或商业授权。\n\n打印这份记录"
+      }
+    },
+    {
+      "id": "announce_expose_same_entry_and_early_proof",
+      "passed": true,
+      "evidence": {
+        "entryHash": "6dfb776b314b1c3db6087652e6f9a364776ccc403add829dc354201dd5c89c54",
+        "records": [
+          "claims",
+          "loan",
+          "production",
+          "d17"
+        ],
+        "acceptedStages": 0
+      }
+    },
+    {
+      "id": "announce_expose_opponent_request_reads_actual_disclosure",
+      "passed": true,
+      "evidence": {
+        "coreHolder": "player",
+        "frameHolder": "narumi",
+        "transfer": "paused",
+        "frameDelivery": "paused",
+        "brokerRequest": "REQUEST_CONTINUOUS",
+        "brokerKnowsChallenge": true,
+        "recordRecipients": [],
+        "caseProven": true,
+        "sourceDateVerified": false,
+        "earlyRefusal": false,
+        "proofRoute": "records_and_claims_not_stamps"
+      }
+    },
+    {
+      "id": "announce_expose_completed_outcome_reads_correct_route",
+      "passed": true,
+      "evidence": {
+        "completion": {
+          "disclosure": "announce",
+          "resolution": "expose",
+          "alertedBefore": true,
+          "claims": {
+            "date": "",
+            "theft": "d17",
+            "custody": "loan_production",
+            "conclusion": "subject_not_title"
+          },
+          "records": [
+            "claims",
+            "loan",
+            "production",
+            "d17"
+          ],
+          "replay": {
+            "secured": false,
+            "insert": "empty",
+            "mask": 0,
+            "view": "front",
+            "frontSeen": false,
+            "sideSeen": false,
+            "diskStayed": true
+          },
+          "coreHolder": "akari",
+          "frameHolder": "akari",
+          "transfer": "cancelled",
+          "sourceDateVerified": false
+        },
+        "world": {
+          "coreHolder": "akari",
+          "frameHolder": "akari",
+          "transfer": "cancelled",
+          "frameDelivery": "returned",
+          "brokerRequest": "SALE_WITHDRAWN",
+          "brokerKnowsChallenge": true,
+          "recordRecipients": [
+            "akari",
+            "narumi",
+            "sagisawa"
+          ],
+          "caseProven": true,
+          "sourceDateVerified": false,
+          "earlyRefusal": false,
+          "proofRoute": "records_and_claims_not_stamps"
+        },
+        "receiptText": "RESOLUTION / 已经发生的处置\n第二次失窃没有发生\n你把两幅裁图和D-17并排，再把借用单与灯的完整制作记录放在一起：“这是演示被说成失窃；这才是今天的借用关系。我们不把片交给你。”\n鹭泽停下催交，改称供货争议并取消此次接收。他没有认下所有指控，也没有继续取得景芯。鸣海撤销那条被归给自己的见证，按原安排归还外框。你执行归还景芯，留下完整副本。A若尚未查验，就保留未核状态。\n真景芯\n已由玩家归还灯\n外框\n已由鸣海归还灯\n本次转交\n向鹭泽的转交已取消\n披露顺序\n先公开；对手追加连续检验\n处置方式\n独立证据公开质证\n核心取物\n由L+D、B与D-17对照证成\nA 来源年代\n本轮未独立核验\n先前拒交\n结算时取消\n\n这是虚构游戏的完成记录，不证明真实到场、真人测试或商业授权。\n\n打印这份记录"
+      }
+    },
+    {
+      "id": "announce_replay_same_entry_and_early_proof",
+      "passed": true,
+      "evidence": {
+        "entryHash": "6dfb776b314b1c3db6087652e6f9a364776ccc403add829dc354201dd5c89c54",
+        "records": [
+          "claims",
+          "loan",
+          "production",
+          "d17"
+        ],
+        "acceptedStages": 0
+      }
+    },
+    {
+      "id": "announce_replay_opponent_request_reads_actual_disclosure",
+      "passed": true,
+      "evidence": {
+        "coreHolder": "player",
+        "frameHolder": "narumi",
+        "transfer": "paused",
+        "frameDelivery": "paused",
+        "brokerRequest": "REQUEST_CONTINUOUS",
+        "brokerKnowsChallenge": true,
+        "recordRecipients": [],
+        "caseProven": true,
+        "sourceDateVerified": false,
+        "earlyRefusal": false,
+        "proofRoute": "records_and_claims_not_stamps"
+      }
+    },
+    {
+      "id": "announce_replay_cannot_finish_without_actions",
+      "passed": true,
+      "evidence": {
+        "feedback": "请先保管真景芯、置入演示片、移遮片形成正面图，再打开旁视。"
+      }
+    },
+    {
+      "id": "announce_replay_actual_occlusion_keeps_disk",
+      "passed": true,
+      "evidence": {
+        "disks": 1,
+        "screenX": 136,
+        "cx": 160,
+        "r": 16
+      }
+    },
+    {
+      "id": "announce_replay_side_shows_same_disk_on_separate_layer",
+      "passed": true,
+      "evidence": {
+        "replay": {
+          "secured": true,
+          "insert": "demo",
+          "mask": 100,
+          "view": "side",
+          "frontSeen": true,
+          "sideSeen": true,
+          "diskStayed": true
+        },
+        "feedback": "鹭泽已经知道你在核查，要求连续背面/旁视或拒绝为正面背书。你把重演和同次原记录交给鸣海，撤回旧见证。"
+      }
+    },
+    {
+      "id": "announce_replay_completed_outcome_reads_correct_route",
+      "passed": true,
+      "evidence": {
+        "completion": {
+          "disclosure": "announce",
+          "resolution": "replay",
+          "alertedBefore": true,
+          "claims": {
+            "date": "",
+            "theft": "d17",
+            "custody": "loan_production",
+            "conclusion": "subject_not_title"
+          },
+          "records": [
+            "claims",
+            "loan",
+            "production",
+            "d17"
+          ],
+          "replay": {
+            "secured": true,
+            "insert": "demo",
+            "mask": 100,
+            "view": "side",
+            "frontSeen": true,
+            "sideSeen": true,
+            "diskStayed": true
+          },
+          "coreHolder": "akari",
+          "frameHolder": "akari",
+          "transfer": "cancelled",
+          "sourceDateVerified": false
+        },
+        "world": {
+          "coreHolder": "akari",
+          "frameHolder": "akari",
+          "transfer": "cancelled",
+          "frameDelivery": "returned",
+          "brokerRequest": "SALE_WITHDRAWN",
+          "brokerKnowsChallenge": true,
+          "recordRecipients": [
+            "akari",
+            "narumi",
+            "sagisawa_continuous_request"
+          ],
+          "caseProven": true,
+          "sourceDateVerified": false,
+          "earlyRefusal": false,
+          "proofRoute": "records_and_claims_not_stamps"
+        },
+        "receiptText": "RESOLUTION / 已经发生的处置\n第二次失窃没有发生\n鹭泽已收到质疑，不肯再只验正面：“给连续背面，否则我不确认。”你没有让他按剧本中计。真景芯留在保管区，用演示片移遮、旁视，把假现场的做法完整展示给鸣海。\n鸣海撤销被剪出的见证，保留D-17和这次新重演两份不同记录。鹭泽取消本次接收，景芯与外框按你执行的归还回到灯。你保住了物件，也没有替灯删去知情修片的一页。\n真景芯\n已由玩家归还灯\n外框\n已由鸣海归还灯\n本次转交\n向鹭泽的转交已取消\n披露顺序\n先公开；对手追加连续检验\n处置方式\n实际完成前视与旁视重演\n核心取物\n由L+D、B与D-17对照证成\nA 来源年代\n本轮未独立核验\n先前拒交\n结算时取消\n\n这是虚构游戏的完成记录，不证明真实到场、真人测试或商业授权。\n\n打印这份记录"
+      }
+    },
+    {
+      "id": "new_reenactment_does_not_prove_B_without_D17",
+      "passed": true,
+      "evidence": {
+        "replayReady": true,
+        "proof": {
+          "ok": false,
+          "wrong": [
+            "record_d17"
+          ]
+        }
+      }
+    },
+    {
+      "id": "no_uncaught_browser_errors",
+      "passed": true,
+      "evidence": []
+    },
+    {
+      "id": "reviewed_artifact_unchanged_during_run",
+      "passed": true,
+      "evidence": {
+        "start": "deffa64d0384bd101c37262aa0bfe3b0ab51127ca6e1763295f9252275f8e809",
+        "end": "deffa64d0384bd101c37262aa0bfe3b0ab51127ca6e1763295f9252275f8e809"
+      }
+    }
+  ],
+  "flows": [
+    {
+      "disclosure": "quiet",
+      "resolution": "expose",
+      "actions": [
+        "Open contact records",
+        "Request and read L+D from Akari",
+        "Request and read original D-17 from Narumi",
+        "Open core-claim comparison",
+        "Match theft → d17",
+        "Match custody → loan_production",
+        "Match conclusion → subject_not_title",
+        "Check core case with A left unchecked",
+        "Choose expose",
+        "Execute return of inserts and frame"
+      ],
+      "screenshots": [
+        "/workspace/scratch/04ab10133470/work/final_independent_review/d17_six_frames.png",
+        "/workspace/scratch/04ab10133470/work/final_independent_review/ending_expose.png"
+      ],
+      "makerRecordVisible": true,
+      "entryHash": "6dfb776b314b1c3db6087652e6f9a364776ccc403add829dc354201dd5c89c54",
+      "beforeResolution": {
+        "coreHolder": "player",
+        "frameHolder": "narumi",
+        "transfer": "paused",
+        "frameDelivery": "paused",
+        "brokerRequest": "REQUEST_FRONT",
+        "brokerKnowsChallenge": false,
+        "recordRecipients": [],
+        "caseProven": true,
+        "sourceDateVerified": false,
+        "earlyRefusal": false,
+        "proofRoute": "records_and_claims_not_stamps"
+      },
+      "finalWorld": {
+        "coreHolder": "akari",
+        "frameHolder": "akari",
+        "transfer": "cancelled",
+        "frameDelivery": "returned",
+        "brokerRequest": "SALE_WITHDRAWN",
+        "brokerKnowsChallenge": true,
+        "recordRecipients": [
+          "akari",
+          "narumi",
+          "sagisawa"
+        ],
+        "caseProven": true,
+        "sourceDateVerified": false,
+        "earlyRefusal": false,
+        "proofRoute": "records_and_claims_not_stamps"
+      },
+      "actualEventLog": [
+        {
+          "n": 1,
+          "type": "RECORD_REQUEST",
+          "detail": "maker"
+        },
+        {
+          "n": 2,
+          "type": "RECORD_REQUEST",
+          "detail": "handler"
+        },
+        {
+          "n": 3,
+          "type": "CASE_PROVEN",
+          "detail": "separate evidence answers separate claims"
+        },
+        {
+          "n": 4,
+          "type": "RETURNED_AND_CANCELLED",
+          "detail": "quiet+expose"
+        }
+      ],
+      "receiptText": "RESOLUTION / 已经发生的处置\n第二次失窃没有发生\n你把两幅裁图和D-17并排，再把借用单与灯的完整制作记录放在一起：“这是演示被说成失窃；这才是今天的借用关系。我们不把片交给你。”\n鹭泽停下催交，改称供货争议并取消此次接收。他没有认下所有指控，也没有继续取得景芯。鸣海撤销那条被归给自己的见证，按原安排归还外框。你执行归还景芯，留下完整副本。A若尚未查验，就保留未核状态。\n真景芯\n已由玩家归还灯\n外框\n已由鸣海归还灯\n本次转交\n向鹭泽的转交已取消\n披露顺序\n先保密；结算时呈现证据\n处置方式\n独立证据公开质证\n核心取物\n由L+D、B与D-17对照证成\nA 来源年代\n本轮未独立核验\n先前拒交\n结算时取消\n\n这是虚构游戏的完成记录，不证明真实到场、真人测试或商业授权。\n\n打印这份记录"
+    },
+    {
+      "disclosure": "quiet",
+      "resolution": "replay",
+      "actions": [
+        "Open contact records",
+        "Request and read L+D from Akari",
+        "Request and read original D-17 from Narumi",
+        "Open core-claim comparison",
+        "Match theft → d17",
+        "Match custody → loan_production",
+        "Match conclusion → subject_not_title",
+        "Check core case with A left unchecked",
+        "Choose replay",
+        "Try ending before physical demonstration (must remain unresolved)",
+        "Keep real sheets outside demonstration",
+        "Insert striped demonstration disk only",
+        "Move screen across fixed disk",
+        "Open separated side view",
+        "Execute return of inserts and frame"
+      ],
+      "screenshots": [
+        "/workspace/scratch/04ab10133470/work/final_independent_review/replay_front_hidden.png",
+        "/workspace/scratch/04ab10133470/work/final_independent_review/replay_side_visible.png",
+        "/workspace/scratch/04ab10133470/work/final_independent_review/ending_replay.png"
+      ],
+      "makerRecordVisible": true,
+      "entryHash": "6dfb776b314b1c3db6087652e6f9a364776ccc403add829dc354201dd5c89c54",
+      "beforeResolution": {
+        "coreHolder": "player",
+        "frameHolder": "narumi",
+        "transfer": "paused",
+        "frameDelivery": "paused",
+        "brokerRequest": "REQUEST_FRONT",
+        "brokerKnowsChallenge": false,
+        "recordRecipients": [],
+        "caseProven": true,
+        "sourceDateVerified": false,
+        "earlyRefusal": false,
+        "proofRoute": "records_and_claims_not_stamps"
+      },
+      "finalWorld": {
+        "coreHolder": "akari",
+        "frameHolder": "akari",
+        "transfer": "cancelled",
+        "frameDelivery": "returned",
+        "brokerRequest": "SALE_WITHDRAWN",
+        "brokerKnowsChallenge": true,
+        "recordRecipients": [
+          "akari",
+          "narumi",
+          "sagisawa_front_record"
+        ],
+        "caseProven": true,
+        "sourceDateVerified": false,
+        "earlyRefusal": false,
+        "proofRoute": "records_and_claims_not_stamps"
+      },
+      "actualEventLog": [
+        {
+          "n": 1,
+          "type": "RECORD_REQUEST",
+          "detail": "maker"
+        },
+        {
+          "n": 2,
+          "type": "RECORD_REQUEST",
+          "detail": "handler"
+        },
+        {
+          "n": 3,
+          "type": "CASE_PROVEN",
+          "detail": "separate evidence answers separate claims"
+        },
+        {
+          "n": 4,
+          "type": "CORE_SECURED",
+          "detail": "real three sheets stay outside demonstration"
+        },
+        {
+          "n": 5,
+          "type": "DEMO_INSERTED",
+          "detail": "marked demonstration disc only"
+        },
+        {
+          "n": 6,
+          "type": "BROKER_FRONT_SIMILAR",
+          "detail": "front image is similar; no theft conclusion"
+        },
+        {
+          "n": 7,
+          "type": "SIDE_OPENED",
+          "detail": "fixed demonstration disc remains behind screen"
+        },
+        {
+          "n": 8,
+          "type": "RETURNED_AND_CANCELLED",
+          "detail": "quiet+replay"
+        }
+      ],
+      "receiptText": "RESOLUTION / 已经发生的处置\n第二次失窃没有发生\n你先把真景芯留在保管区，只将斜线边演示圆片放进红匣。鹭泽尚未收到你的质疑，仍要求正面确认。遮片合上后，画面与他使用的裁图呈现相同的可见状态；这不等于他承认真物在匣里。\n你打开旁视：演示片一直在原槽，真景芯根本没有进入匣子。鸣海把这场新重演与D-17分开保存。鹭泽看到完整记录已公开，取消接收。你执行归还，失窃没有在你手上发生。\n真景芯\n已由玩家归还灯\n外框\n已由鸣海归还灯\n本次转交\n向鹭泽的转交已取消\n披露顺序\n先保密；结算时呈现证据\n处置方式\n实际完成前视与旁视重演\n核心取物\n由L+D、B与D-17对照证成\nA 来源年代\n本轮未独立核验\n先前拒交\n结算时取消\n\n这是虚构游戏的完成记录，不证明真实到场、真人测试或商业授权。\n\n打印这份记录"
+    },
+    {
+      "disclosure": "announce",
+      "resolution": "expose",
+      "actions": [
+        "Open contact records",
+        "Request and read L+D from Akari",
+        "Request and read original D-17 from Narumi",
+        "Open core-claim comparison",
+        "Match theft → d17",
+        "Match custody → loan_production",
+        "Match conclusion → subject_not_title",
+        "Check core case with A left unchecked",
+        "Send explicit challenge before resolving",
+        "Choose expose",
+        "Execute return of inserts and frame"
+      ],
+      "screenshots": [],
+      "makerRecordVisible": true,
+      "entryHash": "6dfb776b314b1c3db6087652e6f9a364776ccc403add829dc354201dd5c89c54",
+      "beforeResolution": {
+        "coreHolder": "player",
+        "frameHolder": "narumi",
+        "transfer": "paused",
+        "frameDelivery": "paused",
+        "brokerRequest": "REQUEST_CONTINUOUS",
+        "brokerKnowsChallenge": true,
+        "recordRecipients": [],
+        "caseProven": true,
+        "sourceDateVerified": false,
+        "earlyRefusal": false,
+        "proofRoute": "records_and_claims_not_stamps"
+      },
+      "finalWorld": {
+        "coreHolder": "akari",
+        "frameHolder": "akari",
+        "transfer": "cancelled",
+        "frameDelivery": "returned",
+        "brokerRequest": "SALE_WITHDRAWN",
+        "brokerKnowsChallenge": true,
+        "recordRecipients": [
+          "akari",
+          "narumi",
+          "sagisawa"
+        ],
+        "caseProven": true,
+        "sourceDateVerified": false,
+        "earlyRefusal": false,
+        "proofRoute": "records_and_claims_not_stamps"
+      },
+      "actualEventLog": [
+        {
+          "n": 1,
+          "type": "RECORD_REQUEST",
+          "detail": "maker"
+        },
+        {
+          "n": 2,
+          "type": "RECORD_REQUEST",
+          "detail": "handler"
+        },
+        {
+          "n": 3,
+          "type": "CASE_PROVEN",
+          "detail": "separate evidence answers separate claims"
+        },
+        {
+          "n": 4,
+          "type": "PUBLIC_CHALLENGE",
+          "detail": "broker now requires continuous back/side record"
+        },
+        {
+          "n": 5,
+          "type": "RETURNED_AND_CANCELLED",
+          "detail": "announce+expose"
+        }
+      ],
+      "receiptText": "RESOLUTION / 已经发生的处置\n第二次失窃没有发生\n你把两幅裁图和D-17并排，再把借用单与灯的完整制作记录放在一起：“这是演示被说成失窃；这才是今天的借用关系。我们不把片交给你。”\n鹭泽停下催交，改称供货争议并取消此次接收。他没有认下所有指控，也没有继续取得景芯。鸣海撤销那条被归给自己的见证，按原安排归还外框。你执行归还景芯，留下完整副本。A若尚未查验，就保留未核状态。\n真景芯\n已由玩家归还灯\n外框\n已由鸣海归还灯\n本次转交\n向鹭泽的转交已取消\n披露顺序\n先公开；对手追加连续检验\n处置方式\n独立证据公开质证\n核心取物\n由L+D、B与D-17对照证成\nA 来源年代\n本轮未独立核验\n先前拒交\n结算时取消\n\n这是虚构游戏的完成记录，不证明真实到场、真人测试或商业授权。\n\n打印这份记录"
+    },
+    {
+      "disclosure": "announce",
+      "resolution": "replay",
+      "actions": [
+        "Open contact records",
+        "Request and read L+D from Akari",
+        "Request and read original D-17 from Narumi",
+        "Open core-claim comparison",
+        "Match theft → d17",
+        "Match custody → loan_production",
+        "Match conclusion → subject_not_title",
+        "Check core case with A left unchecked",
+        "Send explicit challenge before resolving",
+        "Choose replay",
+        "Try ending before physical demonstration (must remain unresolved)",
+        "Keep real sheets outside demonstration",
+        "Insert striped demonstration disk only",
+        "Move screen across fixed disk",
+        "Open separated side view",
+        "Execute return of inserts and frame"
+      ],
+      "screenshots": [],
+      "makerRecordVisible": true,
+      "entryHash": "6dfb776b314b1c3db6087652e6f9a364776ccc403add829dc354201dd5c89c54",
+      "beforeResolution": {
+        "coreHolder": "player",
+        "frameHolder": "narumi",
+        "transfer": "paused",
+        "frameDelivery": "paused",
+        "brokerRequest": "REQUEST_CONTINUOUS",
+        "brokerKnowsChallenge": true,
+        "recordRecipients": [],
+        "caseProven": true,
+        "sourceDateVerified": false,
+        "earlyRefusal": false,
+        "proofRoute": "records_and_claims_not_stamps"
+      },
+      "finalWorld": {
+        "coreHolder": "akari",
+        "frameHolder": "akari",
+        "transfer": "cancelled",
+        "frameDelivery": "returned",
+        "brokerRequest": "SALE_WITHDRAWN",
+        "brokerKnowsChallenge": true,
+        "recordRecipients": [
+          "akari",
+          "narumi",
+          "sagisawa_continuous_request"
+        ],
+        "caseProven": true,
+        "sourceDateVerified": false,
+        "earlyRefusal": false,
+        "proofRoute": "records_and_claims_not_stamps"
+      },
+      "actualEventLog": [
+        {
+          "n": 1,
+          "type": "RECORD_REQUEST",
+          "detail": "maker"
+        },
+        {
+          "n": 2,
+          "type": "RECORD_REQUEST",
+          "detail": "handler"
+        },
+        {
+          "n": 3,
+          "type": "CASE_PROVEN",
+          "detail": "separate evidence answers separate claims"
+        },
+        {
+          "n": 4,
+          "type": "PUBLIC_CHALLENGE",
+          "detail": "broker now requires continuous back/side record"
+        },
+        {
+          "n": 5,
+          "type": "CORE_SECURED",
+          "detail": "real three sheets stay outside demonstration"
+        },
+        {
+          "n": 6,
+          "type": "DEMO_INSERTED",
+          "detail": "marked demonstration disc only"
+        },
+        {
+          "n": 7,
+          "type": "BROKER_REQUESTS_CONTINUOUS",
+          "detail": "front image is similar; no theft conclusion"
+        },
+        {
+          "n": 8,
+          "type": "SIDE_OPENED",
+          "detail": "fixed demonstration disc remains behind screen"
+        },
+        {
+          "n": 9,
+          "type": "RETURNED_AND_CANCELLED",
+          "detail": "announce+replay"
+        }
+      ],
+      "receiptText": "RESOLUTION / 已经发生的处置\n第二次失窃没有发生\n鹭泽已收到质疑，不肯再只验正面：“给连续背面，否则我不确认。”你没有让他按剧本中计。真景芯留在保管区，用演示片移遮、旁视，把假现场的做法完整展示给鸣海。\n鸣海撤销被剪出的见证，保留D-17和这次新重演两份不同记录。鹭泽取消本次接收，景芯与外框按你执行的归还回到灯。你保住了物件，也没有替灯删去知情修片的一页。\n真景芯\n已由玩家归还灯\n外框\n已由鸣海归还灯\n本次转交\n向鹭泽的转交已取消\n披露顺序\n先公开；对手追加连续检验\n处置方式\n实际完成前视与旁视重演\n核心取物\n由L+D、B与D-17对照证成\nA 来源年代\n本轮未独立核验\n先前拒交\n结算时取消\n\n这是虚构游戏的完成记录，不证明真实到场、真人测试或商业授权。\n\n打印这份记录"
+    }
+  ],
+  "observations": [
+    {
+      "id": "site_deletion_limit",
+      "kind": "DESIGN_COUNTEREXAMPLE",
+      "finding": "All four witnessed browser resolutions used no stage submission and no A verification. This verifies the legitimate early path, not that every normal field task is useless. S01/S04/S05 replacement and historical-causality judgments remain in the human-readable independent report."
+    }
+  ],
+  "errors": [],
+  "passed": 35,
+  "failed": 0
+}

@@ -1,0 +1,134 @@
+{
+  "scope": "Only the S03 bilingual task-direction clarification after the independent full focused run. No human or field test.",
+  "artifact": "R8_Offline.html",
+  "artifactSha256": "2ae06c03275df27323377c92b07592aa31e7f8c13504f31abb087300c8f9a646",
+  "artifactBytes": 122581,
+  "baselineArtifactSha256": "deffa64d0384bd101c37262aa0bfe3b0ab51127ca6e1763295f9252275f8e809",
+  "sourceHashes": {
+    "content.json": "76c7d80d42b0a63d3a89e646f16754d04ccf074360e57f5a4d07af4695c5e537",
+    "app.js": "f5bf5830904b761a8e0b0064bdbe0f5e67bbdb2bb524df9f1b8f5f6f514b2212",
+    "engine.js": "51692669d77e3d4b13a3a44e6ddcd8aa3a3b901e9a288fc3a7ab62293bc93559",
+    "figures.js": "f1da1572be28839f457b8211f3c281b5ae388e304fa629116bc90d2cdf30b36c"
+  },
+  "screenshotDirectory": "/workspace/scratch/04ab10133470/work/final_independent_review",
+  "checks": [
+    {
+      "id": "only_two_neutral_task_sentences_changed_in_built_artifact",
+      "passed": true,
+      "evidence": {
+        "reversedHash": "deffa64d0384bd101c37262aa0bfe3b0ab51127ca6e1763295f9252275f8e809",
+        "baselineHash": "deffa64d0384bd101c37262aa0bfe3b0ab51127ca6e1763295f9252275f8e809",
+        "changes": [
+          [
+            "按图像被转制的先后连接四张载体卡。",
+            "连接四张载体卡。"
+          ],
+          [
+            "Connect the four image-carrier cards in the order the image was transformed into successive forms.",
+            "Connect the four image-carrier cards."
+          ]
+        ]
+      }
+    },
+    {
+      "id": "app_engine_and_figures_unchanged_since_full_focused_run",
+      "passed": true,
+      "evidence": {
+        "current": {
+          "content.json": "76c7d80d42b0a63d3a89e646f16754d04ccf074360e57f5a4d07af4695c5e537",
+          "app.js": "f5bf5830904b761a8e0b0064bdbe0f5e67bbdb2bb524df9f1b8f5f6f514b2212",
+          "engine.js": "51692669d77e3d4b13a3a44e6ddcd8aa3a3b901e9a288fc3a7ab62293bc93559",
+          "figures.js": "f1da1572be28839f457b8211f3c281b5ae388e304fa629116bc90d2cdf30b36c"
+        },
+        "baseline": {
+          "content.json": "ccbbbc4b3dc8ba8d4a7f05edc436e58e25bb57df1eba9eda8b123fc919e69990",
+          "app.js": "f5bf5830904b761a8e0b0064bdbe0f5e67bbdb2bb524df9f1b8f5f6f514b2212",
+          "engine.js": "51692669d77e3d4b13a3a44e6ddcd8aa3a3b901e9a288fc3a7ab62293bc93559",
+          "figures.js": "f1da1572be28839f457b8211f3c281b5ae388e304fa629116bc90d2cdf30b36c"
+        }
+      }
+    },
+    {
+      "id": "built_content_matches_delivered_source",
+      "passed": true,
+      "evidence": {}
+    },
+    {
+      "id": "S03_zh_clarifies_forward_transformation_without_answer_order",
+      "passed": true,
+      "evidence": {
+        "task": "按图像被转制的先后连接四张载体卡。读取像座所见的纪年，将它放到对应载体；再判断它能约束销售图的什么范围。分别检验A、B和交出景芯的要求，选出当前证据支持撤回的主张。"
+      }
+    },
+    {
+      "id": "S03_zh_default_labels_and_source_gate_remain_neutral",
+      "passed": true,
+      "evidence": {
+        "labels": {
+          "date": "所读纪年对应哪一载体？",
+          "range": "这项纪年可约束哪种材料？"
+        },
+        "reference": "field",
+        "records": [
+          "claims"
+        ]
+      }
+    },
+    {
+      "id": "S03_en_clarifies_forward_transformation_without_answer_order",
+      "passed": true,
+      "evidence": {
+        "task": "Connect the four image-carrier cards in the order the image was transformed into successive forms. Read the date on the statue plaque and assign it to the carrier it describes. Decide what, if anything, it constrains about the sales image. Consider A, B and the demand for the inserts separately. Select the claim the evidence supports rejecting."
+      }
+    },
+    {
+      "id": "S03_en_default_labels_and_source_gate_remain_neutral",
+      "passed": true,
+      "evidence": {
+        "labels": {
+          "date": "Which carrier does the observed date belong to?",
+          "range": "Which material can this date constrain?"
+        },
+        "reference": "field",
+        "records": [
+          "claims"
+        ]
+      }
+    },
+    {
+      "id": "no_uncaught_browser_errors",
+      "passed": true,
+      "evidence": {
+        "errors": []
+      }
+    },
+    {
+      "id": "artifact_unchanged_during_delta_check",
+      "passed": true,
+      "evidence": {}
+    }
+  ],
+  "observations": [
+    {
+      "language": "zh",
+      "screenshot": "/workspace/scratch/04ab10133470/work/final_independent_review/s03_final_delta_zh.png",
+      "task": "按图像被转制的先后连接四张载体卡。读取像座所见的纪年，将它放到对应载体；再判断它能约束销售图的什么范围。分别检验A、B和交出景芯的要求，选出当前证据支持撤回的主张。",
+      "labels": {
+        "date": "所读纪年对应哪一载体？",
+        "range": "这项纪年可约束哪种材料？"
+      }
+    },
+    {
+      "language": "en",
+      "screenshot": "/workspace/scratch/04ab10133470/work/final_independent_review/s03_final_delta_en.png",
+      "task": "Connect the four image-carrier cards in the order the image was transformed into successive forms. Read the date on the statue plaque and assign it to the carrier it describes. Decide what, if anything, it constrains about the sales image. Consider A, B and the demand for the inserts separately. Select the claim the evidence supports rejecting.",
+      "labels": {
+        "date": "Which carrier does the observed date belong to?",
+        "range": "Which material can this date constrain?"
+      }
+    }
+  ],
+  "errors": [],
+  "passed": 9,
+  "failed": 0
+}

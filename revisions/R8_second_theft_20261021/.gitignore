@@ -1,0 +1,12 @@
+# Generated artifacts are built locally; release files are delivered separately.
+/R8_Offline.html
+/play/
+/print/
+/qa_work/
+/qa/screenshots/
+/node_modules/
+/package-lock.json
+__pycache__/
+*.pyc
+*.pdf
+*.zip

@@ -1,0 +1,17 @@
+{
+  "version": "R8.1",
+  "artifact": "R8_Offline.html",
+  "sha256": "2ae06c03275df27323377c92b07592aa31e7f8c13504f31abb087300c8f9a646",
+  "bytes": 122581,
+  "offline_self_contained": true,
+  "network_requests_required": false,
+  "source_files": [
+    "content.json",
+    "engine.js",
+    "figures.js",
+    "app.js",
+    "style.css",
+    "build.py"
+  ],
+  "build_status": "BUILT_NOT_A_FIELD_OR_HUMAN_TEST"
+}

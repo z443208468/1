@@ -1,0 +1,570 @@
+{
+  "project": {
+    "id": "tokyo-second-theft",
+    "version": "R8-20261021",
+    "world_basis": "mixed",
+    "play_surface": "hybrid",
+    "site_binding": "required",
+    "mechanics_policy": "preserve",
+    "delivery_level": "prototype",
+    "workflow_version": "3.0-merged-2026-10-21"
+  },
+  "sites": [
+    {
+      "id": "S01",
+      "name": "纽扣馆外"
+    },
+    {
+      "id": "S02",
+      "name": "两国桥"
+    },
+    {
+      "id": "S03",
+      "name": "芭蕉史迹展望庭园"
+    },
+    {
+      "id": "S04",
+      "name": "浜町公园"
+    },
+    {
+      "id": "S05",
+      "name": "明治座外"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "E-B01",
+      "kind": "SOURCE_VERIFIED",
+      "reference": "research/01_HISTORY_EVIDENCE.md"
+    },
+    {
+      "id": "F-B01-RAW",
+      "kind": "OBSERVED_MATERIAL",
+      "reference": "research/04_BUTTON_PARK_PIXEL_REVIEW.md"
+    },
+    {
+      "id": "E-R01",
+      "kind": "SOURCE_VERIFIED",
+      "reference": "research/01_HISTORY_EVIDENCE.md"
+    },
+    {
+      "id": "E-R02",
+      "kind": "SOURCE_VERIFIED",
+      "reference": "research/01_HISTORY_EVIDENCE.md"
+    },
+    {
+      "id": "F-R01-RAW",
+      "kind": "OBSERVED_MATERIAL",
+      "reference": "research/05_FIELD_BASHO_BRIDGE.md"
+    },
+    {
+      "id": "F-H01-RAW",
+      "kind": "OBSERVED_MATERIAL",
+      "reference": "research/05_FIELD_BASHO_BRIDGE.md"
+    },
+    {
+      "id": "E-H02",
+      "kind": "SOURCE_VERIFIED",
+      "reference": "research/01_HISTORY_EVIDENCE.md"
+    },
+    {
+      "id": "F-P01-RAW",
+      "kind": "OBSERVED_MATERIAL",
+      "reference": "research/04_BUTTON_PARK_PIXEL_REVIEW.md"
+    },
+    {
+      "id": "E-P01",
+      "kind": "SOURCE_VERIFIED",
+      "reference": "research/01_HISTORY_EVIDENCE.md"
+    },
+    {
+      "id": "E-M01",
+      "kind": "SOURCE_VERIFIED",
+      "reference": "research/01_HISTORY_EVIDENCE.md"
+    },
+    {
+      "id": "E-M02",
+      "kind": "SOURCE_VERIFIED",
+      "reference": "research/01_HISTORY_EVIDENCE.md"
+    },
+    {
+      "id": "E-M03",
+      "kind": "SOURCE_VERIFIED",
+      "reference": "research/01_HISTORY_EVIDENCE.md"
+    },
+    {
+      "id": "L",
+      "kind": "FICTION",
+      "reference": "design/02_SELECTED_EVENT.md"
+    },
+    {
+      "id": "D",
+      "kind": "FICTION",
+      "reference": "design/02_SELECTED_EVENT.md"
+    },
+    {
+      "id": "D17",
+      "kind": "FICTION",
+      "reference": "design/02_SELECTED_EVENT.md"
+    },
+    {
+      "id": "A",
+      "kind": "FICTION",
+      "reference": "design/02_SELECTED_EVENT.md"
+    },
+    {
+      "id": "B",
+      "kind": "FICTION",
+      "reference": "design/02_SELECTED_EVENT.md"
+    }
+  ],
+  "events": [
+    {
+      "id": "EVENT_CORE",
+      "evidence_ids": [
+        "E-B01",
+        "E-R02",
+        "E-H02",
+        "E-M01",
+        "L",
+        "D",
+        "D17",
+        "A",
+        "B"
+      ],
+      "why_now": "联络人试图让参与者将借用片立即改作向失主返还，以取得未获转让的景芯。",
+      "player_stakes": "玩家已持有景芯；错交才会发生真实取走，拒交即时改变局面。",
+      "status": "SELECTED_FOR_PROTOTYPE"
+    },
+    {
+      "id": "EVENT_ESCAPE",
+      "evidence_ids": [
+        "E-R02",
+        "E-M01"
+      ],
+      "why_now": "虚构携物人请求逃离",
+      "player_stakes": "保全物件",
+      "status": "REJECTED_DIRECT_RETURN_DOMINATES"
+    },
+    {
+      "id": "EVENT_TICKET",
+      "evidence_ids": [
+        "E-M01",
+        "E-M02",
+        "E-M03"
+      ],
+      "why_now": "虚构竞争最后资格",
+      "player_stakes": "先提交取得资格",
+      "status": "REJECTED_RECYCLES_OLD_CORRECTION"
+    }
+  ],
+  "player_actions": [
+    {
+      "id": "HOLD",
+      "event_id": "EVENT_CORE",
+      "before": "active",
+      "after": "paused",
+      "feedback": "片仍在玩家手中，不自动查明全案。",
+      "action": "拒绝本次转交",
+      "expected_level": "P4",
+      "observed_design_level": "P4",
+      "diagnostic_scope": "设计/程序动作，非真人参与实测"
+    },
+    {
+      "id": "ASK_MAKER",
+      "event_id": "EVENT_CORE",
+      "before": "D absent",
+      "after": "D received",
+      "feedback": "收到含知情后修片记录的完整序列。",
+      "action": "索取完整L与D",
+      "expected_level": "P1",
+      "observed_design_level": "P1",
+      "diagnostic_scope": "设计/程序动作，非真人参与实测"
+    },
+    {
+      "id": "ASK_HANDLER",
+      "event_id": "EVENT_CORE",
+      "before": "D17 absent",
+      "after": "D17 received; frame paused",
+      "feedback": "收到同次连续记录，鸣海停止为失窃主张背书。",
+      "action": "索取同次D-17",
+      "expected_level": "P1",
+      "observed_design_level": "P1",
+      "diagnostic_scope": "设计/程序动作，非真人参与实测"
+    },
+    {
+      "id": "LAYER",
+      "event_id": "EVENT_CORE",
+      "before": "images imply movement",
+      "after": "occlusion possible",
+      "feedback": "实际移遮片，固定圆片重新可见。",
+      "action": "依观察重排景芯并移动遮片",
+      "expected_level": "P2",
+      "observed_design_level": "P2",
+      "diagnostic_scope": "设计/程序动作，非真人参与实测"
+    },
+    {
+      "id": "MAP",
+      "event_id": "EVENT_CORE",
+      "before": "stage name suggests other place",
+      "after": "same scenery two names",
+      "feedback": "桥槽和主支河对应，停止把舞台名字当远方坐标。",
+      "action": "桥条放槽并区分两河名",
+      "expected_level": "P2",
+      "observed_design_level": "P2",
+      "diagnostic_scope": "设计/程序动作，非真人参与实测"
+    },
+    {
+      "id": "SOURCE",
+      "event_id": "EVENT_CORE",
+      "before": "1930 photo claim unchecked",
+      "after": "A disproved only",
+      "feedback": "现代实体时间下界只约束A。",
+      "action": "排列载体并检验A年代范围",
+      "expected_level": "P2",
+      "observed_design_level": "P2",
+      "diagnostic_scope": "设计/程序动作，非真人参与实测"
+    },
+    {
+      "id": "CAMERA",
+      "event_id": "EVENT_CORE",
+      "before": "camera and subject confused",
+      "after": "viewpoint separated; D17 compared",
+      "feedback": "可切换前视旁视，对应当次记录。",
+      "action": "校准公园图、放相机/建筑并对照D-17",
+      "expected_level": "P2",
+      "observed_design_level": "P2",
+      "diagnostic_scope": "设计/程序动作，非真人参与实测"
+    },
+    {
+      "id": "DISCLOSE",
+      "event_id": "EVENT_CORE",
+      "before": "broker uninformed",
+      "after": "broker alerted",
+      "feedback": "要求连续背面/止损状态改变，不可撤回其知情。",
+      "action": "向鹭泽公开具体质疑",
+      "expected_level": "P3",
+      "observed_design_level": "P3",
+      "diagnostic_scope": "设计/程序动作，非真人参与实测"
+    },
+    {
+      "id": "RESOLVE",
+      "event_id": "EVENT_CORE",
+      "before": "core player; frame handler",
+      "after": "core maker; frame maker; transfer cancelled",
+      "feedback": "游戏内物件移动并生成分支交涉记录。",
+      "action": "配证后公开或重演，并明确归还",
+      "expected_level": "P4",
+      "observed_design_level": "P4",
+      "diagnostic_scope": "设计/程序动作，非真人参与实测"
+    }
+  ],
+  "puzzles": [
+    {
+      "id": "S01-P",
+      "site_id": "S01",
+      "evidence_ids": [
+        "E-B01",
+        "F-B01-RAW",
+        "B"
+      ],
+      "action_ids": [
+        "LAYER"
+      ],
+      "answer": "tower→viaduct→willow; occlusion_possible",
+      "operation": "交换图层并移动遮片",
+      "fallback": "明确开启对应取材转绘板；记录fallback，不冒称实地观察。",
+      "site_audit": "S1/S2，街角排他性未通过",
+      "visible_inputs": "source/content.json 对应S01正式题面与 source/figures.js 操作图；field不预给完整备用关系，desk/备用明确启用。",
+      "solution_steps": [
+        "辨认塔/高架/柳枝的实际前后",
+        "由远及近排塔→高架→柳枝",
+        "先开后合遮片且圆片固定",
+        "只接受遮挡可能，不证明原事件"
+      ],
+      "feedback": {
+        "wrong": "指出被混淆的关系或证据用途，允许重试",
+        "partial": "保留已得资料，草稿待重验",
+        "correct": "记录本项结论；不隔空披露给NPC；不替未核命题盖章",
+        "fallback": "备用/答案型提示写取得来源且不剥夺结局"
+      }
+    },
+    {
+      "id": "S02-P",
+      "site_id": "S02",
+      "evidence_ids": [
+        "E-R01",
+        "E-R02",
+        "F-R01-RAW"
+      ],
+      "action_ids": [
+        "MAP"
+      ],
+      "answer": "Ryogoku across main; Yanagi across branch; Sumida real/Inase stage",
+      "operation": "桥条放槽，分配两个名字",
+      "fallback": "明确开启对应取材转绘板；记录fallback，不冒称实地观察。",
+      "site_audit": "拟S2，现场可靠性未实测",
+      "visible_inputs": "source/content.json 对应S02正式题面与 source/figures.js 操作图；field不预给完整备用关系，desk/备用明确启用。",
+      "solution_steps": [
+        "从主支河汇入关系定槽",
+        "两国桥放主河槽，柳桥放支流槽，汇口空",
+        "分配实景隅田/舞台稲瀬",
+        "不由舞台名字推断移动"
+      ],
+      "feedback": {
+        "wrong": "指出被混淆的关系或证据用途，允许重试",
+        "partial": "保留已得资料，草稿待重验",
+        "correct": "记录本项结论；不隔空披露给NPC；不替未核命题盖章",
+        "fallback": "备用/答案型提示写取得来源且不剥夺结局"
+      }
+    },
+    {
+      "id": "S03-P",
+      "site_id": "S03",
+      "evidence_ids": [
+        "E-H02",
+        "F-H01-RAW",
+        "A",
+        "D"
+      ],
+      "action_ids": [
+        "SOURCE",
+        "ASK_MAKER"
+      ],
+      "answer": "portrait→copy→bronze→photo; ≥1995; refute A only",
+      "operation": "建立四载体来源链和年代区间",
+      "fallback": "明确开启对应取材转绘板；记录fallback，不冒称实地观察。",
+      "site_audit": "拟S2，识读与可达性未实测",
+      "visible_inputs": "source/content.json 对应S03正式题面与 source/figures.js 操作图；field不预给完整备用关系，desk/备用明确启用。",
+      "solution_steps": [
+        "识别题图现代设施",
+        "按铭牌排列原画/模写/铜像/照片",
+        "1995放现代实体，照片用下界",
+        "A年代主张与B昨夜/归属分开"
+      ],
+      "feedback": {
+        "wrong": "指出被混淆的关系或证据用途，允许重试",
+        "partial": "保留已得资料，草稿待重验",
+        "correct": "记录本项结论；不隔空披露给NPC；不替未核命题盖章",
+        "fallback": "备用/答案型提示写取得来源且不剥夺结局"
+      }
+    },
+    {
+      "id": "S04-P",
+      "site_id": "S04",
+      "evidence_ids": [
+        "F-P01-RAW",
+        "E-P01",
+        "D17",
+        "B"
+      ],
+      "action_ids": [
+        "CAMERA",
+        "ASK_HANDLER"
+      ],
+      "answer": "playground_side→sports_center; D17 demonstration",
+      "operation": "校准匿名图、分配相机/建筑并查看同次原记录",
+      "fallback": "明确开启对应取材转绘板；记录fallback，不冒称实地观察。",
+      "site_audit": "现代空间拟S2，1929历史不参与镜头证明",
+      "visible_inputs": "source/content.json 对应S04正式题面与 source/figures.js 操作图；field不预给完整备用关系，desk/备用明确启用。",
+      "solution_steps": [
+        "按河/大场地/中心三锚校准",
+        "相机置游具侧，指向体育中心",
+        "取景与运输解释分开",
+        "请求同次D17并比对共有标志/连续动作"
+      ],
+      "feedback": {
+        "wrong": "指出被混淆的关系或证据用途，允许重试",
+        "partial": "保留已得资料，草稿待重验",
+        "correct": "记录本项结论；不隔空披露给NPC；不替未核命题盖章",
+        "fallback": "备用/答案型提示写取得来源且不剥夺结局"
+      }
+    },
+    {
+      "id": "S05-P",
+      "site_id": "S05",
+      "evidence_ids": [
+        "E-M01",
+        "E-M02",
+        "E-M03",
+        "L",
+        "D",
+        "D17",
+        "A",
+        "B"
+      ],
+      "action_ids": [
+        "RESOLVE",
+        "DISCLOSE"
+      ],
+      "answer": "名称与迁址如上；核心仅B→D17、返还主张→L+D，A下界是独立可选命题",
+      "operation": "沿革两轨、核心主张配证、明确归还或受控重演",
+      "fallback": "明确开启对应取材转绘板；记录fallback，不冒称实地观察。",
+      "site_audit": "S1，Gate2未通过",
+      "visible_inputs": "source/content.json 对应S05正式题面与 source/figures.js 操作图；field不预给完整备用关系，desk/备用明确启用。",
+      "solution_steps": [
+        "名称顺序喜昇/久松/千歳/明治",
+        "1928置迁址轨",
+        "核心配B-D17和归还主张-L+D",
+        "A可选另记，按选择归还/先重演再归还"
+      ],
+      "feedback": {
+        "wrong": "指出被混淆的关系或证据用途，允许重试",
+        "partial": "保留已得资料，草稿待重验",
+        "correct": "记录本项结论；不隔空披露给NPC；不替未核命题盖章",
+        "fallback": "备用/答案型提示写取得来源且不剥夺结局"
+      }
+    }
+  ],
+  "validation": [
+    {
+      "level": "DESIGN_REVIEWED",
+      "evidence_ref": "qa/01_M1_INDEPENDENT_REVIEW.md",
+      "scope": "事件因果范围，非场地/体验总体通过"
+    },
+    {
+      "level": "DESIGN_REVIEWED",
+      "evidence_ref": "qa/03_V3_WORKFLOW_INDEPENDENT_AUDIT.md",
+      "scope": "v3差距和已发现反例"
+    },
+    {
+      "level": "LOGIC_DRYRUN",
+      "evidence_ref": "qa/logic_results.json",
+      "scope": "软件有限输入/状态/归还/存档"
+    },
+    {
+      "level": "LOGIC_DRYRUN",
+      "evidence_ref": "qa/browser_results.json",
+      "scope": "实际浏览器UI操作，非真人盲玩"
+    },
+    {
+      "level": "DESIGN_REVIEWED",
+      "evidence_ref": "qa/04_FINAL_INDEPENDENT_REVIEW.md",
+      "scope": "独立知情审查，35项主体+9项最终增量，不是真人盲测"
+    },
+    {
+      "level": "DESIGN_REVIEWED",
+      "evidence_ref": "qa/04a_LIMITED_MODEL_WALKTHROUGH.md",
+      "scope": "AI受限可见UI操作；保留原快照泄题，不冒称BLIND_PLAYTESTED",
+      "tester_type": "AI"
+    },
+    {
+      "level": "RELEASE_REVIEWED",
+      "evidence_ref": "qa/05_PRINT_QA.md",
+      "scope": "52页实际渲染与目视、纸件DOM尺寸；非实体试装"
+    },
+    {
+      "level": "LOGIC_DRYRUN",
+      "evidence_ref": "qa/cold_start_results.json",
+      "scope": "新解包新上下文17项实际UI检查，组件hash保留"
+    }
+  ],
+  "unrun_checks": [
+    {
+      "kind": "BLIND_PLAYTEST",
+      "status": "NOT_RUN",
+      "actual_sessions": []
+    },
+    {
+      "kind": "FIELD_PLAYTEST",
+      "status": "NOT_RUN",
+      "actual_sessions": []
+    },
+    {
+      "kind": "COMMERCIAL_PERMISSION",
+      "status": "NOT_RUN"
+    },
+    {
+      "kind": "PHYSICAL_ASSEMBLY",
+      "status": "NOT_RUN"
+    }
+  ],
+  "gate_reviews": [
+    {
+      "id": "G0",
+      "status": "PASS_WITH_EVIDENCE",
+      "evidence_refs": [
+        "research/03_RAW_MATERIAL_MANIFEST.json",
+        "research/04_BUTTON_PARK_PIXEL_REVIEW.md",
+        "research/05_FIELD_BASHO_BRIDGE.md"
+      ],
+      "scope": "已读取事实/像素与虚构区分；未来状态未认证"
+    },
+    {
+      "id": "G1",
+      "status": "PASS_WITH_EVIDENCE",
+      "evidence_refs": [
+        "qa/01_M1_INDEPENDENT_REVIEW.md"
+      ],
+      "scope": "v1.1中心谎言因果；吸引力待真人验证"
+    },
+    {
+      "id": "G2",
+      "status": "REJECTED",
+      "counterexample": "S01特定馆外贡献不足；S05核心沿革来自随身卡；S04 D17证明可不依赖公园操作；缺真人场测另记NOT_RUN。",
+      "evidence_refs": [
+        "qa/04_FINAL_INDEPENDENT_REVIEW.md"
+      ],
+      "return_to": "M1/M3有限返修；不重置预算、不降为preferred"
+    },
+    {
+      "id": "G3",
+      "status": "PASS_WITH_EVIDENCE",
+      "evidence_refs": [
+        "qa/04_FINAL_INDEPENDENT_REVIEW.md",
+        "qa/final_independent_results.json",
+        "qa/final_s03_delta_results.json"
+      ],
+      "scope": "已实现拒交、披露、归还及完成记录；非真人参与度证明"
+    },
+    {
+      "id": "G4",
+      "status": "PASS_WITH_EVIDENCE",
+      "scope": "本轮正常题面、来源留痕、A/B/新重演证据区分的定点检查；不含现场可读性/难度",
+      "evidence_refs": [
+        "qa/04_FINAL_INDEPENDENT_REVIEW.md",
+        "qa/final_independent_results.json",
+        "qa/final_s03_delta_results.json"
+      ]
+    },
+    {
+      "id": "G5",
+      "status": "PASS_WITH_EVIDENCE",
+      "scope": "同入口质证与重演实际操作、状态和可见回报；不证明情绪或偏好",
+      "evidence_refs": [
+        "qa/04_FINAL_INDEPENDENT_REVIEW.md",
+        "qa/final_independent_results.json",
+        "qa/final_s03_delta_results.json"
+      ]
+    },
+    {
+      "id": "G6",
+      "status": "PASS_WITH_EVIDENCE",
+      "evidence_refs": [
+        "qa/04_FINAL_INDEPENDENT_REVIEW.md",
+        "qa/05_ACCEPTANCE_STATUS.md"
+      ],
+      "scope": "不将软件、AI走查、PDF当真人/实地/商业认证"
+    }
+  ],
+  "mechanics_lock_diffs": [
+    {
+      "id": "DIFF_MODE",
+      "status": "APPLIED",
+      "approval_ref": "用户本轮：机制游戏也有问题要重新核对设计，并要求M2/M3联合推演必要时推翻原剧情；当前项目合同",
+      "change": "两模式输入差异与辅助来源记录"
+    },
+    {
+      "id": "DIFF_PUZZLES",
+      "status": "APPLIED",
+      "approval_ref": "同一用户本轮机制重核授权；design/00_PROJECT_CONTRACT.md",
+      "change": "S01真实层次替换，S02桥槽，S03载体链，S05两轨/两项核心证据，A独立可选"
+    },
+    {
+      "id": "DIFF_BRANCHES",
+      "status": "APPLIED",
+      "approval_ref": "同一用户本轮联合设计授权；保留两独立选择和四组合功能",
+      "change": "披露时机与处置方式影响实际NPC知识/检验/物件结果"
+    }
+  ]
+}

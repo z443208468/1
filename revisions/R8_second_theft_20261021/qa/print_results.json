@@ -1,0 +1,309 @@
+{
+  "reviewed_at_utc": "2026-10-21T04:43:00.003437+00:00",
+  "scope": "Printable-file layout, paper geometry, text extraction and targeted prompt-leak checks only. No physical cutting, field test or player test.",
+  "pdfs": [
+    {
+      "file": "print/Player_ZH.pdf",
+      "sha256": "0b49b24c92928979af28ca9269c5a7fd45ab78601130a171c0c25352086df4c7",
+      "pages": 21,
+      "characters_per_page": [
+        514,
+        492,
+        398,
+        399,
+        515,
+        435,
+        497,
+        582,
+        451,
+        195,
+        307,
+        204,
+        269,
+        330,
+        395,
+        655,
+        475,
+        582,
+        657,
+        658,
+        1408
+      ],
+      "checks": {
+        "expected_page_count": true,
+        "all_pages_have_text": true,
+        "replacement_characters_absent": true,
+        "a4_page_boxes_within_half_pt": true,
+        "no_1995_in_initial_pages_1_to_7": true,
+        "no_prefilled_1995_in_cutout_page_11": true,
+        "no_lower_bound_label_in_initial_S03": true,
+        "six_D17_timestamps": true
+      }
+    },
+    {
+      "file": "print/Player_EN.pdf",
+      "sha256": "efeb8249f5477590c4adad2dcd9d4f1658731cfe4e99bbd708f6b94649f554a3",
+      "pages": 21,
+      "characters_per_page": [
+        1608,
+        1497,
+        1131,
+        1092,
+        1455,
+        1301,
+        1341,
+        1642,
+        1207,
+        643,
+        626,
+        581,
+        710,
+        1009,
+        1212,
+        1983,
+        1357,
+        1804,
+        2084,
+        1977,
+        1935
+      ],
+      "checks": {
+        "expected_page_count": true,
+        "all_pages_have_text": true,
+        "replacement_characters_absent": true,
+        "a4_page_boxes_within_half_pt": true,
+        "no_1995_in_initial_pages_1_to_7": true,
+        "no_prefilled_1995_in_cutout_page_11": true,
+        "no_lower_bound_label_in_initial_S03": true,
+        "six_D17_timestamps": true
+      }
+    },
+    {
+      "file": "print/Designer_Guide.pdf",
+      "sha256": "ec78bcbe54d0b3d249486b7e987af95bbbf76c50bb65b9d8277fe13e04017c95",
+      "pages": 10,
+      "characters_per_page": [
+        1135,
+        1316,
+        1273,
+        1267,
+        1194,
+        1373,
+        1252,
+        1095,
+        1232,
+        250
+      ],
+      "checks": {
+        "expected_page_count": true,
+        "all_pages_have_text": true,
+        "replacement_characters_absent": true,
+        "a4_page_boxes_within_half_pt": true
+      }
+    }
+  ],
+  "inputs_sha256": {
+    "source/content.json": "76c7d80d42b0a63d3a89e646f16754d04ccf074360e57f5a4d07af4695c5e537",
+    "source/figures.js": "f1da1572be28839f457b8211f3c281b5ae388e304fa629116bc90d2cdf30b36c",
+    "source/build_print.cjs": "e52b859d6b46aa88944bff3eee509fe5b98e85bb9d6beab580b1040832d813dc",
+    "source/render_print.cjs": "f865b20dc92d221c61e0d61262376209a5aa781c4e8da5287b23a2e1c6582f6b",
+    "design/05_FULL_STORY.md": "79ed6c0c60872c3d02a3500ba7d9dfe421b2e22e830888fee8248059cbc53b06",
+    "design/06_DELIVERY_GUIDE.md": "fde5abf02221102a2282ebb2ebcc4266e06100381d7ceb1b2663e64348218f03"
+  },
+  "html_sha256": {
+    "print/Player_ZH.html": "476c57a0e97fada03affba44957612efa3536545d9e0f4666f0f5305a40260d2",
+    "print/Player_EN.html": "efeda81e6a33a90ceb013f722e330296ab4d7d3bed4df2dcffd341ee75b6742d",
+    "print/Designer_Guide.html": "b4cd32e8b3b0a75538fa16688e315a055c3539044e34fb9bd44eba7fd1b034c5"
+  },
+  "layout_report": "print/print_geometry.json",
+  "layout_report_sha256": "5b6b5c7753580877c28a0f8fe862297850358e47cc6109ab711e089bb35dc8fe",
+  "physical_geometry": {
+    "method": "Chromium DOM at 96 CSS px/in; 0.03 mm tolerance; circle outline included in cover calculation",
+    "results": [
+      {
+        "file": "Player_ZH.html",
+        "measured": {
+          "base": [
+            {
+              "width_mm": 159.99850260416665,
+              "height_mm": 89.99967447916667
+            }
+          ],
+          "screen": [
+            {
+              "width_mm": 23.99853515625,
+              "height_mm": 41.99847005208333
+            }
+          ],
+          "rulers": [
+            {
+              "width_mm": 49.99798177083333,
+              "height_mm": 4.9981445312499995
+            },
+            {
+              "width_mm": 49.99798177083333,
+              "height_mm": 4.9981445312499995
+            }
+          ],
+          "scenery": [
+            {
+              "width_mm": 119.99680989583332,
+              "height_mm": 67.49768880208333
+            },
+            {
+              "width_mm": 119.99680989583332,
+              "height_mm": 67.49768880208333
+            },
+            {
+              "width_mm": 119.99680989583332,
+              "height_mm": 67.49768880208333
+            }
+          ],
+          "bridgeStrips": [
+            {
+              "width_mm": 27.99622395833333,
+              "height_mm": 10.996744791666666
+            },
+            {
+              "width_mm": 27.99622395833333,
+              "height_mm": 10.996744791666666
+            }
+          ],
+          "mapMarkers": [
+            {
+              "width_mm": 25.99944661458333,
+              "height_mm": 11.997200520833333
+            },
+            {
+              "width_mm": 25.99944661458333,
+              "height_mm": 11.997200520833333
+            },
+            {
+              "width_mm": 25.99944661458333,
+              "height_mm": 11.997200520833333
+            }
+          ],
+          "disk": {
+            "cx_mm": 80,
+            "cy_mm": 45,
+            "radius_mm": 8
+          },
+          "d17Frames": 6
+        },
+        "checks": {
+          "base": true,
+          "screen": true,
+          "rulers": true,
+          "scenery": true,
+          "bridges": true,
+          "markers": true,
+          "disk": true,
+          "d17": true,
+          "screenCoversDiskAt68_24": true
+        }
+      },
+      {
+        "file": "Player_EN.html",
+        "measured": {
+          "base": [
+            {
+              "width_mm": 159.99850260416665,
+              "height_mm": 89.99967447916667
+            }
+          ],
+          "screen": [
+            {
+              "width_mm": 23.99853515625,
+              "height_mm": 41.99847005208333
+            }
+          ],
+          "rulers": [
+            {
+              "width_mm": 49.99798177083333,
+              "height_mm": 4.9981445312499995
+            },
+            {
+              "width_mm": 49.99798177083333,
+              "height_mm": 4.9981445312499995
+            }
+          ],
+          "scenery": [
+            {
+              "width_mm": 119.99680989583332,
+              "height_mm": 67.49768880208333
+            },
+            {
+              "width_mm": 119.99680989583332,
+              "height_mm": 67.49768880208333
+            },
+            {
+              "width_mm": 119.99680989583332,
+              "height_mm": 67.49768880208333
+            }
+          ],
+          "bridgeStrips": [
+            {
+              "width_mm": 27.99622395833333,
+              "height_mm": 10.996744791666666
+            },
+            {
+              "width_mm": 27.99622395833333,
+              "height_mm": 10.996744791666666
+            }
+          ],
+          "mapMarkers": [
+            {
+              "width_mm": 25.99944661458333,
+              "height_mm": 11.997200520833333
+            },
+            {
+              "width_mm": 25.99944661458333,
+              "height_mm": 11.997200520833333
+            },
+            {
+              "width_mm": 25.99944661458333,
+              "height_mm": 11.997200520833333
+            }
+          ],
+          "disk": {
+            "cx_mm": 80,
+            "cy_mm": 45,
+            "radius_mm": 8
+          },
+          "d17Frames": 6
+        },
+        "checks": {
+          "base": true,
+          "screen": true,
+          "rulers": true,
+          "scenery": true,
+          "bridges": true,
+          "markers": true,
+          "disk": true,
+          "d17": true,
+          "screenCoversDiskAt68_24": true
+        }
+      }
+    ],
+    "pass": true
+  },
+  "visual_review": {
+    "method": "Poppler raster at 1500 px longest side; every page viewed in contact sheets; final changed pages 5, 11, 12 viewed individually in both languages; grayscale prop proof viewed.",
+    "total_pages_viewed": 52,
+    "changed_pages_rechecked": {
+      "Player_ZH": [
+        5,
+        11,
+        12
+      ],
+      "Player_EN": [
+        5,
+        11,
+        12
+      ]
+    },
+    "working_evidence_location": "work/print_qa_final (not packaged)",
+    "findings_remaining_in_layout": []
+  },
+  "design_gate_status": "Gate2 remains REJECTED; this print review does not change scene or player-validation conclusions."
+}

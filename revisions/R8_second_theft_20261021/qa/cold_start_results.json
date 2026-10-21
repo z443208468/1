@@ -1,0 +1,88 @@
+{
+  "version": "R8-20261021",
+  "run_date": "2026-10-21T04:43:07.066Z",
+  "extracted_root": "/workspace/scratch/04ab10133470/work/cold_start_extracted/Tokyo_CNW_R8",
+  "entry_sha256": "2ae06c03275df27323377c92b07592aa31e7f8c13504f31abb087300c8f9a646",
+  "component_sha256": {
+    "R8_Offline.html": "2ae06c03275df27323377c92b07592aa31e7f8c13504f31abb087300c8f9a646",
+    "play/index.html": "2ae06c03275df27323377c92b07592aa31e7f8c13504f31abb087300c8f9a646",
+    "print/Player_ZH.pdf": "0b49b24c92928979af28ca9269c5a7fd45ab78601130a171c0c25352086df4c7",
+    "print/Player_EN.pdf": "efeb8249f5477590c4adad2dcd9d4f1658731cfe4e99bbd708f6b94649f554a3",
+    "print/Designer_Guide.pdf": "ec78bcbe54d0b3d249486b7e987af95bbbf76c50bb65b9d8277fe13e04017c95"
+  },
+  "checks": [
+    {
+      "name": "fresh file starts at opening without prior completion",
+      "result": "PASS"
+    },
+    {
+      "name": "default observation mode is field",
+      "result": "PASS"
+    },
+    {
+      "name": "refusal immediately pauses transfer",
+      "result": "PASS"
+    },
+    {
+      "name": "early result does not pretend full proof",
+      "result": "PASS"
+    },
+    {
+      "name": "final S03 observed-date label is neutral",
+      "result": "PASS"
+    },
+    {
+      "name": "final S03 range label does not preselect lower bound",
+      "result": "PASS"
+    },
+    {
+      "name": "initial S03 has no complete reference chain",
+      "result": "PASS"
+    },
+    {
+      "name": "core evidence permits disposition without five solved stops",
+      "result": "PASS"
+    },
+    {
+      "name": "visible outcome records the return",
+      "result": "PASS"
+    },
+    {
+      "name": "unverified A stays separately unverified",
+      "result": "PASS"
+    },
+    {
+      "name": "previous refusal remains in the result",
+      "result": "PASS"
+    },
+    {
+      "name": "sidebar shows actual game-world object return",
+      "result": "PASS"
+    },
+    {
+      "name": "reload preserves executed disposition",
+      "result": "PASS"
+    },
+    {
+      "name": "English switch preserves completed outcome",
+      "result": "PASS"
+    },
+    {
+      "name": "mobile page has no horizontal overflow",
+      "result": "PASS"
+    },
+    {
+      "name": "no runtime HTTP requests",
+      "result": "PASS"
+    },
+    {
+      "name": "no JavaScript exceptions",
+      "result": "PASS"
+    }
+  ],
+  "passed": 17,
+  "failed": 0,
+  "javascript_errors": [],
+  "runtime_http_requests": [],
+  "scope": "Actual file navigation from a fresh ZIP extraction in a new Chromium browser context, using visible UI. Tests early refusal, optional A, early proof, executed return, reload and English switch. Component hashes identify the tested bytes; packaging later adds this report and updates manifest only. Not a human, field or physical assembly test."
+}

@@ -1,0 +1,57 @@
+{
+  "kind": "REPOSITORY_RELOCATION_BUILD_CHECK",
+  "date_utc": "2026-10-21T04:42:13.841382+00:00",
+  "root": "revisions/R8_second_theft_20261021",
+  "commands": [
+    {
+      "command": "python source/build.py",
+      "exit_code": 0
+    },
+    {
+      "command": "node source/build_print.cjs",
+      "exit_code": 0
+    },
+    {
+      "command": "python source/check_traceability_v3.py design/04_TRACEABILITY.json --level prototype",
+      "exit_code": 0,
+      "result": "REFERENCES_STRUCTURALLY_VALID",
+      "errors": [],
+      "warnings": []
+    }
+  ],
+  "outputs": [
+    {
+      "path": "R8_Offline.html",
+      "exists": true,
+      "bytes": 122581
+    },
+    {
+      "path": "play/index.html",
+      "exists": true,
+      "bytes": 122581
+    },
+    {
+      "path": "play/content.json",
+      "exists": true,
+      "bytes": 42654
+    },
+    {
+      "path": "print/Player_ZH.html",
+      "exists": true,
+      "bytes": 62462
+    },
+    {
+      "path": "print/Player_EN.html",
+      "exists": true,
+      "bytes": 65483
+    },
+    {
+      "path": "print/Designer_Guide.html",
+      "exists": true,
+      "bytes": 38306
+    }
+  ],
+  "offline_sha256": "2ae06c03275df27323377c92b07592aa31e7f8c13504f31abb087300c8f9a646",
+  "offline_copies_identical": true,
+  "scope": "Relative source and default generated-output paths, plus traceability structure. No repeat browser playtest, PDF rendering, field test, human test or creative approval. Generated outputs are ignored by version control."
+}

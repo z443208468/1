@@ -1,0 +1,14 @@
+{
+  "status": "REFERENCES_STRUCTURALLY_VALID",
+  "level": "prototype",
+  "errors": [],
+  "warnings": [],
+  "counts": {
+    "sites": 5,
+    "evidence": 17,
+    "events": 3,
+    "player_actions": 9,
+    "puzzles": 5
+  },
+  "limits": "No factual, literary, human-experience, independent-review or field certification."
+}

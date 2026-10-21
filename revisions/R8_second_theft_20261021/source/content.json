@@ -1,0 +1,461 @@
+{
+  "version": "R8-20261021",
+  "title": {
+    "zh": "第二次失窃",
+    "en": "THE SECOND THEFT"
+  },
+  "subtitle": {
+    "zh": "三片景芯 · 五处东京 · 一场尚未发生的失窃",
+    "en": "Three scenic inserts. Five places in Tokyo. A theft that has not happened yet."
+  },
+  "opening": {
+    "zh": "你原本来参加一场城市试景工作坊。纸包里有三张景芯片，标签写着：“试景片，活动结束由佐伯灯收回。”\n联络人鹭泽透突然发来两幅红匣图：“昨夜有人把我的旧剧场景匣拆走了。你们拿的不是测试片，是从里面拆出来的原件。现在封袋，交给鸣海，按返还失主处理。”\n前图圆片还在，后图看不见了。匣缘的缺口和桌布折痕却没有变化。你可以相信他，也可以先问：看不见，真的等于被拿走吗？\n你已经握着会改变这件事的东西。先决定是否暂不转交，再动手检查这两幅图。",
+    "en": "You came for a city viewing workshop. Your pack holds three scenic inserts. Its label reads: “Workshop loan. Return to Saeki Akari after the activity.”\nThe liaison, Sagisawa Toru, sends two pictures of a red case: “Someone dismantled my old theatre piece last night. Those are the missing originals, not test inserts. Seal them now. Give them to Narumi as a return to the owner.”\nA disk is visible in the first picture and missing from view in the second. Yet the nick in the case and the fold in the cloth match. You may believe him—or ask whether something unseen has actually gone anywhere.\nYou already hold the object that changes what happens next. Decide whether to hold the inserts, then examine the pictures."
+  },
+  "instructions": {
+    "zh": "建议2–4人，一人也可玩。沿建议路线观察、摆卡、核对证据；所有站点和联系人从开场可用。轮换持图、观察与反驳的人，不需要禁言或表演。\n实地模式先给观察任务；桌面模式提供取材转绘参考。看不清、闭园、绕行或不便到场时，随时开备用板。提示免费，使用直接答案会记为辅助。无需上传照片或开启定位。\n所有现代人物、信息、交接和“原记录”均为原创虚构，在本页或纸件中模拟。历史来源与用户取材只支持标明的地方事实。现实馆方、员工和路人不参与。",
+    "en": "For 2–4 players, also playable solo. Observe, arrange and test evidence along the suggested route. Every stop and contact is available from the start. Share the roles of observing, holding the diagram and challenging an explanation.\nField mode begins with an observation task. Desk mode supplies a reconstruction from the collected material. Open a reference whenever access or visibility is difficult. Hints are free; answer-bearing help is recorded as assistance. No GPS or photo upload is required.\nAll contemporary characters, messages, transfers and original-record props are fictional and simulated here or on paper. Historical sources support only the stated place facts. Real institutions, staff and passers-by have no game role."
+  },
+  "safety": {
+    "zh": "先停在宽阔的公共步道再看屏幕。不跨车道复刻镜头，不越围挡，不进入收费馆或剧场，不占入口，不接触公共物件。芭蕉免费庭园有开放时间与台阶；不可达直接用备用。公园施工路径以当日告示为准。纸件在出发前裁好，现场只摆动自带材料。",
+    "en": "Stop on a clear public footpath before using the screen. Do not step into traffic to match a view, cross barriers, enter ticketed interiors, block entrances or touch public objects. The free Basho garden has opening hours and steps; use the reference if it is inaccessible. Follow current park closures. Cut paper props before going out."
+  },
+  "earlyStop": {
+    "zh": "已暂不转交。景芯仍在你手中，这一次错误取物没有发生。你还未必知道图是怎样做的，或三个人各自隐瞒了什么。可以保存离开、继续检验，或主动查看标为剧透的作者真相；不会因为少走一站收回你的成果。",
+    "en": "Transfer paused. The inserts remain with you, so this attempted taking has not happened. You may not yet know how the pictures were made or what each person withheld. Save and leave, keep investigating, or deliberately open the spoiler-labelled author account. Skipping a stop does not undo your refusal."
+  },
+  "fullTruth": {
+    "zh": "【作者真相：主动查看不等于玩家已证明全部命题】\n佐伯灯制作了一套现代分层景芯，并把三片原件借给今天的工作坊参与者。鹭泽仅获准展示外框和样片，却先收下了出售“旧剧场珍品”的订金。他要取得自己从未获得的景芯，再补成承诺的货物。普通活动归还只会把片还给灯，于是他自称失主，把合法借用说成了赃物返还。\n他用两类不同图像支持这件事。A是标作“1930年未经改动原拍”的销售图；其中完整的现代芭蕉纪念设施，使这项具体年代主张不成立。B是被改称“昨夜失窃”的演示画面。鸣海的同次D-17记录显示：带斜线边的演示圆片留在槽内，遮片移动才使它不可见。1995不能证明昨夜发生了什么，后来重演也不能替代这段同次记录。\n灯不是完全无辜。她在看过假1930文案后，为拿到尾款仍交过一次掩去现代参照的修片。被索要完整记录时，她交出原图、销售样张和随后回复，不能只拿回作品而抹去自己的配合。鸣海的演示被借作证言；他看到矛盾便暂停外框交付、保存原记录并撤回那项见证。\n“第一次失窃”是对演示的改述。若你把借来的景芯按所谓失主要求交出，新的取物才会发生。你的拒交、配证、披露和归还操作改变了本次结果。公开质证与受控重演都能保全实物；重演展示图像怎样欺骗人，却不保证鹭泽误认或认罪。旧剧场有真实的名字与迁址历史，这些历史没有把一件现代作品变成他的古物。",
+    "en": "AUTHOR ACCOUNT — opening this does not mean you have proved every claim.\nAkari made modern layered scenic inserts and loaned the three originals to today’s workshop group. Toru had permission to display only the frame and samples. He took a deposit for an “old theatre treasure” before acquiring the inserts. An ordinary workshop return would send them to Akari, so he claimed to be their dispossessed owner.\nHe used two different kinds of image. A was advertised as an unaltered photograph from 1930; the complete modern Basho memorial garden contradicts that particular claim. B was an occlusion demonstration relabelled as a theft last night. Narumi’s continuous D-17 record shows a striped demonstration disk staying in its slot while a screen moves in front of it. A 1995 date cannot establish what happened last night. A new reenactment cannot replace the original same-session record.\nAkari also withheld something: after seeing the false 1930 caption, she supplied a crop that removed a modern reference, hoping to receive her remaining fee. When asked for the full record, she releases the original, the sales draft and her later reply. Recovering the inserts does not erase that action. Narumi pauses the frame transfer and withdraws the testimony falsely attributed to him.\nThe first theft was a false account of a demonstration. A new taking would occur only if you surrendered your borrowed inserts under Toru’s claim. Holding them, matching evidence, disclosing it and returning them changes this attempt. Either resolution protects the object. A reenactment demonstrates an unreliable view; it does not guarantee Toru’s mistake or confession. Real theatre history cannot make a modern object his antique."
+  },
+  "characters": [
+    {
+      "id": "maker",
+      "name": {
+        "zh": "佐伯灯",
+        "en": "Saeki Akari"
+      },
+      "role": {
+        "zh": "景芯制作者／原工作坊发起人",
+        "en": "Maker / workshop organiser"
+      },
+      "initial": {
+        "zh": "“片是我借给你们的，按标签还我。你们不必先查完任何事，才能拒绝把它交给别人。”",
+        "en": "“I loaned you the inserts. Return them as labelled. You do not have to finish an investigation before refusing another person’s demand.”"
+      },
+      "record": {
+        "zh": "【L借用单】三片现代景芯；借出方佐伯灯；归还对象佐伯灯；鹭泽只获外框展示许可。\n【D完整制作记录】原始设计含完整现代纪念庭园 → 鹭泽寄来标“1930未改原拍”的销售样张 → 灯回复并提供遮掉现代参照的修片。\n“我没有把景芯卖给他。但假年份出现以后，我还替他改过一张图。这一段也给你们。不要只留下对我有利的那一页。”\n她撤回继续修片的同意，授权你保留完整记录；片仍在你手中，直到你明确执行归还。",
+        "en": "L — Loan record: three modern scenic inserts, loaned by and returnable to Akari. Toru was permitted to display the outer frame only.\nD — Complete production sequence: original with the entire modern memorial garden → Toru’s sales draft labelled “unaltered 1930 photograph” → Akari’s reply supplying a crop that hides a modern reference.\n“I never sold him the inserts. But after that false date appeared, I still altered a picture for him. Keep that part too.”\nShe stops supplying further edits and lets you keep the complete record. The inserts remain with you until you explicitly return them."
+      }
+    },
+    {
+      "id": "broker",
+      "name": {
+        "zh": "鹭泽透",
+        "en": "Sagisawa Toru"
+      },
+      "role": {
+        "zh": "活动联络人／试图取得景芯的人",
+        "en": "Liaison / seeking the inserts"
+      },
+      "initial": {
+        "zh": "“借用标签是她写的。我说的是那之前的事。请先封袋，按返还失主处理。”他想让你改变原定归还对象。",
+        "en": "“She wrote that loan label. I am talking about what happened before it. Seal the inserts first and return them to their owner.” He wants you to change the recipient."
+      },
+      "record": {
+        "zh": "【A销售主张】“1930年，未经改动的现场原照。”图中声称记录完整现代芭蕉纪念设施。\n【B所谓失窃】两幅裁剪画面，匣缘缺口、框角及桌布折痕相同；前一格圆片可见，后一格不可见。\n【授权回答】他拿不出灯转让景芯的记录。他说：“那是供货上的分歧，先交鸣海暂存也行。”你可以拒绝暂存，实物不会自动转走。\n只索取副本不等于向他披露你的发现；明确公开质疑后，他会要求连续背面检验或提出取消，不会等你走完五站。",
+        "en": "A — Sales claim: “1930, an unaltered original photograph,” supposedly showing the complete modern Basho memorial.\nB — Alleged theft: two crops share a case nick, frame corner and cloth fold. A disk is visible in one, obscured in the other.\nAuthority: he cannot supply a transfer of the inserts from Akari. “It is a supply dispute. Narumi can hold them for now.” You may refuse; nothing moves automatically.\nRequesting his copies does not itself reveal your findings. Once you disclose a challenge, he asks for continuous rear views or proposes cancellation instead of waiting for five stops."
+      }
+    },
+    {
+      "id": "handler",
+      "name": {
+        "zh": "鸣海航",
+        "en": "Narumi Wataru"
+      },
+      "role": {
+        "zh": "外框保管人／演示记录拍摄者",
+        "en": "Frame custodian / demonstration recorder"
+      },
+      "initial": {
+        "zh": "“我只收过外框，普通工作坊材料应还灯。有人要改成‘返还失主’，我需要先核对。”",
+        "en": "“I hold the frame only. Ordinary workshop returns go to Akari. If this is now called a return to an owner, I need to check that change.”"
+      },
+      "record": {
+        "zh": "【D-17同次连续演示记录】保留开场裁图可见的匣缘缺口、框角和桌布折痕。六格依次为：圆片在固定槽；前遮片进入；圆片不可见；前遮片退出；圆片重新可见；同次旁视显示圆片仍在原槽。D-17编号只辅助对应，动作连续性和共有标志同样必要。\n“这是我拍的试景演示，斜线边的是演示片。我没有见证景芯被盗。完整记录给你们，外框先停。”\n这份原记录是故事里的原创物证图，不是用户取材拍到的犯罪影像。他保存完整副本，拒绝让删去的上下文继续代替自己的证言。",
+        "en": "D-17 — Same-session continuous demonstration record. The nick, frame corner and cloth fold match the opening crops. Six frames show the striped disk in its fixed slot, the screen entering, the disk becoming hidden, the screen retreating, the disk reappearing and a same-session side inspection revealing it still in place. The record ID supports the match; shared marks and continuity matter too.\n“This is my viewing demonstration. The striped disk is a demo piece. I did not witness the scenic inserts being stolen. Keep the complete record. I am holding the frame.”\nThis is an original fictional evidence prop, not footage of a crime in the field material. He preserves his copy and withdraws the cropped account attributed to him."
+      }
+    }
+  ],
+  "stages": [
+    {
+      "id": "S01",
+      "title": {
+        "zh": "消失之前",
+        "en": "Before it vanished"
+      },
+      "location": {
+        "zh": "纽扣博物馆外公共街角",
+        "en": "Public street outside the Button Museum"
+      },
+      "intro": {
+        "zh": "红匣里真的少了一件东西吗？先用手里的三层片学习区别图像与物件，再检查那两幅所谓失窃图。",
+        "en": "Did an object actually leave the red case? Use the three scenic layers to separate an image from an object, then examine the alleged theft."
+      },
+      "observe": {
+        "zh": "留在公共步道，从周围找出塔楼、高架、柳枝，比较它们的前后关系。无需把三者对到同一个精确位置；不读广告号码，不踏入车道。看不到就用备用。",
+        "en": "From a public footpath, identify the tower, elevated road and willow, and compare their depth. No exact alignment is required. Ignore advertisement numbers and stay out of traffic. Use the reference if the view is unavailable."
+      },
+      "backup": {
+        "zh": "取材转绘依据：视频19.3秒附近可见柳枝位于近处，高架形成中层，塔楼在更远背景。它支持宽容的景深比较，不证明厘米级站位。",
+        "en": "Reconstruction from the clip near 19.3 seconds: willow in the foreground, elevated road in the middle and tower farther away. This supports a broad depth comparison, not a precise viewing position."
+      },
+      "task": {
+        "zh": "按由远到近重排三片，让合成图随顺序改变。再移动红匣前的遮片：圆片是否必须离开，才能从正面消失？选出这次操作真正能证明的结论。",
+        "en": "Arrange the three inserts from far to near and watch the composite change. Move the screen in front of the red case: must the disk leave to disappear from front view? Choose only what this experiment establishes."
+      },
+      "success": {
+        "zh": "你已做出一种“东西没走，画面却变了”的方法。这足以质疑失窃解释，还不足以断定昨夜发生了什么。现在可以直接向鸣海索取那次演示的完整记录。",
+        "en": "You produced a changed picture without moving the object. That challenges the theft interpretation, but does not establish what happened last night. You can ask Narumi for the original same-session record now."
+      },
+      "hints": [
+        {
+          "zh": "先比较遮挡和景深，不找文字密码。",
+          "en": "Compare depth and occlusion, not written codes."
+        },
+        {
+          "zh": "塔在更远处，柳枝更靠近观察者。",
+          "en": "The tower is farther away; the willow is closer."
+        },
+        {
+          "zh": "远到近：塔楼→高架→柳枝。遮片能令固定圆片不可见；结论只到“遮挡可能”。",
+          "en": "Far to near: tower → elevated road → willow. A screen can hide a stationary disk. Conclude only that occlusion is possible."
+        }
+      ],
+      "history": {
+        "zh": "馆方藏品介绍中，18世纪英国图画纽扣可由薄板与玻璃背面的画共同形成层次。这里的三张纸片是据此启发的原创装置，并非馆藏复制品。",
+        "en": "The museum describes eighteenth-century English picture buttons combining paintings on a thin plate and the back of glass. These three paper inserts are an original device inspired by that layering, not a replica of a collection item."
+      },
+      "route": {
+        "zh": "下一站两国桥：样片上写着稲瀬川。先问这个名字指的是现实河流，还是舞台里的地方。",
+        "en": "Next: Ryogoku Bridge. A scenic sample bears the name Inase River. Does it name a physical river here, or a place on stage?"
+      },
+      "sourceNote": {
+        "zh": "实拍：纽扣博物馆.mp4；馆方藏品目录。街角排他性仍不足，不能据此宣称强实景关已验收。",
+        "en": "Field source: Button Museum clip; museum collection catalogue. The uniqueness of this street corner remains unproven."
+      }
+    },
+    {
+      "id": "S02",
+      "title": {
+        "zh": "一幅景，两条河名",
+        "en": "One view, two river names"
+      },
+      "location": {
+        "zh": "两国桥及开放河岸案内图",
+        "en": "Ryogoku Bridge and accessible riverside guide signs"
+      },
+      "intro": {
+        "zh": "工作坊样片背面的稲瀬川，似乎把你带出了东京。但纸上的舞台名，能证明画面里的东西已经去了另一座城吗？",
+        "en": "The sample’s Inase River label seems to lead away from Tokyo. Can a stage name establish that the object in the image travelled to another city?"
+      },
+      "observe": {
+        "zh": "在开放步道辨认主河、汇入支流及桥，或查看现场案内图。图板可能朝不同方向，先看河道怎样相连，不把图面上方直接当北。",
+        "en": "Identify the main river, tributary and bridges from an open footpath or a local guide sign. Signs use different orientations. Read their connections before treating the top as north."
+      },
+      "backup": {
+        "zh": "关系参考：两国桥跨主河隅田川；柳桥跨汇入的神田川。汇口本身不是两座桥中任一座的跨越位置。本图为拓扑示意，不供精密导航。",
+        "en": "Reference: Ryogoku Bridge crosses the Sumida; Yanagi Bridge crosses the tributary Kanda. Neither bridge crosses the mouth itself. This is a topology diagram, not a navigation survey."
+      },
+      "task": {
+        "zh": "把两条等尺寸桥条放到主河、支流或汇口槽。再把两个河名分别放入“实景所在”和“戏中称呼”。名称不同，是否足以证明画面离开东京？",
+        "en": "Place the equal-sized bridge strips in the main-river, tributary or mouth slots. Assign the two names to physical scenery and stage setting. Does a different name prove a journey away from Tokyo?"
+      },
+      "success": {
+        "zh": "桥位和水路对应了。国立剧场所解说的这段舞台借用隅田川百本杭的景观，戏中却称稲瀬川。你不能再把那个名字当作物件已远走的证据。西两国的露天戏棚还会在终点再次出现。",
+        "en": "The bridge positions and waterways agree. In the work described by the National Theatre, Sumida scenery with its protective piles becomes the Inase River on stage. The name cannot establish that the object travelled elsewhere. The old open-air theatres of west Ryogoku will matter again at the final stop."
+      },
+      "hints": [
+        {
+          "zh": "先分清汇入关系，再放桥。",
+          "en": "Establish which river joins which, then place the bridges."
+        },
+        {
+          "zh": "柳桥跨汇入主河的支流。两个桥条大小相同，尺寸不能帮你选。",
+          "en": "Yanagi Bridge crosses the tributary. Both strips are the same size; size gives no answer."
+        },
+        {
+          "zh": "两国桥跨主河，柳桥跨支流。现实隅田川，特定舞台中的名字稲瀬川；同景异名不证明移动。",
+          "en": "Ryogoku spans the main river; Yanagi spans the tributary. Sumida is the physical scene, Inase the particular stage name. Two names do not prove movement."
+        }
+      ],
+      "history": {
+        "zh": "百本杭曾用于河岸防护，今天不应寻找或数出“一百根木杭”。现场北斋解释牌还将古画中的一之桥、弁天树林和御船藏与地方历史相联系；可看作补充发现，无须另去神社。",
+        "en": "The piles once served riverbank protection; do not hunt for a hundred surviving posts. A local Hokusai sign also identifies Ichinohashi Bridge, a Benten grove and the shogunal boathouse in the historical image. This is an optional observation, not an extra required shrine stop."
+      },
+      "route": {
+        "zh": "下一站免费芭蕉史迹展望庭园：销售图里的“古人”，究竟是人、画像还是一件后世纪念物？",
+        "en": "Next: the free Basho historic viewing garden. Is the “old figure” in the sales image a person, a portrait or a later memorial object?"
+      },
+      "sourceNote": {
+        "zh": "实拍IMG_3598、3607、3608；国立剧场文化数字图书馆。古桥位置不能与今桥精密重合。",
+        "en": "Field files IMG_3598, 3607, 3608; National Theatre digital library. Do not align the historical bridge precisely with today’s bridge."
+      }
+    },
+    {
+      "id": "S03",
+      "title": {
+        "zh": "古人没有活在这张照片里",
+        "en": "The old figure is a later object"
+      },
+      "location": {
+        "zh": "芭蕉史迹展望庭园（免费屋顶）",
+        "en": "Basho historic viewing garden — free rooftop area"
+      },
+      "intro": {
+        "zh": "A图自称“1930年未经改动的现场原照”。先核对其中描绘的对象和载体，看看这个说法能否成立。B图的“昨夜”则是另一项主张。",
+        "en": "Image A claims to be an unaltered original photograph from 1930. Identify the object and image carrier it depicts, and test that claim. Image B makes a separate claim about last night."
+      },
+      "observe": {
+        "zh": "在免费庭园比较题图与现场坐像、像座说明和整体环境。词表：原画=original portrait；模写=copy；制作=making。注意纪年属于哪一句话。不依赖坐像朝向，也不把本馆园内物件当作本地点。",
+        "en": "In the free garden, compare the task image with the statue, its plaque and the surrounding setting. Word key: 原画 = original portrait; 模写 = copy; 制作 = making. Notice which statement the date belongs to. Do not rely on the statue’s orientation or objects in the separate museum garden."
+      },
+      "backup": {
+        "zh": "据IMG_3627铭牌，铜像以京都画家对相传为杉山杉风所绘芭蕉肖像的模写为依据；牌署平成七年四月。管理方说明完整屋顶庭园于1995年4月开园。这里记录的是铭牌的传述，不独立鉴定原画作者。",
+        "en": "The plaque in IMG_3627 describes a bronze based on a Kyoto artist’s copy of a Basho portrait attributed to Sugiyama Sanpu, and is dated April 1995. The operator dates the rooftop garden’s opening to April 1995. This reports the plaque’s account, not an independent authentication of the portrait."
+      },
+      "task": {
+        "zh": "按图像被转制的先后连接四张载体卡。读取像座所见的纪年，将它放到对应载体；再判断它能约束销售图的什么范围。分别检验A、B和交出景芯的要求，选出当前证据支持撤回的主张。",
+        "en": "Connect the four image-carrier cards in the order the image was transformed into successive forms. Read the date on the statue plaque and assign it to the carrier it describes. Decide what, if anything, it constrains about the sales image. Consider A, B and the demand for the inserts separately. Select the claim the evidence supports rejecting."
+      },
+      "success": {
+        "zh": "A的1930原拍主张被排除。图像所画的历史人物，可以比图像载体早几百年。若你把这个矛盾给灯看，她交出完整修片顺序；若已提前取得，就直接核对她知情后的那一次修改。",
+        "en": "A’s claim to be an original 1930 photograph is ruled out. A historical subject can be centuries older than its image carrier. Show the discrepancy to Akari for her full editing sequence—or, if you already requested it, examine the edit she supplied after seeing the false caption."
+      },
+      "hints": [
+        {
+          "zh": "把被纪念的人与承载其形象的物件分开。",
+          "en": "Separate the person commemorated from the objects carrying the image."
+        },
+        {
+          "zh": "铭牌说原画经过模写，之后制作铜像。",
+          "en": "The plaque describes a portrait, a copy and then the making of the bronze."
+        },
+        {
+          "zh": "原画→模写→铜像→照片。完整现代庭园的未改实拍不早于1995；只能反驳A的1930说法。",
+          "en": "Portrait → copy → bronze → photograph. An unaltered photograph of the complete modern garden cannot predate 1995. This refutes A’s 1930 claim only."
+        }
+      ],
+      "history": {
+        "zh": "芭蕉1680年迁至深川，这是他的生活时间；1995属于后世纪念设施。相似画像、旧主题或现代铜像，都不能直接证明你手中的景芯是古物。",
+        "en": "Basho moved to Fukagawa in 1680: a date in his life. The 1995 date belongs to a later memorial. An old subject or a modern statue cannot authenticate your scenic inserts as an antique."
+      },
+      "route": {
+        "zh": "下一站浜町公园：把“镜头在哪里”与“画里的对象在哪里”分开，再看同次演示如何留下假证言。",
+        "en": "Next: Hamacho Park. Separate the camera position from the subject position, then test the same-session demonstration record."
+      },
+      "sourceNote": {
+        "zh": "实拍IMG_3626/3627/3628；KCF庭园资料。芭蕉视频后段本馆园内物件不参与此题。",
+        "en": "Field files IMG_3626/3627/3628; KCF garden information. Objects in the museum-garden section of the later video are not used here."
+      }
+    },
+    {
+      "id": "S04",
+      "title": {
+        "zh": "把镜头还给拍摄者",
+        "en": "Find the other side of the picture"
+      },
+      "location": {
+        "zh": "浜町公园开放公共区域",
+        "en": "Open public areas of Hamacho Park"
+      },
+      "intro": {
+        "zh": "一支箭头指向菱格立面。它记录的是观看方向，还是一条物件移动路线？你要找到拍摄端与被摄端，并把这个区别用到红匣记录上。",
+        "en": "An arrow points toward a diamond-patterned facade. Is it a viewing direction or an object’s route? Locate the camera and the subject, then apply that distinction to the red-case record."
+      },
+      "observe": {
+        "zh": "从开放步道比较现场案内图、主要场地和菱格建筑。观察题图中的前景与后景。不进入游具区寻找精确机位；有人使用或路径关闭就用备用。",
+        "en": "From an open path, compare the park guide, major spaces and diamond-patterned building. Examine foreground and background in the task image. Do not enter a playground to find an exact camera spot; use the reference when access or other visitors make observation unsuitable."
+      },
+      "backup": {
+        "zh": "取材关系：导览图以河为上边时，大运动场在左，体育中心在右，游具在中心右侧，主入口在下方。IMG_3636画面前方为游具一侧，后方为体育中心菱格立面。",
+        "en": "Reference: with the river edge at the top of the guide, the large sports ground is left, the sports centre right, the playground to the centre’s right and the main approach below. IMG_3636 looks from the playground side toward the centre’s diamond facade."
+      },
+      "task": {
+        "zh": "旋转、翻转没有文字的图层，对齐三处空间锚点。分别放置相机与被拍建筑，并判断箭头的含义。再打开鸣海的D-17，把开场裁图与同次连续动作对应；今天的新重演不能代替这份记录。",
+        "en": "Rotate and mirror the unlabelled layer to align three spatial anchors. Place the camera and subject separately and interpret the arrow. Open Narumi’s D-17 and match the opening crops to its continuous actions. A new reenactment cannot replace that same-session record."
+      },
+      "success": {
+        "zh": "取景端与被摄端分开了。D-17中共有缺口、折痕和连续移动的遮片对应开场裁图；演示片始终没有离开槽。鸣海撤回被剪出的“失窃见证”，外框继续暂停。你已能准备一场不交出真景芯的重演。",
+        "en": "The camera and subject are separated. D-17’s matching nick, cloth fold and moving screen connect the opening crops to a demonstration whose disk stays in its slot. Narumi withdraws the alleged theft testimony and keeps the frame paused. You can now prepare a reenactment without surrendering the real inserts."
+      },
+      "hints": [
+        {
+          "zh": "先看哪一物在前，别把箭头自动当运输路线。",
+          "en": "Identify foreground first. Do not automatically read an arrow as transport."
+        },
+        {
+          "zh": "画中的菱格立面在后景；用案内图确认前景所在一侧。",
+          "en": "The diamond facade is in the background. Use the guide to identify the foreground side."
+        },
+        {
+          "zh": "相机在游具一侧，朝向体育中心；箭头表示取景。只有同次D-17连续记录，才支持B原画面是演示。",
+          "en": "The camera is on the playground side, pointing at the sports centre. The arrow shows viewing. The same-session D-17 record supports the conclusion that B came from a demonstration."
+        }
+      ],
+      "history": {
+        "zh": "公园1929年开园，与震灾后的城市复兴有关。这个历史事实不决定现代镜头方向；本题使用的是当代空间证据，不能拿1929年的名义伪造旧图叠合。",
+        "en": "The park opened in 1929 as part of post-earthquake reconstruction. That fact does not determine a modern camera direction. This puzzle uses present-day spatial evidence, not a fabricated overlay of a 1929 plan."
+      },
+      "route": {
+        "zh": "下一站明治座外。让旧名字回到真实的剧场历史，再决定这一次交接由谁控制。",
+        "en": "Next: outside Meijiza. Restore the old names to their real theatre history, then decide who controls this transfer."
+      },
+      "sourceNote": {
+        "zh": "实拍IMG_3633/3634/3636及公园视频。施工使可见性可能变化；不用具体游具数量。",
+        "en": "Field files IMG_3633/3634/3636 and park video. Construction may change visibility; no playground counts are required."
+      }
+    },
+    {
+      "id": "S05",
+      "title": {
+        "zh": "第二次失窃，由你叫停",
+        "en": "Stop the second theft"
+      },
+      "location": {
+        "zh": "明治座外公共步道",
+        "en": "Public footpath outside Meijiza"
+      },
+      "intro": {
+        "zh": "从西两国露天戏棚延续而来的剧场，换过名字，也迁过地址。但这条真实历史没有把你手里的现代作品变成鹭泽的藏品。不要再追一个地址；现在处理交接。",
+        "en": "The theatre tradition that grew from open-air shows in west Ryogoku changed names and address. That real history does not make your modern inserts Toru’s property. Stop chasing an address. Decide the transfer."
+      },
+      "observe": {
+        "zh": "在不妨碍通行的位置确认今日剧场实体名称。完整年表不在已确认的外墙；本题沿革资料随包提供，不需要进场、问员工或找外墙密码。",
+        "en": "Confirm the present theatre’s name without obstructing the path. A complete exterior timeline has not been established. The historical cards are supplied; do not enter, ask staff for clues or search the facade for a code."
+      },
+      "backup": {
+        "zh": "随身史料：喜昇座1873开场，1879改久松座，1885改千歳座，1893以明治座重建开场；1928迁至今址附近重新开场。这是名字与地点两条轨道。",
+        "en": "Source card: Kishoza opened in 1873, became Hisamatsuza in 1879, Chitoseza in 1885 and reopened as Meijiza in 1893. The 1928 reopening followed a move to the present area. Name and location belong on separate tracks."
+      },
+      "task": {
+        "zh": "将名字与迁址信息分到两条轨道，再把几份原记录与鹭泽的主张并排，决定每份证据实际回答哪个问题。核心事件可以在任意站检验；来源年代另记，不需要为了结算补齐所有题。选择公开处理或受控重演，最后执行物件归还。",
+        "en": "Place names and relocation on separate tracks. Lay the original records beside Toru’s claims and decide which question each record actually answers. You may test the core case at any stop; source dating is tracked separately, and completing every puzzle is not required. Choose evidence presentation or reenactment, then execute the return."
+      },
+      "success": {
+        "zh": "旧名延续的是剧场传统，1928改变的是位置；它们没有赋予任何人本案景芯的来源或所有权。你将以分开的证据回答分开的主张，最后移动物件，而不是把七个旧答案再填一遍。",
+        "en": "The old names track a theatre tradition; 1928 marks a relocation. Neither establishes provenance or ownership of these inserts. Use distinct evidence for distinct claims, then change the object’s custody."
+      },
+      "hints": [
+        {
+          "zh": "把机构名字、位置、物件归属分成三件事。",
+          "en": "Separate institutional name, location and ownership of this object."
+        },
+        {
+          "zh": "1928不是第五个名字。核心取物案不必等A年代核完。",
+          "en": "1928 is not a fifth name. You can resolve the taking attempt before checking A’s date."
+        },
+        {
+          "zh": "喜昇→久松→千歳→明治；1928迁址。核心配证：B→D-17；失主返还→L+D。A若核过，再配现代设施的年代下界。",
+          "en": "Kisho → Hisamatsu → Chitose → Meiji; 1928 is relocation. Core matches: B → D-17; owner-return → L+D. If checked, match A to the modern facility’s lower date bound."
+        }
+      ],
+      "history": {
+        "zh": "明治座官方记述其前身为西两国广小路的无名露天戏棚。雨天限制与1872年制度变化，是从露天经营转向建剧场的真实背景；本案三个现代人物与剧院没有合作关系。",
+        "en": "Meijiza traces its predecessor to unnamed open-air theatres in west Ryogoku. Weather constraints and a policy change in 1872 shaped the move toward a permanent theatre. The three fictional contemporary characters have no partnership with Meijiza."
+      },
+      "route": {
+        "zh": "在此完成结局，或在任何方便的公共休息处完成。终点没有真人NPC，也没有需要领取的剧院票。",
+        "en": "Finish here or at a convenient public resting place. There is no live NPC or theatre ticket to collect."
+      },
+      "sourceNote": {
+        "zh": "明治座官方沿革era1/2/3/4/7。S05外场依赖仍为S1，终局有效不等于场地门已通过。",
+        "en": "Meijiza official history, eras 1/2/3/4/7. Exterior dependence remains S1; a functioning ending does not establish a passed site gate."
+      }
+    }
+  ],
+  "endings": {
+    "open": {
+      "zh": "你把两幅裁图和D-17并排，再把借用单与灯的完整制作记录放在一起：“这是演示被说成失窃；这才是今天的借用关系。我们不把片交给你。”\n鹭泽停下催交，改称供货争议并取消此次接收。他没有认下所有指控，也没有继续取得景芯。鸣海撤销那条被归给自己的见证，按原安排归还外框。你执行归还景芯，留下完整副本。A若尚未查验，就保留未核状态。",
+      "en": "You place B beside D-17, and the loan beside Akari’s complete production record. “This demonstration was called a theft. This is today’s loan. We are not giving you the inserts.”\nToru stops demanding delivery, calls it a supply dispute and cancels this receipt. He does not confess to everything, and he does not acquire the inserts. Narumi withdraws the attributed testimony and returns the frame. You return the inserts and retain the complete records. If A is unchecked, it remains unchecked."
+    },
+    "replayQuiet": {
+      "zh": "你先把真景芯留在保管区，只将斜线边演示圆片放进红匣。鹭泽尚未收到你的质疑，仍要求正面确认。遮片合上后，画面与他使用的裁图呈现相同的可见状态；这不等于他承认真物在匣里。\n你打开旁视：演示片一直在原槽，真景芯根本没有进入匣子。鸣海把这场新重演与D-17分开保存。鹭泽看到完整记录已公开，取消接收。你执行归还，失窃没有在你手上发生。",
+      "en": "You keep the real inserts in safekeeping and put only the striped demonstration disk in the case. Toru has not received your challenge and still requests a front view. Closing the screen produces the same visible state as his crops; it is not an admission that the real inserts are inside.\nYou open the side view: the demo disk stayed in its slot, and the real inserts never entered. Narumi preserves the new reenactment separately from D-17. Once the complete record is disclosed, Toru cancels receipt. You return the inserts; the taking does not happen through you."
+    },
+    "replayAlerted": {
+      "zh": "鹭泽已收到质疑，不肯再只验正面：“给连续背面，否则我不确认。”你没有让他按剧本中计。真景芯留在保管区，用演示片移遮、旁视，把假现场的做法完整展示给鸣海。\n鸣海撤销被剪出的见证，保留D-17和这次新重演两份不同记录。鹭泽取消本次接收，景芯与外框按你执行的归还回到灯。你保住了物件，也没有替灯删去知情修片的一页。",
+      "en": "Already challenged, Toru refuses a front view alone: “A continuous rear view, or I will not confirm it.” You do not force him into a scripted mistake. Keep the real inserts safe and show Narumi the screen movement and side view using the demo disk.\nNarumi withdraws the cropped testimony, preserving D-17 and the new reenactment as separate records. Toru cancels receipt. Your explicit return sends inserts and frame back to Akari. You protect the object without deleting the page that shows her knowing edit."
+    },
+    "makerAdmission": {
+      "zh": "灯收回景芯，留下已交出的完整记录：“那一页也留着。拿回作品，不等于我可以改写自己做过什么。”尾款和其他争议未在本案中自动解决。",
+      "en": "Akari receives the inserts and leaves the complete record with you. “Keep that page too. Recovering the work does not let me rewrite what I did.” Her unpaid fee and other disputes are not magically settled."
+    },
+    "handlerWithdrawal": {
+      "zh": "鸣海把外框按原安排归还灯，并记录：“撤回失窃见证；原拍为试景演示。”本次归还只在游戏中完成，真实场馆无需接收任何东西。",
+      "en": "Narumi returns the frame as originally arranged: “The theft testimony is withdrawn. The original session was a viewing demonstration.” This transfer is simulated in the game; no real venue receives an object."
+    }
+  },
+  "sources": [
+    {
+      "id": "B01",
+      "title": "Button Museum — collection",
+      "url": "https://button-museum.jp/item/"
+    },
+    {
+      "id": "B02",
+      "title": "Button Museum — visitor information",
+      "url": "https://button-museum.jp/information/"
+    },
+    {
+      "id": "R01",
+      "title": "National Theatre — Inase/Sumida scenery",
+      "url": "https://www2.ntj.jac.go.jp/dglib/contents/learn/edc17/sakuhin/d2/b.html"
+    },
+    {
+      "id": "H01",
+      "title": "KCF — Basho museum and garden",
+      "url": "https://www.kcf.or.jp/basho/outline/"
+    },
+    {
+      "id": "H02",
+      "title": "Koto City — Basho",
+      "url": "https://www.city.koto.lg.jp/promotion/spot/basho.html"
+    },
+    {
+      "id": "P01",
+      "title": "Tokyo Metropolitan Library — Hamacho Park",
+      "url": "https://www.library.metro.tokyo.lg.jp/portals/0/tokyo/chapter2/park14.html"
+    },
+    {
+      "id": "P02",
+      "title": "Chuo City — current park works",
+      "url": "https://www.city.chuo.lg.jp/a0037/machizukuri/kouenryokka/kouen/oshirase/hamachosyuuhen.html"
+    },
+    {
+      "id": "M01",
+      "title": "Meijiza — Kishoza origins",
+      "url": "https://www.meijiza.co.jp/anniversary/era1.html"
+    },
+    {
+      "id": "M02",
+      "title": "Meijiza — Hisamatsuza",
+      "url": "https://www.meijiza.co.jp/anniversary/era2.html"
+    },
+    {
+      "id": "M03",
+      "title": "Meijiza — Chitoseza",
+      "url": "https://www.meijiza.co.jp/anniversary/era3.html"
+    },
+    {
+      "id": "M04",
+      "title": "Meijiza — Meijiza name",
+      "url": "https://www.meijiza.co.jp/anniversary/era4.html"
+    },
+    {
+      "id": "M05",
+      "title": "Meijiza — 1928 move",
+      "url": "https://www.meijiza.co.jp/anniversary/era7.html"
+    }
+  ]
+}

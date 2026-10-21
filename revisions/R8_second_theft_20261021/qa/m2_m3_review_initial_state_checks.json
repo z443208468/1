@@ -1,0 +1,12 @@
+{
+  "engineSha256": "94207d45a6f70e92bd04be25fa222e90533374e1c1f00254b7a94e59ebdaff78",
+  "method": "Actual node execution of five targeted state sequences; retained from the first review tool output before the parallel author changed engine.js.",
+  "observations": [
+    {"test":"core_claims_without_A","result":{"ok":false,"wrong":["date"]}},
+    {"test":"full_hint_source","q":{"draft":{"order":[],"inference":"","mask":0,"openSeen":false,"coverSeen":false},"accepted":null,"dirty":true,"hints":3,"assisted":false,"reference":"field"}},
+    {"test":"full_assist_source","reference":"field","assisted":true},
+    {"test":"quiet_expose_knowledge","completed":true,"disclosure":"quiet","world":{"coreHolder":"akari","frameHolder":"akari","transfer":"cancelled","frameDelivery":"returned","brokerRequest":"SALE_WITHDRAWN","brokerKnowsChallenge":false,"recordRecipients":["akari","narumi","sagisawa"],"caseProven":true,"earlyRefusal":false,"proofRoute":"records_and_claims_not_stamps"}},
+    {"test":"save_reload_completed","before":{"completed":true,"core":"akari","frame":"akari","transfer":"cancelled"},"after":{"completed":false,"core":"player","frame":"narumi","transfer":"paused"}},
+    {"test":"edit_after_complete","completed":false,"core":"akari","frame":"akari","transfer":"cancelled","world":{"coreHolder":"akari","frameHolder":"akari","transfer":"cancelled","frameDelivery":"paused","brokerRequest":"REQUEST_FRONT","brokerKnowsChallenge":false,"recordRecipients":[],"caseProven":true,"earlyRefusal":false,"proofRoute":"records_and_claims_not_stamps"}}
+  ]
+}

@@ -1,0 +1,268 @@
+{
+  "snapshot_kind": "REPOSITORY_PREPARATION_NOT_FINAL_RELEASE",
+  "copied_at_utc": "2026-10-21T04:38:17.307427+00:00",
+  "source_release": "Tokyo_CNW_R8",
+  "base_repository_head": "7a188794224cbc189adf5424e41bf50b6bea939e",
+  "included_directories": [
+    "source",
+    "design",
+    "research",
+    "operations",
+    "qa"
+  ],
+  "excluded": [
+    "generated HTML/PDF/ZIP",
+    "original photos and videos",
+    "fonts and browser binaries",
+    "screenshots",
+    "git metadata"
+  ],
+  "source_snapshot": [
+    {
+      "path": "source/README.md",
+      "bytes": 5089,
+      "sha256": "91d97dad397dcdaf79796fa3120a9d5ea62b91a8c295163997f2ae40556ce806"
+    },
+    {
+      "path": "source/app.js",
+      "bytes": 43999,
+      "sha256": "f5bf5830904b761a8e0b0064bdbe0f5e67bbdb2bb524df9f1b8f5f6f514b2212"
+    },
+    {
+      "path": "source/build.py",
+      "bytes": 3490,
+      "sha256": "b0c779468958bf843a02146e44e9152c594af2059930baf62b32a6243e1a5837"
+    },
+    {
+      "path": "source/build_print.cjs",
+      "bytes": 34796,
+      "sha256": "6956643fb2dc3ec45737bf9d48a6c9e21ad99eb8d6639cfa6647ba7b0da780ad"
+    },
+    {
+      "path": "source/check_traceability_v3.py",
+      "bytes": 10665,
+      "sha256": "4a65d8eb6550997ab25298ed1d7f8229c1c3e5ce6d75a7455bcb2b3e83018a63"
+    },
+    {
+      "path": "source/content.json",
+      "bytes": 42655,
+      "sha256": "76c7d80d42b0a63d3a89e646f16754d04ccf074360e57f5a4d07af4695c5e537"
+    },
+    {
+      "path": "source/engine.js",
+      "bytes": 19109,
+      "sha256": "51692669d77e3d4b13a3a44e6ddcd8aa3a3b901e9a288fc3a7ab62293bc93559"
+    },
+    {
+      "path": "source/figures.js",
+      "bytes": 10848,
+      "sha256": "f1da1572be28839f457b8211f3c281b5ae388e304fa629116bc90d2cdf30b36c"
+    },
+    {
+      "path": "source/render_print.cjs",
+      "bytes": 2878,
+      "sha256": "d8ad113da5ee60fad37d77463bd6204cdeb7b28f8b5a0acec3a9bbbf5675e798"
+    },
+    {
+      "path": "source/style.css",
+      "bytes": 8719,
+      "sha256": "2231fdb6516c7cc4e576fa927e6be6e628a0d0d94f580c3dff373398ac87f3cd"
+    },
+    {
+      "path": "source/test_browser.cjs",
+      "bytes": 8290,
+      "sha256": "382375161b54068f76c9402ba7ac8c756e9f85affd246776590ae398f99c68cf"
+    },
+    {
+      "path": "source/test_engine.js",
+      "bytes": 11016,
+      "sha256": "1fea7b4ca13beb5a9ce1115e141b79f605608f7bc2f5988ba641cc31dbb214ed"
+    },
+    {
+      "path": "source/validate_delivery.py",
+      "bytes": 7458,
+      "sha256": "065cec6e05bfa2b761775bb874752a7648119f20fbcaacb3a94fbad4b3d51b0a"
+    },
+    {
+      "path": "design/00_PROJECT_CONTRACT.md",
+      "bytes": 6274,
+      "sha256": "6f7228924d79ac7c7b7af33fc466ad465b7f559818a078d741f6227cbb6c93a0"
+    },
+    {
+      "path": "design/01_M1_INDEPENDENT_CANDIDATES.md",
+      "bytes": 17929,
+      "sha256": "62bbb8ac244115e8bc70f3d215cd578c5a951b4ef6d0ce7912e2c96a003cbc37"
+    },
+    {
+      "path": "design/02_SELECTED_EVENT.md",
+      "bytes": 12474,
+      "sha256": "5cd6c7b950c17b8137b3f9a0093a5ad275910c173adf147bfbc9460d7c709fb1"
+    },
+    {
+      "path": "design/03_M2_M3_SPEC.md",
+      "bytes": 16746,
+      "sha256": "6d6f22b28c7040319b2b06681327ece991c4c5d5aff791d725c03d447499dc8c"
+    },
+    {
+      "path": "design/04_TRACEABILITY.json",
+      "bytes": 17165,
+      "sha256": "62676730b1177d61135619ad2754db52858fd044ff10923789c7176d9bf24294"
+    },
+    {
+      "path": "design/05_FULL_STORY.md",
+      "bytes": 17410,
+      "sha256": "79ed6c0c60872c3d02a3500ba7d9dfe421b2e22e830888fee8248059cbc53b06"
+    },
+    {
+      "path": "design/06_DELIVERY_GUIDE.md",
+      "bytes": 12763,
+      "sha256": "fde5abf02221102a2282ebb2ebcc4266e06100381d7ceb1b2663e64348218f03"
+    },
+    {
+      "path": "design/characters/character_dealer.md",
+      "bytes": 22323,
+      "sha256": "b673953da52d6634fc8c23123196885d5c74937aed16a924a6558e23bf76785b"
+    },
+    {
+      "path": "design/characters/character_dealer_v2.md",
+      "bytes": 3513,
+      "sha256": "e01f4221128c2378e4b166fe518bde12404434c1713720f07be87d62b432a665"
+    },
+    {
+      "path": "design/characters/character_handler.md",
+      "bytes": 17177,
+      "sha256": "05db52f0a25c3d79c6907f775c339a235aca6c0ccaf86b240dc52eac25380a4c"
+    },
+    {
+      "path": "design/characters/character_handler_v2.md",
+      "bytes": 3461,
+      "sha256": "2a6b87410db587bfcca60d0af18681c2130b46a5223076736acd35cac95d4805"
+    },
+    {
+      "path": "design/characters/character_maker.md",
+      "bytes": 19683,
+      "sha256": "0ef35020fed3226c56dec25cb754ab230ae21078fb1775b26010b89ad13a85f9"
+    },
+    {
+      "path": "design/characters/character_maker_v2.md",
+      "bytes": 3327,
+      "sha256": "39cbf261f4a5ec3c72f020870ee6fad2c2cc5ced194d7b1d9d89aa860f061f00"
+    },
+    {
+      "path": "research/01_HISTORY_EVIDENCE.md",
+      "bytes": 23220,
+      "sha256": "e160f3bc7758f6075bba7b46cf04ddc37e69dc6917017aef5d89f0f5e6c94255"
+    },
+    {
+      "path": "research/02_GAME_DESIGN_RESEARCH.md",
+      "bytes": 19119,
+      "sha256": "8a728ea0d00d2d130319528009571f1c2e13ac5c4ba8e9040e158c3da820565f"
+    },
+    {
+      "path": "research/03_RAW_MATERIAL_MANIFEST.json",
+      "bytes": 8319,
+      "sha256": "29b1b761105daaddf1fab143c0fb361698488941b40119a50190404d765a5fe6"
+    },
+    {
+      "path": "research/04_BUTTON_PARK_PIXEL_REVIEW.md",
+      "bytes": 3903,
+      "sha256": "73900b2e0f4f706680b97ee879fc13d6bb6f82a1ff61221bc625c6d8db9feca8"
+    },
+    {
+      "path": "research/05_FIELD_BASHO_BRIDGE.md",
+      "bytes": 13519,
+      "sha256": "b04dee3920ab23bcd93c95a8534697e4408afc9dcadb8abab10d599ad369b3e6"
+    },
+    {
+      "path": "research/06_FIELD_BASHO_BRIDGE_MANIFEST.json",
+      "bytes": 8315,
+      "sha256": "8d2287837f31714695e982ae5b9616c9a07c079480796402bc5e09c37db5871a"
+    },
+    {
+      "path": "research/inherited/01_REVIEW_SCOPE_AND_PRESERVATION.md",
+      "bytes": 3379,
+      "sha256": "55743962cf4317d3bcc1b2600d9d5e5e073966f45ea58c00332d2c4c71ea7163"
+    },
+    {
+      "path": "research/inherited/02_SITE_BY_SITE_CROSSCHECK.md",
+      "bytes": 6744,
+      "sha256": "3cddd4f6130abc020ea08e7dea18023aa98150089378ce4b8fc18c294641663f"
+    },
+    {
+      "path": "research/inherited/04_GAPS_AND_DECISIONS.md",
+      "bytes": 3062,
+      "sha256": "6d2aeb65fad73a585d974528be6176e8f4552ca9eadc87504b27bd72f5ad0565"
+    },
+    {
+      "path": "operations/01_ROUTE_OPERATIONS_COSTS.md",
+      "bytes": 26617,
+      "sha256": "c8c798966ac4f93460f3f4bf19b91ce28e0151538460bee1a5480eed1ef18bff"
+    },
+    {
+      "path": "qa/00_BASELINE_AUDIT.md",
+      "bytes": 8420,
+      "sha256": "be80a0797fc9157d8bb3c73e0c1e0754a8205f3d338d892cf80a519628dff6af"
+    },
+    {
+      "path": "qa/01_M1_INDEPENDENT_REVIEW.md",
+      "bytes": 7406,
+      "sha256": "fcdc9c43dfad39ff0ccd41cbcc0dcef29be6e3003d179adf8aa3037d1d57dc28"
+    },
+    {
+      "path": "qa/01a_M1_REJECTED_DRAFT_REVIEW.md",
+      "bytes": 14832,
+      "sha256": "69933794755ec3f3b66ef9c945ecb8bc66dd7d7aefb3b7eec3b888074175831f"
+    },
+    {
+      "path": "qa/02_M2_M3_INDEPENDENT_REVIEW.md",
+      "bytes": 16058,
+      "sha256": "9f5e571f84b0f92fa27afedb069312242922fc3750d254b2588bd9677d240dd5"
+    },
+    {
+      "path": "qa/03_V3_WORKFLOW_INDEPENDENT_AUDIT.md",
+      "bytes": 16877,
+      "sha256": "0538ffedeb9571490f9b878fa99c4a901d8c51723b4b88917c3c1e645b9d614a"
+    },
+    {
+      "path": "qa/04a_LIMITED_MODEL_WALKTHROUGH.md",
+      "bytes": 12997,
+      "sha256": "783d39f57f42cfdec52c808ea965f2d5a36c9c0c4ce5c76daf9501b1e3e7d1e9"
+    },
+    {
+      "path": "qa/browser_results.json",
+      "bytes": 7443,
+      "sha256": "8317ce242510f08426899158b4a45a1582b5ed5d69ae468b16330bfeadef4f65"
+    },
+    {
+      "path": "qa/final_independent_probe.cjs",
+      "bytes": 16567,
+      "sha256": "d1a214ffa3785688c5dd430d32b91552cc0f2ad3e00fa37518318b06fe345414"
+    },
+    {
+      "path": "qa/final_independent_results.json",
+      "bytes": 43786,
+      "sha256": "fb9378983f641b90a0c3414a5a455acceb831ab19e7821ed07811a4700277777"
+    },
+    {
+      "path": "qa/logic_results.json",
+      "bytes": 4890,
+      "sha256": "6d7f380829bc299f87bfaec474adce1c4acc60bbc57a6cb0241daa8a44860f20"
+    },
+    {
+      "path": "qa/m2_m3_review_initial_state_checks.json",
+      "bytes": 1568,
+      "sha256": "9a457c2fb512318de0bd1f2d84573651d3ebac1f8b09f4d84486675a08ed3936"
+    },
+    {
+      "path": "qa/m2_m3_review_probe_in_progress.json",
+      "bytes": 4798,
+      "sha256": "45b7f7adda36fc4eaee1d2162134fdea6aed165a24f76dd819ffeead96574899"
+    },
+    {
+      "path": "qa/software_build.json",
+      "bytes": 406,
+      "sha256": "c824270f482ddace86935958a698369117d312732b9870b5cea1ae125494c20b"
+    }
+  ],
+  "note": "Final print sources and final QA will be synchronized by the controller. Individual historical QA reports retain their original tested hashes; this copy does not grant a new acceptance status."
+}

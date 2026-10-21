@@ -1,0 +1,155 @@
+{
+  "review": "M2/M3 focused independent review",
+  "enginePath": "/workspace/scratch/04ab10133470/release/Tokyo_CNW_R8/source/engine.js",
+  "engineSha256": "3cdcd18011741d3f9c4e0a8a173161410a01e2389ffb7998f2e766fa0f2cfa26",
+  "scope": "Pure state checks only. No visual, human-player, field or commercial validation.",
+  "passed": 5,
+  "failed": 0,
+  "results": [
+    {
+      "name": "R1_core_case_can_finish_without_A",
+      "passed": true,
+      "observed": {
+        "proof": {
+          "ok": true,
+          "wrong": []
+        },
+        "finish": {
+          "ok": true
+        },
+        "date": "",
+        "solvedStages": 0
+      },
+      "expected": "L+D+N+B can conclude with zero stage stamps; A remains unverified."
+    },
+    {
+      "name": "R2_answer_hint_records_supplied_information",
+      "passed": true,
+      "observed": {
+        "hints": 3,
+        "assisted": false,
+        "reference": "assisted_reference"
+      },
+      "expected": "Answer-bearing hint leaves a persistent assistance/reference record; UI meaning separately inspected."
+    },
+    {
+      "name": "R3_public_resolution_updates_current_NPC_knowledge",
+      "passed": true,
+      "observed": {
+        "disclosure": "quiet",
+        "world": {
+          "coreHolder": "akari",
+          "frameHolder": "akari",
+          "transfer": "cancelled",
+          "frameDelivery": "returned",
+          "brokerRequest": "SALE_WITHDRAWN",
+          "brokerKnowsChallenge": true,
+          "recordRecipients": [
+            "akari",
+            "narumi",
+            "sagisawa"
+          ],
+          "caseProven": true,
+          "sourceDateVerified": false,
+          "earlyRefusal": false,
+          "proofRoute": "records_and_claims_not_stamps"
+        }
+      },
+      "expected": "Keep the historical quiet route; the broker now knows the evidence publicly delivered."
+    },
+    {
+      "name": "R4a_save_restore_preserves_completed_return",
+      "passed": true,
+      "observed": {
+        "before": {
+          "completed": true,
+          "world": {
+            "coreHolder": "akari",
+            "frameHolder": "akari",
+            "transfer": "cancelled",
+            "frameDelivery": "returned",
+            "brokerRequest": "SALE_WITHDRAWN",
+            "brokerKnowsChallenge": true,
+            "recordRecipients": [
+              "akari",
+              "narumi",
+              "sagisawa"
+            ],
+            "caseProven": true,
+            "sourceDateVerified": false,
+            "earlyRefusal": false,
+            "proofRoute": "records_and_claims_not_stamps"
+          }
+        },
+        "after": {
+          "completed": true,
+          "world": {
+            "coreHolder": "akari",
+            "frameHolder": "akari",
+            "transfer": "cancelled",
+            "frameDelivery": "returned",
+            "brokerRequest": "SALE_WITHDRAWN",
+            "brokerKnowsChallenge": true,
+            "recordRecipients": [
+              "akari",
+              "narumi",
+              "sagisawa"
+            ],
+            "caseProven": true,
+            "sourceDateVerified": false,
+            "earlyRefusal": false,
+            "proofRoute": "records_and_claims_not_stamps"
+          }
+        }
+      },
+      "expected": "Restore the story outcome; a save is not certification of physical fieldwork."
+    },
+    {
+      "name": "R4b_draft_edit_does_not_reverse_story_events",
+      "passed": true,
+      "observed": {
+        "before": {
+          "completed": true,
+          "world": {
+            "coreHolder": "akari",
+            "frameHolder": "akari",
+            "transfer": "cancelled",
+            "frameDelivery": "returned",
+            "brokerRequest": "SALE_WITHDRAWN",
+            "brokerKnowsChallenge": true,
+            "recordRecipients": [
+              "akari",
+              "narumi",
+              "sagisawa"
+            ],
+            "caseProven": true,
+            "sourceDateVerified": false,
+            "earlyRefusal": false,
+            "proofRoute": "records_and_claims_not_stamps"
+          }
+        },
+        "after": {
+          "completed": true,
+          "world": {
+            "coreHolder": "akari",
+            "frameHolder": "akari",
+            "transfer": "cancelled",
+            "frameDelivery": "returned",
+            "brokerRequest": "SALE_WITHDRAWN",
+            "brokerKnowsChallenge": true,
+            "recordRecipients": [
+              "akari",
+              "narumi",
+              "sagisawa"
+            ],
+            "caseProven": true,
+            "sourceDateVerified": false,
+            "earlyRefusal": false,
+            "proofRoute": "records_and_claims_not_stamps"
+          }
+        }
+      },
+      "expected": "An old answer draft can become wrong without undoing returned objects or sent records."
+    }
+  ]
+}

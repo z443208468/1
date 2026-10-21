@@ -1,0 +1,290 @@
+{
+  "version": "R8.1",
+  "run_date": "2026-10-21",
+  "checks": [
+    {
+      "name": "offline file loads and title is present",
+      "result": "PASS"
+    },
+    {
+      "name": "default is field mode",
+      "result": "PASS"
+    },
+    {
+      "name": "field S03 hides canonical source chain",
+      "result": "PASS"
+    },
+    {
+      "name": "field S03 history cannot expand without a source action",
+      "result": "PASS"
+    },
+    {
+      "name": "opening historical source permanently records fallback reference",
+      "result": "PASS"
+    },
+    {
+      "name": "backup source chain becomes visible",
+      "result": "PASS"
+    },
+    {
+      "name": "backup source is recorded",
+      "result": "PASS"
+    },
+    {
+      "name": "answer hint permanently records assistance",
+      "result": "PASS"
+    },
+    {
+      "name": "empty bridge slots contain no preplaced solution",
+      "result": "PASS"
+    },
+    {
+      "name": "bridge input moves a real strip into the selected diagram slot",
+      "result": "PASS"
+    },
+    {
+      "name": "S01 ordering plus actual screen manipulation validates",
+      "result": "PASS"
+    },
+    {
+      "name": "editing an accepted draft clears its current success state",
+      "result": "PASS"
+    },
+    {
+      "name": "prior evidence survives draft change",
+      "result": "PASS"
+    },
+    {
+      "name": "early refusal has its own truthful outcome",
+      "result": "PASS"
+    },
+    {
+      "name": "spoiler does not mark proof",
+      "result": "PASS"
+    },
+    {
+      "name": "quiet/expose early proof needs no stage or A date",
+      "result": "PASS"
+    },
+    {
+      "name": "quiet/expose actual return and cancellation",
+      "result": "PASS"
+    },
+    {
+      "name": "quiet/expose broker knows completed disposition",
+      "result": "PASS"
+    },
+    {
+      "name": "quiet/expose local reload preserves resolution",
+      "result": "PASS"
+    },
+    {
+      "name": "quiet/expose English preserves completed state",
+      "result": "PASS"
+    },
+    {
+      "name": "quiet/expose mobile has no horizontal overflow",
+      "result": "PASS"
+    },
+    {
+      "name": "quiet/replay early proof needs no stage or A date",
+      "result": "PASS"
+    },
+    {
+      "name": "quiet replay keeps marked disc in actual SVG",
+      "result": "PASS"
+    },
+    {
+      "name": "quiet side manipulation completed",
+      "result": "PASS"
+    },
+    {
+      "name": "quiet/replay actual return and cancellation",
+      "result": "PASS"
+    },
+    {
+      "name": "quiet/replay broker knows completed disposition",
+      "result": "PASS"
+    },
+    {
+      "name": "quiet/replay local reload preserves resolution",
+      "result": "PASS"
+    },
+    {
+      "name": "quiet/replay English preserves completed state",
+      "result": "PASS"
+    },
+    {
+      "name": "quiet/replay mobile has no horizontal overflow",
+      "result": "PASS"
+    },
+    {
+      "name": "announce/expose early proof needs no stage or A date",
+      "result": "PASS"
+    },
+    {
+      "name": "announce/expose actual return and cancellation",
+      "result": "PASS"
+    },
+    {
+      "name": "announce/expose broker knows completed disposition",
+      "result": "PASS"
+    },
+    {
+      "name": "announce/expose local reload preserves resolution",
+      "result": "PASS"
+    },
+    {
+      "name": "announce/expose English preserves completed state",
+      "result": "PASS"
+    },
+    {
+      "name": "announce/expose mobile has no horizontal overflow",
+      "result": "PASS"
+    },
+    {
+      "name": "announce/replay early proof needs no stage or A date",
+      "result": "PASS"
+    },
+    {
+      "name": "announce replay keeps marked disc in actual SVG",
+      "result": "PASS"
+    },
+    {
+      "name": "announce side manipulation completed",
+      "result": "PASS"
+    },
+    {
+      "name": "announce/replay actual return and cancellation",
+      "result": "PASS"
+    },
+    {
+      "name": "announce/replay broker knows completed disposition",
+      "result": "PASS"
+    },
+    {
+      "name": "announce/replay local reload preserves resolution",
+      "result": "PASS"
+    },
+    {
+      "name": "announce/replay English preserves completed state",
+      "result": "PASS"
+    },
+    {
+      "name": "announce/replay mobile has no horizontal overflow",
+      "result": "PASS"
+    },
+    {
+      "name": "desk mode shows its distinct reference board",
+      "result": "PASS"
+    },
+    {
+      "name": "desk provenance is recorded",
+      "result": "PASS"
+    },
+    {
+      "name": "D17 original record shows entering, covering, withdrawing and side frames",
+      "result": "PASS"
+    },
+    {
+      "name": "storage-denied browser warns without crashing",
+      "result": "PASS"
+    },
+    {
+      "name": "game acts despite unavailable localStorage",
+      "result": "PASS"
+    },
+    {
+      "name": "no JavaScript exceptions during all flows",
+      "result": "PASS"
+    }
+  ],
+  "branches": [
+    {
+      "disclosure": "quiet",
+      "resolution": "expose",
+      "world": {
+        "coreHolder": "akari",
+        "frameHolder": "akari",
+        "transfer": "cancelled",
+        "frameDelivery": "returned",
+        "brokerRequest": "SALE_WITHDRAWN",
+        "brokerKnowsChallenge": true,
+        "recordRecipients": [
+          "akari",
+          "narumi",
+          "sagisawa"
+        ],
+        "caseProven": true,
+        "sourceDateVerified": false,
+        "earlyRefusal": false,
+        "proofRoute": "records_and_claims_not_stamps"
+      }
+    },
+    {
+      "disclosure": "quiet",
+      "resolution": "replay",
+      "world": {
+        "coreHolder": "akari",
+        "frameHolder": "akari",
+        "transfer": "cancelled",
+        "frameDelivery": "returned",
+        "brokerRequest": "SALE_WITHDRAWN",
+        "brokerKnowsChallenge": true,
+        "recordRecipients": [
+          "akari",
+          "narumi",
+          "sagisawa_front_record"
+        ],
+        "caseProven": true,
+        "sourceDateVerified": false,
+        "earlyRefusal": false,
+        "proofRoute": "records_and_claims_not_stamps"
+      }
+    },
+    {
+      "disclosure": "announce",
+      "resolution": "expose",
+      "world": {
+        "coreHolder": "akari",
+        "frameHolder": "akari",
+        "transfer": "cancelled",
+        "frameDelivery": "returned",
+        "brokerRequest": "SALE_WITHDRAWN",
+        "brokerKnowsChallenge": true,
+        "recordRecipients": [
+          "akari",
+          "narumi",
+          "sagisawa"
+        ],
+        "caseProven": true,
+        "sourceDateVerified": false,
+        "earlyRefusal": false,
+        "proofRoute": "records_and_claims_not_stamps"
+      }
+    },
+    {
+      "disclosure": "announce",
+      "resolution": "replay",
+      "world": {
+        "coreHolder": "akari",
+        "frameHolder": "akari",
+        "transfer": "cancelled",
+        "frameDelivery": "returned",
+        "brokerRequest": "SALE_WITHDRAWN",
+        "brokerKnowsChallenge": true,
+        "recordRecipients": [
+          "akari",
+          "narumi",
+          "sagisawa_continuous_request"
+        ],
+        "caseProven": true,
+        "sourceDateVerified": false,
+        "earlyRefusal": false,
+        "proofRoute": "records_and_claims_not_stamps"
+      }
+    }
+  ],
+  "javascript_errors": [],
+  "scope": "Actual file navigation, authored UI interactions, current local Chromium, 390px/1100px. No human blind playtest, field validation or commercial authorisation."
+}

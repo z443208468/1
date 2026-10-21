@@ -1,0 +1,331 @@
+{
+  "received": "2026-10-21",
+  "originals_in_release": false,
+  "archives": [
+    {
+      "upload": "两国桥.zip",
+      "sha256": "d59f5b2d4b5bc440d24d7c58502cc5f9618bd1fc5a096752d19e7484726e9069",
+      "count": 29,
+      "entries": [
+        {
+          "path": "两国桥/IMG_3582.HEIC",
+          "bytes": 2263031,
+          "crc32": "f671eb16"
+        },
+        {
+          "path": "两国桥/IMG_3583.HEIC",
+          "bytes": 3250066,
+          "crc32": "1a4cc08c"
+        },
+        {
+          "path": "两国桥/IMG_3584.HEIC",
+          "bytes": 1531389,
+          "crc32": "71edf0fe"
+        },
+        {
+          "path": "两国桥/IMG_3585.HEIC",
+          "bytes": 2310028,
+          "crc32": "44b52738"
+        },
+        {
+          "path": "两国桥/IMG_3588.HEIC",
+          "bytes": 1806959,
+          "crc32": "8c735a4b"
+        },
+        {
+          "path": "两国桥/IMG_3589.HEIC",
+          "bytes": 1828612,
+          "crc32": "261c4d2a"
+        },
+        {
+          "path": "两国桥/IMG_3591.HEIC",
+          "bytes": 2677923,
+          "crc32": "85ebca77"
+        },
+        {
+          "path": "两国桥/IMG_3592.HEIC",
+          "bytes": 2314604,
+          "crc32": "03738325"
+        },
+        {
+          "path": "两国桥/IMG_3593.HEIC",
+          "bytes": 2725584,
+          "crc32": "21d57ec2"
+        },
+        {
+          "path": "两国桥/IMG_3594.HEIC",
+          "bytes": 1934903,
+          "crc32": "9822e569"
+        },
+        {
+          "path": "两国桥/IMG_3595.HEIC",
+          "bytes": 2389865,
+          "crc32": "27cc4074"
+        },
+        {
+          "path": "两国桥/IMG_3596.HEIC",
+          "bytes": 2092508,
+          "crc32": "a00bb9f0"
+        },
+        {
+          "path": "两国桥/IMG_3597.HEIC",
+          "bytes": 1243754,
+          "crc32": "5633b571"
+        },
+        {
+          "path": "两国桥/IMG_3598.HEIC",
+          "bytes": 2723133,
+          "crc32": "988b2fcb"
+        },
+        {
+          "path": "两国桥/IMG_3599.HEIC",
+          "bytes": 4375815,
+          "crc32": "3311d91b"
+        },
+        {
+          "path": "两国桥/IMG_3600.HEIC",
+          "bytes": 3199163,
+          "crc32": "e0212a48"
+        },
+        {
+          "path": "两国桥/IMG_3601.HEIC",
+          "bytes": 1934354,
+          "crc32": "faf01df9"
+        },
+        {
+          "path": "两国桥/IMG_3602.HEIC",
+          "bytes": 2996622,
+          "crc32": "ed82adcd"
+        },
+        {
+          "path": "两国桥/IMG_3603.HEIC",
+          "bytes": 3545230,
+          "crc32": "61d4b2e1"
+        },
+        {
+          "path": "两国桥/IMG_3604.HEIC",
+          "bytes": 3759806,
+          "crc32": "f750c49d"
+        },
+        {
+          "path": "两国桥/IMG_3605.HEIC",
+          "bytes": 4509650,
+          "crc32": "0d697b6a"
+        },
+        {
+          "path": "两国桥/IMG_3606.HEIC",
+          "bytes": 5109916,
+          "crc32": "9b20eb94"
+        },
+        {
+          "path": "两国桥/IMG_3607.HEIC",
+          "bytes": 2550272,
+          "crc32": "d23eee27"
+        },
+        {
+          "path": "两国桥/IMG_3608.HEIC",
+          "bytes": 2481353,
+          "crc32": "ac1419dd"
+        },
+        {
+          "path": "两国桥/IMG_3609.HEIC",
+          "bytes": 1455200,
+          "crc32": "2ac89920"
+        },
+        {
+          "path": "两国桥/IMG_3610.HEIC",
+          "bytes": 2020816,
+          "crc32": "d656ab00"
+        },
+        {
+          "path": "两国桥/IMG_3611.HEIC",
+          "bytes": 2019720,
+          "crc32": "d3245abb"
+        },
+        {
+          "path": "两国桥/IMG_3612.HEIC",
+          "bytes": 727835,
+          "crc32": "6116bc84"
+        },
+        {
+          "path": "两国桥/两国桥.mp4",
+          "bytes": 70330369,
+          "crc32": "b7d33733"
+        }
+      ]
+    },
+    {
+      "upload": "江岛衫神社 一之桥.zip",
+      "sha256": "d0cafe20fcc4e3613458979277b3edb3915c1abc2fb1d5aa1d834bfa2180cea8",
+      "count": 6,
+      "entries": [
+        {
+          "path": "江岛衫神社 一之桥/IMG_3614.HEIC",
+          "bytes": 3581099,
+          "crc32": "1c4f2c2e"
+        },
+        {
+          "path": "江岛衫神社 一之桥/IMG_3615.HEIC",
+          "bytes": 3077293,
+          "crc32": "5ddb44a9"
+        },
+        {
+          "path": "江岛衫神社 一之桥/IMG_3616.HEIC",
+          "bytes": 3242499,
+          "crc32": "5aa5eb8e"
+        },
+        {
+          "path": "江岛衫神社 一之桥/IMG_3617.HEIC",
+          "bytes": 8087189,
+          "crc32": "d867fdc5"
+        },
+        {
+          "path": "江岛衫神社 一之桥/IMG_3618.HEIC",
+          "bytes": 8325709,
+          "crc32": "d85d8ce3"
+        },
+        {
+          "path": "江岛衫神社 一之桥/IMG_3619.MOV",
+          "bytes": 70383277,
+          "crc32": "d5e3648b"
+        }
+      ]
+    },
+    {
+      "upload": "滨町公园.zip",
+      "sha256": "75c3263388bea02a5f9993616b0b878983ce5068a86d235d25383bed7d2c7b88",
+      "count": 7,
+      "entries": [
+        {
+          "path": "滨町公园/IMG_3633.HEIC",
+          "bytes": 3431867,
+          "crc32": "297d1a13"
+        },
+        {
+          "path": "滨町公园/IMG_3634.HEIC",
+          "bytes": 2440299,
+          "crc32": "114cd07a"
+        },
+        {
+          "path": "滨町公园/IMG_3635.HEIC",
+          "bytes": 5120418,
+          "crc32": "4fc2fd1f"
+        },
+        {
+          "path": "滨町公园/IMG_3636.HEIC",
+          "bytes": 3533258,
+          "crc32": "e04d3375"
+        },
+        {
+          "path": "滨町公园/IMG_3637.HEIC",
+          "bytes": 5612718,
+          "crc32": "036705fb"
+        },
+        {
+          "path": "滨町公园/IMG_3639.HEIC",
+          "bytes": 6155056,
+          "crc32": "2ff7ae6e"
+        },
+        {
+          "path": "滨町公园/滨町公园.mp4",
+          "bytes": 77904963,
+          "crc32": "8f66afbf"
+        }
+      ]
+    },
+    {
+      "upload": "纽扣博物馆.zip",
+      "sha256": "b3566a7382dcfd2f77a07f7270eabe0e06814b73764d30b7b0e480993e29bf35",
+      "count": 8,
+      "entries": [
+        {
+          "path": "纽扣博物馆/IMG_3569.HEIC",
+          "bytes": 2087951,
+          "crc32": "eb8a4c6b"
+        },
+        {
+          "path": "纽扣博物馆/IMG_3570.HEIC",
+          "bytes": 3223615,
+          "crc32": "4f8add52"
+        },
+        {
+          "path": "纽扣博物馆/IMG_3572.HEIC",
+          "bytes": 2174992,
+          "crc32": "bd3feef7"
+        },
+        {
+          "path": "纽扣博物馆/IMG_3573.HEIC",
+          "bytes": 1724989,
+          "crc32": "b1de1b70"
+        },
+        {
+          "path": "纽扣博物馆/IMG_3575.HEIC",
+          "bytes": 5034189,
+          "crc32": "38af3fed"
+        },
+        {
+          "path": "纽扣博物馆/IMG_3576.HEIC",
+          "bytes": 1321671,
+          "crc32": "d6493b8f"
+        },
+        {
+          "path": "纽扣博物馆/IMG_3577.HEIC",
+          "bytes": 1567946,
+          "crc32": "cffaf471"
+        },
+        {
+          "path": "纽扣博物馆/纽扣博物馆.mp4",
+          "bytes": 19109572,
+          "crc32": "4ef412fd"
+        }
+      ]
+    },
+    {
+      "upload": "芭蕉.zip",
+      "sha256": "b7aa89f598f7ae1e65b20695147b30a5846de73023c73d27bc17c7c78ab7a360",
+      "count": 8,
+      "entries": [
+        {
+          "path": "芭蕉/IMG_3621.HEIC",
+          "bytes": 2646370,
+          "crc32": "91056e51"
+        },
+        {
+          "path": "芭蕉/IMG_3622.HEIC",
+          "bytes": 3905673,
+          "crc32": "ddde2e09"
+        },
+        {
+          "path": "芭蕉/IMG_3624.HEIC",
+          "bytes": 2389674,
+          "crc32": "4ab15843"
+        },
+        {
+          "path": "芭蕉/IMG_3626.HEIC",
+          "bytes": 2807705,
+          "crc32": "dcbd6690"
+        },
+        {
+          "path": "芭蕉/IMG_3627.HEIC",
+          "bytes": 4027909,
+          "crc32": "ce24d912"
+        },
+        {
+          "path": "芭蕉/IMG_3628.HEIC",
+          "bytes": 4491873,
+          "crc32": "265ebf2a"
+        },
+        {
+          "path": "芭蕉/IMG_3629.HEIC",
+          "bytes": 3151818,
+          "crc32": "c7605dbd"
+        },
+        {
+          "path": "芭蕉/芭蕉.mp4",
+          "bytes": 116049207,
+          "crc32": "9c2774e3"
+        }
+      ]
+    }
+  ]
+}

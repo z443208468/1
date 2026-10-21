@@ -1,0 +1,175 @@
+{
+  "version": "R8.1",
+  "run_date": "2026-10-21",
+  "checks": [
+    {
+      "name": "early refusal stops the transfer without certifying the case",
+      "result": "PASS"
+    },
+    {
+      "name": "requested spoiler never certifies the case",
+      "result": "PASS"
+    },
+    {
+      "name": "core proof is available with zero solved stages and no A date answer",
+      "result": "PASS"
+    },
+    {
+      "name": "contacts deliver original records without alerting the broker",
+      "result": "PASS"
+    },
+    {
+      "name": "today reenactment is not proof of last night",
+      "result": "PASS"
+    },
+    {
+      "name": "date cannot replace the D17 same-take evidence",
+      "result": "PASS"
+    },
+    {
+      "name": "old theatre name cannot prove custody",
+      "result": "PASS"
+    },
+    {
+      "name": "D17 is required even if claims are answered correctly",
+      "result": "PASS"
+    },
+    {
+      "name": "public disclosure changes actual inspection strategy irreversibly",
+      "result": "PASS"
+    },
+    {
+      "name": "quiet + expose completes with distinct immutable record",
+      "result": "PASS"
+    },
+    {
+      "name": "quiet + expose legally round-trips completed progress",
+      "result": "PASS"
+    },
+    {
+      "name": "quiet + replay completes with distinct immutable record",
+      "result": "PASS"
+    },
+    {
+      "name": "quiet + replay legally round-trips completed progress",
+      "result": "PASS"
+    },
+    {
+      "name": "announce + expose completes with distinct immutable record",
+      "result": "PASS"
+    },
+    {
+      "name": "announce + expose legally round-trips completed progress",
+      "result": "PASS"
+    },
+    {
+      "name": "announce + replay completes with distinct immutable record",
+      "result": "PASS"
+    },
+    {
+      "name": "announce + replay legally round-trips completed progress",
+      "result": "PASS"
+    },
+    {
+      "name": "completed history survives later puzzle practice and optional rechecking",
+      "result": "PASS"
+    },
+    {
+      "name": "closed dispositions cannot be undone by hold, stop or contact",
+      "result": "PASS"
+    },
+    {
+      "name": "completed replay actions do not rewrite the executed disposition",
+      "result": "PASS"
+    },
+    {
+      "name": "cannot certify a replay without securing the real sheets",
+      "result": "PASS"
+    },
+    {
+      "name": "side-before-front does not finish a replay",
+      "result": "PASS"
+    },
+    {
+      "name": "replay route cannot resolve by selecting a label only",
+      "result": "PASS"
+    },
+    {
+      "name": "the true core cannot be returned to the claimant instead of lender",
+      "result": "PASS"
+    },
+    {
+      "name": "S01 requires real screen movement as well as card ordering",
+      "result": "PASS"
+    },
+    {
+      "name": "editing a solved question clears current green but preserves accepted evidence",
+      "result": "PASS"
+    },
+    {
+      "name": "S02 bridges must match river topology; the confluence slot is empty",
+      "result": "PASS"
+    },
+    {
+      "name": "S03 only disproves the A source claim",
+      "result": "PASS"
+    },
+    {
+      "name": "S04 names the original same-take record rather than reenactment as proof",
+      "result": "PASS"
+    },
+    {
+      "name": "answer-bearing hints permanently mark assisted reference",
+      "result": "PASS"
+    },
+    {
+      "name": "backup use cannot be erased by changing mode",
+      "result": "PASS"
+    },
+    {
+      "name": "the third hint remains free and caps at three",
+      "result": "PASS"
+    },
+    {
+      "name": "import rejects arbitrary completed and field-certified claims",
+      "result": "PASS"
+    },
+    {
+      "name": "import rejects a completion ledger with missing original evidence",
+      "result": "PASS"
+    },
+    {
+      "name": "import rejects contradictory disclosure and completion history",
+      "result": "PASS"
+    },
+    {
+      "name": "import rejects a replay ledger with no side check",
+      "result": "PASS"
+    },
+    {
+      "name": "import rejects impossible accepted puzzle answers",
+      "result": "PASS"
+    },
+    {
+      "name": "import preserves early refusal independently from case proof",
+      "result": "PASS"
+    },
+    {
+      "name": "malformed, oversized and foreign saves reject without pretending validation",
+      "result": "PASS"
+    },
+    {
+      "name": "front geometry really covers the fixed disk at the declared position",
+      "result": "PASS"
+    },
+    {
+      "name": "D17 contains the same take frames and a side view, separate from current replay state",
+      "result": "PASS"
+    },
+    {
+      "name": "two independent choices produce four different resolution ledgers",
+      "result": "PASS"
+    }
+  ],
+  "scope": "Authored state logic, import consistency and SVG geometry only. Not human playtesting or field verification."
+}
