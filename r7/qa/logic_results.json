@@ -1,0 +1,158 @@
+{
+  "generated_at": "2026-10-21T01:12:53.244Z",
+  "version": "R7.0-review",
+  "data_sha256": "265f34d31831ff541dade3b44f570e9ede2f4fc527ec9efd1cd235e6e96a8b72",
+  "bundle_sha256": "0e16db00498557992513c3f9af0a2d6d03e25188aca26d39729bb3c244911e9f",
+  "app_sha256": "d6f07393e530b2646247bc85661144cbbb259a624a1bbb4551177a2c051661e6",
+  "checks": [
+    {
+      "name": "frozen engine, figures, fields, answers, hints and bilingual content",
+      "result": "PASS"
+    },
+    {
+      "name": "s1 exactly one accepted discrete answer",
+      "result": "PASS"
+    },
+    {
+      "name": "s1 incomplete answer rejected",
+      "result": "PASS"
+    },
+    {
+      "name": "s1 complete answer accepted",
+      "result": "PASS"
+    },
+    {
+      "name": "s2 exactly one accepted discrete answer",
+      "result": "PASS"
+    },
+    {
+      "name": "s2 incomplete answer rejected",
+      "result": "PASS"
+    },
+    {
+      "name": "s2 complete answer accepted",
+      "result": "PASS"
+    },
+    {
+      "name": "s3 exactly one accepted discrete answer",
+      "result": "PASS"
+    },
+    {
+      "name": "s3 incomplete answer rejected",
+      "result": "PASS"
+    },
+    {
+      "name": "s3 complete answer accepted",
+      "result": "PASS"
+    },
+    {
+      "name": "s4 exactly one accepted discrete answer",
+      "result": "PASS"
+    },
+    {
+      "name": "s4 incomplete answer rejected",
+      "result": "PASS"
+    },
+    {
+      "name": "s4 complete answer accepted",
+      "result": "PASS"
+    },
+    {
+      "name": "s5 exactly one accepted discrete answer",
+      "result": "PASS"
+    },
+    {
+      "name": "s5 incomplete answer rejected",
+      "result": "PASS"
+    },
+    {
+      "name": "s5 complete answer accepted",
+      "result": "PASS"
+    },
+    {
+      "name": "final exactly one accepted semantic account",
+      "result": "PASS"
+    },
+    {
+      "name": "early complete account accepted without stamp state",
+      "result": "PASS"
+    },
+    {
+      "name": "theatre name alone insufficient",
+      "result": "PASS"
+    },
+    {
+      "name": "1930 original claim rejected",
+      "result": "PASS"
+    },
+    {
+      "name": "precise 1995 claim rejected",
+      "result": "PASS"
+    },
+    {
+      "name": "sports-centre delivery claim rejected",
+      "result": "PASS"
+    },
+    {
+      "name": "theatre admission claim rejected",
+      "result": "PASS"
+    },
+    {
+      "name": "four rotations restore every pose",
+      "result": "PASS"
+    },
+    {
+      "name": "two flips restore every pose",
+      "result": "PASS"
+    },
+    {
+      "name": "eight distinct spatial poses",
+      "result": "PASS"
+    },
+    {
+      "name": "invalid JSON restore safe",
+      "result": "PASS"
+    },
+    {
+      "name": "four branch values preserved independently by engine",
+      "result": "PASS"
+    },
+    {
+      "name": "rejected legacy character and contest text absent",
+      "result": "PASS"
+    }
+  ],
+  "enumeration": [
+    {
+      "stage": "s1",
+      "cases": 18,
+      "solutions": 1
+    },
+    {
+      "stage": "s2",
+      "cases": 32,
+      "solutions": 1
+    },
+    {
+      "stage": "s3",
+      "cases": 27,
+      "solutions": 1
+    },
+    {
+      "stage": "s4",
+      "cases": 128,
+      "solutions": 1
+    },
+    {
+      "stage": "s5",
+      "cases": 48,
+      "solutions": 1
+    },
+    {
+      "stage": "final",
+      "cases": 192,
+      "solutions": 1
+    }
+  ],
+  "scope": "Discrete authored logic, frozen mechanism contract and integration checks only. No enjoyment, visitor or field validation."
+}

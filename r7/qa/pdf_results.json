@@ -1,0 +1,2606 @@
+{
+  "generated_at_utc": "2026-10-21T01:25:36.742087+00:00",
+  "content_sha256": "265f34d31831ff541dade3b44f570e9ede2f4fc527ec9efd1cd235e6e96a8b72",
+  "figures_sha256": "6828468ae94b026ba9dfa250231009b51593817d9ef01244ac107db75b768d40",
+  "narrative_sha256": "b44909b865f2ea6bc85b101b22de7011305eefcaaaa2134407695712462c2953",
+  "scope": "Automated local HTML/PDF rendering and geometry; not physical, blind-user, or field validation.",
+  "physical_print_test": false,
+  "tourist_blind_test": false,
+  "field_test": false,
+  "documents": [
+    {
+      "name": "ZH",
+      "html": "play/print_zh.html",
+      "html_sha256": "71f591ac5a1dbe786a9024b242aa82154df7604de979c1a7c42790757e75f453",
+      "pdf": "output/pdf/R7_Player_Kit_ZH.pdf",
+      "page_count": 43,
+      "sha256": "bedb0b3f966d68f52924e67b642fc4eadad651998a8aba0ba2ac3b0688fa3369",
+      "file_bytes": 1904333,
+      "font_check": {
+        "cjk": true,
+        "sans": true,
+        "actual_platform_fonts": [
+          {
+            "familyName": "Noto Sans CJK SC",
+            "postScriptName": "NotoSansCJKsc-Regular",
+            "isCustomFont": false,
+            "glyphCount": 38
+          }
+        ]
+      },
+      "html_layout": [
+        {
+          "page": 1,
+          "title": "请别替我签收",
+          "height_px": 1020.47,
+          "content_bottom_px": 664.8,
+          "footer_top_px": 997.92,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 2,
+          "title": "出发前准备",
+          "height_px": 1020.47,
+          "content_bottom_px": 533.92,
+          "footer_top_px": 997.92,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 3,
+          "title": "你还没签字，已经成了见证人",
+          "height_px": 1020.47,
+          "content_bottom_px": 548.66,
+          "footer_top_px": 997.92,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 4,
+          "title": "01 · 你们拼好的那一刻",
+          "height_px": 1020.47,
+          "content_bottom_px": 693.48,
+          "footer_top_px": 997.92,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 5,
+          "title": "01A · 街景识别卡",
+          "height_px": 1020.47,
+          "content_bottom_px": 533.61,
+          "footer_top_px": 997.92,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 6,
+          "title": "01B · 原景与画框",
+          "height_px": 1020.47,
+          "content_bottom_px": 768.33,
+          "footer_top_px": 997.92,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 7,
+          "title": "02 · 两个名字，一条河",
+          "height_px": 1020.47,
+          "content_bottom_px": 693.48,
+          "footer_top_px": 997.92,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 8,
+          "title": "02A · 河图",
+          "height_px": 1020.47,
+          "content_bottom_px": 617.7,
+          "footer_top_px": 997.92,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 9,
+          "title": "02B · 另一面与两张标签",
+          "height_px": 1020.47,
+          "content_bottom_px": 657.8,
+          "footer_top_px": 997.92,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 10,
+          "title": "03 · 古人不会替照片作证",
+          "height_px": 1020.47,
+          "content_bottom_px": 713.2,
+          "footer_top_px": 997.92,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 11,
+          "title": "03A · 双时间轨",
+          "height_px": 1020.47,
+          "content_bottom_px": 964.94,
+          "footer_top_px": 997.92,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 12,
+          "title": "04 · 站到镜头这一边",
+          "height_px": 1020.47,
+          "content_bottom_px": 730.36,
+          "footer_top_px": 997.92,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 13,
+          "title": "04A · 外墙参照与取景",
+          "height_px": 1020.47,
+          "content_bottom_px": 716.5,
+          "footer_top_px": 997.92,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 14,
+          "title": "04B · 公园图与相机片",
+          "height_px": 1020.47,
+          "content_bottom_px": 870.02,
+          "footer_top_px": 997.92,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 15,
+          "title": "05 · 四个名字，不是四个证人",
+          "height_px": 1020.47,
+          "content_bottom_px": 713.2,
+          "footer_top_px": 997.92,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 16,
+          "title": "05A · 名字与位置",
+          "height_px": 1020.47,
+          "content_bottom_px": 656.2,
+          "footer_top_px": 997.92,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 17,
+          "title": "最后：把被剪掉的那一段放回来",
+          "height_px": 1020.47,
+          "content_bottom_px": 262.06,
+          "footer_top_px": 997.92,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 18,
+          "title": "完整判断单",
+          "height_px": 1020.47,
+          "content_bottom_px": 645.16,
+          "footer_top_px": 997.92,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 19,
+          "title": "随身史料 · 1",
+          "height_px": 1020.47,
+          "content_bottom_px": 490.06,
+          "footer_top_px": 997.92,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 20,
+          "title": "随身史料 · 2",
+          "height_px": 1020.47,
+          "content_bottom_px": 515.98,
+          "footer_top_px": 997.92,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 21,
+          "title": "随身史料 · 3",
+          "height_px": 1020.47,
+          "content_bottom_px": 473.08,
+          "footer_top_px": 997.92,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 22,
+          "title": "随身史料 · 4",
+          "height_px": 1020.47,
+          "content_bottom_px": 482.02,
+          "footer_top_px": 997.92,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 23,
+          "title": "随身史料 · 5",
+          "height_px": 1020.47,
+          "content_bottom_px": 210.33,
+          "footer_top_px": 997.92,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 24,
+          "title": "第三关之后的选择",
+          "height_px": 1020.47,
+          "content_bottom_px": 311.33,
+          "footer_top_px": 997.92,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 25,
+          "title": "提示 01",
+          "height_px": 1020.47,
+          "content_bottom_px": 701.64,
+          "footer_top_px": 998.48,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 26,
+          "title": "行动结果 01",
+          "height_px": 1020.47,
+          "content_bottom_px": 754.7,
+          "footer_top_px": 998.48,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 27,
+          "title": "提示 02",
+          "height_px": 1020.47,
+          "content_bottom_px": 701.64,
+          "footer_top_px": 998.48,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 28,
+          "title": "行动结果 02",
+          "height_px": 1020.47,
+          "content_bottom_px": 779.28,
+          "footer_top_px": 998.48,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 29,
+          "title": "提示 03",
+          "height_px": 1020.47,
+          "content_bottom_px": 701.64,
+          "footer_top_px": 998.48,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 30,
+          "title": "行动结果 03",
+          "height_px": 1020.47,
+          "content_bottom_px": 855.69,
+          "footer_top_px": 998.48,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 31,
+          "title": "提示 04",
+          "height_px": 1020.47,
+          "content_bottom_px": 701.64,
+          "footer_top_px": 998.48,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 32,
+          "title": "行动结果 04",
+          "height_px": 1020.47,
+          "content_bottom_px": 838.33,
+          "footer_top_px": 998.48,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 33,
+          "title": "提示 05",
+          "height_px": 1020.47,
+          "content_bottom_px": 701.64,
+          "footer_top_px": 998.48,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 34,
+          "title": "行动结果 05",
+          "height_px": 1020.47,
+          "content_bottom_px": 771.94,
+          "footer_top_px": 998.48,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 35,
+          "title": "终章入口",
+          "height_px": 1020.47,
+          "content_bottom_px": 433.59,
+          "footer_top_px": 997.92,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 36,
+          "title": "第一幕 · 再看一次最初的指认",
+          "height_px": 1020.47,
+          "content_bottom_px": 721.42,
+          "footer_top_px": 997.92,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 37,
+          "title": "第二幕 · 留住中间的空白",
+          "height_px": 1020.47,
+          "content_bottom_px": 714.63,
+          "footer_top_px": 997.92,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 38,
+          "title": "第三幕 · 这些借来的东西各归各位",
+          "height_px": 1020.47,
+          "content_bottom_px": 808.55,
+          "footer_top_px": 997.92,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 39,
+          "title": "第四幕 · 没有第五个收件人",
+          "height_px": 1020.47,
+          "content_bottom_px": 721.42,
+          "footer_top_px": 997.92,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 40,
+          "title": "第五幕 · 当场发生的改变",
+          "height_px": 1020.47,
+          "content_bottom_px": 721.42,
+          "footer_top_px": 997.92,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 41,
+          "title": "第六幕 · 这一次，轮到你们决定留下什么",
+          "height_px": 1020.47,
+          "content_bottom_px": 788.83,
+          "footer_top_px": 997.92,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 42,
+          "title": "留下最后的回应",
+          "height_px": 1020.47,
+          "content_bottom_px": 348.86,
+          "footer_top_px": 997.92,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 43,
+          "title": "回执与纪念",
+          "height_px": 1020.47,
+          "content_bottom_px": 724.03,
+          "footer_top_px": 997.92,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        }
+      ],
+      "material_geometry": {
+        "scene_strips": [
+          {
+            "width_mm": 53.33,
+            "height_mm": 57.99
+          },
+          {
+            "width_mm": 53.33,
+            "height_mm": 57.99
+          },
+          {
+            "width_mm": 53.33,
+            "height_mm": 57.99
+          }
+        ],
+        "frame_assembly_area": {
+          "width_mm": 160,
+          "height_mm": 58
+        },
+        "souvenir_faces": [
+          {
+            "width_mm": 86,
+            "height_mm": 67
+          },
+          {
+            "width_mm": 86,
+            "height_mm": 67
+          }
+        ],
+        "three_strips_fit_frame": true,
+        "scale": "CSS physical dimensions at 100%; no physical printer tolerance or cut test performed"
+      },
+      "print_hint_visibility": [
+        {
+          "visible": true,
+          "text": "仅选择交换校准时展开\n\nB面顺时针转四分之一圈：河边在上、大场地在左、体育中心在右。相机侧和用途仍需自行判断。"
+        },
+        {
+          "visible": true,
+          "text": "免费提示 1\n\n三张卡来自同一段连续视野。先区分远处目标、前面的交通牌和馆楼边缘。"
+        },
+        {
+          "visible": true,
+          "text": "免费提示 2\n\n把远塔那张放在起端，馆楼／屋顶边缘放在另一端；交通牌卡接在中间。牌后的缺口是遮挡。"
+        },
+        {
+          "visible": true,
+          "text": "免费提示 3\n\n远塔→交通牌→馆楼／屋顶；选择保留前景遮挡。纸版将对应三条河景按此顺序接成一幅，不补写被挡文字。"
+        },
+        {
+          "visible": true,
+          "text": "免费提示 1\n\n只让主河竖直还不够；镜像图也能做到。再看支流从哪一岸进入、柳桥跨的是哪条河。"
+        },
+        {
+          "visible": true,
+          "text": "免费提示 2\n\n把指北针恢复向上，并让主支河、两国桥与柳桥同时符合对照图。舞台题签不必改成实地地名。"
+        },
+        {
+          "visible": true,
+          "text": "免费提示 3\n\n标准朝向、非镜像；舞台称稲瀬川，真实借景是隅田川。纸图从反面改到正面后再旋转，直到三锚点同时对上。"
+        },
+        {
+          "visible": true,
+          "text": "免费提示 1\n\n雕像纪念的人生活得很早，不代表含这座现代庭园的画面也一样早。分别查两条时间线。"
+        },
+        {
+          "visible": true,
+          "text": "免费提示 2\n\n1680属于芭蕉迁居；1995属于此展望庭园开园。1981是本馆开馆，并非这处庭园的年份。"
+        },
+        {
+          "visible": true,
+          "text": "免费提示 3\n\n选1680、1995、1995或以后。只排除这张参照是1930原始摄影；不判定具体年份、作者或实时位置。"
+        },
+        {
+          "visible": true,
+          "text": "免费提示 1\n\n河边、大场地和体育中心一起校准；只对河边可能仍是镜像。史料中的1929不能替你旋转今天的图。"
+        },
+        {
+          "visible": true,
+          "text": "免费提示 2\n\n标准示意把河边画在上方，大场地在左、体育中心在右；游乐区在体育中心的另一侧。近景先遇到什么，就从那一侧看。"
+        },
+        {
+          "visible": true,
+          "text": "免费提示 3\n\n标准朝向、非镜像；选游乐区侧、体育中心、CAPTURE AT取景定位。保留前景，不把体育中心当剧院或收件地点。"
+        },
+        {
+          "visible": true,
+          "text": "免费提示 1\n\n先看哪四条是名称，哪一条是位置事件。别把一次迁址变成另一个剧院名。"
+        },
+        {
+          "visible": true,
+          "text": "免费提示 2\n\n喜昇早于久松，千歳在明治之前。两国桥的西两国戏棚是这条沿革的前身。"
+        },
+        {
+          "visible": true,
+          "text": "免费提示 3\n\n喜昇座1873→久松座1879→千歳座1885→明治座1893；1928放迁址／再开场。今日对应明治座，实际回执交游戏主办方。"
+        }
+      ],
+      "actual_pdf_hint_text": [
+        {
+          "stage": 1,
+          "hint": 1,
+          "printed": true
+        },
+        {
+          "stage": 1,
+          "hint": 2,
+          "printed": true
+        },
+        {
+          "stage": 1,
+          "hint": 3,
+          "printed": true
+        },
+        {
+          "stage": 2,
+          "hint": 1,
+          "printed": true
+        },
+        {
+          "stage": 2,
+          "hint": 2,
+          "printed": true
+        },
+        {
+          "stage": 2,
+          "hint": 3,
+          "printed": true
+        },
+        {
+          "stage": 3,
+          "hint": 1,
+          "printed": true
+        },
+        {
+          "stage": 3,
+          "hint": 2,
+          "printed": true
+        },
+        {
+          "stage": 3,
+          "hint": 3,
+          "printed": true
+        },
+        {
+          "stage": 4,
+          "hint": 1,
+          "printed": true
+        },
+        {
+          "stage": 4,
+          "hint": 2,
+          "printed": true
+        },
+        {
+          "stage": 4,
+          "hint": 3,
+          "printed": true
+        },
+        {
+          "stage": 5,
+          "hint": 1,
+          "printed": true
+        },
+        {
+          "stage": 5,
+          "hint": 2,
+          "printed": true
+        },
+        {
+          "stage": 5,
+          "hint": 3,
+          "printed": true
+        }
+      ],
+      "proofs": {
+        "pages": [
+          {
+            "page": 1,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 483,
+            "outside_media_box": [],
+            "sha256": "1a65ff5d5320e10aca0f610a2348b27b5532af3a9cd07bead776bc9a1d74eaf8",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_ZH/page-001.png"
+          },
+          {
+            "page": 2,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 694,
+            "outside_media_box": [],
+            "sha256": "b0a5516dce9c43897a9a3f9a331842af8b2f887f15045dbf8dffbc43d1354bf6",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_ZH/page-002.png"
+          },
+          {
+            "page": 3,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 609,
+            "outside_media_box": [],
+            "sha256": "ce0a5e90d62ac1a2e779e75ea5554e48a81504e10d18a47d87bda386f41f5f70",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_ZH/page-003.png"
+          },
+          {
+            "page": 4,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 517,
+            "outside_media_box": [],
+            "sha256": "4a6bd4015b4879300036635500566184d35e6b66ebe9f7f0f929a287376167f0",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_ZH/page-004.png"
+          },
+          {
+            "page": 5,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 224,
+            "outside_media_box": [],
+            "sha256": "61e4f603a3947d9de6319abf451e18cb981b64fcd6e9910ff0a41e9841f3c82c",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_ZH/page-005.png"
+          },
+          {
+            "page": 6,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 301,
+            "outside_media_box": [],
+            "sha256": "71bb68e2094b6366b73b116384d455d039adf21713e4deca2d9c10662ad9dad3",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_ZH/page-006.png"
+          },
+          {
+            "page": 7,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 507,
+            "outside_media_box": [],
+            "sha256": "4facd610ac60a1bab6b3bc5afda558e939fd0bf3b01f03fb007a7f4ab4e463d3",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_ZH/page-007.png"
+          },
+          {
+            "page": 8,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 269,
+            "outside_media_box": [],
+            "sha256": "d81d606c046f8d5ebc8482f85e0939d0f01f516142f3a66ee09d087b55f3461f",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_ZH/page-008.png"
+          },
+          {
+            "page": 9,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 248,
+            "outside_media_box": [],
+            "sha256": "08a93e52233a67bd4e804fd969893020079af873ba8d58ce49230326031543a4",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_ZH/page-009.png"
+          },
+          {
+            "page": 10,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 560,
+            "outside_media_box": [],
+            "sha256": "fbc40b69d83b9644be638b90762e9b8d005a81e30a4bcaf377b8d9bb82b45435",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_ZH/page-010.png"
+          },
+          {
+            "page": 11,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 361,
+            "outside_media_box": [],
+            "sha256": "006673bd179746fe1ab71461300bed88e81581723472be7a61fd024540c1353d",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_ZH/page-011.png"
+          },
+          {
+            "page": 12,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 647,
+            "outside_media_box": [],
+            "sha256": "775acc8c3db7a332bbb8aec1ea3658a8f730427b8ec6021f3204c6b14bb6abc6",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_ZH/page-012.png"
+          },
+          {
+            "page": 13,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 241,
+            "outside_media_box": [],
+            "sha256": "5b9dc8ccac2cb744b5756996357b94de75323cd261a32c1bfd72715777892a1a",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_ZH/page-013.png"
+          },
+          {
+            "page": 14,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 428,
+            "outside_media_box": [],
+            "sha256": "5270795e871afc603c816a30f3d36b275a0853a3799bee0c93502cddf1048889",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_ZH/page-014.png"
+          },
+          {
+            "page": 15,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 531,
+            "outside_media_box": [],
+            "sha256": "d803e7f6bb7aaae73921b497dffa391c369d0b231e3156b8730a816854acec26",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_ZH/page-015.png"
+          },
+          {
+            "page": 16,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 267,
+            "outside_media_box": [],
+            "sha256": "9d2ea7b126d0cf83a60bef10e98e51933cec577e525d683f9cfb97936d766058",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_ZH/page-016.png"
+          },
+          {
+            "page": 17,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 290,
+            "outside_media_box": [],
+            "sha256": "d153b879d370055da39ac4d5f7020e3b5cbb7e74e0345815754adebaa615664a",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_ZH/page-017.png"
+          },
+          {
+            "page": 18,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 423,
+            "outside_media_box": [],
+            "sha256": "60c1eb337c56e9d918f42df1be5c3a99799debd450b0a8887cc5580faf760f5e",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_ZH/page-018.png"
+          },
+          {
+            "page": 19,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 617,
+            "outside_media_box": [],
+            "sha256": "4cfa000051e3cfe3ee5b056b18e4e86a5d375421bcd448358f41ed08766fa5a3",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_ZH/page-019.png"
+          },
+          {
+            "page": 20,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 647,
+            "outside_media_box": [],
+            "sha256": "c7f49337fbf0f01a06b29bfd1d7034c813cc8fe070241cee8a68d63374d33597",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_ZH/page-020.png"
+          },
+          {
+            "page": 21,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 628,
+            "outside_media_box": [],
+            "sha256": "bdff5c15bf1982568343f3fa34497489ade8df538bc64b5b290a32f93bdefecc",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_ZH/page-021.png"
+          },
+          {
+            "page": 22,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 497,
+            "outside_media_box": [],
+            "sha256": "4d3b9b1f1cc1646ea48a84f5d7f02e9a044ec076abd30d0e9c127f9a42340a7f",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_ZH/page-022.png"
+          },
+          {
+            "page": 23,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 179,
+            "outside_media_box": [],
+            "sha256": "5c21c902b29f262969e52e782980c70dd84b532ee22f8e51b0dd3d2a0c94f975",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_ZH/page-023.png"
+          },
+          {
+            "page": 24,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 225,
+            "outside_media_box": [],
+            "sha256": "18660c6cc9cb8f772a298cc036d90071e53e65a5acdefd448129c0279a21d776",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_ZH/page-024.png"
+          },
+          {
+            "page": 25,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 271,
+            "outside_media_box": [],
+            "sha256": "f004ca0851f5e84c3497ea3b5415fe54754636adf6d56c18abdbda4354092c7a",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_ZH/page-025.png"
+          },
+          {
+            "page": 26,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 424,
+            "outside_media_box": [],
+            "sha256": "b0e4e33e091c6584438334d58e8e937d055853a0355b7a517cfc3e07ea6b107e",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_ZH/page-026.png"
+          },
+          {
+            "page": 27,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 278,
+            "outside_media_box": [],
+            "sha256": "c8c3f02a01b61124d34a859d8236f80b0c22b4ab3c741e6b1ecd5c35ae438271",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_ZH/page-027.png"
+          },
+          {
+            "page": 28,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 496,
+            "outside_media_box": [],
+            "sha256": "1d76d94679eb710e43b75189f7205e777931313875f1ddca26280ebf4817954a",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_ZH/page-028.png"
+          },
+          {
+            "page": 29,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 285,
+            "outside_media_box": [],
+            "sha256": "084b72aa47c2cdfe611d1c606fbfa83d6d80dfa22cc4dccf227bafd421c89761",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_ZH/page-029.png"
+          },
+          {
+            "page": 30,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 609,
+            "outside_media_box": [],
+            "sha256": "9c71e120400586e47ff5e133c092f06c8f19336fd6cb319eb399fbb8210daa23",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_ZH/page-030.png"
+          },
+          {
+            "page": 31,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 303,
+            "outside_media_box": [],
+            "sha256": "47f7a06aa6e6a1854120e7f914f807d0f23a324f395fa7051c7ef6c74c150dcc",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_ZH/page-031.png"
+          },
+          {
+            "page": 32,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 693,
+            "outside_media_box": [],
+            "sha256": "dd9667cbb095f5c2175f806df718bdaaf2e68f9349c2fea2e37143b0d918d017",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_ZH/page-032.png"
+          },
+          {
+            "page": 33,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 278,
+            "outside_media_box": [],
+            "sha256": "0f8a93fa6ba09f827e8fc32bd89d1513194f850b88ef9c23a81a1679d37d88b5",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_ZH/page-033.png"
+          },
+          {
+            "page": 34,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 538,
+            "outside_media_box": [],
+            "sha256": "4390541b0393c299413196d5d490a12379ea03b7df2f34d00487b5f9e6f95d24",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_ZH/page-034.png"
+          },
+          {
+            "page": 35,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 293,
+            "outside_media_box": [],
+            "sha256": "ff7ae2fd4620c3a517b2717e99f10791e66ef388dd7586c54256bd3ff2c14086",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_ZH/page-035.png"
+          },
+          {
+            "page": 36,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 435,
+            "outside_media_box": [],
+            "sha256": "10bad3fc5b44117f224a61920dce363669d5725bf7758eb8b0a62a6adb70222f",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_ZH/page-036.png"
+          },
+          {
+            "page": 37,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 607,
+            "outside_media_box": [],
+            "sha256": "f56a88318ab87ca7a9dcb7f6e1bacae9debf3e4b4ff18911fd8713680b86bd68",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_ZH/page-037.png"
+          },
+          {
+            "page": 38,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 635,
+            "outside_media_box": [],
+            "sha256": "32dac845f6c6aacd2d6e25baea9c68584946f030cd9a0020c6021933ad0c5d46",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_ZH/page-038.png"
+          },
+          {
+            "page": 39,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 404,
+            "outside_media_box": [],
+            "sha256": "75fcc27c5b003754dc7e3c3d70e73811b0cf62344276a2fb27d967458ea82ed6",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_ZH/page-039.png"
+          },
+          {
+            "page": 40,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 471,
+            "outside_media_box": [],
+            "sha256": "00a1dd41be41553afef2a83618bbea740ff03bcdc14c55672bd247884c260d22",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_ZH/page-040.png"
+          },
+          {
+            "page": 41,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 558,
+            "outside_media_box": [],
+            "sha256": "01b9b2b883820e2b4e2b4a7f527f9a33c477b39379bf56f8db57f2cb09decb3e",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_ZH/page-041.png"
+          },
+          {
+            "page": 42,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 432,
+            "outside_media_box": [],
+            "sha256": "1302538f348e7d7b1c5ddc70927bece8f5846e89cfbf103d73a6532f332b02d1",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_ZH/page-042.png"
+          },
+          {
+            "page": 43,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 577,
+            "outside_media_box": [],
+            "sha256": "ec3793e5a81108b2df98f5d43e23fa507f6d1dc3b6b51d3d44c277a1a85b873c",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_ZH/page-043.png"
+          }
+        ],
+        "contacts": [
+          "output/qa/pdf_pages/R7_Player_Kit_ZH_contact_01.png",
+          "output/qa/pdf_pages/R7_Player_Kit_ZH_contact_02.png",
+          "output/qa/pdf_pages/R7_Player_Kit_ZH_contact_03.png",
+          "output/qa/pdf_pages/R7_Player_Kit_ZH_contact_04.png"
+        ],
+        "contact_sha256": {
+          "output/qa/pdf_pages/R7_Player_Kit_ZH_contact_01.png": "86d9245daee35b6622d94f4f1f1bc47df6aad19e3f3ab3d65b68ccead6722514",
+          "output/qa/pdf_pages/R7_Player_Kit_ZH_contact_02.png": "2de71b80d2f0002b6d066e7594513ba1ae2edd62078a30fd2c9a4bcdefe013db",
+          "output/qa/pdf_pages/R7_Player_Kit_ZH_contact_03.png": "eb1436cf0ead0b09674db764eff77f04f7d826dc252ae80839942a6e4e991f9c",
+          "output/qa/pdf_pages/R7_Player_Kit_ZH_contact_04.png": "382195f5e5d7561110fb7a21a7114c228e90374aa4adca4686960f8cf0945baa"
+        },
+        "pdf_sha256": "bedb0b3f966d68f52924e67b642fc4eadad651998a8aba0ba2ac3b0688fa3369",
+        "dpi": 110
+      },
+      "external_requests": []
+    },
+    {
+      "name": "EN",
+      "html": "play/print_en.html",
+      "html_sha256": "abd2c282e389f7e44a0efe366de6ec76b19fb99d8c3dffdae7c1b4ed03f920f9",
+      "pdf": "output/pdf/R7_Player_Kit_EN.pdf",
+      "page_count": 43,
+      "sha256": "038e95a4aa81591f57d68d59bc8323fcc6e54a884b952bc3ba1ade4bdbca6ba0",
+      "file_bytes": 589257,
+      "font_check": {
+        "cjk": true,
+        "sans": true,
+        "actual_platform_fonts": [
+          {
+            "familyName": "Nimbus Sans",
+            "postScriptName": "NimbusSans-Regular",
+            "isCustomFont": false,
+            "glyphCount": 129
+          }
+        ]
+      },
+      "html_layout": [
+        {
+          "page": 1,
+          "title": "Before You Sign",
+          "height_px": 1020.47,
+          "content_bottom_px": 704.95,
+          "footer_top_px": 998.02,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 2,
+          "title": "Before you leave",
+          "height_px": 1020.47,
+          "content_bottom_px": 667.98,
+          "footer_top_px": 998.02,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 3,
+          "title": "You have not signed. You are already the witness.",
+          "height_px": 1020.47,
+          "content_bottom_px": 688.06,
+          "footer_top_px": 998.02,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 4,
+          "title": "01 · The moment you assembled it",
+          "height_px": 1020.47,
+          "content_bottom_px": 753.08,
+          "footer_top_px": 998.02,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 5,
+          "title": "01A · View cards",
+          "height_px": 1020.47,
+          "content_bottom_px": 550.58,
+          "footer_top_px": 998.02,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 6,
+          "title": "01B · Scene and frame",
+          "height_px": 1020.47,
+          "content_bottom_px": 788.34,
+          "footer_top_px": 998.02,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 7,
+          "title": "02 · Two names, one river",
+          "height_px": 1020.47,
+          "content_bottom_px": 735.92,
+          "footer_top_px": 998.02,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 8,
+          "title": "02A · River card",
+          "height_px": 1020.47,
+          "content_bottom_px": 651.92,
+          "footer_top_px": 998.02,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 9,
+          "title": "02B · Alternate face and labels",
+          "height_px": 1020.47,
+          "content_bottom_px": 673.05,
+          "footer_top_px": 998.02,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 10,
+          "title": "03 · An old poet cannot date a photograph",
+          "height_px": 1020.47,
+          "content_bottom_px": 792.23,
+          "footer_top_px": 998.02,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 11,
+          "title": "03A · Two timelines",
+          "height_px": 1020.47,
+          "content_bottom_px": 985.39,
+          "footer_top_px": 998.02,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 12,
+          "title": "04 · Stand on the camera side",
+          "height_px": 1020.47,
+          "content_bottom_px": 790.03,
+          "footer_top_px": 998.02,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 13,
+          "title": "04A · Facade and viewpoint",
+          "height_px": 1020.47,
+          "content_bottom_px": 736.64,
+          "footer_top_px": 998.02,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 14,
+          "title": "04B · Park cards and camera markers",
+          "height_px": 1020.47,
+          "content_bottom_px": 887.39,
+          "footer_top_px": 998.02,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 15,
+          "title": "05 · Four names are not four witnesses",
+          "height_px": 1020.47,
+          "content_bottom_px": 789.81,
+          "footer_top_px": 998.02,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 16,
+          "title": "05A · Names and location",
+          "height_px": 1020.47,
+          "content_bottom_px": 673.27,
+          "footer_top_px": 998.02,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 17,
+          "title": "Finally: restore the part that was cut away",
+          "height_px": 1020.47,
+          "content_bottom_px": 321.66,
+          "footer_top_px": 998.02,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 18,
+          "title": "Your complete account",
+          "height_px": 1020.47,
+          "content_bottom_px": 645.22,
+          "footer_top_px": 998.02,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 19,
+          "title": "History cards · 1",
+          "height_px": 1020.47,
+          "content_bottom_px": 526.97,
+          "footer_top_px": 998.02,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 20,
+          "title": "History cards · 2",
+          "height_px": 1020.47,
+          "content_bottom_px": 586.86,
+          "footer_top_px": 998.02,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 21,
+          "title": "History cards · 3",
+          "height_px": 1020.47,
+          "content_bottom_px": 526.97,
+          "footer_top_px": 998.02,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 22,
+          "title": "History cards · 4",
+          "height_px": 1020.47,
+          "content_bottom_px": 518.92,
+          "footer_top_px": 998.02,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 23,
+          "title": "History cards · 5",
+          "height_px": 1020.47,
+          "content_bottom_px": 227.91,
+          "footer_top_px": 998.02,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 24,
+          "title": "Your choice after Stop 3",
+          "height_px": 1020.47,
+          "content_bottom_px": 311.45,
+          "footer_top_px": 998.02,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 25,
+          "title": "Hints 01",
+          "height_px": 1020.47,
+          "content_bottom_px": 701.64,
+          "footer_top_px": 998.48,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 26,
+          "title": "Consequence 01",
+          "height_px": 1020.47,
+          "content_bottom_px": 792.17,
+          "footer_top_px": 998.48,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 27,
+          "title": "Hints 02",
+          "height_px": 1020.47,
+          "content_bottom_px": 701.64,
+          "footer_top_px": 998.48,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 28,
+          "title": "Consequence 02",
+          "height_px": 1020.47,
+          "content_bottom_px": 816.75,
+          "footer_top_px": 998.48,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 29,
+          "title": "Hints 03",
+          "height_px": 1020.47,
+          "content_bottom_px": 701.64,
+          "footer_top_px": 998.48,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 30,
+          "title": "Consequence 03",
+          "height_px": 1020.47,
+          "content_bottom_px": 893.16,
+          "footer_top_px": 998.48,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 31,
+          "title": "Hints 04",
+          "height_px": 1020.47,
+          "content_bottom_px": 701.64,
+          "footer_top_px": 998.48,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 32,
+          "title": "Consequence 04",
+          "height_px": 1020.47,
+          "content_bottom_px": 910.27,
+          "footer_top_px": 998.48,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 33,
+          "title": "Hints 05",
+          "height_px": 1020.47,
+          "content_bottom_px": 701.64,
+          "footer_top_px": 998.48,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 34,
+          "title": "Consequence 05",
+          "height_px": 1020.47,
+          "content_bottom_px": 826.64,
+          "footer_top_px": 998.48,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 35,
+          "title": "The finale",
+          "height_px": 1020.47,
+          "content_bottom_px": 486.88,
+          "footer_top_px": 998.02,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 36,
+          "title": "Act 1 · Watch the accusation again",
+          "height_px": 1020.47,
+          "content_bottom_px": 744.66,
+          "footer_top_px": 998.02,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 37,
+          "title": "Act 2 · Keep the interval",
+          "height_px": 1020.47,
+          "content_bottom_px": 777.45,
+          "footer_top_px": 998.02,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 38,
+          "title": "Act 3 · Give every borrowed thing its proper place",
+          "height_px": 1020.47,
+          "content_bottom_px": 871.22,
+          "footer_top_px": 998.02,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 39,
+          "title": "Act 4 · There is no fifth recipient",
+          "height_px": 1020.47,
+          "content_bottom_px": 764.45,
+          "footer_top_px": 998.02,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 40,
+          "title": "Act 5 · What changes now",
+          "height_px": 1020.47,
+          "content_bottom_px": 804.05,
+          "footer_top_px": 998.02,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 41,
+          "title": "Act 6 · This time, you decide what stays",
+          "height_px": 1020.47,
+          "content_bottom_px": 868.58,
+          "footer_top_px": 998.02,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 42,
+          "title": "The closing response",
+          "height_px": 1020.47,
+          "content_bottom_px": 400.14,
+          "footer_top_px": 998.02,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        },
+        {
+          "page": 43,
+          "title": "Receipt and souvenir",
+          "height_px": 1020.47,
+          "content_bottom_px": 722.84,
+          "footer_top_px": 998.02,
+          "overflow_y_px": 0,
+          "overflow_x": []
+        }
+      ],
+      "material_geometry": {
+        "scene_strips": [
+          {
+            "width_mm": 53.33,
+            "height_mm": 57.99
+          },
+          {
+            "width_mm": 53.33,
+            "height_mm": 57.99
+          },
+          {
+            "width_mm": 53.33,
+            "height_mm": 57.99
+          }
+        ],
+        "frame_assembly_area": {
+          "width_mm": 160,
+          "height_mm": 58
+        },
+        "souvenir_faces": [
+          {
+            "width_mm": 86,
+            "height_mm": 67
+          },
+          {
+            "width_mm": 86,
+            "height_mm": 67
+          }
+        ],
+        "three_strips_fit_frame": true,
+        "scale": "CSS physical dimensions at 100%; no physical printer tolerance or cut test performed"
+      },
+      "print_hint_visibility": [
+        {
+          "visible": true,
+          "text": "Open only if you selected shared calibration\n\nTurn Face B a quarter-turn clockwise: river edge above, field left, sports centre right. You still determine camera side and purpose."
+        },
+        {
+          "visible": true,
+          "text": "Free hint 1\n\nThe cards belong to one continuous view. Distinguish the distant landmark, the nearer traffic sign and the museum building edge."
+        },
+        {
+          "visible": true,
+          "text": "Free hint 2\n\nPut the distant-tower card at the start and the building/roof edge at the other end. The traffic-sign card joins them. The gap behind the sign is an overlap."
+        },
+        {
+          "visible": true,
+          "text": "Free hint 3\n\nTower → sign → building/roof. Keep the foreground overlap. Join the matching river strips in that order without inventing obscured text."
+        },
+        {
+          "visible": true,
+          "text": "Free hint 1\n\nA vertical main river is not enough: a mirror image can do that too. Check which bank the tributary enters from and which river Yanagi Bridge crosses."
+        },
+        {
+          "visible": true,
+          "text": "Free hint 2\n\nRestore north to the top and match the main river, tributary and both bridges together. The stage caption does not have to become the real place name."
+        },
+        {
+          "visible": true,
+          "text": "Free hint 3\n\nUse the canonical orientation, without mirroring. Stage: Inase. Real scenery: Sumida. On paper, change to the correct face and rotate until all three anchors match."
+        },
+        {
+          "visible": true,
+          "text": "Free hint 1\n\nAn old historical figure does not make a view containing this modern garden equally old. Check the two timelines separately."
+        },
+        {
+          "visible": true,
+          "text": "Free hint 2\n\n1680 belongs to Basho’s move. 1995 belongs to this observation garden. 1981 is the main museum’s opening, not this garden’s."
+        },
+        {
+          "visible": true,
+          "text": "Free hint 3\n\nChoose 1680, 1995, and “1995 or later”. This rules out the reference being a 1930 original photograph; it does not identify its exact year, maker or a live location."
+        },
+        {
+          "visible": true,
+          "text": "Free hint 1\n\nMatch river edge, field and sports centre together. Matching only the river may leave a mirror image. The historical date 1929 cannot orient today’s map for you."
+        },
+        {
+          "visible": true,
+          "text": "Free hint 2\n\nIn the canonical diagram the river edge is above, the field left and the sports centre right, with the playground beyond it. The foreground tells you which side the observer is on."
+        },
+        {
+          "visible": true,
+          "text": "Free hint 3\n\nUse the canonical orientation without mirroring. Select playground side, sports centre and CAPTURE AT. Keep the foreground; the sports centre is neither the theatre nor a delivery destination."
+        },
+        {
+          "visible": true,
+          "text": "Free hint 1\n\nSeparate the four names from the event about location. A move does not create another theatre name."
+        },
+        {
+          "visible": true,
+          "text": "Free hint 2\n\nKisho comes before Hisamatsu; Chitose before Meiji. The west-Ryogoku playhouses are the predecessor in this history."
+        },
+        {
+          "visible": true,
+          "text": "Free hint 3\n\nKisho-za 1873 → Hisamatsu-za 1879 → Chitose-za 1885 → Meiji-za 1893. Put 1928 under relocation/reopening. The present counterpart is Meijiza; the game host receives your actual receipt."
+        }
+      ],
+      "actual_pdf_hint_text": [
+        {
+          "stage": 1,
+          "hint": 1,
+          "printed": true
+        },
+        {
+          "stage": 1,
+          "hint": 2,
+          "printed": true
+        },
+        {
+          "stage": 1,
+          "hint": 3,
+          "printed": true
+        },
+        {
+          "stage": 2,
+          "hint": 1,
+          "printed": true
+        },
+        {
+          "stage": 2,
+          "hint": 2,
+          "printed": true
+        },
+        {
+          "stage": 2,
+          "hint": 3,
+          "printed": true
+        },
+        {
+          "stage": 3,
+          "hint": 1,
+          "printed": true
+        },
+        {
+          "stage": 3,
+          "hint": 2,
+          "printed": true
+        },
+        {
+          "stage": 3,
+          "hint": 3,
+          "printed": true
+        },
+        {
+          "stage": 4,
+          "hint": 1,
+          "printed": true
+        },
+        {
+          "stage": 4,
+          "hint": 2,
+          "printed": true
+        },
+        {
+          "stage": 4,
+          "hint": 3,
+          "printed": true
+        },
+        {
+          "stage": 5,
+          "hint": 1,
+          "printed": true
+        },
+        {
+          "stage": 5,
+          "hint": 2,
+          "printed": true
+        },
+        {
+          "stage": 5,
+          "hint": 3,
+          "printed": true
+        }
+      ],
+      "proofs": {
+        "pages": [
+          {
+            "page": 1,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 1369,
+            "outside_media_box": [],
+            "sha256": "89721c059e4d5c6478e16ae64c135d83e4de6ae5bea2528dbf576cb47a74604e",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_EN/page-001.png"
+          },
+          {
+            "page": 2,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 2223,
+            "outside_media_box": [],
+            "sha256": "a5465bd011d7bab60c9e60eb0808eaa052cef67771ab0db47a1cdd891fbd5b44",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_EN/page-002.png"
+          },
+          {
+            "page": 3,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 1950,
+            "outside_media_box": [],
+            "sha256": "43316dfaf61d65e7c6ed5f19d2935654cff5e975f9f975b27388cc8821da6bca",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_EN/page-003.png"
+          },
+          {
+            "page": 4,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 1494,
+            "outside_media_box": [],
+            "sha256": "92f0b1d67e96c8b664b21f5fe7249f4ac83f74a132d732a17d7283aa9a5330b0",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_EN/page-004.png"
+          },
+          {
+            "page": 5,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 558,
+            "outside_media_box": [],
+            "sha256": "94edeb2414ece8b09bcd6f3f55872c5afb6f309e991fa86ec3f140e6e36459eb",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_EN/page-005.png"
+          },
+          {
+            "page": 6,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 798,
+            "outside_media_box": [],
+            "sha256": "392bd5fd227f6f0a7af955cdad657e90d9083e3a9eb22258fa265549b8ba8656",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_EN/page-006.png"
+          },
+          {
+            "page": 7,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 1425,
+            "outside_media_box": [],
+            "sha256": "0039cda83518c53b677721e9f82c773e3987fa8ee8237abc7c880067e24f7893",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_EN/page-007.png"
+          },
+          {
+            "page": 8,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 537,
+            "outside_media_box": [],
+            "sha256": "3c392b16effcb93b99a301093e284f069991e02e29984f4c212859bbdfb2b9a1",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_EN/page-008.png"
+          },
+          {
+            "page": 9,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 434,
+            "outside_media_box": [],
+            "sha256": "43403e417237d29e80353041c944376bdea22e1dfe52dddbeb3d82c706c46bde",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_EN/page-009.png"
+          },
+          {
+            "page": 10,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 1583,
+            "outside_media_box": [],
+            "sha256": "dc0aa73d7a34c533d9879cf444e7ca8b11ef976d3982c5beab586b6b68461b56",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_EN/page-010.png"
+          },
+          {
+            "page": 11,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 780,
+            "outside_media_box": [],
+            "sha256": "9b11cabc00fde57e234a2954a80e65cbd5f6d8a62a8c4527f683f3d7d06b781a",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_EN/page-011.png"
+          },
+          {
+            "page": 12,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 1728,
+            "outside_media_box": [],
+            "sha256": "9dd6bc66ba0d5466d23fe7ec19d361542bf122429b1bf13cc49631da6554ff81",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_EN/page-012.png"
+          },
+          {
+            "page": 13,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 531,
+            "outside_media_box": [],
+            "sha256": "653b70e1bb0ccf6ad4ba2114e312cbff2b2b59e607c349c6ab94d78d017e0260",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_EN/page-013.png"
+          },
+          {
+            "page": 14,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 787,
+            "outside_media_box": [],
+            "sha256": "48a5a7846ac4800476f504208885c2aebf7ab8a29d96c2a8283d866f9a5db8ed",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_EN/page-014.png"
+          },
+          {
+            "page": 15,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 1550,
+            "outside_media_box": [],
+            "sha256": "8aadf0c861f759348003f1aaba7476616fd24bba4f53cea947b320ac4651a778",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_EN/page-015.png"
+          },
+          {
+            "page": 16,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 540,
+            "outside_media_box": [],
+            "sha256": "e5d22701cb2e147874e7bd1cb21aaba9f6a865d266df4c613af9e18b61dea3c6",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_EN/page-016.png"
+          },
+          {
+            "page": 17,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 909,
+            "outside_media_box": [],
+            "sha256": "414e2b6f95262c3d4286308b28a076873dee035912c46173ef9e2f8e3b8d8ecd",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_EN/page-017.png"
+          },
+          {
+            "page": 18,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 1042,
+            "outside_media_box": [],
+            "sha256": "ee498ab3b07281da8b08e1c2eddc0d0ceb7f25a91146b5f44536d53dcc57ff52",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_EN/page-018.png"
+          },
+          {
+            "page": 19,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 1334,
+            "outside_media_box": [],
+            "sha256": "947f59a1b413cb394f85ec56c14328bcb8e31e5805d382d05f6b621b146c07ea",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_EN/page-019.png"
+          },
+          {
+            "page": 20,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 1381,
+            "outside_media_box": [],
+            "sha256": "4d0c4f52173e2f82f1591986c4a92c0183eb45a66d95cb8a84d39ed9545e55ff",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_EN/page-020.png"
+          },
+          {
+            "page": 21,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 1369,
+            "outside_media_box": [],
+            "sha256": "cb99f97dd928278fbfb42b29f113f797cf1b0429ce27c59a3719f8867a863291",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_EN/page-021.png"
+          },
+          {
+            "page": 22,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 1094,
+            "outside_media_box": [],
+            "sha256": "b9adde3d3fa216dc7083a03b22237fdb7d5bfc2a6da71358c8dc49992d044811",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_EN/page-022.png"
+          },
+          {
+            "page": 23,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 447,
+            "outside_media_box": [],
+            "sha256": "d2c89b6eac4674aac93d614c45e36699c356eee28ed5e9ffeed49f49e227bd60",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_EN/page-023.png"
+          },
+          {
+            "page": 24,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 671,
+            "outside_media_box": [],
+            "sha256": "5f11a8fc569d421c16a4e24a0de3c1b0449544f9b2a04a9a32b513861aff1fef",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_EN/page-024.png"
+          },
+          {
+            "page": 25,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 788,
+            "outside_media_box": [],
+            "sha256": "079a483f4067139328a2fecf625237def04ca8be8d97bc95699bc7cb3b2a215d",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_EN/page-025.png"
+          },
+          {
+            "page": 26,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 1201,
+            "outside_media_box": [],
+            "sha256": "b6a595b72b1f25e2292a977176f10877252e29b4ff62fb734c5d686f07a32233",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_EN/page-026.png"
+          },
+          {
+            "page": 27,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 831,
+            "outside_media_box": [],
+            "sha256": "5edb6af6e73d5ff4f8d3559daf75962cc4041030f8515600960c4bd097195dad",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_EN/page-027.png"
+          },
+          {
+            "page": 28,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 1288,
+            "outside_media_box": [],
+            "sha256": "0b6a5c316823d52758554a4d8ae71d328023a1a3cfbfcc455a31be803b5387ab",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_EN/page-028.png"
+          },
+          {
+            "page": 29,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 780,
+            "outside_media_box": [],
+            "sha256": "928c1aab6108a2e3773bb84f8811d1968e715b5a3afce9cb77c54ed133aa6006",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_EN/page-029.png"
+          },
+          {
+            "page": 30,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 1796,
+            "outside_media_box": [],
+            "sha256": "a9df5b5a7e0a6934cbb17bf141d31981235c49f9c89eca6835da111e336468c6",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_EN/page-030.png"
+          },
+          {
+            "page": 31,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 900,
+            "outside_media_box": [],
+            "sha256": "266ebdcfc94da41ff053e379be72765809e78886f9fa2d0ee98abd05559c27fc",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_EN/page-031.png"
+          },
+          {
+            "page": 32,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 1910,
+            "outside_media_box": [],
+            "sha256": "14e1579f2f266ad8191034d5d50d71570f8a616f095b76a84cdac2f9be7a4562",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_EN/page-032.png"
+          },
+          {
+            "page": 33,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 767,
+            "outside_media_box": [],
+            "sha256": "c9d580ce9ccf324f9e15676e395aecd2a74db1f1a3dc4bbbbaa76241dd04758e",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_EN/page-033.png"
+          },
+          {
+            "page": 34,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 1477,
+            "outside_media_box": [],
+            "sha256": "4429c6f5d8ccb9a09007b8ad5a07a4ba3745a73ae73534f534295cab4951d3fb",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_EN/page-034.png"
+          },
+          {
+            "page": 35,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 763,
+            "outside_media_box": [],
+            "sha256": "140493c311753a8916e9871ec9fcc2bd5f1276ebf274a06057e9cbf7b8ccddd7",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_EN/page-035.png"
+          },
+          {
+            "page": 36,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 1160,
+            "outside_media_box": [],
+            "sha256": "e6a0a7a5c7ae36c8210bf0b68b64ea5219ec3c62fe96162db4e4ba6b1e48fa9e",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_EN/page-036.png"
+          },
+          {
+            "page": 37,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 1457,
+            "outside_media_box": [],
+            "sha256": "d53b2e8ba436c16eaefa8a707e81898cc24af9b823283229776043ddd8638e15",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_EN/page-037.png"
+          },
+          {
+            "page": 38,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 1715,
+            "outside_media_box": [],
+            "sha256": "6f10fa9ba50757b79f82e09380fdfeb1cdd40a837c656babedddbf8603ad4ae2",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_EN/page-038.png"
+          },
+          {
+            "page": 39,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 1087,
+            "outside_media_box": [],
+            "sha256": "5a074c1bf2b58106af96eedf021f5ce3cf6d81bd9f0cf0d8755e9d05e80a443c",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_EN/page-039.png"
+          },
+          {
+            "page": 40,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 1299,
+            "outside_media_box": [],
+            "sha256": "49f4c282e6b25c1a647a69dc7d4b4a43a3f9e1b9e96ef8ea0adce8f347443c15",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_EN/page-040.png"
+          },
+          {
+            "page": 41,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 1594,
+            "outside_media_box": [],
+            "sha256": "0b1154d044e303a6a94d1684edc9e0aec295da35d9e098599d86fcc71a23eec3",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_EN/page-041.png"
+          },
+          {
+            "page": 42,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 1374,
+            "outside_media_box": [],
+            "sha256": "472b20a99b951ccf5991bc150f31ab064e29cd09875c779c397087dc778dbf7a",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_EN/page-042.png"
+          },
+          {
+            "page": 43,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 960,
+            "outside_media_box": [],
+            "sha256": "aad9b7b6d1ed347ddb6f01becae015f6b2302ed1e2f832b2fafdae6720716807",
+            "image": "output/qa/pdf_pages/R7_Player_Kit_EN/page-043.png"
+          }
+        ],
+        "contacts": [
+          "output/qa/pdf_pages/R7_Player_Kit_EN_contact_01.png",
+          "output/qa/pdf_pages/R7_Player_Kit_EN_contact_02.png",
+          "output/qa/pdf_pages/R7_Player_Kit_EN_contact_03.png",
+          "output/qa/pdf_pages/R7_Player_Kit_EN_contact_04.png"
+        ],
+        "contact_sha256": {
+          "output/qa/pdf_pages/R7_Player_Kit_EN_contact_01.png": "0b07055a6beebdf731c6e215584cec0f06da9835f3eca00aa4d6e7765cbcb08d",
+          "output/qa/pdf_pages/R7_Player_Kit_EN_contact_02.png": "159124d920baa636773d6efb0382b92af21cd9f1342bee1737bbde34c9404170",
+          "output/qa/pdf_pages/R7_Player_Kit_EN_contact_03.png": "5171fd8e2430df33a1091d0fb2b298fd4f1dcc9ee51e0a714edf4e04ef0357e3",
+          "output/qa/pdf_pages/R7_Player_Kit_EN_contact_04.png": "66133164f887b8f54e6b0724a3e4f0d519bb24d3a5c439d890407e96fd6d6d4a"
+        },
+        "pdf_sha256": "038e95a4aa81591f57d68d59bc8323fcc6e54a884b952bc3ba1ade4bdbca6ba0",
+        "dpi": 110
+      },
+      "external_requests": []
+    },
+    {
+      "name": "Guide",
+      "html": "play/guide.html",
+      "html_sha256": "c4ab7a19226101c6cab18d061aeb7fbe690158d7663f208968d3f31894cb2f12",
+      "pdf": "output/pdf/R7_Designer_Guide.pdf",
+      "page_count": 34,
+      "sha256": "64a990e7aeec80bb0d9361b77a82fe6795d6cdcb06d99ba8b6b80baaed42305f",
+      "file_bytes": 1701999,
+      "font_check": {
+        "cjk": true,
+        "sans": true,
+        "actual_platform_fonts": [
+          {
+            "familyName": "Noto Sans CJK SC",
+            "postScriptName": "NotoSansCJKsc-Regular",
+            "isCustomFont": false,
+            "glyphCount": 63
+          },
+          {
+            "familyName": "Nimbus Sans",
+            "postScriptName": "NimbusSans-Regular",
+            "isCustomFont": false,
+            "glyphCount": 47
+          }
+        ]
+      },
+      "html_layout": [],
+      "material_geometry": null,
+      "print_hint_visibility": [],
+      "actual_pdf_hint_text": [],
+      "proofs": {
+        "pages": [
+          {
+            "page": 1,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 363,
+            "outside_media_box": [],
+            "sha256": "06589cd3e194be4d8ce73a03967e895d062f3f5715f40063df6e912548709462",
+            "image": "output/qa/pdf_pages/R7_Designer_Guide/page-001.png"
+          },
+          {
+            "page": 2,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 556,
+            "outside_media_box": [],
+            "sha256": "dd3417c03d5a2ee28c39e37781975f414fb536e9b0b898cca7b6f6728f1842c4",
+            "image": "output/qa/pdf_pages/R7_Designer_Guide/page-002.png"
+          },
+          {
+            "page": 3,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 1387,
+            "outside_media_box": [],
+            "sha256": "4a0c96ad39c8c89e8bfe0e2c3ddc9f2ba748058376c8afe458780cd2bd1e28d0",
+            "image": "output/qa/pdf_pages/R7_Designer_Guide/page-003.png"
+          },
+          {
+            "page": 4,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 1216,
+            "outside_media_box": [],
+            "sha256": "47263c6d04f4c6caf064d745f5902015bf9469ec2e7457a9ec366e478e3ae97f",
+            "image": "output/qa/pdf_pages/R7_Designer_Guide/page-004.png"
+          },
+          {
+            "page": 5,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 1282,
+            "outside_media_box": [],
+            "sha256": "659fbf5b773e6373d064eceb6ed064b4fc62e643ab77eccb5aeacaf298054698",
+            "image": "output/qa/pdf_pages/R7_Designer_Guide/page-005.png"
+          },
+          {
+            "page": 6,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 1507,
+            "outside_media_box": [],
+            "sha256": "21b327863ec1c73107a1134de9c214e2e35c2176f405cd656227d80205f00c8c",
+            "image": "output/qa/pdf_pages/R7_Designer_Guide/page-006.png"
+          },
+          {
+            "page": 7,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 1476,
+            "outside_media_box": [],
+            "sha256": "9513953c89ad528aacc7a61e7e244a70611774f7fd140b5908a98b077772de09",
+            "image": "output/qa/pdf_pages/R7_Designer_Guide/page-007.png"
+          },
+          {
+            "page": 8,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 1269,
+            "outside_media_box": [],
+            "sha256": "544e4c09625e0eb1c44e0472631496bbfc6497491cc23d4abc704a3ed0f3e46f",
+            "image": "output/qa/pdf_pages/R7_Designer_Guide/page-008.png"
+          },
+          {
+            "page": 9,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 1242,
+            "outside_media_box": [],
+            "sha256": "e673a4be5b34a9ee35350522d6b239a4e10e46bddeca46e62bd421f9394f9fa2",
+            "image": "output/qa/pdf_pages/R7_Designer_Guide/page-009.png"
+          },
+          {
+            "page": 10,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 1376,
+            "outside_media_box": [],
+            "sha256": "56a44a3384532c06a7cfdc4f8f4ccce2d3909c27736e76b42b4ecd094d834787",
+            "image": "output/qa/pdf_pages/R7_Designer_Guide/page-010.png"
+          },
+          {
+            "page": 11,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 1424,
+            "outside_media_box": [],
+            "sha256": "dd1157d13a647475f12c66f72a383adcd8743f2cda63d08b701d04072ab7e298",
+            "image": "output/qa/pdf_pages/R7_Designer_Guide/page-011.png"
+          },
+          {
+            "page": 12,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 1445,
+            "outside_media_box": [],
+            "sha256": "b0e02c9956407a766dea08123975a35b7a5bf0aa298e74b2989159c6be7b3d32",
+            "image": "output/qa/pdf_pages/R7_Designer_Guide/page-012.png"
+          },
+          {
+            "page": 13,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 1402,
+            "outside_media_box": [],
+            "sha256": "ed2509622099ef6f06d699e7109c1cd04feaa71268a6fba493857d56f3b3c467",
+            "image": "output/qa/pdf_pages/R7_Designer_Guide/page-013.png"
+          },
+          {
+            "page": 14,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 953,
+            "outside_media_box": [],
+            "sha256": "fce08c96ebeb31628dd005c4537edc30ed36c384098f54d7b88aa333febaeda7",
+            "image": "output/qa/pdf_pages/R7_Designer_Guide/page-014.png"
+          },
+          {
+            "page": 15,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 1651,
+            "outside_media_box": [],
+            "sha256": "63382b5ea6ba525caef6cfc123ff839f6d972cdcdef14d81b2de31d8a89c6bc2",
+            "image": "output/qa/pdf_pages/R7_Designer_Guide/page-015.png"
+          },
+          {
+            "page": 16,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 1290,
+            "outside_media_box": [],
+            "sha256": "9233347ad6a63beb1fb4e2f38794f3a57dac959909760bd4b71dfd2cd3881bab",
+            "image": "output/qa/pdf_pages/R7_Designer_Guide/page-016.png"
+          },
+          {
+            "page": 17,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 897,
+            "outside_media_box": [],
+            "sha256": "64888409bf68e91677602a93d13fc94eeb496e3c140123751053cb6dd97479d6",
+            "image": "output/qa/pdf_pages/R7_Designer_Guide/page-017.png"
+          },
+          {
+            "page": 18,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 1221,
+            "outside_media_box": [],
+            "sha256": "16b447ec9299a40918a4fa8bcde5f0d66b9d0fc0a29b2b58fe446395c7dbac19",
+            "image": "output/qa/pdf_pages/R7_Designer_Guide/page-018.png"
+          },
+          {
+            "page": 19,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 1517,
+            "outside_media_box": [],
+            "sha256": "0aa6c4af019edb2080cfe7a03015474e3d432b1917aca28e6319c3c3c09fa5c5",
+            "image": "output/qa/pdf_pages/R7_Designer_Guide/page-019.png"
+          },
+          {
+            "page": 20,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 1115,
+            "outside_media_box": [],
+            "sha256": "97a47beccc696827e617f6380c788006fa6daee0eb815d6928384e9c75089e39",
+            "image": "output/qa/pdf_pages/R7_Designer_Guide/page-020.png"
+          },
+          {
+            "page": 21,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 1172,
+            "outside_media_box": [],
+            "sha256": "5a6c3732b5b95881eb0bfc959005578ecf69b58110a98c545cbb3ad097e1e701",
+            "image": "output/qa/pdf_pages/R7_Designer_Guide/page-021.png"
+          },
+          {
+            "page": 22,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 472,
+            "outside_media_box": [],
+            "sha256": "0a6ceb9f37540fccc566067e32d444510eec0f281cb459cd419ba2be97d172a0",
+            "image": "output/qa/pdf_pages/R7_Designer_Guide/page-022.png"
+          },
+          {
+            "page": 23,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 1097,
+            "outside_media_box": [],
+            "sha256": "664ed73cdf4e0e314269e3e4c0920fc0f480152f81905717a03793e854178946",
+            "image": "output/qa/pdf_pages/R7_Designer_Guide/page-023.png"
+          },
+          {
+            "page": 24,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 642,
+            "outside_media_box": [],
+            "sha256": "b2cb164e2a5b46fa28a3c27391ca720ff384b2a6045e96e05570f52a30b7b25e",
+            "image": "output/qa/pdf_pages/R7_Designer_Guide/page-024.png"
+          },
+          {
+            "page": 25,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 353,
+            "outside_media_box": [],
+            "sha256": "cb4d1bf8eb6b6a15a34d7eb9be007434aa8785fa908d911500e5c54e4914e114",
+            "image": "output/qa/pdf_pages/R7_Designer_Guide/page-025.png"
+          },
+          {
+            "page": 26,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 1592,
+            "outside_media_box": [],
+            "sha256": "9b519d3d9cf8230d49a52c8d07739ee4fe13b3c0d89cfeff62335e5d1638a876",
+            "image": "output/qa/pdf_pages/R7_Designer_Guide/page-026.png"
+          },
+          {
+            "page": 27,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 1859,
+            "outside_media_box": [],
+            "sha256": "80a1d58a6940cd226e717c1347c4ae7e8bc4ab8a7544d54dc105755b37e9661a",
+            "image": "output/qa/pdf_pages/R7_Designer_Guide/page-027.png"
+          },
+          {
+            "page": 28,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 1801,
+            "outside_media_box": [],
+            "sha256": "2b6fa0bea0377f729ea9819262bdd66c29d91d7801c872a923d1a238e19e3530",
+            "image": "output/qa/pdf_pages/R7_Designer_Guide/page-028.png"
+          },
+          {
+            "page": 29,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 723,
+            "outside_media_box": [],
+            "sha256": "c6391db39f5af29a53735c17daec12f16ef9828a6cfb871ea2d196a196897bfe",
+            "image": "output/qa/pdf_pages/R7_Designer_Guide/page-029.png"
+          },
+          {
+            "page": 30,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 1045,
+            "outside_media_box": [],
+            "sha256": "5da8e0e376ae094236efc0c71a79b3b522c9c4ff612a397660840ec2da76b69c",
+            "image": "output/qa/pdf_pages/R7_Designer_Guide/page-030.png"
+          },
+          {
+            "page": 31,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 242,
+            "outside_media_box": [],
+            "sha256": "d84ed7c69c9b7e97d3de4426b57ab394942964b4c0ec29f0ba2d4c7d78b34ed6",
+            "image": "output/qa/pdf_pages/R7_Designer_Guide/page-031.png"
+          },
+          {
+            "page": 32,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 2334,
+            "outside_media_box": [],
+            "sha256": "a811cde03e438b07124ebe51168207273aae59d5f38014e19fddaad509af2a23",
+            "image": "output/qa/pdf_pages/R7_Designer_Guide/page-032.png"
+          },
+          {
+            "page": 33,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 2460,
+            "outside_media_box": [],
+            "sha256": "6cf7546b8fef4c7120f7bf23e52e32458bcc7afa679f241632874fcf606d4f38",
+            "image": "output/qa/pdf_pages/R7_Designer_Guide/page-033.png"
+          },
+          {
+            "page": 34,
+            "size_pt": [
+              594.96,
+              841.92
+            ],
+            "text_characters": 1203,
+            "outside_media_box": [],
+            "sha256": "2649fcb5626d3955d86134cb03c5112e44e96f272819a8a419824b9dc1610416",
+            "image": "output/qa/pdf_pages/R7_Designer_Guide/page-034.png"
+          }
+        ],
+        "contacts": [
+          "output/qa/pdf_pages/R7_Designer_Guide_contact_01.png",
+          "output/qa/pdf_pages/R7_Designer_Guide_contact_02.png",
+          "output/qa/pdf_pages/R7_Designer_Guide_contact_03.png"
+        ],
+        "contact_sha256": {
+          "output/qa/pdf_pages/R7_Designer_Guide_contact_01.png": "0b1b90990f2bc3d67e770d3b7dd8de17cd449c1b581ad21dcd847a6a509e39fe",
+          "output/qa/pdf_pages/R7_Designer_Guide_contact_02.png": "6d2555ac054b2ac1cad01614d1a9c7552eac2d9c619cab9402535540b708b20f",
+          "output/qa/pdf_pages/R7_Designer_Guide_contact_03.png": "a9587b39fbf263f51c2b371293652d6ba9b2ccf8afdd826dab49d580043a2b38"
+        },
+        "pdf_sha256": "64a990e7aeec80bb0d9361b77a82fe6795d6cdcb06d99ba8b6b80baaed42305f",
+        "dpi": 110
+      },
+      "external_requests": []
+    }
+  ],
+  "errors": [],
+  "authored_source_sha256": {
+    "content/game.json": "265f34d31831ff541dade3b44f570e9ede2f4fc527ec9efd1cd235e6e96a8b72",
+    "design/01_FULL_STORY.md": "e9d736a8b99019cccc659482a1145badb5d91ece6da7b9077a7c2a6c030ed275",
+    "design/02_FIVE_STAGE_CONTRACTS.md": "e1415a4fe7ffeffd82e9ea06381b018f6860d5b7c96c46fde8256d77bb1cbded",
+    "design/03_HOST_AND_PAPER_ENDING.md": "edf1cfcc20a9c47f0d3f1276e33d97997a561e4080597d899a4e76637a01cdba",
+    "design/04_OPERATIONS_AND_COSTS.md": "03c9633d2085c85b6a70781fc1e13f0689a1020beb100089271a3f1a673cfc44",
+    "design/05_MECHANICS_AND_LIMITS.md": "f99d5bb8bdd0e9b1bd179423e48e4e0e9ce443baaa6b27733273935c8b684201",
+    "research/00_NARRATIVE_DECISIONS.md": "59c83b274a122288332536efa32a529c83a785e8aaf8687022a5618c85753eb4",
+    "research/01_HISTORY_AND_SOURCES.md": "4d79bcf4ce2ab9241c776009a54eca31dcaffd9fce0cd0d08e358eb1b31425a7",
+    "research/02_CANDIDATES_AND_GATE.md": "ebb0496d53434e07f7ba1ca09d096ba850fb103c872e71c520dedaca15978df4",
+    "research/03_INDEPENDENT_REVIEW.md": "039aa9cb468d434cab3a79397464c4f801a1da4bb98b266986673657b4383151",
+    "research/04_RECOVERY_AND_VERSION.md": "65987c3f53294d8add65de2b0a4bff5cc7b90e777baec2173ae79ff035586c1a",
+    "qa/RELEASE_REVIEW.md": "cd1fd08fe5d1e85da5950bd2e36a33a68addd79da93c2b8d638462b72c9ddc23",
+    "qa/RUNTIME_SCHEMA.md": "90a13231cd521228b496b34aab6ab3e1c7b6ae526b938743ebdcc918d1f6e370"
+  },
+  "automated_layout_pass": true,
+  "visual_review": "Full-page PNGs and contact sheets generated; human visual review must be recorded separately."
+}

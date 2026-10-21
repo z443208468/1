@@ -1,0 +1,438 @@
+{
+  "generated_at": "2026-10-21T01:13:21.439150+00:00",
+  "version": "R7.0-review",
+  "checks": [
+    {
+      "name": "zh case_open reduced-motion static panels visible",
+      "result": "PASS"
+    },
+    {
+      "name": "zh replay_cut reduced-motion static panels visible",
+      "result": "PASS"
+    },
+    {
+      "name": "zh replay_uncut reduced-motion static panels visible",
+      "result": "PASS"
+    },
+    {
+      "name": "zh rebuild_record reduced-motion static panels visible",
+      "result": "PASS"
+    },
+    {
+      "name": "zh actual put-back animation lowers frame by 58px",
+      "result": "PASS"
+    },
+    {
+      "name": "zh replay leaves all gameplay progress unchanged",
+      "result": "PASS"
+    },
+    {
+      "name": "zh opening contains no ending prose",
+      "result": "PASS"
+    },
+    {
+      "name": "zh stage 1 before result hidden",
+      "result": "PASS"
+    },
+    {
+      "name": "zh stage 1 authored result visible",
+      "result": "PASS"
+    },
+    {
+      "name": "zh stage 1 fits 390px",
+      "result": "PASS"
+    },
+    {
+      "name": "zh stage 2 before result hidden",
+      "result": "PASS"
+    },
+    {
+      "name": "zh stage 2 authored result visible",
+      "result": "PASS"
+    },
+    {
+      "name": "zh stage 2 fits 390px",
+      "result": "PASS"
+    },
+    {
+      "name": "zh stage 3 before result hidden",
+      "result": "PASS"
+    },
+    {
+      "name": "zh stage 3 authored result visible",
+      "result": "PASS"
+    },
+    {
+      "name": "zh stage 3 fits 390px",
+      "result": "PASS"
+    },
+    {
+      "name": "zh stage 4 before result hidden",
+      "result": "PASS"
+    },
+    {
+      "name": "zh stage 4 authored result visible",
+      "result": "PASS"
+    },
+    {
+      "name": "zh stage 4 fits 390px",
+      "result": "PASS"
+    },
+    {
+      "name": "zh stage 5 before result hidden",
+      "result": "PASS"
+    },
+    {
+      "name": "zh stage 5 authored result visible",
+      "result": "PASS"
+    },
+    {
+      "name": "zh stage 5 fits 390px",
+      "result": "PASS"
+    },
+    {
+      "name": "zh final scene 1 text correct",
+      "result": "PASS"
+    },
+    {
+      "name": "zh final scene 1 receipt default closed",
+      "result": "PASS"
+    },
+    {
+      "name": "zh scene 1 fits 390px",
+      "result": "PASS"
+    },
+    {
+      "name": "zh scene 1 fits 320px",
+      "result": "PASS"
+    },
+    {
+      "name": "zh final scene 2 text correct",
+      "result": "PASS"
+    },
+    {
+      "name": "zh final scene 2 receipt default closed",
+      "result": "PASS"
+    },
+    {
+      "name": "zh scene 2 fits 390px",
+      "result": "PASS"
+    },
+    {
+      "name": "zh scene 2 fits 320px",
+      "result": "PASS"
+    },
+    {
+      "name": "zh final scene 3 text correct",
+      "result": "PASS"
+    },
+    {
+      "name": "zh final scene 3 receipt default closed",
+      "result": "PASS"
+    },
+    {
+      "name": "zh scene 3 fits 390px",
+      "result": "PASS"
+    },
+    {
+      "name": "zh scene 3 fits 320px",
+      "result": "PASS"
+    },
+    {
+      "name": "zh final scene 4 text correct",
+      "result": "PASS"
+    },
+    {
+      "name": "zh final scene 4 receipt default closed",
+      "result": "PASS"
+    },
+    {
+      "name": "zh scene 4 fits 390px",
+      "result": "PASS"
+    },
+    {
+      "name": "zh scene 4 fits 320px",
+      "result": "PASS"
+    },
+    {
+      "name": "zh final scene 5 text correct",
+      "result": "PASS"
+    },
+    {
+      "name": "zh final scene 5 receipt default closed",
+      "result": "PASS"
+    },
+    {
+      "name": "zh scene 5 fits 390px",
+      "result": "PASS"
+    },
+    {
+      "name": "zh scene 5 fits 320px",
+      "result": "PASS"
+    },
+    {
+      "name": "zh final scene 6 text correct",
+      "result": "PASS"
+    },
+    {
+      "name": "zh final scene 6 receipt default closed",
+      "result": "PASS"
+    },
+    {
+      "name": "zh scene 6 fits 390px",
+      "result": "PASS"
+    },
+    {
+      "name": "zh scene 6 fits 320px",
+      "result": "PASS"
+    },
+    {
+      "name": "zh explicit receipt shows complete seven facts",
+      "result": "PASS"
+    },
+    {
+      "name": "en case_open reduced-motion static panels visible",
+      "result": "PASS"
+    },
+    {
+      "name": "en replay_cut reduced-motion static panels visible",
+      "result": "PASS"
+    },
+    {
+      "name": "en replay_uncut reduced-motion static panels visible",
+      "result": "PASS"
+    },
+    {
+      "name": "en rebuild_record reduced-motion static panels visible",
+      "result": "PASS"
+    },
+    {
+      "name": "en actual put-back animation lowers frame by 58px",
+      "result": "PASS"
+    },
+    {
+      "name": "en replay leaves all gameplay progress unchanged",
+      "result": "PASS"
+    },
+    {
+      "name": "en opening contains no ending prose",
+      "result": "PASS"
+    },
+    {
+      "name": "en stage 1 before result hidden",
+      "result": "PASS"
+    },
+    {
+      "name": "en stage 1 authored result visible",
+      "result": "PASS"
+    },
+    {
+      "name": "en stage 1 fits 390px",
+      "result": "PASS"
+    },
+    {
+      "name": "en stage 2 before result hidden",
+      "result": "PASS"
+    },
+    {
+      "name": "en stage 2 authored result visible",
+      "result": "PASS"
+    },
+    {
+      "name": "en stage 2 fits 390px",
+      "result": "PASS"
+    },
+    {
+      "name": "en stage 3 before result hidden",
+      "result": "PASS"
+    },
+    {
+      "name": "en stage 3 authored result visible",
+      "result": "PASS"
+    },
+    {
+      "name": "en stage 3 fits 390px",
+      "result": "PASS"
+    },
+    {
+      "name": "en stage 4 before result hidden",
+      "result": "PASS"
+    },
+    {
+      "name": "en stage 4 authored result visible",
+      "result": "PASS"
+    },
+    {
+      "name": "en stage 4 fits 390px",
+      "result": "PASS"
+    },
+    {
+      "name": "en stage 5 before result hidden",
+      "result": "PASS"
+    },
+    {
+      "name": "en stage 5 authored result visible",
+      "result": "PASS"
+    },
+    {
+      "name": "en stage 5 fits 390px",
+      "result": "PASS"
+    },
+    {
+      "name": "en final scene 1 text correct",
+      "result": "PASS"
+    },
+    {
+      "name": "en final scene 1 receipt default closed",
+      "result": "PASS"
+    },
+    {
+      "name": "en scene 1 fits 390px",
+      "result": "PASS"
+    },
+    {
+      "name": "en scene 1 fits 320px",
+      "result": "PASS"
+    },
+    {
+      "name": "en final scene 2 text correct",
+      "result": "PASS"
+    },
+    {
+      "name": "en final scene 2 receipt default closed",
+      "result": "PASS"
+    },
+    {
+      "name": "en scene 2 fits 390px",
+      "result": "PASS"
+    },
+    {
+      "name": "en scene 2 fits 320px",
+      "result": "PASS"
+    },
+    {
+      "name": "en final scene 3 text correct",
+      "result": "PASS"
+    },
+    {
+      "name": "en final scene 3 receipt default closed",
+      "result": "PASS"
+    },
+    {
+      "name": "en scene 3 fits 390px",
+      "result": "PASS"
+    },
+    {
+      "name": "en scene 3 fits 320px",
+      "result": "PASS"
+    },
+    {
+      "name": "en final scene 4 text correct",
+      "result": "PASS"
+    },
+    {
+      "name": "en final scene 4 receipt default closed",
+      "result": "PASS"
+    },
+    {
+      "name": "en scene 4 fits 390px",
+      "result": "PASS"
+    },
+    {
+      "name": "en scene 4 fits 320px",
+      "result": "PASS"
+    },
+    {
+      "name": "en final scene 5 text correct",
+      "result": "PASS"
+    },
+    {
+      "name": "en final scene 5 receipt default closed",
+      "result": "PASS"
+    },
+    {
+      "name": "en scene 5 fits 390px",
+      "result": "PASS"
+    },
+    {
+      "name": "en scene 5 fits 320px",
+      "result": "PASS"
+    },
+    {
+      "name": "en final scene 6 text correct",
+      "result": "PASS"
+    },
+    {
+      "name": "en final scene 6 receipt default closed",
+      "result": "PASS"
+    },
+    {
+      "name": "en scene 6 fits 390px",
+      "result": "PASS"
+    },
+    {
+      "name": "en scene 6 fits 320px",
+      "result": "PASS"
+    },
+    {
+      "name": "en explicit receipt shows complete seven facts",
+      "result": "PASS"
+    },
+    {
+      "name": "zh preparation excludes ending prose",
+      "result": "PASS"
+    },
+    {
+      "name": "zh midgame page excludes ending responses",
+      "result": "PASS"
+    },
+    {
+      "name": "zh fifteen hints initially folded",
+      "result": "PASS"
+    },
+    {
+      "name": "zh souvenir appears after all finale scenes",
+      "result": "PASS"
+    },
+    {
+      "name": "en preparation excludes ending prose",
+      "result": "PASS"
+    },
+    {
+      "name": "en midgame page excludes ending responses",
+      "result": "PASS"
+    },
+    {
+      "name": "en fifteen hints initially folded",
+      "result": "PASS"
+    },
+    {
+      "name": "en souvenir appears after all finale scenes",
+      "result": "PASS"
+    },
+    {
+      "name": "no JavaScript presentation errors",
+      "result": "PASS"
+    }
+  ],
+  "javascript_errors": [],
+  "screenshots": [
+    "qa/narrative_screenshots/zh_case_open_static.png",
+    "qa/narrative_screenshots/zh_replay_cut_static.png",
+    "qa/narrative_screenshots/zh_replay_uncut_static.png",
+    "qa/narrative_screenshots/zh_rebuild_record_static.png",
+    "qa/narrative_screenshots/zh_replay_uncut_animated_start.png",
+    "qa/narrative_screenshots/zh_replay_uncut_animated_end.png",
+    "qa/narrative_screenshots/en_case_open_static.png",
+    "qa/narrative_screenshots/en_replay_cut_static.png",
+    "qa/narrative_screenshots/en_replay_uncut_static.png",
+    "qa/narrative_screenshots/en_rebuild_record_static.png",
+    "qa/narrative_screenshots/en_replay_uncut_animated_start.png",
+    "qa/narrative_screenshots/en_replay_uncut_animated_end.png"
+  ],
+  "visual_review": "Rendered screenshots require independent visual inspection; this test does not certify image readability.",
+  "scope": "Actual UI text, responsive narrative display and print spoiler boundaries only; no claim of story quality, physical usability or field testing.",
+  "data_sha256": "265f34d31831ff541dade3b44f570e9ede2f4fc527ec9efd1cd235e6e96a8b72",
+  "bundle_sha256": "0e16db00498557992513c3f9af0a2d6d03e25188aca26d39729bb3c244911e9f",
+  "app_sha256": "d6f07393e530b2646247bc85661144cbbb259a624a1bbb4551177a2c051661e6"
+}

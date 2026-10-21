@@ -1,0 +1,50 @@
+{
+  "scope": "Concrete technical or rendered-layout defects fixed during R7 production. This record does not claim story quality, physical printing or field testing.",
+  "content_sha256": "265f34d31831ff541dade3b44f570e9ede2f4fc527ec9efd1cd235e6e96a8b72",
+  "bundle_sha256": "0e16db00498557992513c3f9af0a2d6d03e25188aca26d39729bb3c244911e9f",
+  "corrections": [
+    {
+      "id": "PRINT_TIMELINE_OVERFLOW",
+      "finding": "Player-kit page 11 content extended into the footer at initial layout, by 51px in Chinese and 72px in English.",
+      "fix": "Reduced only the memorial reference illustration on the timeline work page to 100mm. All original choices and rules retained.",
+      "validation": "Both final 43-page HTML geometries and actual PDFs pass."
+    },
+    {
+      "id": "CLOSED_HINTS_IN_PRINT",
+      "finding": "Closed HTML details hid their contents in Chromium print despite styling the body visible.",
+      "fix": "Screen hints remain folded details; print uses a separate print-only copy of the same authored text.",
+      "validation": "Sixteen print blocks per language visible, including share calibration. All fifteen actual hint strings per language found in final PDF text; hint pages visually inspected."
+    },
+    {
+      "id": "ENGLISH_SVG_APOSTROPHES",
+      "finding": "CJK-first font fallback made English SVG possessive apostrophes appear unusually spaced.",
+      "fix": "English original story diagrams use DejaVu Sans first and CJK fallback. Frozen puzzle figures unchanged.",
+      "validation": "Independent English PDF reviewer inspected all 17 affected pages; page 10 possessives render normally."
+    },
+    {
+      "id": "HANDOFF_TABLE_CAPTIONS",
+      "finding": "Storyboard explanatory labels slightly overlapped illustrated table legs in the cut and uncut figures.",
+      "fix": "Shortened decorative table legs, moved cut explanation beneath the panels, and separated uncut labels from table legs.",
+      "validation": "Final changed pages 1, 4, 36 and 37 independently rechecked in both languages. No unresolved collision."
+    },
+    {
+      "id": "PREPARATION_AND_RECEIPT_SPOILERS",
+      "finding": "Prior R6 flow exposed ending directions while preparing materials and viewing early ending scenes.",
+      "fix": "R7 preparation omits ending read/cut actions; midgame choices are separate; souvenir follows final scenes; digital receipt opens only on explicit request.",
+      "validation": "Current bilingual narrative/UI checks pass, including all six default-closed receipt states."
+    }
+  ],
+  "final_checks": {
+    "content": 66,
+    "logic": 29,
+    "enumerated_cases": 445,
+    "browser": 97,
+    "narrative": 103
+  },
+  "unperformed": [
+    "physical printing/cutting",
+    "tourist blind playtest",
+    "Tokyo field traversal",
+    "commercial operation validation"
+  ]
+}

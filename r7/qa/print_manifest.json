@@ -1,0 +1,467 @@
+{
+  "content_source": "content/game.json",
+  "content_sha256": "265f34d31831ff541dade3b44f570e9ede2f4fc527ec9efd1cd235e6e96a8b72",
+  "figures_sha256": "6828468ae94b026ba9dfa250231009b51593817d9ef01244ac107db75b768d40",
+  "narrative_sha256": "b44909b865f2ea6bc85b101b22de7011305eefcaaaa2134407695712462c2953",
+  "required_material_categories_unchanged": true,
+  "spoiler_policy": "Preparation has no ending material; hints and outcomes are separate; souvenir only after finale.",
+  "materials": {
+    "view_cards": 3,
+    "horizontal_scene_strips": 3,
+    "frame": 1,
+    "river_map_faces": 2,
+    "river_labels": 2,
+    "timeline_tracks": 2,
+    "lower_bound_strip": 1,
+    "park_map_faces": 2,
+    "camera_markers": 4,
+    "purpose_labels": 2,
+    "facade_reference": 1,
+    "theatre_name_strips": 4,
+    "move_1928": 1,
+    "receipt": 1,
+    "folded_souvenir": 1
+  },
+  "languages": {
+    "zh": {
+      "pages": 43,
+      "page_index": [
+        {
+          "page": 1,
+          "key": "cover",
+          "title": "请别替我签收"
+        },
+        {
+          "page": 2,
+          "key": "rules",
+          "title": "出发前准备"
+        },
+        {
+          "page": 3,
+          "key": "opening",
+          "title": "你还没签字，已经成了见证人"
+        },
+        {
+          "page": 4,
+          "key": "s1",
+          "title": "01 · 你们拼好的那一刻"
+        },
+        {
+          "page": 5,
+          "key": "s1work",
+          "title": "01A · 街景识别卡"
+        },
+        {
+          "page": 6,
+          "key": "s1pieces",
+          "title": "01B · 原景与画框"
+        },
+        {
+          "page": 7,
+          "key": "s2",
+          "title": "02 · 两个名字，一条河"
+        },
+        {
+          "page": 8,
+          "key": "s2work",
+          "title": "02A · 河图"
+        },
+        {
+          "page": 9,
+          "key": "s2pieces",
+          "title": "02B · 另一面与两张标签"
+        },
+        {
+          "page": 10,
+          "key": "s3",
+          "title": "03 · 古人不会替照片作证"
+        },
+        {
+          "page": 11,
+          "key": "s3work",
+          "title": "03A · 双时间轨"
+        },
+        {
+          "page": 12,
+          "key": "s4",
+          "title": "04 · 站到镜头这一边"
+        },
+        {
+          "page": 13,
+          "key": "s4work",
+          "title": "04A · 外墙参照与取景"
+        },
+        {
+          "page": 14,
+          "key": "s4pieces",
+          "title": "04B · 公园图与相机片"
+        },
+        {
+          "page": 15,
+          "key": "s5",
+          "title": "05 · 四个名字，不是四个证人"
+        },
+        {
+          "page": 16,
+          "key": "s5work",
+          "title": "05A · 名字与位置"
+        },
+        {
+          "page": 17,
+          "key": "finalintro",
+          "title": "最后：把被剪掉的那一段放回来"
+        },
+        {
+          "page": 18,
+          "key": "final",
+          "title": "完整判断单"
+        },
+        {
+          "page": 19,
+          "key": "sources1",
+          "title": "随身史料 · 1"
+        },
+        {
+          "page": 20,
+          "key": "sources2",
+          "title": "随身史料 · 2"
+        },
+        {
+          "page": 21,
+          "key": "sources3",
+          "title": "随身史料 · 3"
+        },
+        {
+          "page": 22,
+          "key": "sources4",
+          "title": "随身史料 · 4"
+        },
+        {
+          "page": 23,
+          "key": "sources5",
+          "title": "随身史料 · 5"
+        },
+        {
+          "page": 24,
+          "key": "choices",
+          "title": "第三关之后的选择"
+        },
+        {
+          "page": 25,
+          "key": "h1",
+          "title": "提示 01"
+        },
+        {
+          "page": 26,
+          "key": "r1",
+          "title": "行动结果 01"
+        },
+        {
+          "page": 27,
+          "key": "h2",
+          "title": "提示 02"
+        },
+        {
+          "page": 28,
+          "key": "r2",
+          "title": "行动结果 02"
+        },
+        {
+          "page": 29,
+          "key": "h3",
+          "title": "提示 03"
+        },
+        {
+          "page": 30,
+          "key": "r3",
+          "title": "行动结果 03"
+        },
+        {
+          "page": 31,
+          "key": "h4",
+          "title": "提示 04"
+        },
+        {
+          "page": 32,
+          "key": "r4",
+          "title": "行动结果 04"
+        },
+        {
+          "page": 33,
+          "key": "h5",
+          "title": "提示 05"
+        },
+        {
+          "page": 34,
+          "key": "r5",
+          "title": "行动结果 05"
+        },
+        {
+          "page": 35,
+          "key": "finalcheck",
+          "title": "终章入口"
+        },
+        {
+          "page": 36,
+          "key": "ending1",
+          "title": "第一幕 · 再看一次最初的指认"
+        },
+        {
+          "page": 37,
+          "key": "ending2",
+          "title": "第二幕 · 留住中间的空白"
+        },
+        {
+          "page": 38,
+          "key": "ending3",
+          "title": "第三幕 · 这些借来的东西各归各位"
+        },
+        {
+          "page": 39,
+          "key": "ending4",
+          "title": "第四幕 · 没有第五个收件人"
+        },
+        {
+          "page": 40,
+          "key": "ending5",
+          "title": "第五幕 · 当场发生的改变"
+        },
+        {
+          "page": 41,
+          "key": "ending6",
+          "title": "第六幕 · 这一次，轮到你们决定留下什么"
+        },
+        {
+          "page": 42,
+          "key": "endingresponses",
+          "title": "留下最后的回应"
+        },
+        {
+          "page": 43,
+          "key": "souvenir",
+          "title": "回执与纪念"
+        }
+      ]
+    },
+    "en": {
+      "pages": 43,
+      "page_index": [
+        {
+          "page": 1,
+          "key": "cover",
+          "title": "Before You Sign"
+        },
+        {
+          "page": 2,
+          "key": "rules",
+          "title": "Before you leave"
+        },
+        {
+          "page": 3,
+          "key": "opening",
+          "title": "You have not signed. You are already the witness."
+        },
+        {
+          "page": 4,
+          "key": "s1",
+          "title": "01 · The moment you assembled it"
+        },
+        {
+          "page": 5,
+          "key": "s1work",
+          "title": "01A · View cards"
+        },
+        {
+          "page": 6,
+          "key": "s1pieces",
+          "title": "01B · Scene and frame"
+        },
+        {
+          "page": 7,
+          "key": "s2",
+          "title": "02 · Two names, one river"
+        },
+        {
+          "page": 8,
+          "key": "s2work",
+          "title": "02A · River card"
+        },
+        {
+          "page": 9,
+          "key": "s2pieces",
+          "title": "02B · Alternate face and labels"
+        },
+        {
+          "page": 10,
+          "key": "s3",
+          "title": "03 · An old poet cannot date a photograph"
+        },
+        {
+          "page": 11,
+          "key": "s3work",
+          "title": "03A · Two timelines"
+        },
+        {
+          "page": 12,
+          "key": "s4",
+          "title": "04 · Stand on the camera side"
+        },
+        {
+          "page": 13,
+          "key": "s4work",
+          "title": "04A · Facade and viewpoint"
+        },
+        {
+          "page": 14,
+          "key": "s4pieces",
+          "title": "04B · Park cards and camera markers"
+        },
+        {
+          "page": 15,
+          "key": "s5",
+          "title": "05 · Four names are not four witnesses"
+        },
+        {
+          "page": 16,
+          "key": "s5work",
+          "title": "05A · Names and location"
+        },
+        {
+          "page": 17,
+          "key": "finalintro",
+          "title": "Finally: restore the part that was cut away"
+        },
+        {
+          "page": 18,
+          "key": "final",
+          "title": "Your complete account"
+        },
+        {
+          "page": 19,
+          "key": "sources1",
+          "title": "History cards · 1"
+        },
+        {
+          "page": 20,
+          "key": "sources2",
+          "title": "History cards · 2"
+        },
+        {
+          "page": 21,
+          "key": "sources3",
+          "title": "History cards · 3"
+        },
+        {
+          "page": 22,
+          "key": "sources4",
+          "title": "History cards · 4"
+        },
+        {
+          "page": 23,
+          "key": "sources5",
+          "title": "History cards · 5"
+        },
+        {
+          "page": 24,
+          "key": "choices",
+          "title": "Your choice after Stop 3"
+        },
+        {
+          "page": 25,
+          "key": "h1",
+          "title": "Hints 01"
+        },
+        {
+          "page": 26,
+          "key": "r1",
+          "title": "Consequence 01"
+        },
+        {
+          "page": 27,
+          "key": "h2",
+          "title": "Hints 02"
+        },
+        {
+          "page": 28,
+          "key": "r2",
+          "title": "Consequence 02"
+        },
+        {
+          "page": 29,
+          "key": "h3",
+          "title": "Hints 03"
+        },
+        {
+          "page": 30,
+          "key": "r3",
+          "title": "Consequence 03"
+        },
+        {
+          "page": 31,
+          "key": "h4",
+          "title": "Hints 04"
+        },
+        {
+          "page": 32,
+          "key": "r4",
+          "title": "Consequence 04"
+        },
+        {
+          "page": 33,
+          "key": "h5",
+          "title": "Hints 05"
+        },
+        {
+          "page": 34,
+          "key": "r5",
+          "title": "Consequence 05"
+        },
+        {
+          "page": 35,
+          "key": "finalcheck",
+          "title": "The finale"
+        },
+        {
+          "page": 36,
+          "key": "ending1",
+          "title": "Act 1 · Watch the accusation again"
+        },
+        {
+          "page": 37,
+          "key": "ending2",
+          "title": "Act 2 · Keep the interval"
+        },
+        {
+          "page": 38,
+          "key": "ending3",
+          "title": "Act 3 · Give every borrowed thing its proper place"
+        },
+        {
+          "page": 39,
+          "key": "ending4",
+          "title": "Act 4 · There is no fifth recipient"
+        },
+        {
+          "page": 40,
+          "key": "ending5",
+          "title": "Act 5 · What changes now"
+        },
+        {
+          "page": 41,
+          "key": "ending6",
+          "title": "Act 6 · This time, you decide what stays"
+        },
+        {
+          "page": 42,
+          "key": "endingresponses",
+          "title": "The closing response"
+        },
+        {
+          "page": 43,
+          "key": "souvenir",
+          "title": "Receipt and souvenir"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,37 @@
+import fs from 'node:fs';
+import {createHash} from 'node:crypto';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+import {createRequire} from 'node:module';
+import assert from 'node:assert/strict';
+import {verifyMechanics} from './verify_mechanics.mjs';
+const root=path.dirname(path.dirname(fileURLToPath(import.meta.url))),require=createRequire(import.meta.url),E=require('../play/engine.js');
+const D=JSON.parse(fs.readFileSync(path.join(root,'play/data.json'),'utf8')),checks=[],enumeration=[];
+const test=(name,fn)=>{fn();checks.push({name,result:'PASS'});};
+const perms=a=>a.length?a.flatMap((x,i)=>perms(a.filter((_,j)=>j!==i)).map(v=>[x,...v])):[[]];
+const product=items=>items.reduce((a,b)=>a.flatMap(x=>b.map(v=>[...x,v])),[[]]);
+test('frozen engine, figures, fields, answers, hints and bilingual content',()=>verifyMechanics(root,D));
+for(const q of D.stages){
+ const keys=Object.keys(q.answer),all=product(keys.map(k=>k==='order'?perms(q.cards.map(x=>x.id)):k==='rotation'?[0,1,2,3]:k==='mirror'?[false,true]:q.fields.find(f=>f.id===k).options.map(x=>x[0]))).map(v=>Object.fromEntries(keys.map((k,i)=>[k,v[i]])));
+ test(q.id+' exactly one accepted discrete answer',()=>assert.equal(all.filter(x=>E.check(q.answer,x).ok).length,1));
+ test(q.id+' incomplete answer rejected',()=>assert.equal(E.check(q.answer,{}).ok,false));
+ test(q.id+' complete answer accepted',()=>assert.equal(E.check(q.answer,q.answer).ok,true));
+ enumeration.push({stage:q.id,cases:all.length,solutions:1});
+}
+const keys=D.finalFields.map(f=>f.id),all=product(D.finalFields.map(f=>f.options.map(x=>x[0]))).map(v=>Object.fromEntries(keys.map((k,i)=>[k,v[i]])));
+test('final exactly one accepted semantic account',()=>assert.equal(all.filter(x=>E.check(D.finalAnswer,x).ok).length,1));enumeration.push({stage:'final',cases:all.length,solutions:1});
+test('early complete account accepted without stamp state',()=>assert(E.check(D.finalAnswer,D.finalAnswer).ok));
+test('theatre name alone insufficient',()=>assert(!E.check(D.finalAnswer,{recipient:'meijiza'}).ok));
+test('1930 original claim rejected',()=>assert(!E.check(D.finalAnswer,{...D.finalAnswer,object:'1930_original'}).ok));
+test('precise 1995 claim rejected',()=>assert(!E.check(D.finalAnswer,{...D.finalAnswer,time:'exact_1995'}).ok));
+test('sports-centre delivery claim rejected',()=>assert(!E.check(D.finalAnswer,{...D.finalAnswer,park:'deliver_sports'}).ok));
+test('theatre admission claim rejected',()=>assert(!E.check(D.finalAnswer,{...D.finalAnswer,channel:'theatre_entry'}).ok));
+test('four rotations restore every pose',()=>{for(let r=0;r<4;r++)for(const m of [false,true]){let p={rotation:r,mirror:m};for(let i=0;i<4;i++)p=E.rotate(p);assert.deepEqual(p,{rotation:r,mirror:m});}});
+test('two flips restore every pose',()=>{for(let r=0;r<4;r++)for(const m of [false,true]){const p={rotation:r,mirror:m};assert.deepEqual(E.flip(E.flip(p)),p);}});
+test('eight distinct spatial poses',()=>{const seen=new Set();for(let r=0;r<4;r++)for(const m of [false,true])seen.add(JSON.stringify([[61,150],[192,138],[261,156]].map(([x,y])=>E.point(x,y,{rotation:r,mirror:m}))));assert.equal(seen.size,8);});
+test('invalid JSON restore safe',()=>assert.deepEqual(E.restore('not-json'),E.initial()));
+test('four branch values preserved independently by engine',()=>{for(const choice of ['challenge','share'])for(const ending of ['solo','joint']){const s=E.restore({...E.initial(),choice,ending});assert.equal(s.choice,choice);assert.equal(s.ending,ending);}});
+const raw=JSON.stringify(D);
+test('rejected legacy character and contest text absent',()=>{for(const x of ['伊都','澪','莲','REN:','SCENE EXPRESS','Scene Express','取景委托','新手取景员','纸景角色','城市不该冻结'])assert(!raw.includes(x),`Legacy token: ${x}`);});
+const report={generated_at:new Date().toISOString(),version:D.version,data_sha256:createHash('sha256').update(fs.readFileSync(path.join(root,'play/data.json'))).digest('hex'),bundle_sha256:createHash('sha256').update(fs.readFileSync(path.join(root,'R7_Offline.html'))).digest('hex'),app_sha256:createHash('sha256').update(fs.readFileSync(path.join(root,'play/app.js'))).digest('hex'),checks,enumeration,scope:'Discrete authored logic, frozen mechanism contract and integration checks only. No enjoyment, visitor or field validation.'};
+fs.writeFileSync(path.join(root,'qa/logic_results.json'),JSON.stringify(report,null,2)+'\n');console.log(JSON.stringify({checks:checks.length,passed:checks.length,cases:enumeration.reduce((n,x)=>n+x.cases,0)},null,2));

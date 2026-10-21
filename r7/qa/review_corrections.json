@@ -1,0 +1,16 @@
+{
+  "applied": [
+    "R1_S03_particular_record",
+    "R1_S04_record_then_reenactment",
+    "R2_Mamiya_concrete_trade",
+    "deduplicate_P01",
+    "remove_legacy_M03_design_note",
+    "establish_review_desk",
+    "clarify_Aya_knowledge",
+    "early_finale_current_action_instructions",
+    "remove_M05_legacy_term",
+    "early_replay_distinguish_setting_year_and_lower_bound"
+  ],
+  "content_sha256": "265f34d31831ff541dade3b44f570e9ede2f4fc527ec9efd1cd235e6e96a8b72",
+  "review_file": "research/03_INDEPENDENT_REVIEW.md"
+}

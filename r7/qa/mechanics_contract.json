@@ -1,0 +1,281 @@
+{
+  "basis_zip_sha256": "570fdfb2b52f037978e3113f101f3ad6034a3b6219914968ee107aee71903144",
+  "engine_sha256": "fb7ccae9cff6a0021c9f77142b316a6972cdee7609809a77fd3965b08b31806e",
+  "figures_sha256": "6828468ae94b026ba9dfa250231009b51593817d9ef01244ac107db75b768d40",
+  "stages": [
+    {
+      "id": "s1",
+      "type": "sequence",
+      "cards": [
+        {
+          "id": "roof",
+          "icon": "roof"
+        },
+        {
+          "id": "tower",
+          "icon": "tower"
+        },
+        {
+          "id": "sign",
+          "icon": "sign"
+        }
+      ],
+      "fields": [
+        {
+          "id": "reading",
+          "options": [
+            "occlusion",
+            "damage",
+            "touch"
+          ]
+        }
+      ],
+      "answer": {
+        "order": [
+          "tower",
+          "sign",
+          "roof"
+        ],
+        "reading": "occlusion"
+      },
+      "hint_count": 3,
+      "evidence": "ONE_VIEW"
+    },
+    {
+      "id": "s2",
+      "type": "river",
+      "cards": [],
+      "fields": [
+        {
+          "id": "stage",
+          "options": [
+            "inase",
+            "sumida"
+          ]
+        },
+        {
+          "id": "place",
+          "options": [
+            "sumida",
+            "inase"
+          ]
+        }
+      ],
+      "answer": {
+        "rotation": 0,
+        "mirror": false,
+        "stage": "inase",
+        "place": "sumida"
+      },
+      "hint_count": 3,
+      "evidence": "BORROWED_SUMIDA"
+    },
+    {
+      "id": "s3",
+      "type": "timeline",
+      "cards": [],
+      "fields": [
+        {
+          "id": "life",
+          "options": [
+            1680,
+            1930,
+            1995
+          ]
+        },
+        {
+          "id": "earliest",
+          "options": [
+            1930,
+            1981,
+            1995
+          ]
+        },
+        {
+          "id": "dateMeaning",
+          "options": [
+            "lower_bound",
+            "exact",
+            "1930"
+          ]
+        }
+      ],
+      "answer": {
+        "life": 1680,
+        "earliest": 1995,
+        "dateMeaning": "lower_bound"
+      },
+      "hint_count": 3,
+      "evidence": "MODERN_REFERENCE"
+    },
+    {
+      "id": "s4",
+      "type": "park",
+      "cards": [],
+      "fields": [
+        {
+          "id": "camera",
+          "options": [
+            "playground",
+            "river",
+            "entrance",
+            "field"
+          ]
+        },
+        {
+          "id": "building",
+          "options": [
+            "sports",
+            "theatre"
+          ]
+        },
+        {
+          "id": "purpose",
+          "options": [
+            "capture",
+            "delivery"
+          ]
+        }
+      ],
+      "answer": {
+        "rotation": 0,
+        "mirror": false,
+        "camera": "playground",
+        "building": "sports",
+        "purpose": "capture"
+      },
+      "hint_count": 3,
+      "evidence": "CAPTURE_NOT_DELIVERY"
+    },
+    {
+      "id": "s5",
+      "type": "lineage",
+      "cards": [
+        {
+          "id": "chitose",
+          "icon": null
+        },
+        {
+          "id": "meiji",
+          "icon": null
+        },
+        {
+          "id": "kisho",
+          "icon": null
+        },
+        {
+          "id": "hisamatsu",
+          "icon": null
+        }
+      ],
+      "fields": [
+        {
+          "id": "move",
+          "options": [
+            "location",
+            "fifth"
+          ]
+        }
+      ],
+      "answer": {
+        "order": [
+          "kisho",
+          "hisamatsu",
+          "chitose",
+          "meiji"
+        ],
+        "move": "location"
+      },
+      "hint_count": 3,
+      "evidence": "MEIJI_LINEAGE"
+    }
+  ],
+  "final_fields": [
+    {
+      "id": "scene",
+      "options": [
+        "sumida",
+        "inase"
+      ]
+    },
+    {
+      "id": "stage",
+      "options": [
+        "inase",
+        "sumida"
+      ]
+    },
+    {
+      "id": "object",
+      "options": [
+        "contemporary",
+        "1930_original"
+      ]
+    },
+    {
+      "id": "time",
+      "options": [
+        "1995_or_later",
+        "exact_1995"
+      ]
+    },
+    {
+      "id": "park",
+      "options": [
+        "capture_sports_playground",
+        "deliver_sports"
+      ]
+    },
+    {
+      "id": "recipient",
+      "options": [
+        "meijiza",
+        "chitose_only",
+        "museum"
+      ]
+    },
+    {
+      "id": "channel",
+      "options": [
+        "game_receipt",
+        "theatre_entry"
+      ]
+    }
+  ],
+  "finalAnswer": {
+    "scene": "sumida",
+    "stage": "inase",
+    "object": "contemporary",
+    "time": "1995_or_later",
+    "park": "capture_sports_playground",
+    "recipient": "meijiza",
+    "channel": "game_receipt"
+  },
+  "park_initial_by_strategy": {
+    "challenge": {
+      "rotation": 3,
+      "mirror": true
+    },
+    "share": {
+      "rotation": 0,
+      "mirror": false
+    }
+  },
+  "river_initial": {
+    "rotation": 1,
+    "mirror": true
+  },
+  "branch_variables": {
+    "choice": [
+      "challenge",
+      "share"
+    ],
+    "ending": [
+      "solo",
+      "joint"
+    ]
+  },
+  "early_correct_final_accepted": true,
+  "hints_free": true,
+  "assistance_preserves_full_ending": true
+}

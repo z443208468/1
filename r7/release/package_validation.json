@@ -1,0 +1,604 @@
+{
+  "schema": "tokyo-five-sites-package-validation/v1",
+  "result": "PASS",
+  "validated_at_utc": "2026-10-21T01:27:21.378778+00:00",
+  "scope": "Complete release-package inventory and actual extraction SHA-256 verification only.",
+  "not_tested_or_certified_by_this_script": [
+    "human playtesting",
+    "physical printing",
+    "on-site field testing",
+    "story quality",
+    "commercial readiness"
+  ],
+  "archive": {
+    "path": "release/Tokyo_Five_Sites_R7_Review_20261021.zip",
+    "top_level_directory": "Tokyo_Five_Sites_R7/",
+    "bytes": 7524324,
+    "sha256": "b2df03647a408e059f7ca11be9afd4a2934c8b7af095a6ad2dfe5ca99d21d521",
+    "file_count_including_manifest": 83,
+    "fixed_member_timestamp": "2026-10-21 00:00:00",
+    "sorted_member_order": true,
+    "unix_file_mode": "0644",
+    "compression": "DEFLATE level 9",
+    "python": "3.12.14",
+    "zlib": "1.3.2"
+  },
+  "manifest": {
+    "path": "MANIFEST.sha256",
+    "sha256": "82033b25af54008dd48925a0c9c49bcb9c91f9fac81ddec733885898d3722718",
+    "entries": 82,
+    "self_reference": false,
+    "present_in_zip": true
+  },
+  "validation": {
+    "required_files_present_and_nonempty": true,
+    "required_json_parseable": true,
+    "three_required_pdfs_have_pdf_headers": true,
+    "visual_review_hashes_match_current_pdfs": true,
+    "runtime_record_hashes_match_current_data_bundle_app": true,
+    "content_audit_hash_matches_current_source": true,
+    "zip_crc": "PASS",
+    "actual_temporary_directory_extraction": true,
+    "exact_extracted_file_set": true,
+    "all_extracted_sha256": "PASS",
+    "source_files_unchanged_during_packaging": true
+  },
+  "required_files": [
+    "README.md",
+    "requirements-build.txt",
+    "R7_Offline.html",
+    "content/game.json",
+    "content/mechanics_contract.json",
+    "output/pdf/R7_Player_Kit_ZH.pdf",
+    "output/pdf/R7_Player_Kit_EN.pdf",
+    "output/pdf/R7_Designer_Guide.pdf",
+    "play/index.html",
+    "play/app.js",
+    "play/narrative.js",
+    "play/engine.js",
+    "play/figures.js",
+    "play/style.css",
+    "play/data.js",
+    "play/data.json",
+    "play/print.html",
+    "play/print_zh.html",
+    "play/print_en.html",
+    "play/guide.html",
+    "tools/build_release.py",
+    "tools/build_runtime.mjs",
+    "tools/build_print.py",
+    "tools/print_style.css",
+    "tools/build_guide.py",
+    "tools/render_pdfs.py",
+    "tools/package_release.py",
+    "qa/mechanics_contract.json",
+    "qa/verify_mechanics.mjs",
+    "qa/audit_content.py",
+    "qa/test_logic.mjs",
+    "qa/test_runtime.py",
+    "qa/test_narrative.py",
+    "qa/logic_results.json",
+    "qa/browser_results.json",
+    "qa/narrative_results.json",
+    "qa/content_audit.json",
+    "qa/pdf_results.json",
+    "qa/PDF_VISUAL_REVIEW.json",
+    "qa/RELEASE_REVIEW.md"
+  ],
+  "retained_pdf_contact_sheets": [
+    "qa/pdf_contacts/R7_Designer_Guide_contact_01.png",
+    "qa/pdf_contacts/R7_Designer_Guide_contact_02.png",
+    "qa/pdf_contacts/R7_Designer_Guide_contact_03.png",
+    "qa/pdf_contacts/R7_Player_Kit_EN_contact_01.png",
+    "qa/pdf_contacts/R7_Player_Kit_EN_contact_02.png",
+    "qa/pdf_contacts/R7_Player_Kit_EN_contact_03.png",
+    "qa/pdf_contacts/R7_Player_Kit_EN_contact_04.png",
+    "qa/pdf_contacts/R7_Player_Kit_ZH_contact_01.png",
+    "qa/pdf_contacts/R7_Player_Kit_ZH_contact_02.png",
+    "qa/pdf_contacts/R7_Player_Kit_ZH_contact_03.png",
+    "qa/pdf_contacts/R7_Player_Kit_ZH_contact_04.png"
+  ],
+  "excluded_file_counts_by_reason": {
+    "rebuildable PDF page renders; retained contact sheets are in qa/pdf_contacts": 131
+  },
+  "files": [
+    {
+      "path": "R7_Offline.html",
+      "bytes": 149871,
+      "sha256": "0e16db00498557992513c3f9af0a2d6d03e25188aca26d39729bb3c244911e9f",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4907,
+      "sha256": "916a45440892c96270ac79763a93755caf0bfa6028b5ebe07747164e1c1b83e1",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "content/game.json",
+      "bytes": 96746,
+      "sha256": "265f34d31831ff541dade3b44f570e9ede2f4fc527ec9efd1cd235e6e96a8b72",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "content/mechanics_contract.json",
+      "bytes": 5160,
+      "sha256": "691e530657caab09fc09b65125a8a2a17960766746579a04629bc6b4eb16dc40",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "design/01_FULL_STORY.md",
+      "bytes": 28459,
+      "sha256": "e9d736a8b99019cccc659482a1145badb5d91ece6da7b9077a7c2a6c030ed275",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "design/02_FIVE_STAGE_CONTRACTS.md",
+      "bytes": 13032,
+      "sha256": "e1415a4fe7ffeffd82e9ea06381b018f6860d5b7c96c46fde8256d77bb1cbded",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "design/03_HOST_AND_PAPER_ENDING.md",
+      "bytes": 8149,
+      "sha256": "edf1cfcc20a9c47f0d3f1276e33d97997a561e4080597d899a4e76637a01cdba",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "design/04_OPERATIONS_AND_COSTS.md",
+      "bytes": 13493,
+      "sha256": "03c9633d2085c85b6a70781fc1e13f0689a1020beb100089271a3f1a673cfc44",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "design/05_MECHANICS_AND_LIMITS.md",
+      "bytes": 3808,
+      "sha256": "f99d5bb8bdd0e9b1bd179423e48e4e0e9ce443baaa6b27733273935c8b684201",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "output/pdf/R7_Designer_Guide.pdf",
+      "bytes": 1701999,
+      "sha256": "64a990e7aeec80bb0d9361b77a82fe6795d6cdcb06d99ba8b6b80baaed42305f",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "output/pdf/R7_Player_Kit_EN.pdf",
+      "bytes": 589257,
+      "sha256": "038e95a4aa81591f57d68d59bc8323fcc6e54a884b952bc3ba1ade4bdbca6ba0",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "output/pdf/R7_Player_Kit_ZH.pdf",
+      "bytes": 1904333,
+      "sha256": "bedb0b3f966d68f52924e67b642fc4eadad651998a8aba0ba2ac3b0688fa3369",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "play/app.js",
+      "bytes": 22144,
+      "sha256": "d6f07393e530b2646247bc85661144cbbb259a624a1bbb4551177a2c051661e6",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "play/data.js",
+      "bytes": 96764,
+      "sha256": "3f8a2fa7b0ddeca10620ae9b9d101662d3c14720b37b495d7fd5b183167d1d52",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "play/data.json",
+      "bytes": 96746,
+      "sha256": "265f34d31831ff541dade3b44f570e9ede2f4fc527ec9efd1cd235e6e96a8b72",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "play/engine.js",
+      "bytes": 1659,
+      "sha256": "fb7ccae9cff6a0021c9f77142b316a6972cdee7609809a77fd3965b08b31806e",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "play/figures.js",
+      "bytes": 6236,
+      "sha256": "6828468ae94b026ba9dfa250231009b51593817d9ef01244ac107db75b768d40",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "play/guide.html",
+      "bytes": 103186,
+      "sha256": "c4ab7a19226101c6cab18d061aeb7fbe690158d7663f208968d3f31894cb2f12",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "play/index.html",
+      "bytes": 1299,
+      "sha256": "91d7b625403e5f18423d5d896f6ce2b699a22d230d4e1bb265532b866ebeff87",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "play/narrative.js",
+      "bytes": 12823,
+      "sha256": "b44909b865f2ea6bc85b101b22de7011305eefcaaaa2134407695712462c2953",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "play/print.html",
+      "bytes": 795,
+      "sha256": "8ab6c1c66fffff6474e5efd1274a14475016d3d61832b91b23363349c843539e",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "play/print_en.html",
+      "bytes": 149352,
+      "sha256": "abd2c282e389f7e44a0efe366de6ec76b19fb99d8c3dffdae7c1b4ed03f920f9",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "play/print_zh.html",
+      "bytes": 142422,
+      "sha256": "71f591ac5a1dbe786a9024b242aa82154df7604de979c1a7c42790757e75f453",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "play/style.css",
+      "bytes": 9045,
+      "sha256": "8f837a7b0126d75b666a42b031d080e3f17b68d2a2cb45780f7514f897b4817f",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "qa/PDF_VISUAL_REVIEW.json",
+      "bytes": 21929,
+      "sha256": "fcb0a462513f2a1aeab1414d35b6aa57d11265f60e5ec0b3ed58e713c5a5cc55",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "qa/PLAYER_PDF_VISUAL_REVIEW.json",
+      "bytes": 11168,
+      "sha256": "b6386531d094aec796c5ca45cc17b9554c2906f98bbdf09f49d05fd2703cfa69",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "qa/RELEASE_REVIEW.md",
+      "bytes": 2897,
+      "sha256": "cd1fd08fe5d1e85da5950bd2e36a33a68addd79da93c2b8d638462b72c9ddc23",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "qa/RUNTIME_SCHEMA.md",
+      "bytes": 4926,
+      "sha256": "90a13231cd521228b496b34aab6ab3e1c7b6ae526b938743ebdcc918d1f6e370",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "qa/TECHNICAL_CORRECTIONS.json",
+      "bytes": 2836,
+      "sha256": "1ca8ab53f972934044ac4027346c994ce25e8ee1f35f7f72e2aa760392b4edf7",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "qa/audit_content.py",
+      "bytes": 2677,
+      "sha256": "bb4ae670d3418bd051c3a8226b675915a18e0cb1dc49208ab89f1c804805471d",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "qa/browser_results.json",
+      "bytes": 11867,
+      "sha256": "c6b1416ed5459de7486c144263e4e6578d9b72ef102871c8019a091a2c3ae6af",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "qa/content_audit.json",
+      "bytes": 5087,
+      "sha256": "4983d3053c7ad7c266e2a12f8b8def7e931f843cf5446511076a0168f70f5f92",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "qa/logic_results.json",
+      "bytes": 3533,
+      "sha256": "e8089888bbdc43ee126734c0bc9c51327c38f89fe274eb0d4c2e2f27c8591290",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "qa/mechanics_contract.json",
+      "bytes": 5160,
+      "sha256": "691e530657caab09fc09b65125a8a2a17960766746579a04629bc6b4eb16dc40",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "qa/narrative_results.json",
+      "bytes": 10272,
+      "sha256": "dc75b8c2a8ca3378e6a439608d9ab6c3aa38ae32a16ff13e53cd2be5db431c89",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "qa/narrative_screenshots/en_case_open_static.png",
+      "bytes": 37121,
+      "sha256": "57d314915544f0674dcd47bf61b189517d4fa0f8b18d8476b10102793a600f12",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "qa/narrative_screenshots/en_rebuild_record_static.png",
+      "bytes": 44953,
+      "sha256": "4fc218b0084a3abab888288fa69eb2dd2f623d68d05c32af82ad7e2be538d177",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "qa/narrative_screenshots/en_replay_cut_static.png",
+      "bytes": 34780,
+      "sha256": "d4e78d517b2c7ca49840d41e68334e47ff3798d63d4b3cd5fe1027e97461c9a9",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "qa/narrative_screenshots/en_replay_uncut_animated_end.png",
+      "bytes": 62247,
+      "sha256": "278fdd4716493a0bee89f840d554f99969d96e34a946dc43b4bfe3b752b9c072",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "qa/narrative_screenshots/en_replay_uncut_animated_start.png",
+      "bytes": 59164,
+      "sha256": "e66461294fc34065aa689b4ae74b88de068e37e122230f1c0c98be76fccdf040",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "qa/narrative_screenshots/en_replay_uncut_static.png",
+      "bytes": 50940,
+      "sha256": "4a24cb30fbce4d1e415fde4d310e96d8f1fa867e416af8eed0a7fd845b5f3cc6",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "qa/narrative_screenshots/zh_case_open_static.png",
+      "bytes": 38823,
+      "sha256": "f3feabf6c7580555bdb0d466e21a062d06731a3eb944e8a7d520c654d13d563f",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "qa/narrative_screenshots/zh_rebuild_record_static.png",
+      "bytes": 45457,
+      "sha256": "72d90e0e56ba8afa1bddc343b5243859f52d9788334eafcdb25c9509620ca7ea",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "qa/narrative_screenshots/zh_replay_cut_static.png",
+      "bytes": 38263,
+      "sha256": "4fccde73711ebf11e4ed75e2dfd4446dac0f2d664e2a66fa61bacb1f59011713",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "qa/narrative_screenshots/zh_replay_uncut_animated_end.png",
+      "bytes": 63364,
+      "sha256": "771ef77405fe3b16eabeff3688ac95ab77379c7529c575690756ced38c0803ca",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "qa/narrative_screenshots/zh_replay_uncut_animated_start.png",
+      "bytes": 60266,
+      "sha256": "52a5e9b7fa663130931680def78bf58a4e9a79474df78d10fdcc6a10927ea713",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "qa/narrative_screenshots/zh_replay_uncut_static.png",
+      "bytes": 52774,
+      "sha256": "33737702140c4bdef8b21aad95cddca7b3c7930492e81c2a6a07e07ed116e425",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "qa/pdf_contacts/R7_Designer_Guide_contact_01.png",
+      "bytes": 603753,
+      "sha256": "0b1b90990f2bc3d67e770d3b7dd8de17cd449c1b581ad21dcd847a6a509e39fe",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "qa/pdf_contacts/R7_Designer_Guide_contact_02.png",
+      "bytes": 520286,
+      "sha256": "6d2555ac054b2ac1cad01614d1a9c7552eac2d9c619cab9402535540b708b20f",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "qa/pdf_contacts/R7_Designer_Guide_contact_03.png",
+      "bytes": 312134,
+      "sha256": "a9587b39fbf263f51c2b371293652d6ba9b2ccf8afdd826dab49d580043a2b38",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "qa/pdf_contacts/R7_Player_Kit_EN_contact_01.png",
+      "bytes": 325415,
+      "sha256": "0b07055a6beebdf731c6e215584cec0f06da9835f3eca00aa4d6e7765cbcb08d",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "qa/pdf_contacts/R7_Player_Kit_EN_contact_02.png",
+      "bytes": 241252,
+      "sha256": "159124d920baa636773d6efb0382b92af21cd9f1342bee1737bbde34c9404170",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "qa/pdf_contacts/R7_Player_Kit_EN_contact_03.png",
+      "bytes": 253132,
+      "sha256": "5171fd8e2430df33a1091d0fb2b298fd4f1dcc9ee51e0a714edf4e04ef0357e3",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "qa/pdf_contacts/R7_Player_Kit_EN_contact_04.png",
+      "bytes": 201002,
+      "sha256": "66133164f887b8f54e6b0724a3e4f0d519bb24d3a5c439d890407e96fd6d6d4a",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "qa/pdf_contacts/R7_Player_Kit_ZH_contact_01.png",
+      "bytes": 263417,
+      "sha256": "86d9245daee35b6622d94f4f1f1bc47df6aad19e3f3ab3d65b68ccead6722514",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "qa/pdf_contacts/R7_Player_Kit_ZH_contact_02.png",
+      "bytes": 205166,
+      "sha256": "2de71b80d2f0002b6d066e7594513ba1ae2edd62078a30fd2c9a4bcdefe013db",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "qa/pdf_contacts/R7_Player_Kit_ZH_contact_03.png",
+      "bytes": 210195,
+      "sha256": "eb1436cf0ead0b09674db764eff77f04f7d826dc252ae80839942a6e4e991f9c",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "qa/pdf_contacts/R7_Player_Kit_ZH_contact_04.png",
+      "bytes": 169052,
+      "sha256": "382195f5e5d7561110fb7a21a7114c228e90374aa4adca4686960f8cf0945baa",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "qa/pdf_results.json",
+      "bytes": 84886,
+      "sha256": "0e4707b705ed38be7ca4470f6d519991b439d89ec42791a72b4d5959e0586251",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "qa/print_manifest.json",
+      "bytes": 10874,
+      "sha256": "4947981f576ef0aac47565706e039345083fbffda94bf083a937de8f8c90d596",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "qa/recovery_verification.json",
+      "bytes": 918,
+      "sha256": "753033b53a2097740640805cd2e94bbe8d01303ef7b5b86e190b6f12bbaf38db",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "qa/review_corrections.json",
+      "bytes": 523,
+      "sha256": "817d4b1db21a9fe702e900e4d9478c45f76d3da2eb5bd1751739fecd55cbc681",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "qa/runtime_desktop.png",
+      "bytes": 505533,
+      "sha256": "5d9675a6207d81402ce2053af1f2b62d0f30355189bfadf727fc03c46ea70db2",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "qa/runtime_mobile.png",
+      "bytes": 470008,
+      "sha256": "14a452ac3ca42fb6bffe83226015dd1ef6f89fedd0871ede4676f72f6297fcfd",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "qa/test_logic.mjs",
+      "bytes": 4555,
+      "sha256": "0ce9bf0b7fe4b0c3d6df1d8cf158623acad11fd820664af1123a9de26fbd3a74",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "qa/test_narrative.py",
+      "bytes": 7184,
+      "sha256": "bc944a8c6a2d45476e67e11db1c79ff7e415fe336dabc9c0ad5e06840a67ad03",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "qa/test_runtime.py",
+      "bytes": 12424,
+      "sha256": "46309ae8454511198f7fad94b1435684b3bfb1c3868038a57d68ba4226e0003b",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "qa/verify_mechanics.mjs",
+      "bytes": 1971,
+      "sha256": "104a4ebb3ff33725b69e572fa2bf778b0d812ff0c228ec2a070ee014323bdda2",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "requirements-build.txt",
+      "bytes": 184,
+      "sha256": "d172df9ff862e64aeb353192f7670c765674a28d4c305f35757bcf8126236682",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "research/00_NARRATIVE_DECISIONS.md",
+      "bytes": 6285,
+      "sha256": "59c83b274a122288332536efa32a529c83a785e8aaf8687022a5618c85753eb4",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "research/01_HISTORY_AND_SOURCES.md",
+      "bytes": 8737,
+      "sha256": "4d79bcf4ce2ab9241c776009a54eca31dcaffd9fce0cd0d08e358eb1b31425a7",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "research/02_CANDIDATES_AND_GATE.md",
+      "bytes": 3755,
+      "sha256": "ebb0496d53434e07f7ba1ca09d096ba850fb103c872e71c520dedaca15978df4",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "research/03_INDEPENDENT_REVIEW.md",
+      "bytes": 14402,
+      "sha256": "039aa9cb468d434cab3a79397464c4f801a1da4bb98b266986673657b4383151",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "research/04_RECOVERY_AND_VERSION.md",
+      "bytes": 3446,
+      "sha256": "65987c3f53294d8add65de2b0a4bff5cc7b90e777baec2173ae79ff035586c1a",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "research/ROOT_README_BEFORE_R7.txt",
+      "bytes": 3407,
+      "sha256": "055c7d9a6eb893bc00f59e39e4240cb5361ef5b24ef50fa1d2e7a2c0c2c9b91f",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "tools/build_guide.py",
+      "bytes": 12027,
+      "sha256": "d51e3c9a0612335334a609e0c383fe4aa258a3d825db6b82a4a7f61682542aef",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "tools/build_print.py",
+      "bytes": 23750,
+      "sha256": "8d8048b5027d6ffe6e5c00ea6872f95c24969cad665b8ccbab830da76c5fbece",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "tools/build_release.py",
+      "bytes": 1273,
+      "sha256": "648e933b36a6d2cf1c3d598389d781b486cfc803e08db5743e3c1c770f4353be",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "tools/build_runtime.mjs",
+      "bytes": 1486,
+      "sha256": "76472750b1371c4b79da9c2fbd95832393aea3904dfa2255f98a60e02fd3cc13",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "tools/package_release.py",
+      "bytes": 21183,
+      "sha256": "5e095be1a1788705d66865f4d18fc53d430f34bf80b90707ffe763d27ea13267",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "tools/print_style.css",
+      "bytes": 6980,
+      "sha256": "fb2b99613e15ad8591d6dcc1d11d334e39a0e72759dab38b705537c504f93312",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "tools/render_pdfs.py",
+      "bytes": 16554,
+      "sha256": "033882460ee08d538ef409579080a145ce7afe40e55a50cdd9898313ea422969",
+      "extracted_check": "PASS"
+    },
+    {
+      "path": "MANIFEST.sha256",
+      "bytes": 8002,
+      "sha256": "82033b25af54008dd48925a0c9c49bcb9c91f9fac81ddec733885898d3722718",
+      "extracted_check": "PASS; verified against generated bytes, excluded from its own entries"
+    }
+  ]
+}

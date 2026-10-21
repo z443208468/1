@@ -1,0 +1,9 @@
+<!doctype html>
+<html lang="zh"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Tokyo · Five-Site Adventure</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<header class="masthead"><div class="brandline"><span>TOKYO · FIELD ADVENTURE</span><span id="release"></span></div><h1 id="title"></h1><p class="subtitle" id="subtitle"></p>
+<div class="toolbar"><button id="language">English</button><button id="saveFile">导出进度</button><button id="loadFile">导入进度</button><input type="file" id="fileInput" accept="application/json,.json" hidden><button id="reset">重新开始</button><a href="print.html" id="printKit" target="_blank" rel="noopener">打印题包 / Print kit</a></div>
+<div id="storageWarning" class="warning" hidden></div><div id="importMessage" class="warning" role="status" hidden></div><nav id="nav" aria-label="Game chapters"></nav><div class="statusline" id="statusline"></div></header>
+<main id="main"></main><footer><p id="footer"></p><p class="fine" id="privacy"></p></footer>
+<script src="data.js"></script><script src="engine.js"></script><script src="figures.js"></script><script src="narrative.js"></script><script src="app.js"></script>
+</body></html>

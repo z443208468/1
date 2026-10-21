@@ -1,0 +1,2348 @@
+<!doctype html>
+<html lang="zh"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Tokyo · Five-Site Adventure</title><style>:root{--ink:#193c42;--muted:#5a7174;--paper:#f4f0e5;--white:#fffef9;--line:#cad3ce;--accent:#a3442e;--green:#236e60;--danger:#8e2c2a;--shadow:0 8px 28px #203b3410}*{box-sizing:border-box}body{margin:0;color:var(--ink);background:var(--paper);font:17px/1.75 system-ui,"Noto Sans CJK SC",sans-serif}button,input,select{font:inherit;color:inherit}button,a{touch-action:manipulation}button{cursor:pointer;border:1px solid var(--line);background:var(--white);border-radius:5px;min-height:44px;padding:9px 15px;line-height:1.45}button:hover{border-color:var(--ink)}button:focus-visible,a:focus-visible,select:focus-visible,input:focus-visible{outline:3px solid #d49b3c;outline-offset:3px}button.primary{background:var(--green);border-color:var(--green);color:white}button:disabled{cursor:default;opacity:.45}a{color:var(--green);overflow-wrap:anywhere}.masthead,main,footer{max-width:1040px;margin:auto;padding:24px 30px}.masthead{padding-top:34px;border-bottom:1px solid var(--line)}.brandline{display:flex;justify-content:space-between;font:700 11px/1.5 system-ui,sans-serif;letter-spacing:.14em;color:var(--accent)}h1{font-size:clamp(28px,5vw,43px);line-height:1.25;letter-spacing:-.03em;margin:16px 0 9px}h2{font-size:27px;line-height:1.4;letter-spacing:-.02em;margin:13px 0 17px}h3{font-size:18px;line-height:1.4;margin:16px 0 10px}p{margin:10px 0 18px}.subtitle{color:var(--muted);font-size:16px}.toolbar{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:21px 0}.toolbar button,.toolbar a{font-size:13px}.toolbar a{padding:10px 5px}nav{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:7px;margin-top:26px}nav button{padding:10px 6px;position:relative;font-size:13px}nav button.active{background:var(--ink);color:white;border-color:var(--ink)}nav .num{font-size:17px;font-weight:750;display:block}nav .chapter-label{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:11px}.statusline{font-size:12px;color:var(--muted);margin-top:12px}.panel{background:var(--white);border:1px solid var(--line);box-shadow:var(--shadow);padding:27px 30px;margin:0 0 22px;border-radius:7px}.opening{border-top:5px solid var(--accent)}.eyebrow{color:var(--accent);font-size:12px;font-weight:700;letter-spacing:.1em}.site{color:var(--muted);font-size:14px;border-bottom:1px solid var(--line);padding-bottom:12px}.lead-prose{font-size:18px;line-height:1.85}.dialogue{list-style:none;padding:0;margin:20px 0}.dialogue li{padding:14px 17px;border-left:3px solid #a9bdb6;margin:12px 0;background:#edf2ee}.dialogue strong{font-size:12px;color:var(--green);letter-spacing:.04em}.dialogue p{margin:5px 0 0}.operation{border:1px solid #dfcda8;background:#fbf5e6;padding:16px 18px;margin:20px 0}.operation strong{font-size:12px;display:block;color:#7f5929;margin-bottom:5px}.puzzle{padding-top:5px}.cardgrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:18px 0}.cardgrid.four{grid-template-columns:repeat(2,minmax(0,1fr))}.card{padding:13px 9px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;font-size:14px;min-height:100px}.card svg{display:block;max-height:145px;width:100%}.card.selected{border:2px solid var(--green);background:#e5eee7}.slots{padding:15px 18px;border:2px dashed var(--line);background:#f9faf6;min-height:63px;margin:15px 0;line-height:1.55}.diagram{max-width:390px;margin:18px auto}.diagram svg,.wide svg{width:100%;display:block;height:auto}.diagram.memorial{max-width:330px}.controls{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:15px 0}.row{margin:19px 0}.row label{display:block;font-weight:600;margin:0 0 7px}.row select,.row input{width:100%;background:white;border:1px solid #adbbb6;border-radius:4px;padding:11px 12px;min-height:47px}.selectedText{margin-top:5px}.quiet,.fine{font-size:12px;color:var(--muted);line-height:1.65}.fine{margin-bottom:0}.observed{border:1px solid var(--line);padding:12px 14px;margin:22px 0;font-size:13px;display:flex;gap:9px;align-items:flex-start}.observed input{width:18px;height:18px;flex:none;margin-top:3px}.feedback{padding:13px 16px;margin:14px 0;border-left:4px solid}.feedback.good{background:#e7f0e9;border-color:var(--green)}.feedback.bad{background:#f9ece7;border-color:var(--danger)}.hint{padding:16px 18px;background:#f7eed8;border-left:4px solid #c28c2b;margin:17px 0}.reveal{border-top:2px solid var(--green);padding-top:16px;margin:23px 0}.reveal .wide{margin:16px auto;max-width:620px}.choice{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0}.route{font-weight:650;margin:18px 0}.source{font-size:14px;border-top:1px solid var(--line);padding:16px 0}.source p{margin:8px 0}.source a{font-size:12px}.source-heading{font-size:13px}.sources{border-top:1px solid var(--line);padding:16px 0 0;margin-top:24px}summary{cursor:pointer;font-size:14px;font-weight:600}.receipt{padding:25px;border:3px double var(--green);margin-top:27px;background:#f5f9f2}.receipt dl{display:grid;grid-template-columns:minmax(120px,1fr) 2fr;gap:10px 20px}.receipt dt{font-size:12px;color:var(--muted)}.receipt dd{margin:0;font-weight:650;font-size:14px}.receipt .wide{max-width:650px;margin:18px auto}.finale{margin:25px 0;background:var(--ink);color:#fffdf6;border-radius:5px;padding:24px}.finale h3{font-size:25px}.finale .quiet{color:#d6e3dc}.finale .dialogue li{background:#ffffff0b;border-left-color:#bad0bd}.finale .dialogue strong{color:#dfbd8c}.finale .wide{background:var(--white);padding:10px;border-radius:4px;margin:18px 0}.finale-progress{font-size:12px;letter-spacing:.1em;color:#dfbd8c}.finale .controls button{font-size:14px;color:var(--ink)}.ending-response{padding:15px 18px;border-left:3px solid #b58f51;background:#fff8e9;margin:18px 0}.warning{background:#fff1d6;padding:12px 15px;font-size:13px;margin:12px 0}.hidden{display:none!important}footer{border-top:1px solid var(--line);font-size:13px;padding-bottom:35px}.print-only{display:none}@media(max-width:600px){.masthead,main,footer{padding:20px 16px}.panel{padding:20px 17px}h2{font-size:23px}.lead-prose{font-size:16px}nav{gap:4px}nav button{font-size:12px;padding:9px 2px}nav .chapter-label{font-size:9px}.cardgrid{gap:7px}.card{padding:8px 4px;font-size:12px}.card svg{max-height:110px}.receipt{padding:17px}.receipt dl{display:block}.receipt dd{margin:3px 0 12px}.finale{padding:18px}.finale h3{font-size:22px}.toolbar{gap:5px}.toolbar button{padding:8px 10px}.diagram{max-width:100%}}@media print{@page{size:A4;margin:16mm}body{background:white;font-size:10pt}header,footer,.panel>h2,.panel>p,.panel>.row,.panel>.controls,.panel>.feedback,.panel>.quiet,.panel>.dialogue,.no-print,button,.toolbar,nav,.statusline{display:none!important}main{padding:0;max-width:none}.panel{padding:0;margin:0;border:0;box-shadow:none}.receipt{border:1px solid #5e756b;margin:0;padding:8mm;break-inside:avoid}.receipt p{display:block!important}.receipt .quiet{font-size:8pt}.receipt .wide{max-width:150mm}.finale{display:none}.print-only{display:block}.receipt h2{font-size:20pt}.receipt dl{display:grid}.receipt dt{font-size:8pt}.receipt dd{font-size:9pt}}
+
+/* Narrative figures: display only; no puzzle state. */
+.story-figure{margin:20px 0}.narrative-figure{margin:0;width:100%;color:var(--ink);background:#fff8e8;border-radius:4px;overflow:hidden}.narrative-figure svg{display:block;width:100%;height:auto}.narrative-figure figcaption{padding:13px 15px;font-size:14px;line-height:1.65;background:#fff8e8;color:var(--ink);border-top:1px solid #d7cab0}.narrative-figure figcaption span{display:block;font-size:11px;color:var(--muted);margin-top:6px}.narrative-still{display:none}.finale .wide:has(.narrative-figure){padding:0;background:transparent}.finale .narrative-figure{color:var(--ink)}@media(prefers-reduced-motion:reduce){.narrative-motion{display:none}.narrative-still{display:block}}@media(max-width:600px){.finale .wide:has(.narrative-figure){margin-left:-8px;margin-right:-8px}.narrative-figure figcaption{font-size:13px;padding:10px 12px}.narrative-figure figcaption span{font-size:11px}}
+
+.fiction-notice{font-size:13px;line-height:1.7;padding:12px 15px;margin:16px 0;border:1px solid var(--line);background:#f2f5ef}.opening-instruction{padding:17px 19px;border:1px solid #cfb477;background:#fbf0d7;margin:19px 0}.opening-instruction strong{font-size:12px;letter-spacing:.06em;color:#7a5427}.opening-instruction p{font-size:15px;margin:9px 0;line-height:1.8}.play-rules{padding:16px 0;border-bottom:1px solid var(--line);margin-bottom:21px}.play-rules ol{padding-left:23px;font-size:14px}.play-rules li{margin:11px 0}
+
+.narrative-playback{background:#fff8e8;padding:0 15px 13px}.narrative-playback button{font-size:12px;color:var(--ink);min-height:36px;padding:6px 11px;background:#fffdf7;border-color:#c7b78e}@media(prefers-reduced-motion:reduce){.narrative-playback{display:none}}
+
+.receipt-disclosure{border:1px solid var(--line);padding:15px;margin-top:20px}.receipt-disclosure>summary{color:var(--green)}@media print{.receipt-disclosure{border:0;padding:0}.receipt-disclosure>summary{display:none}}
+</style></head>
+<body>
+<header class="masthead"><div class="brandline"><span>TOKYO · FIELD ADVENTURE</span><span id="release"></span></div><h1 id="title"></h1><p class="subtitle" id="subtitle"></p>
+<div class="toolbar"><button id="language">English</button><button id="saveFile">导出进度</button><button id="loadFile">导入进度</button><input type="file" id="fileInput" accept="application/json,.json" hidden><button id="reset">重新开始</button><a href="play/print.html" id="printKit" target="_blank" rel="noopener">打印题包 / Print kit</a></div>
+<div id="storageWarning" class="warning" hidden></div><div id="importMessage" class="warning" role="status" hidden></div><nav id="nav" aria-label="Game chapters"></nav><div class="statusline" id="statusline"></div></header>
+<main id="main"></main><footer><p id="footer"></p><p class="fine" id="privacy"></p></footer>
+<script>window.R7_DATA = {
+  "sources": [
+    {
+      "id": "B02",
+      "title": {
+        "zh": "纽扣博物馆：收蔵品",
+        "en": "Button Museum: collection"
+      },
+      "url": "https://button-museum.jp/item/",
+      "fact": {
+        "zh": "馆方介绍的18世纪英国图画纽扣，在薄板及玻璃背面分别绘画以表现远近。这项工艺来自馆藏文字；街角没有相应免费实物展示。本游戏图形与景条为原创。",
+        "en": "The museum describes eighteenth-century English picture buttons painted on plates and the back of glass to suggest depth. This fact comes from the collection text, not a free outdoor display. The game drawings and strips are original."
+      }
+    },
+    {
+      "id": "F01",
+      "title": "既有街角实拍研究 / Existing corner-evidence review",
+      "url": "",
+      "fact": {
+        "zh": "沿用仓库evidence/02_SITE_BY_SITE_CROSSCHECK.md的街角连续视野与遮挡记录。此轮未重新取得或检查私人JPEG／MP4原像素；不公开原图，不据OCR补写被挡文字。",
+        "en": "Uses the continuous-view and overlap observations in evidence/02_SITE_BY_SITE_CROSSCHECK.md. Private JPEG/MP4 pixels were not reobtained or re-examined this session. No originals are published; hidden lettering is not reconstructed from OCR."
+      }
+    },
+    {
+      "id": "R02",
+      "title": {
+        "zh": "国立剧场：舞台名与百本杭",
+        "en": "National Theatre: stage names and river piles"
+      },
+      "url": "https://www2.ntj.jac.go.jp/dglib/contents/learn/edc17/sakuhin/d2/b.html",
+      "fact": {
+        "zh": "《小袖曾我薊色縫》以稲瀬川舞台名借取隅田川百本杭一带的景。本游戏没有把它与《白浪五人男》混成同一场面。",
+        "en": "Kosode Soga Azami no Ironui uses the stage name Inase for Sumida scenery associated with the piles. This game does not merge that scene with The Five Thieves."
+      }
+    },
+    {
+      "id": "R01",
+      "title": "墨田区观光协会：旧两国桥 / Old Ryogoku Bridge",
+      "url": "https://visit-sumida.jp/spot/6182/",
+      "fact": {
+        "zh": "旧桥在现桥下游约50米；河岸有见世物与摊贩的历史。本游戏示意不进行古今桥位精确叠合，也不把现代护栏当旧百本杭计数。",
+        "en": "The old bridge was about 50 metres downstream of the present one; the riverbank has a history of sideshows and stalls. The game does not precisely overlay old and new bridge positions or count modern railings as historical piles."
+      }
+    },
+    {
+      "id": "H07",
+      "title": {
+        "zh": "江东区：芭蕉与深川",
+        "en": "Koto City: Basho and Fukagawa"
+      },
+      "url": "https://www.city.koto.lg.jp/promotion/kotocity/bashou.html",
+      "fact": {
+        "zh": "芭蕉1680年由日本桥迁往深川。这是人物活动史，不是今日庭园、铜像或参照画面的制作年。",
+        "en": "Basho moved from Nihonbashi to Fukagawa in 1680. This belongs to his life, not to the creation date of the present garden, statue or reference view."
+      }
+    },
+    {
+      "id": "H01",
+      "title": {
+        "zh": "芭蕉纪念馆：馆概要",
+        "en": "Basho Museum: outline"
+      },
+      "url": "https://www.kcf.or.jp/basho/outline/",
+      "fact": {
+        "zh": "本馆1981年开馆，分馆1995年1月开馆，分馆屋顶展望庭园1995年4月开园。庭园免费，公布开放9:15—16:30，面积101.88平方米。含该设施的参照只能得到1995或以后的下界。",
+        "en": "The main museum opened in 1981, the annex in January 1995 and its roof observation garden in April 1995. The garden is free, has published hours of 09:15–16:30 and covers 101.88 square metres. A reference showing this setting can establish only a lower bound of 1995 or later."
+      }
+    },
+    {
+      "id": "H02",
+      "title": "江东区：芭蕉记念馆 / Koto City garden access",
+      "url": "https://www.city.koto.lg.jp/promotion/spot/basho.html",
+      "fact": {
+        "zh": "免费庭园位于常盤1-1-3；不是常盤1-6-3本馆。官方列庭园第2、4周一休园，节假日顺延次日；临时公告优先。旧庵与现代纪念设施不可混同。",
+        "en": "The free garden is at 1-1-3 Tokiwa, distinct from the main museum at 1-6-3. Official information lists the second and fourth Mondays as closed, or the next day when a holiday falls on the Monday. Temporary notices take priority. The old hut and modern memorial are different."
+      }
+    },
+    {
+      "id": "P01",
+      "title": {
+        "zh": "东京都立图书馆：浜町公园",
+        "en": "Tokyo Metropolitan Library: Hamacho Park"
+      },
+      "url": "https://www.library.metro.tokyo.lg.jp/portals/0/tokyo/chapter2/park14.html",
+      "fact": {
+        "zh": "浜町公园1929年开园，为震灾复兴三大公园之一。该史实不提供现代图卡朝向或可通行路线。",
+        "en": "Hamacho Park opened in 1929 as one of the three major reconstruction parks. This does not supply a modern diagram orientation or an open route."
+      }
+    },
+    {
+      "id": "P02",
+      "title": "内阁府：帝都复兴 / Cabinet Office reconstruction history",
+      "url": "https://www.bousai.go.jp/kohou/kouhoubousai/r05/108/special_01.html",
+      "fact": {
+        "zh": "复兴事业涉及街区、道路、桥梁和公园的重构。本题不使用未取得的精确古图，不推定地下藏点、喷泉基址或1929设施坐标。",
+        "en": "Reconstruction reshaped blocks, roads, bridges and parks. This puzzle does not use an unavailable precise historical plan or infer underground caches, fountain foundations or 1929 facility coordinates."
+      }
+    },
+    {
+      "id": "P06",
+      "title": {
+        "zh": "既有现场观察报告",
+        "en": "Inherited field-observation report"
+      },
+      "url": "",
+      "fact": {
+        "zh": "既有现场对照报告记载公园案内图、体育中心菱形外墙与前后关系。本轮继承观察记录，未重新取得或声称重看原始照片；图为原创简化示意。",
+        "en": "The inherited field-review report records the park map, sports-centre facade and depth relationships. This release uses that report, not a claimed new inspection of the original photographs. Diagrams are original simplifications."
+      }
+    },
+    {
+      "id": "P04",
+      "title": {
+        "zh": "中央区：浜町公园部分休止",
+        "en": "Chuo City: partial park closure"
+      },
+      "url": "https://www.city.chuo.lg.jp/a0037/machizukuri/kouenryokka/kouen/oshirase/hamachosyuuhen.html",
+      "fact": {
+        "zh": "2026-10-21复核的官方公告：公园部分区域休止至2030年度。以当日围挡为准，案内图不证明通路开放。",
+        "en": "Official notice rechecked on 21 October 2026: parts of the park are out of use through fiscal 2030. Follow current barriers; a map does not prove a route is open."
+      }
+    },
+    {
+      "id": "M01",
+      "title": {
+        "zh": "明治座：喜昇座时代",
+        "en": "Meijiza: Kisho-za era"
+      },
+      "url": "https://www.meijiza.co.jp/anniversary/era1.html",
+      "fact": {
+        "zh": "官方沿革追到西两国广小路三兄弟露天戏棚；1873年喜昇座开场。这个关系连接两国桥与终点，不表示今日桥头就是1873剧场地址。",
+        "en": "The official history traces the predecessor to the open-air San Kyodai playhouses of west Ryogoku and the opening of Kisho-za in 1873. This connects the riverside history with the endpoint; it does not put the 1873 theatre at today’s bridgehead."
+      }
+    },
+    {
+      "id": "M02",
+      "title": {
+        "zh": "明治座：久松座时代",
+        "en": "Meijiza: Hisamatsu-za era"
+      },
+      "url": "https://www.meijiza.co.jp/anniversary/era2.html",
+      "fact": {
+        "zh": "1879年8月6日以久松座之名开场。沿革是机构历史，不是同一建筑永远未变。",
+        "en": "The theatre opened under the Hisamatsu-za name on 6 August 1879. This is institutional history, not proof of an unchanged building."
+      }
+    },
+    {
+      "id": "M03",
+      "title": {
+        "zh": "明治座：千歳座时代",
+        "en": "Meijiza: Chitose-za era"
+      },
+      "url": "https://www.meijiza.co.jp/anniversary/era3.html",
+      "fact": {
+        "zh": "1885年使用千歳座之名，后来的明治座属于这条剧场沿革。",
+        "en": "The theatre used the name Chitose-za from 1885. The subsequent Meiji-za belongs to the same historical sequence."
+      }
+    },
+    {
+      "id": "M04",
+      "title": {
+        "zh": "明治座诞生",
+        "en": "The opening of Meiji-za"
+      },
+      "url": "https://www.meijiza.co.jp/anniversary/era4.html",
+      "fact": {
+        "zh": "1893年以明治座之名开场。喜昇→久松→千歳→明治是沿革顺序；不能由此推成跨地点同一镜头。",
+        "en": "The theatre opened under the Meiji-za name in 1893. Kisho → Hisamatsu → Chitose → Meiji is the historical sequence, not a continuous camera view across locations."
+      }
+    },
+    {
+      "id": "M07",
+      "title": {
+        "zh": "昭和的明治座",
+        "en": "Meijiza in the Showa era"
+      },
+      "url": "https://www.meijiza.co.jp/anniversary/era7.html",
+      "fact": {
+        "zh": "震灾后迁到今浜町公园附近，1928年3月4日重新开场。此条是迁址／再开场，不是第五名字；不等于公园取景端能同时拍到剧场。",
+        "en": "After the earthquake the theatre moved near present-day Hamacho Park and reopened on 4 March 1928. This is relocation/reopening, not a fifth name, and does not show that the park viewpoint also frames the theatre."
+      }
+    },
+    {
+      "id": "M05",
+      "title": {
+        "zh": "明治座：首次来场",
+        "en": "Meijiza: first visit"
+      },
+      "url": "https://www.meijiza.co.jp/firstguide/",
+      "fact": {
+        "zh": "本游戏只核对外观，没有场馆合作、入场权益或员工签收。案情与题图为原创虚构与示意；回执向游戏主办方提交。",
+        "en": "This game uses exterior observation only. It grants no venue partnership, admission rights or staff signature. The case is original fiction and the reference images are original diagrams. Submit the receipt to the game host."
+      }
+    }
+  ],
+  "finalFields": [
+    {
+      "id": "scene",
+      "label": {
+        "zh": "纸景的真实取材河流",
+        "en": "Real river used as source"
+      },
+      "options": [
+        [
+          "sumida",
+          "隅田川 / Sumida"
+        ],
+        [
+          "inase",
+          "稲瀬川 / Inase"
+        ]
+      ]
+    },
+    {
+      "id": "stage",
+      "label": {
+        "zh": "同一景在戏里的称呼",
+        "en": "Stage name of the borrowed view"
+      },
+      "options": [
+        [
+          "inase",
+          "稲瀬川 / Inase"
+        ],
+        [
+          "sumida",
+          "隅田川 / Sumida"
+        ]
+      ]
+    },
+    {
+      "id": "object",
+      "label": {
+        "zh": "本次待签收工作稿的性质",
+        "en": "Nature of the current work sheet"
+      },
+      "options": [
+        [
+          "contemporary",
+          {
+            "zh": "当代制作、借用历史景与名称的工作稿",
+            "en": "A contemporary work sheet borrowing historical scenery and names"
+          }
+        ],
+        [
+          "1930_original",
+          {
+            "zh": "未经后配的1930原始摄影",
+            "en": "An unaltered original reel from 1930"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "time",
+      "label": {
+        "zh": "现代庭园参照的摄影下界",
+        "en": "Lower bound of the garden reference"
+      },
+      "options": [
+        [
+          "1995_or_later",
+          {
+            "zh": "1995或以后，不是精确年",
+            "en": "1995 or later, not an exact date"
+          }
+        ],
+        [
+          "exact_1995",
+          {
+            "zh": "精确到1995",
+            "en": "Exactly 1995"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "park",
+      "label": {
+        "zh": "公园工作页要求完成的事",
+        "en": "What the park work sheet directs"
+      },
+      "options": [
+        [
+          "capture_sports_playground",
+          {
+            "zh": "从游乐区一侧向体育中心取景",
+            "en": "Film toward the sports centre from the playground side"
+          }
+        ],
+        [
+          "deliver_sports",
+          {
+            "zh": "把纸景送进体育中心",
+            "en": "Deliver the paper scene to the sports centre"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "recipient",
+      "label": {
+        "zh": "旧名沿革在今天的对应",
+        "en": "Current counterpart of the name history"
+      },
+      "options": [
+        [
+          "meijiza",
+          "明治座 / Meijiza"
+        ],
+        [
+          "chitose_only",
+          "千歳座 / Chitose only"
+        ],
+        [
+          "museum",
+          "芭蕉纪念馆 / Basho Museum"
+        ]
+      ]
+    },
+    {
+      "id": "channel",
+      "label": {
+        "zh": "本案说明交到哪里",
+        "en": "Where this account is submitted"
+      },
+      "options": [
+        [
+          "game_receipt",
+          {
+            "zh": "只向游戏主办方的案件回执提交",
+            "en": "Submit only to the game host through the case receipt"
+          }
+        ],
+        [
+          "theatre_entry",
+          {
+            "zh": "拿道具入场或找现实剧院员工签收",
+            "en": "Enter with the prop or ask real theatre staff to sign"
+          }
+        ]
+      ]
+    }
+  ],
+  "finalAnswer": {
+    "scene": "sumida",
+    "stage": "inase",
+    "object": "contemporary",
+    "time": "1995_or_later",
+    "park": "capture_sports_playground",
+    "recipient": "meijiza",
+    "channel": "game_receipt"
+  },
+  "version": "R7.0-review",
+  "title": {
+    "zh": "请别替我签收",
+    "en": "Before You Sign"
+  },
+  "subtitle": {
+    "zh": "东京五景悬疑行 · 把一场没有发生的交接拆回来",
+    "en": "A five-stop Tokyo mystery · Take apart a handoff that never happened"
+  },
+  "openingTitle": {
+    "zh": "你还没签字，已经成了见证人",
+    "en": "You have not signed. You are already the witness."
+  },
+  "opening": {
+    "zh": "三张景片、一只纸框，一份写着“1930”的制作稿。你们答应帮忙复原东京旧景，收到的却是一段指认摄影助理偷走原件的剪辑。下一页，见证人一栏已经替你们留好了位置。助理绫只发来一句话：“请别替我签收。我拿走的不是他们丢的东西。”\n先把被打乱的景片接起来。然后弄清楚：你们究竟看见过什么？",
+    "en": "Three scene strips, a paper frame and a production sheet marked “1930.” You agreed to help reconstruct a Tokyo view. Instead, you receive an edit accusing a camera assistant of taking the original. The next page already reserves a place for you as witnesses. Aya, the assistant, sends one line: “Please do not sign for me. What I took is not what they say is missing.”\nFirst, join the scattered pieces. Then find out what you have actually witnessed."
+  },
+  "fictionNotice": {
+    "zh": "本案人物、委托、通讯、影像与交接均为原创虚构，通过离线文字和示意分镜演出；不是实况、不拍摄你们，也不会发送消息。东京地点与标明来源的历史是真实资料，真实场馆未参与本案。",
+    "en": "The characters, commission, messages, footage and handoffs are fictional, presented through offline text and illustrated storyboards. This is not a live feed; it does not film you or send messages. The places and sourced historical facts are real. The venues are not participants in this case."
+  },
+  "openingFigure": "case_open",
+  "openingDialogue": [
+    {
+      "speaker": {
+        "zh": "间宫",
+        "en": "Mamiya"
+      },
+      "text": {
+        "zh": "我是这份影像的制作人。三景被拆散了，帮我按真实街角复原。你们只需说明自己怎样摆的，最后一份见证就齐了。旧稿已交制作审阅台，下一次补拍也排了。你们的更正也可以交那里。",
+        "en": "I produced this film. The scene has been split. Help me rebuild it against the real street corner. Describe how you placed it, and the last witness account will be complete. The draft is already with our internal review desk and another shoot is scheduled. Corrections can go to that desk too."
+      }
+    },
+    {
+      "speaker": {
+        "zh": "记录",
+        "en": "Record"
+      },
+      "text": {
+        "zh": "制作队内部正在流转一段短剪辑：绫伸手拿走纸框，画面切到一只手接住纸包。标题：“原件交付后失踪”。这是间宫的说法，画面没有连续拍到两只手同场。",
+        "en": "An edit is already circulating inside the fictional production team: Aya picks up a frame; a cut shows a hand receiving a packet. Caption: “Original missing after delivery.” That is Mamiya’s claim. The two hands are never shown together in an uninterrupted shot."
+      }
+    },
+    {
+      "speaker": {
+        "zh": "绫",
+        "en": "Aya"
+      },
+      "text": {
+        "zh": "别把三片分给三个收件人。先留在一起。还有……别相信我说“我什么也没做”。我现在还说不出口。",
+        "en": "Do not give the three pieces to three recipients. Keep them together. And… do not trust me if I say I did nothing. I cannot say the rest yet."
+      }
+    },
+    {
+      "speaker": {
+        "zh": "间宫",
+        "en": "Mamiya"
+      },
+      "text": {
+        "zh": "她承认拿过东西。四家剧场的独立记录都在，你们不用替她判断动机。先完成第一张景。",
+        "en": "She admits handling the material. There are independent records from four theatres. You need not judge her motives. Finish the first view."
+      }
+    }
+  ],
+  "originalCaption": {
+    "zh": "【虚构制作稿原文】“整卷参考直接取自同一卷未经后配的1930年原始现场摄影；稿中所有场景均据此截取。喜昇座、久松座、千歳座、明治座是该年同时存在、分别接收原景的四家独立剧场。待补：现代游客复原见证。”这些是待核对的角色主张，不是历史说明。",
+    "en": "[Fictional production claim] “Every reference comes directly from one unaltered location reel filmed in 1930, with no later material inserted. Kisho-za, Hisamatsu-za, Chitose-za and Meiji-za were four independent theatres operating simultaneously that year, each receiving the scene. Pending: modern visitors’ reconstruction account.” These are claims to investigate, not historical facts."
+  },
+  "parkAnnotation": {
+    "zh": "【原工作页边注】“CAPTURE AT：按图中前后关系摆景；四种名称分别作题签。片段一：绫举框。片段二：换题签后，另一只手接纸包。不要保留两段之间的整理过程。”间宫称这只是“旧案复原的剪辑习惯”。",
+    "en": "[Work-sheet margin] “CAPTURE AT: arrange the scene with the indicated foreground and background. Use the four names as captions. Take one: Aya lifts the frame. Take two: change the caption, then another hand receives a packet. Omit the reset between takes.” Mamiya calls this an ordinary convention for reconstructing the past."
+  },
+  "rules": [
+    {
+      "zh": "按五站路线行走；随时可暂停。剧情催促不是真实倒计时。",
+      "en": "Follow the five-stop route and pause whenever needed. Dramatic pressure is not a real countdown."
+    },
+    {
+      "zh": "所有章节与终章从开始即可查看。有根据的正确早解直接获得完整结局。",
+      "en": "Every chapter and the finale are accessible from the start. A correct early solution receives the complete ending."
+    },
+    {
+      "zh": "每关有三级免费提示与辅助完成；使用辅助不会削减真相或纪念品。",
+      "en": "Each stop has three free hints and assistance. Help never reduces the truth or souvenir."
+    },
+    {
+      "zh": "第三关的核验／交换选择只影响首次公园图的校准；终局独立／联合落款是另一个选择。",
+      "en": "The Stop 3 verification/exchange choice only affects the park diagram’s initial alignment. Independent/joint signature at the end is a separate choice."
+    },
+    {
+      "zh": "事实、人物主张与原创示意分开阅读。桌面模式用随身资料，不冒充到过现场。",
+      "en": "Distinguish sourced facts, character claims and original illustrations. Desktop play uses the supplied material without pretending to be a field visit."
+    },
+    {
+      "zh": "只操作纸包与屏幕；不需录影、寄送、付款、贴码、搬动现场物体或找工作人员配合。",
+      "en": "Handle only the kit and screen. No filming, mailing, payment, posted codes, moving real objects or staff assistance is required."
+    }
+  ],
+  "safety": {
+    "zh": "只在允许停留且不妨碍通行处操作；不进入车道、馆内收费区、体育中心或剧场。芭蕉展望庭园免费但限时，官方列9:15—16:30；闭园或不可达时使用包内替代图，注明“替代观察”。浜町公园部分区域官方公告休止至2030年度，服从当日围挡。路口收起纸件，临水、拥挤或雨天可移到安全处阅读。",
+    "en": "Use permitted stopping places without blocking traffic. Stay off the road and outside paid museum areas, the sports centre and theatre. The free Basho observation garden has published hours of 09:15–16:30; use the supplied substitute and mark it as such if closed or inaccessible. The official notice places parts of Hamacho Park out of use through fiscal 2030; obey current barriers. Put pieces away at crossings. Read from a safe place in rain, crowds or near water."
+  },
+  "stages": [
+    {
+      "id": "s1",
+      "site": {
+        "zh": "纽扣博物馆所在楼宇外公共街角 · 日本橋浜町1-11-8外部",
+        "en": "Public street corner outside the Button Museum building · 1-11-8 Nihonbashi-Hamacho"
+      },
+      "type": "sequence",
+      "cards": [
+        {
+          "id": "roof",
+          "label": {
+            "zh": "馆楼／屋顶边缘",
+            "en": "Building / roof edge"
+          },
+          "icon": "roof"
+        },
+        {
+          "id": "tower",
+          "label": {
+            "zh": "远塔与前景建筑",
+            "en": "Distant tower / nearer block"
+          },
+          "icon": "tower"
+        },
+        {
+          "id": "sign",
+          "label": {
+            "zh": "交通牌／后方广告",
+            "en": "Traffic sign / advertisement"
+          },
+          "icon": "sign"
+        }
+      ],
+      "fields": [
+        {
+          "id": "reading",
+          "label": {
+            "zh": "应采用哪种读取方式？",
+            "en": "Which reading is justified?"
+          },
+          "options": [
+            [
+              "occlusion",
+              {
+                "zh": "保留前景：不同层次组成同一街景",
+                "en": "Keep the foreground: the layers belong to one view"
+              }
+            ],
+            [
+              "damage",
+              {
+                "zh": "补出所有缺失文字，当成完整地址",
+                "en": "Invent the missing text and treat each as an address"
+              }
+            ],
+            [
+              "touch",
+              {
+                "zh": "移动现场路牌来恢复画面",
+                "en": "Move the real sign to reveal the view"
+              }
+            ]
+          ]
+        }
+      ],
+      "answer": {
+        "order": [
+          "tower",
+          "sign",
+          "roof"
+        ],
+        "reading": "occlusion"
+      },
+      "hints": [
+        {
+          "zh": "三张卡来自同一段连续视野。先区分远处目标、前面的交通牌和馆楼边缘。",
+          "en": "The cards belong to one continuous view. Distinguish the distant landmark, the nearer traffic sign and the museum building edge."
+        },
+        {
+          "zh": "把远塔那张放在起端，馆楼／屋顶边缘放在另一端；交通牌卡接在中间。牌后的缺口是遮挡。",
+          "en": "Put the distant-tower card at the start and the building/roof edge at the other end. The traffic-sign card joins them. The gap behind the sign is an overlap."
+        },
+        {
+          "zh": "远塔→交通牌→馆楼／屋顶；选择保留前景遮挡。纸版将对应三条河景按此顺序接成一幅，不补写被挡文字。",
+          "en": "Tower → sign → building/roof. Keep the foreground overlap. Join the matching river strips in that order without inventing obscured text."
+        }
+      ],
+      "evidence": "ONE_VIEW",
+      "sources": [
+        "B02",
+        "F01"
+      ],
+      "minutes": [
+        6,
+        9
+      ],
+      "title": {
+        "zh": "01 · 你们拼好的那一刻",
+        "en": "01 · The moment you assembled it"
+      },
+      "shortTitle": {
+        "zh": "街角：保住完整景",
+        "en": "Street: keep the scene together"
+      },
+      "beforeFigure": "case_open",
+      "afterFigure": "one_scene",
+      "intro": {
+        "zh": "纽扣馆介绍的图画工艺会把不同表面的画组合成远近。绫仿这种观看方法做了本案纸景，未使用馆藏。馆外街角的远塔、路牌和屋顶，都有前景遮住后景的关系。间宫却让你们把每段缺口补成一份单独地址。",
+        "en": "Picture-button techniques can combine painted surfaces to create depth. Aya adapted that viewing method for this paper scene; it is not a museum object. At the street corner, the tower, sign and roof each involve one thing hiding another. Mamiya wants each incomplete view treated as a separate address."
+      },
+      "before": [
+        {
+          "speaker": {
+            "zh": "间宫",
+            "en": "Mamiya"
+          },
+          "text": {
+            "zh": "三片、三次交付。把挡住的部分补齐，就能各送一份。",
+            "en": "Three pieces, three deliveries. Fill the hidden parts and each can go separately."
+          }
+        },
+        {
+          "speaker": {
+            "zh": "绫",
+            "en": "Aya"
+          },
+          "text": {
+            "zh": "你们可以不信我。至少先看看：少掉的是纸，还是你站的位置？",
+            "en": "You need not trust me. Just look first: is the paper missing, or is something in front of it?"
+          }
+        }
+      ],
+      "operation": {
+        "zh": "找到三视图的连续顺序；保留遮挡。按同样顺序把三条横景接回原框。",
+        "en": "Find the order of the three views, keeping the occlusions. Join the three scene strips in the same order inside the original frame."
+      },
+      "prompt": {
+        "zh": "不要猜广告残字，不跨车道，不移动路牌。现场不可见时使用卡上示意并标记辅助观察。",
+        "en": "Do not invent hidden lettering, cross into traffic or move signs. If the view is unavailable, use the card illustration as a marked substitute."
+      },
+      "success": {
+        "zh": "三片拼回同一景。你们把整套留在手中，没有拆成三份交出去。下一瞬，间宫把“场景复原完成”排进那段指认绫的剪辑，仿佛你们确认了交付。正确组装被他偷换了用途。",
+        "en": "The pieces form one scene. You keep the set together instead of handing out three parts. Mamiya immediately places “scene reconstruction complete” beside the edit accusing Aya, as though you confirmed a delivery. He has changed the meaning of your correct action."
+      },
+      "after": [
+        {
+          "speaker": {
+            "zh": "你们",
+            "en": "Your team"
+          },
+          "text": {
+            "zh": "我们确认的是怎么拼，不是谁收过。",
+            "en": "We confirmed how it fits, not who received it."
+          }
+        },
+        {
+          "speaker": {
+            "zh": "间宫",
+            "en": "Mamiya"
+          },
+          "text": {
+            "zh": "所以还差后面的确认。走完就不会有歧义。",
+            "en": "Then we still need the remaining checks. Finish the route and there will be no ambiguity."
+          }
+        },
+        {
+          "speaker": {
+            "zh": "绫",
+            "en": "Aya"
+          },
+          "text": {
+            "zh": "原框别给他。我想看看，究竟还有多少话被他剪到了你们手上。",
+            "en": "Keep the frame. I want to see how many other words he has put into your hands."
+          }
+        }
+      ],
+      "lead": {
+        "zh": "稿上下一站写“稲瀬川”。到两国桥看真实河道：这是不是另一条需要送去的河？",
+        "en": "The next caption says “Inase River.” At Ryogoku Bridge, compare the actual river: does that name require a different destination?"
+      }
+    },
+    {
+      "id": "s2",
+      "site": {
+        "zh": "两国桥公共步道与可见河口 · 不在桥上铺开纸件",
+        "en": "Ryogoku Bridge public pavement and visible river junction · do not spread the kit across the walkway"
+      },
+      "type": "river",
+      "fields": [
+        {
+          "id": "stage",
+          "label": {
+            "zh": "舞台称呼",
+            "en": "Stage name"
+          },
+          "options": [
+            [
+              "inase",
+              {
+                "zh": "稲瀬川 / Inase",
+                "en": "Inase River"
+              }
+            ],
+            [
+              "sumida",
+              {
+                "zh": "隅田川 / Sumida",
+                "en": "Sumida River"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "place",
+          "label": {
+            "zh": "真实借景地",
+            "en": "Real scenery"
+          },
+          "options": [
+            [
+              "sumida",
+              {
+                "zh": "隅田川 / Sumida",
+                "en": "Sumida River"
+              }
+            ],
+            [
+              "inase",
+              {
+                "zh": "稲瀬川 / Inase",
+                "en": "Inase River"
+              }
+            ]
+          ]
+        }
+      ],
+      "answer": {
+        "rotation": 0,
+        "mirror": false,
+        "stage": "inase",
+        "place": "sumida"
+      },
+      "hints": [
+        {
+          "zh": "只让主河竖直还不够；镜像图也能做到。再看支流从哪一岸进入、柳桥跨的是哪条河。",
+          "en": "A vertical main river is not enough: a mirror image can do that too. Check which bank the tributary enters from and which river Yanagi Bridge crosses."
+        },
+        {
+          "zh": "把指北针恢复向上，并让主支河、两国桥与柳桥同时符合对照图。舞台题签不必改成实地地名。",
+          "en": "Restore north to the top and match the main river, tributary and both bridges together. The stage caption does not have to become the real place name."
+        },
+        {
+          "zh": "标准朝向、非镜像；舞台称稲瀬川，真实借景是隅田川。纸图从反面改到正面后再旋转，直到三锚点同时对上。",
+          "en": "Use the canonical orientation, without mirroring. Stage: Inase. Real scenery: Sumida. On paper, change to the correct face and rotate until all three anchors match."
+        }
+      ],
+      "evidence": "BORROWED_SUMIDA",
+      "sources": [
+        "R02",
+        "R01",
+        "M01"
+      ],
+      "minutes": [
+        10,
+        15
+      ],
+      "title": {
+        "zh": "02 · 两个名字，一条河",
+        "en": "02 · Two names, one river"
+      },
+      "shortTitle": {
+        "zh": "两国桥：截断假转场",
+        "en": "Bridge: stop the false journey"
+      },
+      "beforeFigure": "two_names_claim",
+      "afterFigure": "two_names_true",
+      "intro": {
+        "zh": "两国桥附近的河口、支流和百本杭说明，能与纸河图相互核对。国立剧场材料解释：《小袖曾我薊色縫》以“稲瀬川”之名借取隅田川百本杭一带的景。戏里的名字与取材地点可以同时为真。",
+        "en": "Use the river mouth, tributary and information about the historical piles to orient the card. The National Theatre explains that Kosode Soga Azami no Ironui calls its stage setting “Inase River” while borrowing the Sumida scenery associated with the piles. A stage name and a source location can both be valid."
+      },
+      "before": [
+        {
+          "speaker": {
+            "zh": "间宫",
+            "en": "Mamiya"
+          },
+          "text": {
+            "zh": "隅田川这一份已经确认。稲瀬川是第二次交接，你们别把两个镜头并在一起。",
+            "en": "The Sumida section is confirmed. Inase is a second handoff. Do not combine those shots."
+          }
+        },
+        {
+          "speaker": {
+            "zh": "绫",
+            "en": "Aya"
+          },
+          "text": {
+            "zh": "这个词是我写上去的。我当时写的是舞台题签，不是快递地址。",
+            "en": "I wrote that name. It was a stage caption, not a delivery address."
+          }
+        }
+      ],
+      "operation": {
+        "zh": "旋转并翻面河图，对齐主河、支流与桥。把舞台签和真实借景签分别放回所属位置。",
+        "en": "Rotate and flip the river card to align the main river, tributary and bridges. Assign the stage caption and real-source caption separately."
+      },
+      "prompt": {
+        "zh": "两个名字不必互相删掉。河图是相对关系示意，旧桥与现桥不能逐像素对齐。",
+        "en": "Neither name needs to be erased. The diagram shows relationships; old and current bridges cannot be matched pixel for pixel."
+      },
+      "success": {
+        "zh": "你们把两张标签留在同一幅河景旁，撤下“转送另一条河”的箭头。借景关系不能证明发生过两次跨地交接；它解释了同一画面为什么能换题签。绫留下原写法，不再让它冒充地址。",
+        "en": "You keep both captions beside the same river and remove the proposed journey to another river. Borrowed scenery does not establish two handoffs in different places; it explains why the same view can change its caption. Aya keeps her original notation but refuses to call it an address."
+      },
+      "after": [
+        {
+          "speaker": {
+            "zh": "间宫",
+            "en": "Mamiya"
+          },
+          "text": {
+            "zh": "歌舞伎本来就借名字。你们总不能因为这个，说整卷片子是假的。",
+            "en": "Kabuki borrows names. That does not make an entire reel false."
+          }
+        },
+        {
+          "speaker": {
+            "zh": "你们",
+            "en": "Your team"
+          },
+          "text": {
+            "zh": "对。换名不是作假的证据，也不是交付的证据。我们要查你给它的时间。",
+            "en": "Correct. A borrowed name proves neither forgery nor delivery. We will check the date you attached to it."
+          }
+        },
+        {
+          "speaker": {
+            "zh": "绫",
+            "en": "Aya"
+          },
+          "text": {
+            "zh": "我还有一张参照，拍的是芭蕉庭园。他把“古人”当成了“古照片”。",
+            "en": "There is another reference: the Basho garden. He has treated an old subject as an old photograph."
+          }
+        }
+      ],
+      "lead": {
+        "zh": "带着“未经后配的1930原始摄影”这句承诺，去芭蕉免费展望庭园。要查的是画面能出现的最早年代。",
+        "en": "Take the claim “unaltered original photography from 1930” to the free Basho observation garden. Check the earliest date its depicted setting could have existed."
+      }
+    },
+    {
+      "id": "s3",
+      "site": {
+        "zh": "芭蕉庵史迹展望庭园 · 常盤1-1-3分馆屋顶免费区域",
+        "en": "Basho-an historic observation garden · free roof garden at the annex, 1-1-3 Tokiwa"
+      },
+      "type": "timeline",
+      "fields": [
+        {
+          "id": "life",
+          "label": {
+            "zh": "芭蕉迁居深川",
+            "en": "Basho moved to Fukagawa"
+          },
+          "options": [
+            [
+              1680,
+              "1680"
+            ],
+            [
+              1930,
+              "1930"
+            ],
+            [
+              1995,
+              "1995"
+            ]
+          ]
+        },
+        {
+          "id": "earliest",
+          "label": {
+            "zh": "题图所示现代设施的摄影年代下界",
+            "en": "Lower bound for a photograph of this setting"
+          },
+          "options": [
+            [
+              1930,
+              "1930"
+            ],
+            [
+              1981,
+              "1981"
+            ],
+            [
+              1995,
+              "1995"
+            ]
+          ]
+        },
+        {
+          "id": "dateMeaning",
+          "label": {
+            "zh": "这个下界究竟能证明什么？",
+            "en": "What does this lower bound establish?"
+          },
+          "options": [
+            [
+              "lower_bound",
+              {
+                "zh": "1995年或之后；不能推出具体拍摄年",
+                "en": "1995 or later; not the exact year"
+              }
+            ],
+            [
+              "exact",
+              {
+                "zh": "必定摄于1995年",
+                "en": "Exactly 1995"
+              }
+            ],
+            [
+              "1930",
+              {
+                "zh": "纪念古人，所以1930一定成立",
+                "en": "It commemorates an old person, so 1930 must be valid"
+              }
+            ]
+          ]
+        }
+      ],
+      "answer": {
+        "life": 1680,
+        "earliest": 1995,
+        "dateMeaning": "lower_bound"
+      },
+      "hints": [
+        {
+          "zh": "雕像纪念的人生活得很早，不代表含这座现代庭园的画面也一样早。分别查两条时间线。",
+          "en": "An old historical figure does not make a view containing this modern garden equally old. Check the two timelines separately."
+        },
+        {
+          "zh": "1680属于芭蕉迁居；1995属于此展望庭园开园。1981是本馆开馆，并非这处庭园的年份。",
+          "en": "1680 belongs to Basho’s move. 1995 belongs to this observation garden. 1981 is the main museum’s opening, not this garden’s."
+        },
+        {
+          "zh": "选1680、1995、1995或以后。只排除这张参照是1930原始摄影；不判定具体年份、作者或实时位置。",
+          "en": "Choose 1680, 1995, and “1995 or later”. This rules out the reference being a 1930 original photograph; it does not identify its exact year, maker or a live location."
+        }
+      ],
+      "evidence": "MODERN_REFERENCE",
+      "sources": [
+        "H07",
+        "H01",
+        "H02"
+      ],
+      "minutes": [
+        7,
+        11
+      ],
+      "title": {
+        "zh": "03 · 古人不会替照片作证",
+        "en": "03 · An old poet cannot date a photograph"
+      },
+      "shortTitle": {
+        "zh": "芭蕉：旧案变成当下",
+        "en": "Basho: the past becomes a present act"
+      },
+      "beforeFigure": "date_claim",
+      "afterFigure": "date_bound",
+      "intro": {
+        "zh": "芭蕉1680年迁居深川；今日分馆屋顶的展望庭园于1995年4月开放。题图明确表现的是这处现代纪念设施的组合，不是芭蕉本人或江户庵舍。间宫把它与其余参照一并声称为同一卷1930原始摄影。",
+        "en": "Basho moved to Fukagawa in 1680. The observation garden on today’s annex roof opened in April 1995. The reference explicitly depicts this modern commemorative setting, not Basho himself or his Edo-period hut. Mamiya claims it belongs with the other references in the same unaltered 1930 reel."
+      },
+      "before": [
+        {
+          "speaker": {
+            "zh": "绫",
+            "en": "Aya"
+          },
+          "text": {
+            "zh": "我知道纸景是我现在做的。他保证给我的参考全来自一卷1930原片。我问庭园那张是不是后来补的，他说“纪念古人的地方，本来就很古老”。我没有再问。",
+            "en": "I know I made the paper scene now. He guaranteed all my references came from one 1930 reel. When I asked whether the garden view was a later addition, he said a place commemorating an old poet was already old. I did not ask again."
+          }
+        },
+        {
+          "speaker": {
+            "zh": "间宫",
+            "en": "Mamiya"
+          },
+          "text": {
+            "zh": "你们是来恢复旧景的，不必把每个年代都当作挑错题。",
+            "en": "You came to restore an old view, not turn every date into an objection."
+          }
+        }
+      ],
+      "operation": {
+        "zh": "分别填写人物生活史与设施史，再判断摄影下界。只说证据允许说的话。",
+        "en": "Separate the date in the poet’s life from the date of the setting. State the photographic lower bound, and no more."
+      },
+      "prompt": {
+        "zh": "1995或以后不等于“正好1995”，也不证明某人的生死或当前所在地。此处核对的是参考画面及整卷原始摄影承诺。",
+        "en": "1995 or later does not mean exactly 1995, or establish anyone’s survival or current location. You are checking the reference image and the claim made about the whole reel."
+      },
+      "success": {
+        "zh": "这项整体承诺不能成立。间宫改口说“现代重拍也能忠实恢复1930”。那可以是创作，却不能再被称为未经后配的1930原始记录。绫终于交出一直扣着的原工作记录：开场剪辑所用的两个镜头，在记录里各有完整的前后动作——她举框，再放回原处；另一只手接纸包，是另起的一条。两条之间还保留着换题签的指令，与间宫开场提供的工作页对应。这份记录针对开场的特定剪辑，不是为现在的演示新写的说明。",
+        "en": "The claim about the whole reel fails. Mamiya now says a modern reshoot can faithfully reconstruct 1930. It may be a creative reconstruction; it cannot be an unaltered original record from that year. Aya finally releases the production record she has withheld. It preserves the actions before and after the two shots used in the opening edit: she lifts the frame and puts it back; the receiving hand belongs to a separate take. Between them is the instruction to change the caption, matching the work sheet Mamiya supplied at the start. This record concerns that particular edit; it was not newly written for your demonstration."
+      },
+      "after": [
+        {
+          "speaker": {
+            "zh": "绫",
+            "en": "Aya"
+          },
+          "text": {
+            "zh": "第一版是我剪的。我以为是在演示借景，后来知道他要把我的动作写成偷取。今天我想让你们先帮我说一句“她没碰过”。那也是假的。",
+            "en": "I cut the first version. I thought we were demonstrating borrowed scenery. Later I learned he would call my action theft. Today I wanted you to say I never touched it. That would also have been a lie."
+          }
+        },
+        {
+          "speaker": {
+            "zh": "你们",
+            "en": "Your team"
+          },
+          "text": {
+            "zh": "那就别替你说。把你碰过以后做了什么，完整留下。",
+            "en": "Then we will not say it. Keep the whole account of what you did after touching it."
+          }
+        },
+        {
+          "speaker": {
+            "zh": "绫",
+            "en": "Aya"
+          },
+          "text": {
+            "zh": "我会回到取景那一边。这回，整理过程也留下。",
+            "en": "I will return to the camera side. This time the reset stays in."
+          }
+        }
+      ],
+      "lead": {
+        "zh": "目标变了：保全这份特定影像的制作经过，撤回被借用的见证。到浜町公园，查工作页到底叫人取景，还是交物。",
+        "en": "The objective has changed: preserve how this particular image was made and withdraw the borrowed witness account. At Hamacho Park, decide whether the work sheet directs filming or a delivery."
+      }
+    },
+    {
+      "id": "s4",
+      "site": {
+        "zh": "浜町公园案内图与游乐区一侧开放公共通道",
+        "en": "Hamacho Park map and permitted public path on the playground side"
+      },
+      "type": "park",
+      "fields": [
+        {
+          "id": "camera",
+          "label": {
+            "zh": "哪一侧能产生题图的前后关系？",
+            "en": "Which camera side gives the reference view?"
+          },
+          "options": [
+            [
+              "playground",
+              {
+                "zh": "游乐区域一侧",
+                "en": "Playground side"
+              }
+            ],
+            [
+              "river",
+              {
+                "zh": "河岸一侧",
+                "en": "River side"
+              }
+            ],
+            [
+              "entrance",
+              {
+                "zh": "圆形主入口一侧",
+                "en": "Circular-entrance side"
+              }
+            ],
+            [
+              "field",
+              {
+                "zh": "大运动场一侧",
+                "en": "Large-field side"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "building",
+          "label": {
+            "zh": "题图中的大楼",
+            "en": "Building in the reference"
+          },
+          "options": [
+            [
+              "sports",
+              {
+                "zh": "体育中心",
+                "en": "Sports centre"
+              }
+            ],
+            [
+              "theatre",
+              {
+                "zh": "明治座",
+                "en": "Meijiza"
+              }
+            ]
+          ]
+        },
+        {
+          "id": "purpose",
+          "label": {
+            "zh": "本页在原件中的用途",
+            "en": "Purpose of this page"
+          },
+          "options": [
+            [
+              "capture",
+              {
+                "zh": "CAPTURE AT：取景定位",
+                "en": "CAPTURE AT: view location"
+              }
+            ],
+            [
+              "delivery",
+              {
+                "zh": "DELIVER TO：收件地址",
+                "en": "DELIVER TO: recipient address"
+              }
+            ]
+          ]
+        }
+      ],
+      "answer": {
+        "rotation": 0,
+        "mirror": false,
+        "camera": "playground",
+        "building": "sports",
+        "purpose": "capture"
+      },
+      "hints": [
+        {
+          "zh": "河边、大场地和体育中心一起校准；只对河边可能仍是镜像。史料中的1929不能替你旋转今天的图。",
+          "en": "Match river edge, field and sports centre together. Matching only the river may leave a mirror image. The historical date 1929 cannot orient today’s map for you."
+        },
+        {
+          "zh": "标准示意把河边画在上方，大场地在左、体育中心在右；游乐区在体育中心的另一侧。近景先遇到什么，就从那一侧看。",
+          "en": "In the canonical diagram the river edge is above, the field left and the sports centre right, with the playground beyond it. The foreground tells you which side the observer is on."
+        },
+        {
+          "zh": "标准朝向、非镜像；选游乐区侧、体育中心、CAPTURE AT取景定位。保留前景，不把体育中心当剧院或收件地点。",
+          "en": "Use the canonical orientation without mirroring. Select playground side, sports centre and CAPTURE AT. Keep the foreground; the sports centre is neither the theatre nor a delivery destination."
+        }
+      ],
+      "evidence": "CAPTURE_NOT_DELIVERY",
+      "sources": [
+        "P01",
+        "P02",
+        "M03",
+        "M04",
+        "P06",
+        "P04"
+      ],
+      "minutes": [
+        12,
+        18
+      ],
+      "title": {
+        "zh": "04 · 站到镜头这一边",
+        "en": "04 · Stand on the camera side"
+      },
+      "shortTitle": {
+        "zh": "浜町：把交付改回拍摄",
+        "en": "Park: turn delivery back into filming"
+      },
+      "beforeFigure": "park_claim",
+      "afterFigure": "park_action",
+      "intro": {
+        "zh": "1929年开园的浜町公园属于震灾后的复兴公园；历史旧景不能当成今日的测绘图。眼前案内图和菱形外墙参照对应现代体育中心。工作页上的CAPTURE AT在镜头一端，间宫的转述却把大楼说成收件端。",
+        "en": "Hamacho Park opened in 1929 as a reconstruction park. An old view is not a survey of today’s layout. The current map and diamond-pattern facade reference concern the sports centre. CAPTURE AT marks the camera end of the work sheet; Mamiya’s retelling turns the building into the receiving end."
+      },
+      "before": [
+        {
+          "speaker": {
+            "zh": "间宫",
+            "en": "Mamiya"
+          },
+          "text": {
+            "zh": "把框送到那栋楼前就够了。你们完成交付，绫也就能解释清楚。",
+            "en": "Take the frame to that building. Complete the delivery and Aya can explain herself."
+          }
+        },
+        {
+          "speaker": {
+            "zh": "绫",
+            "en": "Aya"
+          },
+          "text": {
+            "zh": "如果我再照他的话去一次，第二段“交付”就真有了素材。先读那张图。",
+            "en": "If I follow his wording again, he gets material for a second “delivery.” Read the diagram first."
+          }
+        }
+      ],
+      "operation": {
+        "zh": "校准公园图，把相机片放到能产生题图前后关系的一侧；选择楼的身份与工作页用途。随后在安全停留处按结果摆回纸框，不往楼里送。",
+        "en": "Align the park card and place the camera marker on the side that produces the reference’s depth. Identify the building and the sheet’s purpose. Then arrange the paper frame at a safe stopping place; do not carry it into the building."
+      },
+      "prompt": {
+        "zh": "用现代的河侧、大场地、体育中心相互校验；1929只是历史，不是转图方向。示意线不是通行路线，围挡外不可看见时直接用随身图。",
+        "en": "Cross-check the modern river side, field and sports centre. The year 1929 does not supply an orientation. Diagram lines are not access routes. Use the supplied view if barriers prevent observation."
+      },
+      "success": {
+        "zh": "相机在游乐区一侧，镜头朝体育中心；这是取景，不是交付。先把绫交出的原工作记录与开场两段镜头核对：举框后的放回、换题签、另拍接包手，在成片中被剪接成了一次交接。再把相机片放在纸图外侧、三景条接入原框，按记录示范“举框—放回原处—换题签—另起一条”。你们重做的是这份特定记录的制作过程。演示说明剪接怎样造成误认，原记录说明这一剪辑实际采用了哪些分开拍摄的动作；它们都不能证明世界上从未发生过任何别的交付。",
+        "en": "The camera belongs on the playground side facing the sports centre. This is a view, not a delivery. First compare Aya’s production record with the opening shots: putting the frame back, changing the caption and separately filming a receiving hand were edited into an apparent handoff. Now place the camera marker at the diagram’s edge, join the strips in the frame and repeat the recorded actions: lift, put back, change the caption, start a separate take. You are reconstructing this particular production record. The demonstration explains how the edit misleads; the original record identifies the separate actions used in this edit. Neither proves that no other delivery ever occurred anywhere."
+      },
+      "after": [
+        {
+          "speaker": {
+            "zh": "绫",
+            "en": "Aya"
+          },
+          "text": {
+            "zh": "看，框放回来了。拿起它的是我，放下它的也是我。接纸包的那只手，是另一条单独拍的。",
+            "en": "Look: the frame returns. I lift it and I put it down. The receiving hand comes from a different take."
+          }
+        },
+        {
+          "speaker": {
+            "zh": "间宫",
+            "en": "Mamiya"
+          },
+          "text": {
+            "zh": "拍摄过程和交付手续是两回事。四家收件方的记录，你们总不能一笔抹掉。",
+            "en": "Production and delivery paperwork are different matters. You cannot simply erase four recipients’ records."
+          }
+        },
+        {
+          "speaker": {
+            "zh": "绫",
+            "en": "Aya"
+          },
+          "text": {
+            "zh": "这次你说得对。我们的演示本身还不证明从没交过。那就把你说的四家，摆在同一张时间线上。",
+            "en": "That part is true. Our demonstration alone does not prove no delivery ever happened. Then put your four claimed institutions on one timeline."
+          }
+        }
+      ],
+      "lead": {
+        "zh": "最后去明治座外。间宫从开头就列出的四个名字，究竟是四个同时存在的收件方，还是另一种关系？",
+        "en": "Go to the public pavement outside Meijiza. The four names listed from the beginning: were they simultaneous independent recipients, or something else?"
+      }
+    },
+    {
+      "id": "s5",
+      "site": {
+        "zh": "明治座外公共步道 · 核对竖招后让开入口",
+        "en": "Public pavement outside Meijiza · check the exterior sign, then move clear of the entrance"
+      },
+      "type": "lineage",
+      "cards": [
+        {
+          "id": "chitose",
+          "label": {
+            "zh": "千歳座 · 1885",
+            "en": "Chitose-za · 1885"
+          }
+        },
+        {
+          "id": "meiji",
+          "label": {
+            "zh": "明治座 · 1893",
+            "en": "Meiji-za · 1893"
+          }
+        },
+        {
+          "id": "kisho",
+          "label": {
+            "zh": "喜昇座 · 1873",
+            "en": "Kisho-za · 1873"
+          }
+        },
+        {
+          "id": "hisamatsu",
+          "label": {
+            "zh": "久松座 · 1879",
+            "en": "Hisamatsu-za · 1879"
+          }
+        }
+      ],
+      "fields": [
+        {
+          "id": "move",
+          "label": {
+            "zh": "1928年应放进哪个栏目？",
+            "en": "Where does 1928 belong?"
+          },
+          "options": [
+            [
+              "location",
+              {
+                "zh": "同一身份链中的迁址与再开场",
+                "en": "Relocation/reopening within the identity history"
+              }
+            ],
+            [
+              "fifth",
+              {
+                "zh": "第五个剧场名字",
+                "en": "A fifth theatre name"
+              }
+            ]
+          ]
+        }
+      ],
+      "answer": {
+        "order": [
+          "kisho",
+          "hisamatsu",
+          "chitose",
+          "meiji"
+        ],
+        "move": "location"
+      },
+      "hints": [
+        {
+          "zh": "先看哪四条是名称，哪一条是位置事件。别把一次迁址变成另一个剧院名。",
+          "en": "Separate the four names from the event about location. A move does not create another theatre name."
+        },
+        {
+          "zh": "喜昇早于久松，千歳在明治之前。两国桥的西两国戏棚是这条沿革的前身。",
+          "en": "Kisho comes before Hisamatsu; Chitose before Meiji. The west-Ryogoku playhouses are the predecessor in this history."
+        },
+        {
+          "zh": "喜昇座1873→久松座1879→千歳座1885→明治座1893；1928放迁址／再开场。今日对应明治座，实际回执交游戏主办方。",
+          "en": "Kisho-za 1873 → Hisamatsu-za 1879 → Chitose-za 1885 → Meiji-za 1893. Put 1928 under relocation/reopening. The present counterpart is Meijiza; the game host receives your actual receipt."
+        }
+      ],
+      "evidence": "MEIJI_LINEAGE",
+      "sources": [
+        "M01",
+        "M02",
+        "M03",
+        "M04",
+        "M07",
+        "M05"
+      ],
+      "minutes": [
+        4,
+        7
+      ],
+      "title": {
+        "zh": "05 · 四个名字，不是四个证人",
+        "en": "05 · Four names are not four witnesses"
+      },
+      "shortTitle": {
+        "zh": "明治座：停止责任转手",
+        "en": "Theatre: end the passing of blame"
+      },
+      "beforeFigure": "four_claim",
+      "afterFigure": "one_history",
+      "intro": {
+        "zh": "这条剧场沿革的前身在西两国广小路的露天戏棚。喜昇座、久松座、千歳座、明治座依次出现；1928记录迁址后重新开场。今天的真实剧院既不是游戏收件柜，也不是案中任何人的同伙。",
+        "en": "The theatre’s history reaches back to open-air playhouses in west Ryogoku. Kisho-za, Hisamatsu-za, Chitose-za and Meiji-za appear in sequence; 1928 records relocation and reopening. Today’s real theatre is neither a game collection desk nor anyone’s accomplice."
+      },
+      "before": [
+        {
+          "speaker": {
+            "zh": "间宫",
+            "en": "Mamiya"
+          },
+          "text": {
+            "zh": "你们只核对了一处。其余三家早已不在，当然找不到。",
+            "en": "You have checked one place. The other three are gone; naturally you cannot find them."
+          }
+        },
+        {
+          "speaker": {
+            "zh": "绫",
+            "en": "Aya"
+          },
+          "text": {
+            "zh": "他希望我们一直找下一个再也不会开口的人。可这些名字，真是四个人吗？",
+            "en": "He wants us looking for the next recipient who can never answer. But do these names describe four separate parties?"
+          }
+        }
+      ],
+      "operation": {
+        "zh": "把四张名称条接成沿革，再把1928条放入位置变化栏。确认旧名在今天对应哪家剧场，同时保留更名与迁址的区别。",
+        "en": "Arrange the four name strips in historical order. Place 1928 on the location track. Identify the current theatre while keeping name changes separate from relocation."
+      },
+      "prompt": {
+        "zh": "只检验间宫“1930年四家同时、独立存在”的明确主张。沿革不能证明四个现代账号同人，也不能替你调查真实剧院的任何行为。",
+        "en": "Test Mamiya’s explicit claim of four independent theatres existing simultaneously in 1930. A name history cannot prove four modern accounts share an owner or establish any real theatre’s conduct."
+      },
+      "success": {
+        "zh": "喜昇→久松→千歳→明治是一条沿革，1928另属迁址。间宫把它说成四家同时存在的独立剧场，这个背书结构不成立。你们把四张条放回一条线，不再让虚构的责任在四个旧名之间转手，也不把现实明治座当作该去追责的人。",
+        "en": "Kisho → Hisamatsu → Chitose → Meiji is one historical sequence; 1928 belongs on the relocation track. Mamiya’s claim of four independent simultaneous theatres fails. Put the strips on one line. Do not let fictional responsibility pass between those names, and do not direct blame at the real Meijiza."
+      },
+      "after": [
+        {
+          "speaker": {
+            "zh": "间宫",
+            "en": "Mamiya"
+          },
+          "text": {
+            "zh": "我可以撤掉指认她的那版，换成“绫没有碰过原件”。你们把原片和完整制作记录交还给我，别再往下追，今天就到这里。你们不是一直想替她结束这件事吗？",
+            "en": "I can withdraw the version accusing her and replace it with “Aya never touched the original.” Return the original pieces and the complete production record to me, and stop there. That ends it today. Wasn’t ending this for her what you wanted?"
+          }
+        },
+        {
+          "speaker": {
+            "zh": "绫",
+            "en": "Aya"
+          },
+          "text": {
+            "zh": "我碰过。我拍过。我还剪过。你要的是一句方便的话，我们带回来的是整段。",
+            "en": "I touched it. I filmed it. I even cut it. You want a convenient sentence. We brought back the whole sequence."
+          }
+        },
+        {
+          "speaker": {
+            "zh": "你们",
+            "en": "Your team"
+          },
+          "text": {
+            "zh": "谁都不用替谁说“从没发生过”。先把发生过的，按原样做完。",
+            "en": "No one needs to invent a clean past for anyone. First, finish the account of what did happen."
+          }
+        }
+      ],
+      "lead": {
+        "zh": "带齐原框、三景条、两河名、公园相机片和四名称条。到不挡通行处，让开头那段剪辑与完整制作经过并排出现。",
+        "en": "Keep the frame, scene strips, river captions, camera marker and theatre-name strips. From a safe stopping place, put the opening edit beside the complete production account."
+      }
+    }
+  ],
+  "choiceLabels": {
+    "challenge": {
+      "zh": "由我们独立校准",
+      "en": "We will align the diagram ourselves"
+    },
+    "share": {
+      "zh": "交换绫的校准笔记",
+      "en": "Exchange Aya’s alignment notes"
+    }
+  },
+  "choiceResponses": {
+    "challenge": {
+      "zh": "绫把方向笔记合起：“你们不必先信我。摆完，我再按你们确认的位置重做。”首次公园图保留待校准状态；这不改变她交出完整记录的决定。",
+      "en": "Aya closes her orientation notes. “You need not trust me first. Align it, and I will repeat the action from the position you establish.” The park diagram starts unaligned. Her decision to release the complete record is unchanged."
+    },
+    "share": {
+      "zh": "绫摊开大锚点笔记：“河侧、场地、大楼先对齐。镜头在哪一边、这页做什么，仍由你们判断。”首次公园图已校准；交换不等于替她担保。",
+      "en": "Aya shares the large-anchor notes. “Align river side, field and building first. You still decide the camera side and purpose.” The park diagram starts aligned. Sharing does not mean vouching for her."
+    }
+  },
+  "finalTitle": {
+    "zh": "最后：把被剪掉的那一段放回来",
+    "en": "Finally: restore the part that was cut away"
+  },
+  "finalIntro": {
+    "zh": "纸景、河名、年代、机位和收件身份已经可以合成同一份说明。你们要保存的是完整制作经过，不是替谁编出“从没碰过”的清白。填好原七项判断，再选择独立或联合落款；二者都能看到完整真相。\n无需把物料交给现实场馆，不发送任何真实指控。已经早解的队伍同样可以立即重演结局。",
+    "en": "The scene, river names, date, viewpoint and recipient identity can now form one account. Preserve the complete production process; do not invent a claim that somebody never touched the material. Complete the original seven conclusions and choose an independent or joint signature. Both receive the full truth.\nNothing is handed to a real venue and no real accusation is sent. Teams who solved early can replay the complete ending immediately."
+  },
+  "endingLabels": {
+    "solo": {
+      "zh": "独立落款：只确认我们的观察",
+      "en": "Independent signature: our observations only"
+    },
+    "joint": {
+      "zh": "联合落款：与绫分别承担自己的部分",
+      "en": "Joint signature: Aya and we each own our part"
+    }
+  },
+  "ending": {
+    "solo": {
+      "zh": "你们只签自己的观察，绫另签自己的制作说明。她把两份纸并排夹好：“谢谢你们没有因为愿意帮忙，就替我承担我做过的事。”完整原景与制作记录一起留下；真相没有因独立落款而少一段。",
+      "en": "You sign your observations. Aya signs her separate production account and clips the two together. “Thank you for helping without taking responsibility for what I did.” The complete scene stays with the full record. Nothing is withheld for choosing an independent signature."
+    },
+    "joint": {
+      "zh": "你们在同一页分别写明自己的部分，绫在“制作与剪接”下落款。她没有把手盖在你们签名上：“放在一起，也不等于把谁藏到谁后面。”完整原景与制作记录一起留下；联合不抹掉责任。",
+      "en": "You state your separate parts on the same page. Aya signs under “production and editing,” leaving your signatures unobscured. “Being together does not mean hiding behind each other.” The complete scene stays with the full record. Joining does not erase responsibility."
+    }
+  },
+  "finale": [
+    {
+      "title": {
+        "zh": "第一幕 · 再看一次最初的指认",
+        "en": "Act 1 · Watch the accusation again"
+      },
+      "figure": "replay_cut",
+      "text": {
+        "zh": "间宫把最初的短剪辑放回：绫举起框——切——另一只手接住纸包。下面仍留着他预设的“独立见证”栏，等着把场景复原写成一次交付。现在，把三条原景按远塔→交通牌→馆楼／屋顶的顺序放回原框，整套留在手中。\n这段画面证明绫拿过框；它本身没有连续显示她把框交给画面里的另一人。",
+        "en": "Mamiya repeats the opening edit: Aya lifts the frame — cut — another hand receives a packet. Beneath it waits his prewritten “independent witness” box, ready to turn a reconstruction into a delivery. Now rejoin the original strips in this order: tower → traffic sign → building/roof. Keep the complete scene in your hands.\nThe image shows Aya handling a frame. It does not continuously show her handing it to the other person."
+      },
+      "dialogue": [
+        {
+          "speaker": {
+            "zh": "间宫",
+            "en": "Mamiya"
+          },
+          "text": {
+            "zh": "她自己都承认碰过，还需要看什么？",
+            "en": "She admits touching it. What more do you need?"
+          }
+        },
+        {
+          "speaker": {
+            "zh": "绫",
+            "en": "Aya"
+          },
+          "text": {
+            "zh": "从“碰过”到“交给谁”，你剪掉了一段。",
+            "en": "Between touching it and giving it to somebody, you removed an interval."
+          }
+        }
+      ],
+      "paperAction": {
+        "zh": "按远塔→交通牌→馆楼／屋顶把原三景条接回原框，暂不拆开。即使提前结案，也可直接按此顺序重演；无需补做关卡。",
+        "en": "Join the original strips in this order: tower → traffic sign → building/roof. Keep them in the frame. Early solvers can replay the action directly; no earlier stage must be completed."
+      }
+    },
+    {
+      "title": {
+        "zh": "第二幕 · 留住中间的空白",
+        "en": "Act 2 · Keep the interval"
+      },
+      "figure": "replay_uncut",
+      "text": {
+        "zh": "绫打开开场工作页所对应的完整制作记录。顺序在你们面前展开：她举框；把框放回原处；手离开；换题签；另一条单独拍摄的镜头里，一只手接过道具纸包。记录保留了两次拍摄之间的整理，没有同场相交的两只手。\n公园校准说明了这份工作稿如何被执行。绫的原记录与她承认的操作，才把“可以这样拼”落实为“这一版确实这样制作”。它不是对所有可能交接的无限证明。",
+        "en": "Aya opens the complete production record corresponding to the work sheet shown at the start: she lifts the frame; returns it to its original position; removes her hand; changes the caption; a separate take shows a hand receiving a prop packet. The reset between takes remains visible. No continuous shot joins the two hands.\nThe park alignment explains how this work sheet was executed. Aya’s retained record and account connect a possible method to this particular edit. They do not prove that no other handoff could ever have occurred."
+      },
+      "dialogue": [
+        {
+          "speaker": {
+            "zh": "绫",
+            "en": "Aya"
+          },
+          "text": {
+            "zh": "这段景是我搭的。第一版也是我剪的。但我没有在这段镜头里把它交给那个人。别替我删掉前两句。",
+            "en": "I built this scene. I cut the first version, too. But I did not hand it to that person in this footage. Do not delete my first two sentences."
+          }
+        }
+      ],
+      "paperAction": {
+        "zh": "拿起完整纸框，再放回同一处，双手离开。然后只移动纸上的题签。读出：“这是两次拍摄之间的整理，不是一条通向大楼的交付路线。”无需拍摄真实视频。",
+        "en": "Lift the complete frame, replace it in the same place and remove your hands. Then move only the paper caption. Read: “This is a reset between takes, not a delivery route into the building.” No real video recording is required."
+      }
+    },
+    {
+      "title": {
+        "zh": "第三幕 · 这些借来的东西各归各位",
+        "en": "Act 3 · Give every borrowed thing its proper place"
+      },
+      "figure": "rebuild_record",
+      "text": {
+        "zh": "你们把“稲瀬川”和“隅田川”放在同一景旁：一个是舞台名，一个是取材地。再把1680与1995分列：一个属于芭蕉生活，一个属于题图的现代纪念设施。最后把相机片留在公园图的取景端。\n历史没有作假。被改写的是它们各自能证明什么。间宫用这些真的关系，拼了一次不能由它们证明的移交。",
+        "en": "Place “Inase” and “Sumida” beside the same scene: stage name and source place. Separate 1680 from 1995: a date in Basho’s life and the modern commemorative setting in the reference. Keep the camera marker at the park diagram’s filming end.\nThe history was not fabricated. What changed was the meaning assigned to it. Mamiya joined real relationships into a delivery they did not establish."
+      },
+      "byChoice": {
+        "challenge": {
+          "zh": "现在把公园图摆到标准朝向、非镜像，相机片放在游乐区一侧。你们可以逐项独立核对；绫说明自己怎样照图拍摄，不要求你们把她的话当作方向。",
+          "en": "Set the park diagram to its standard, unmirrored orientation and put the camera on the playground side. You can check each relationship independently. Aya explains how she filmed from it, without asking you to treat her word as a compass."
+        },
+        "share": {
+          "zh": "绫把校准笔记放进记录：公园图标准朝向、非镜像，相机在游乐区一侧。你们写明哪一部分来自她、哪一部分由自己核对，交换信息也保留来源。",
+          "en": "Aya includes her alignment notes: standard orientation, no mirror, camera on the playground side. Distinguish information she supplies from observations you check yourselves. Exchanging information preserves its source."
+        }
+      },
+      "paperAction": {
+        "zh": "把稲瀬川与隅田川两标签并放；人物轨填1680，设施轨填1995，摄影下界条填1995或以后；相机片置于标准、非镜像公园图的游乐区侧。沿用原件，不另裁新卡。",
+        "en": "Place the Inase and Sumida labels together. Put 1680 on the life track, 1995 on the setting track and 1995 or later on the photographic lower-bound strip. Put the camera on the playground side of the standard, unmirrored park diagram. Use the original pieces; do not cut new cards."
+      }
+    },
+    {
+      "title": {
+        "zh": "第四幕 · 没有第五个收件人",
+        "en": "Act 4 · There is no fifth recipient"
+      },
+      "figure": "one_history",
+      "text": {
+        "zh": "间宫最后还想把事情推给“其余三家”。你们把喜昇、久松、千歳、明治接成一条沿革，把1928另放迁址栏。它们不能再冒充1930同时存在的四家独立剧场；迁址也不会凭空多出第五个接收者。\n这只驳回间宫拿来背书的结构，没有指认真实剧院参与任何事。现场的明治座照常属于它自己的日常，你们的案子在纸与屏幕里收束。",
+        "en": "Mamiya tries one last time to pass responsibility to “the other three.” Join Kisho, Hisamatsu, Chitose and Meiji in one historical sequence, with 1928 separately under relocation. They cannot serve as four independent theatres operating simultaneously in 1930. A move does not create a fifth recipient.\nThis defeats his claimed corroboration; it accuses no real venue. Meijiza continues its own ordinary day. Your case concludes on paper and screen."
+      },
+      "dialogue": [
+        {
+          "speaker": {
+            "zh": "间宫",
+            "en": "Mamiya"
+          },
+          "text": {
+            "zh": "名字都对，景也都对。你们一定要把片子弄得这么难看？",
+            "en": "The names are correct. So is the scenery. Must you make the film look this bad?"
+          }
+        },
+        {
+          "speaker": {
+            "zh": "绫",
+            "en": "Aya"
+          },
+          "text": {
+            "zh": "不用难看。把放回去那一下留下，它就只是我真正做过的事。",
+            "en": "It need not look bad. Keep the moment I put it back. Then it shows what I actually did."
+          }
+        }
+      ],
+      "paperAction": {
+        "zh": "把四名条置于同一条线，1928放在旁边的位置轨。不要用这些道具进入剧院。",
+        "en": "Place the four names on one line, with 1928 on the location track beside it. Do not use the props for theatre entry."
+      }
+    },
+    {
+      "title": {
+        "zh": "第五幕 · 当场发生的改变",
+        "en": "Act 5 · What changes now"
+      },
+      "figure": "case_closed",
+      "text": {
+        "zh": "故事内的制作队收到你们的完整说明与绫保留的制作记录。原“独立见证”剪辑撤下；原定用同一套手法补拍的第二次“交付”取消。景片没有被收走，也没有交进体育中心。绫把扣住的制作记录完整交回，不再靠逃开来保护自己。\n间宫的片子没有被换成另一个好听的版本。保留下来的，是一段注明“当代借景制作”的过程，包含绫曾参与剪接、后来停止继续误导的两件事。这里只呈现虚构制作队的决定，不模拟现实司法认定。",
+        "en": "Inside the story, the production team receives your account and Aya’s retained production record. The “independent witness” edit is withdrawn; the planned second “delivery” using the same method is cancelled. The strips stay with you and never enter the sports centre. Aya returns the complete production record instead of protecting herself by staying away.\nThe film is not replaced by a flattering fiction. What remains is labelled “contemporary borrowed-scene production,” including both Aya’s earlier editing and her decision to stop misleading others. This is a fictional production-team decision, not a real judicial finding."
+      },
+      "dialogue": [
+        {
+          "speaker": {
+            "zh": "绫",
+            "en": "Aya"
+          },
+          "text": {
+            "zh": "原来把一件事说完整，不用先把自己说得很好。",
+            "en": "I thought I had to make myself look good before I could tell the whole story."
+          }
+        },
+        {
+          "speaker": {
+            "zh": "你们",
+            "en": "Your team"
+          },
+          "text": {
+            "zh": "你刚才把框放回去了。那一下，我们看见了。",
+            "en": "You put the frame back. We saw that part."
+          }
+        }
+      ],
+      "paperAction": {
+        "zh": "保留完整原景。此时可以填写游戏回执；只写实际观察、资料来源与使用过的辅助。它不会被寄给现实场馆。",
+        "en": "Keep the complete scene. You may now fill the game receipt with observations, sources and any assistance used. It will not be mailed to a real venue."
+      }
+    },
+    {
+      "title": {
+        "zh": "第六幕 · 这一次，轮到你们决定留下什么",
+        "en": "Act 6 · This time, you decide what stays"
+      },
+      "figure": "souvenir_view",
+      "text": {
+        "zh": "绫把纪念片推到纸框旁，没有盖住河景。开头你们怕缺口意味着弄丢了什么；现在知道，前景也属于画面，旧名也有自己的位置。你们没有成为替别人作证的临时演员，而是把这一段东京经历完整带走的人。\n回执可主动打开，纪念片在此时再剪折。你们可以留下一句自己最想记住的发现，也可以只写今天的日期。",
+        "en": "Aya places the souvenir beside the frame without covering the river. At the start, a gap looked like something lost. Now you know the foreground belongs in the view and old names have their own place. You leave as the people who kept this Tokyo experience intact, rather than extras enlisted to vouch for someone else.\nOpen the receipt if you wish; cut and fold the souvenir now. Write the discovery you want to remember, or simply today’s date."
+      },
+      "byEnding": {
+        "solo": {
+          "zh": "你们只签自己的观察，绫另签自己的制作说明。她把两份纸并排夹好：“谢谢你们没有因为愿意帮忙，就替我承担我做过的事。”完整原景与制作记录一起留下；真相没有因独立落款而少一段。",
+          "en": "You sign your observations. Aya signs her separate production account and clips the two together. “Thank you for helping without taking responsibility for what I did.” The complete scene stays with the full record. Nothing is withheld for choosing an independent signature."
+        },
+        "joint": {
+          "zh": "你们在同一页分别写明自己的部分，绫在“制作与剪接”下落款。她没有把手盖在你们签名上：“放在一起，也不等于把谁藏到谁后面。”完整原景与制作记录一起留下；联合不抹掉责任。",
+          "en": "You state your separate parts on the same page. Aya signs under “production and editing,” leaving your signatures unobscured. “Being together does not mean hiding behind each other.” The complete scene stays with the full record. Joining does not erase responsibility."
+        }
+      },
+      "paperAction": {
+        "zh": "终章已经完成。按最后一页裁折纪念片；可将整套原景留在夹板上。没有隐藏末题、额外印章或到馆领奖。",
+        "en": "The ending is complete. Cut and fold the souvenir on the last page. You may leave the assembled scene on your clipboard. There is no hidden puzzle, extra stamp or venue collection task."
+      }
+    }
+  ],
+  "paperEnding": {
+    "zh": "纸面完整结局与屏幕相同：第一幕接好原三景；第二幕举框、放回同一处、移手并换题签；第三幕并列双河名、双时间轨和相机片；第四幕四名成单一沿革，迁址另列；第五幕读出撤下误导剪辑与取消补拍的实际结果；第六幕落款并制作纪念片。所有动作均使用原谜题物料，终章给出直接重演说明，早解或辅助玩家同样获得全部六幕。",
+    "en": "The paper ending is complete: Act 1 rejoins the original strips; Act 2 lifts and replaces the frame, removes the hands and changes the caption; Act 3 keeps the two river names, time tracks and camera marker distinct; Act 4 joins the four theatre names while separating relocation; Act 5 states the withdrawal of the misleading edit and cancellation of the reshoot; Act 6 records your signature and makes the souvenir. These use the original puzzle materials, with direct replay instructions in the ending. Early and assisted solutions receive all six acts."
+  },
+  "paper": {
+    "preparation": {
+      "zh": "建议每组2—4人，只打印一种语言。A4单面100%，关闭“适合页面”，准备笔、夹板、纸夹和剪刀。仅裁下前部标明的原谜题活动件。按顺序读五站；提示、答案和终章在后半部分，准备时用白纸盖住即可，不必预读。终章纪念片完成游戏后再裁折。",
+      "en": "Suggested team size: 2–4. Print one language, A4 single-sided at 100%, with fit-to-page off. Bring a pen, clipboard, clips and scissors. Cut only the marked puzzle pieces in the front section. Read the five stops in order. Hints, solutions and ending are at the back; cover them with blank paper during preparation. Cut and fold the souvenir only after playing."
+    },
+    "openingInstruction": {
+      "zh": "先读以上四段对白与两块制作稿。制作稿是要检验的主张，不是馆方说明。无需认定谁好谁坏；把原三景留在自己手里，开始第一关。",
+      "en": "Read the dialogue and the two work-sheet boxes. They contain claims to test, not venue information. You need not decide who is good or bad. Keep the original scene pieces and begin Stop 1."
+    },
+    "stageActions": [
+      {
+        "zh": "找到三视图的连续顺序；保留遮挡。按同样顺序把三条横景接回原框。",
+        "en": "Find the order of the three views, keeping the occlusions. Join the three scene strips in the same order inside the original frame."
+      },
+      {
+        "zh": "旋转并翻面河图，对齐主河、支流与桥。把舞台签和真实借景签分别放回所属位置。",
+        "en": "Rotate and flip the river card to align the main river, tributary and bridges. Assign the stage caption and real-source caption separately."
+      },
+      {
+        "zh": "分别填写人物生活史与设施史，再判断摄影下界。只说证据允许说的话。",
+        "en": "Separate the date in the poet’s life from the date of the setting. State the photographic lower bound, and no more."
+      },
+      {
+        "zh": "校准公园图，把相机片放到能产生题图前后关系的一侧；选择楼的身份与工作页用途。随后在安全停留处按结果摆回纸框，不往楼里送。",
+        "en": "Align the park card and place the camera marker on the side that produces the reference’s depth. Identify the building and the sheet’s purpose. Then arrange the paper frame at a safe stopping place; do not carry it into the building."
+      },
+      {
+        "zh": "把四张名称条接成沿革，再把1928条放入位置变化栏。确认旧名在今天对应哪家剧场，同时保留更名与迁址的区别。",
+        "en": "Arrange the four name strips in historical order. Place 1928 on the location track. Identify the current theatre while keeping name changes separate from relocation."
+      }
+    ],
+    "finalInstruction": {
+      "zh": "纸面玩法先完成下一页七项判断，再到终章核对页；需要时可免费使用完整答案。通过后按六幕重演手中原物料，不必录影，也不向别人寄送。早解时可先直接完成终局，再回读未看章节。",
+      "en": "For paper play, complete the seven conclusions on the next page and use the final solution page if needed. All assistance is free. Then replay the six acts with the existing pieces, without filming or mailing anything. An early solution may complete the ending first and revisit unread chapters afterward."
+    },
+    "souvenirTitle": {
+      "zh": "请别替我签收 · 我们留下完整的一天",
+      "en": "Before You Sign · We kept the whole day"
+    },
+    "souvenirText": {
+      "zh": "我在东京发现：________________\n我亲手做过：__________________\n小组／日期：__________________",
+      "en": "A Tokyo discovery: ______________\nSomething I actually did: __________\nTeam / date: __________________"
+    }
+  },
+  "figures": {
+    "case_open": {
+      "kind": "handoff",
+      "mode": "cut",
+      "title": {
+        "zh": "这两只手，真的在同一场景吗？",
+        "en": "Were these hands in the same scene?"
+      },
+      "caption": {
+        "zh": "开场剪辑示意：举起纸框与接住纸包之间存在切口。尚未展示完整经过。",
+        "en": "Opening edit: a cut separates lifting the frame and receiving a packet. The full sequence has not yet been shown."
+      }
+    },
+    "one_scene": {
+      "kind": "board",
+      "title": {
+        "zh": "完整景片留在你们手中",
+        "en": "The intact scene stays with you"
+      },
+      "scene": "scene",
+      "labels": [
+        {
+          "zh": "同一框",
+          "en": "One frame"
+        },
+        {
+          "zh": "保留前景",
+          "en": "Keep the foreground"
+        },
+        {
+          "zh": "不拆分交付",
+          "en": "No separate deliveries"
+        }
+      ],
+      "caption": {
+        "zh": "三片拼回，只能确认图景构造，不能自行证明谁交付过什么。",
+        "en": "Assembly establishes the picture’s construction, not who delivered anything."
+      }
+    },
+    "two_names_claim": {
+      "kind": "board",
+      "title": {
+        "zh": "一个换名的画面",
+        "en": "A view with a changed name"
+      },
+      "scene": "river",
+      "labels": [
+        {
+          "zh": "稿上：稲瀬川",
+          "en": "Caption: Inase"
+        },
+        {
+          "zh": "眼前是什么河？",
+          "en": "Which river is here?"
+        }
+      ],
+      "caption": {
+        "zh": "先核对现场关系，不因为名字不同就宣布作假。",
+        "en": "Check the geography before treating different names as proof of deception."
+      }
+    },
+    "two_names_true": {
+      "kind": "board",
+      "title": {
+        "zh": "舞台与取材，各有一格",
+        "en": "Stage and source have separate places"
+      },
+      "scene": "river",
+      "labels": [
+        {
+          "zh": "舞台：稲瀬川",
+          "en": "Stage: Inase"
+        },
+        {
+          "zh": "实景：隅田川",
+          "en": "Source: Sumida"
+        },
+        {
+          "zh": "不等于两次交付",
+          "en": "Not two deliveries"
+        }
+      ],
+      "caption": {
+        "zh": "借景可解释一景双名，不能替代移交证据。",
+        "en": "Borrowed scenery explains two names, not a handoff."
+      }
+    },
+    "date_claim": {
+      "kind": "board",
+      "title": {
+        "zh": "古人题材，何时成为这幅画面？",
+        "en": "An old subject — but when was this view possible?"
+      },
+      "scene": "memorial",
+      "labels": [
+        {
+          "zh": "人物生活史",
+          "en": "The poet’s life"
+        },
+        {
+          "zh": "纪念设施史",
+          "en": "The memorial’s history"
+        },
+        {
+          "zh": "摄影年代待查",
+          "en": "Image date unresolved"
+        }
+      ],
+      "caption": {
+        "zh": "把三个年代问题拆开，不以人物古老推照片古老。",
+        "en": "Separate the three dating questions. An old subject does not date an image."
+      }
+    },
+    "date_bound": {
+      "kind": "timeline",
+      "title": {
+        "zh": "两条时间线，不能混成一条",
+        "en": "Two timelines cannot be collapsed"
+      },
+      "items": [
+        {
+          "year": "1680",
+          "text": {
+            "zh": "迁居深川\n人物生活",
+            "en": "Move to Fukagawa\nLife event"
+          }
+        },
+        {
+          "year": "1930",
+          "text": {
+            "zh": "原始摄影主张\n不成立",
+            "en": "Claimed original reel\nNot sustained"
+          }
+        },
+        {
+          "year": "1995+",
+          "text": {
+            "zh": "设施影像下界\n非精确拍摄年",
+            "en": "Earliest possible view\nNot an exact year"
+          }
+        }
+      ],
+      "caption": {
+        "zh": "现代庭园参照使整卷未经后配的1930原片承诺不成立。",
+        "en": "The modern-garden reference defeats the claim of one unaltered original 1930 reel."
+      }
+    },
+    "park_claim": {
+      "kind": "board",
+      "title": {
+        "zh": "箭头指向楼，还是镜头从这里出发？",
+        "en": "A destination — or the start of a camera view?"
+      },
+      "scene": "park",
+      "labels": [
+        {
+          "zh": "CAPTURE AT",
+          "en": "CAPTURE AT"
+        },
+        {
+          "zh": "机位待校准",
+          "en": "Align the viewpoint"
+        }
+      ],
+      "caption": {
+        "zh": "历史开园年份不能提供现代图卡方向。",
+        "en": "The park’s opening date does not orient the modern diagram."
+      }
+    },
+    "park_action": {
+      "kind": "board",
+      "title": {
+        "zh": "把交付改回拍摄",
+        "en": "Restore the filming instruction"
+      },
+      "scene": "park",
+      "labels": [
+        {
+          "zh": "相机：游乐区侧",
+          "en": "Camera: playground"
+        },
+        {
+          "zh": "背景：体育中心",
+          "en": "Background: sports centre"
+        },
+        {
+          "zh": "动作：取景",
+          "en": "Action: capture"
+        }
+      ],
+      "caption": {
+        "zh": "纸框留在拍摄端，既不送楼内，也不穿越围挡。",
+        "en": "The paper frame stays at the filming end; no building entry or barrier crossing."
+      }
+    },
+    "four_claim": {
+      "kind": "timeline",
+      "title": {
+        "zh": "先判断：四名是什么关系？",
+        "en": "First decide: how are the four names related?"
+      },
+      "items": [
+        {
+          "label": {
+            "zh": "千歳",
+            "en": "Chitose"
+          },
+          "text": {
+            "zh": "待排序",
+            "en": "Unsorted"
+          }
+        },
+        {
+          "label": {
+            "zh": "明治",
+            "en": "Meiji"
+          },
+          "text": {
+            "zh": "待排序",
+            "en": "Unsorted"
+          }
+        },
+        {
+          "label": {
+            "zh": "喜昇",
+            "en": "Kisho"
+          },
+          "text": {
+            "zh": "待排序",
+            "en": "Unsorted"
+          }
+        },
+        {
+          "label": {
+            "zh": "久松",
+            "en": "Hisamatsu"
+          },
+          "text": {
+            "zh": "待排序",
+            "en": "Unsorted"
+          }
+        }
+      ],
+      "caption": {
+        "zh": "名称条的乱序是原谜题；不画虚构剧院内部或伪造现场牌。",
+        "en": "The unsorted names are the original puzzle. No invented theatre interior or site sign is shown."
+      }
+    },
+    "one_history": {
+      "kind": "timeline",
+      "title": {
+        "zh": "一条名称沿革；迁址另列",
+        "en": "One name history; relocation is separate"
+      },
+      "items": [
+        {
+          "year": "1873",
+          "text": {
+            "zh": "喜昇座",
+            "en": "Kisho-za"
+          }
+        },
+        {
+          "year": "1879",
+          "text": {
+            "zh": "久松座",
+            "en": "Hisamatsu-za"
+          }
+        },
+        {
+          "year": "1885",
+          "text": {
+            "zh": "千歳座",
+            "en": "Chitose-za"
+          }
+        },
+        {
+          "year": "1893",
+          "text": {
+            "zh": "明治座",
+            "en": "Meiji-za"
+          }
+        }
+      ],
+      "footer": {
+        "zh": "1928：迁址与重新开场；不是第五个名字，也不证明同一建筑。",
+        "en": "1928: relocation and reopening; not a fifth name or proof of the same building."
+      },
+      "caption": {
+        "zh": "只反驳四个同时独立机构的角色主张，不指控现实剧院。",
+        "en": "This challenges the fictional claim of four simultaneous independent institutions; it accuses no real venue."
+      }
+    },
+    "replay_cut": {
+      "kind": "handoff",
+      "mode": "cut",
+      "title": {
+        "zh": "剪辑版：举起——切——接住",
+        "en": "Edited: lift — cut — receive"
+      },
+      "caption": {
+        "zh": "原指认省略中间过程，把不连续的两次拍摄连成一场交付。",
+        "en": "The accusation omits the interval and joins separate takes as a delivery."
+      }
+    },
+    "replay_uncut": {
+      "kind": "handoff",
+      "mode": "uncut",
+      "title": {
+        "zh": "完整记录：举起，放回，换题签",
+        "en": "Complete record: lift, replace, change caption"
+      },
+      "caption": {
+        "zh": "绫保留的这一份制作记录明确呈现放回与整理。另一只手是单独拍摄，不是同场接物。",
+        "en": "This retained production record shows the return and reset. The receiving hand is a separate take, not a continuous handoff."
+      }
+    },
+    "rebuild_record": {
+      "kind": "handoff",
+      "mode": "rebuild",
+      "title": {
+        "zh": "原三景重新相接，说明与画面一起保留",
+        "en": "The three strips rejoin, with their production account"
+      },
+      "caption": {
+        "zh": "用原件重演已解动作。图是原创演示，不是用户拍摄或历史原片。",
+        "en": "Replay the solved action with the original pieces. This is an original demonstration, not user footage or an archival reel."
+      }
+    },
+    "case_closed": {
+      "kind": "board",
+      "title": {
+        "zh": "三件已经发生的改变",
+        "en": "Three changes that have happened"
+      },
+      "scene": "scene",
+      "labels": [
+        {
+          "zh": "误导剪辑撤下",
+          "en": "Misleading edit withdrawn"
+        },
+        {
+          "zh": "第二次补拍取消",
+          "en": "Second handoff shoot cancelled"
+        },
+        {
+          "zh": "完整制作记录交回",
+          "en": "Complete record returned"
+        }
+      ],
+      "caption": {
+        "zh": "以上是虚构制作队在本故事里的行动结果。",
+        "en": "These are the fictional production team’s actions within the story."
+      }
+    },
+    "souvenir_view": {
+      "kind": "board",
+      "title": {
+        "zh": "不替任何人省略的一天",
+        "en": "A day with nothing omitted for someone else"
+      },
+      "scene": "scene",
+      "labels": [],
+      "caption": {
+        "zh": "完整原景作为纪念。回执可主动查看；没有隐藏末题。",
+        "en": "Keep the intact scene. The receipt is optional to view; there is no hidden final puzzle."
+      }
+    }
+  },
+  "buildNotes": {
+    "zh": "R7为新故事完整审阅原型。五关机制、原引擎与原谜题图形按R3.1原附件冻结；R6只继承技术经验。机器测试不证明故事好玩。真人盲测、现场复走、实体印刷和商业许可均未执行。",
+    "en": "R7 is a complete review prototype with a new story. The five mechanisms, original engine and puzzle figures are frozen to the verified R3.1 attachment. R6 contributes technical lessons only. Machine tests do not establish enjoyment. Visitor blind tests, field walks, physical printing and commercial permission checks have not been performed."
+  }
+};
+</script><script>(function(root){
+'use strict';
+const clone=x=>JSON.parse(JSON.stringify(x));
+function same(a,b){if(Array.isArray(b))return Array.isArray(a)&&a.length===b.length&&b.every((v,i)=>same(a[i],v));return a===b;}
+function check(expected,input){const wrong=[];for(const k of Object.keys(expected))if(!same(input&&input[k],expected[k]))wrong.push(k);return {ok:wrong.length===0,wrong};}
+function rotate(p){return {rotation:((p.rotation||0)+1)%4,mirror:!!p.mirror};}
+function flip(p){return {rotation:(4-(p.rotation||0))%4,mirror:!p.mirror};}
+function point(x,y,p,c=150){let dx=x-c,dy=y-c;if(p.mirror)dx=-dx;for(let i=0;i<(p.rotation||0);i++){const t=dx;dx=-dy;dy=t;}return [dx+c,dy+c];}
+function initial(){return {version:'R3.1',team:'',lang:'zh',mode:'desktop',stage:0,inputs:{},passed:{},hints:{},observed:{},assisted:{},choice:'challenge',ending:'solo',completed:false};}
+function restore(raw){const s=initial();try{const a=typeof raw==='string'?JSON.parse(raw):raw;if(!a||a.version!==s.version)return s;for(const k of ['inputs','passed','hints','observed','assisted'])if(a[k]&&typeof a[k]==='object'&&!Array.isArray(a[k]))s[k]=a[k];s.team=String(a.team||'').slice(0,40);s.lang=a.lang==='en'?'en':'zh';s.mode=['desktop','field'].includes(a.mode)?a.mode:'desktop';s.stage=Number.isInteger(a.stage)&&a.stage>=0&&a.stage<=5?a.stage:0;s.choice=a.choice==='share'?'share':'challenge';s.ending=a.ending==='joint'?'joint':'solo';s.completed=!!a.completed;}catch(e){}return s;}
+const api={clone,check,rotate,flip,point,initial,restore};if(typeof module!=='undefined'&&module.exports)module.exports=api;root.R3_ENGINE=api;
+})(typeof window!=='undefined'?window:globalThis);
+</script><script>(function(root){
+'use strict';
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const svg=(body,w=300,h=300)=>`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${w} ${h}" role="img" aria-label="Original schematic, not to scale">${body}</svg>`;
+function icon(name){let b='';if(name==='tower')b='<path d="M95 175 L106 92 L109 18 L112 92 L124 175" fill="none" stroke="#253746" stroke-width="4"/><path d="M97 70 H123 M100 82 H120" stroke="#253746" stroke-width="5"/><path d="M60 180 V126 H128 V180 M125 180 V147 H180 V180" fill="#cbd4d8" stroke="#253746" stroke-width="2"/>';if(name==='sign')b='<path d="M42 176 V47 H126 V119 H42" fill="#cbd4d8" stroke="#253746" stroke-width="2"/><text x="48" y="81" font-size="17">AD</text><path d="M97 187 V40" stroke="#253746" stroke-width="6"/><path d="M71 43 H125 V83 H71Z" fill="#faf9f3" stroke="#253746" stroke-width="4"/><path d="M81 62 H113 L104 54 M113 62 L104 70" fill="none" stroke="#253746" stroke-width="4"/>';if(name==='roof')b='<path d="M30 190 V93 L150 71 V190Z" fill="#d8ddd9" stroke="#253746" stroke-width="3"/><path d="M72 85 V42 L174 23 V66Z" fill="#faf9f3" stroke="#253746" stroke-width="3"/><path d="M150 70 V188 M54 119 V163 M85 111 V155 M118 103 V148" stroke="#253746" stroke-width="3"/>';return svg(b,210,210);}
+function river(p){return svg(`<rect width="300" height="300" fill="#faf9f3"/><g transform="translate(150 150) rotate(${90*p.rotation}) scale(${p.mirror?-1:1} 1) translate(-150 -150)"><path d="M150 45 V262 M35 112 H150" stroke="#9eb8c4" stroke-width="31" fill="none"/><path d="M45 91 V132" stroke="#253746" stroke-width="8"/><text x="18" y="78" font-size="12">YANAGI</text><path d="M110 196 H190" stroke="#253746" stroke-width="10"/><text x="180" y="186" font-size="12">NOW</text><path d="M110 228 H190" stroke="#253746" stroke-width="4" stroke-dasharray="5 4"/><text x="192" y="232" font-size="12">OLD*</text><path d="M250 67 V25 L243 37 M250 25 L257 37" fill="none" stroke="#253746" stroke-width="3"/><text x="246" y="18" font-size="13">N</text><circle cx="64" cy="112" r="4" fill="#253746"/></g><text x="10" y="289" font-size="10">* symbolic offset; not a walking instruction</text>`);}
+function park(p){return svg(`<rect width="300" height="300" fill="#faf9f3"/><g transform="translate(150 150) rotate(${90*p.rotation}) scale(${p.mirror?-1:1} 1) translate(-150 -150)"><path d="M15 34 H285" stroke="#9eb8c4" stroke-width="28"/><text x="122" y="38" font-size="11">RIVER EDGE</text><rect x="20" y="69" width="83" height="163" rx="6" fill="#e9ddba" stroke="#253746" stroke-width="2"/><text x="43" y="150" font-size="13">FIELD</text><path d="M157 89 H226 V187 H157Z" fill="#b5b7c6" stroke="#253746" stroke-width="2"/><path d="M166 116 L210 160 M166 145 L199 178 M180 99 L218 137 M168 169 L213 124" stroke="#faf9f3" stroke-width="2"/><text x="166" y="105" font-size="11">CENTRE</text><ellipse cx="124" cy="91" rx="17" ry="9" fill="#9eb8c4"/><text x="110" y="72" font-size="10">POOL</text><path d="M110 113 H151 V195 H110Z" fill="#c5d3bd"/><text x="115" y="161" font-size="9">LAWN</text><rect x="240" y="116" width="43" height="80" rx="20" fill="#c5d3bd" stroke="#253746"/><text x="247" y="154" font-size="10">PLAY</text><circle cx="188" cy="225" r="20" fill="none" stroke="#253746" stroke-width="3"/><text x="163" y="258" font-size="10">ENTRANCE</text><path d="M245 155 H229" stroke="#253746" stroke-width="2"/></g><text x="10" y="290" font-size="10">relative layout only — no route through closures</text>`);}
+function facade(){let g='<rect width="300" height="190" fill="#faf9f3"/><rect x="40" y="21" width="225" height="117" fill="#dbe0df" stroke="#253746" stroke-width="2"/>';g+='<defs><clipPath id="fc"><rect x="41" y="22" width="223" height="115"/></clipPath></defs><g clip-path="url(#fc)">';for(let x=-80;x<280;x+=27)g+=`<path d="M${x} 25 l115 109 M${x+100} 25 l-115 109" stroke="#687986" stroke-width="1"/>`;g+='</g><rect x="0" y="140" width="300" height="50" fill="#e6e3d6"/><path d="M37 174 L55 133 L73 174 M55 133 H89 L106 174 M87 138 V157 H68" fill="none" stroke="#253746" stroke-width="4"/><path d="M196 174 V129 H226 V174 M188 129 L210 112 L235 129 M219 150 L254 174" fill="none" stroke="#253746" stroke-width="4"/><text x="64" y="14" font-size="9">BUILDING BEHIND / PLAY IN FRONT</text>';return svg(g,300,190);}
+function scene(){return svg('<rect width="600" height="180" fill="#faf9f3"/><path d="M0 113 C75 88 120 142 180 113 S280 90 330 115 S440 145 500 116 S570 99 600 114" fill="none" stroke="#668c9f" stroke-width="5"/><path d="M0 141 Q100 117 200 143 T400 144 T600 143" stroke="#668c9f" stroke-width="3" fill="none"/><path d="M60 85 V150 M82 78 V144 M104 72 V139 M126 66 V134 M148 60 V128" stroke="#4c4742" stroke-width="7"/><path d="M305 80 L390 30 L475 80 M315 80 H465 V110 H315Z" stroke="#253746" stroke-width="4" fill="none"/><path d="M390 30 V110 M335 80 V110 M445 80 V110" stroke="#253746" stroke-width="2"/><text x="295" y="167" font-size="9">SCENERY MODEL — NOT A HISTORICAL REPRODUCTION</text>',600,180);}
+function memorial(){return svg('<rect width="300" height="180" fill="#faf9f3"/><path d="M14 110 H280 V145 H14Z" fill="#e2e5df" stroke="#687986"/><rect x="25" y="48" width="87" height="63" fill="#c4d7dc" stroke="#687986"/><path d="M28 65 H109 M68 49 V109" stroke="#faf9f3" stroke-width="2"/><path d="M18 149 Q68 120 123 147" stroke="#687986" fill="none"/><rect x="153" y="116" width="108" height="49" fill="#d1d6d3" stroke="#253746" stroke-width="2"/><rect x="180" y="134" width="43" height="18" fill="#687986"/><path d="M169 114 Q172 87 184 68 L199 59 Q190 54 191 39 Q193 27 204 28 Q217 26 220 40 Q221 54 211 59 L232 70 Q247 94 249 114Z" fill="#536c6c" stroke="#253746" stroke-width="2"/><path d="M193 78 Q206 92 233 86 M207 65 L198 100 M183 111 Q201 95 230 113" fill="none" stroke="#d1d6d3" stroke-width="2"/><text x="16" y="18" font-size="10">ROOF-GARDEN REFERENCE / NOT AN OLD PHOTOGRAPH</text><path d="M273 113 V69 M283 114 V69" stroke="#687986" stroke-width="2"/>',300,180);}
+root.R3_FIG={icon,river,park,facade,memorial,scene,esc};if(typeof module!=='undefined'&&module.exports)module.exports=root.R3_FIG;
+})(typeof window!=='undefined'?window:globalThis);
+</script><script>(function(root,factory){
+  const api=factory(typeof module==='object'&&module.exports?require('./figures.js'):root.R3_FIG);
+  if(typeof module==='object'&&module.exports)module.exports=api;else root.R7_NARRATIVE=api;
+})(typeof globalThis!=='undefined'?globalThis:this,function(F){
+  'use strict';
+  let source={};
+  const esc=F.esc;
+  const tr=(x,l)=>typeof x==='object'&&x?String(x[l]??x.zh??x.en??''):String(x??'');
+  const base={scene:()=>F.scene(),river:()=>F.river({rotation:0,mirror:false}),park:()=>F.park({rotation:0,mirror:false}),memorial:()=>F.memorial(),facade:()=>F.facade()};
+  function configure(data){source=data?.figures||{};return api;}
+  function wrap(value,lang,max){
+    const s=tr(value,lang),tokens=lang==='zh'?Array.from(s):s.split(/\s+/),out=[];let line='';
+    for(const token of tokens){const next=line+(lang==='zh'||!line?'':' ')+token;if(next.length>max&&line){out.push(line);line=token;}else line=next;}if(line)out.push(line);return out;
+  }
+  function lines(value,lang,x,y,width,size=18,color='#1b3d46',limit=5){
+    const max=Math.max(8,Math.floor(width/(lang==='zh'?size:size*.53)));
+    return '<text x="'+x+'" y="'+y+'" font-size="'+size+'" fill="'+color+'">'+wrap(value,lang,max).slice(0,limit).map((s,i)=>'<tspan x="'+x+'" dy="'+(i?size*1.45:0)+'">'+esc(s)+'</tspan>').join('')+'</text>';
+  }
+  function embedded(scene,x,y,w,h){
+    const raw=(base[scene]||base.scene)();
+    return raw.replace('<svg','<svg x="'+x+'" y="'+y+'" width="'+w+'" height="'+h+'" preserveAspectRatio="xMidYMid meet"');
+  }
+  const bi=(zh,en)=>({zh,en});
+  function originalFrame(x,y,w,h){
+    return '<g class="original-three-strip-frame"><rect x="'+x+'" y="'+y+'" width="'+w+'" height="'+h+'" rx="2" fill="#fcf9ec" stroke="#274c52" stroke-width="5"/>'+embedded('scene',x+5,y+5,w-10,h-10)+'<path d="M'+(x+w/3)+' '+(y+4)+'V'+(y+h-4)+'M'+(x+w*2/3)+' '+(y+4)+'V'+(y+h-4)+'" stroke="#b4aa8c" stroke-dasharray="3 3" stroke-width="1"/></g>';
+  }
+  function aya(x,y,scale=1){
+    return '<g transform="translate('+x+' '+y+') scale('+scale+')"><path d="M-33 20Q-42-16-22-35Q0-54 24-33Q40-13 33 28L24 61H-29Z" fill="#253b40"/><ellipse cy="-9" rx="23" ry="28" fill="#dcb394"/><path d="M-24-10Q-3-15 15-37Q31-22 25 0L21-19Q0-4-24-2Z" fill="#253b40"/><path d="M-34 33Q0 18 35 34L49 98H-47Z" fill="#567c82"/><path d="M-8 8Q0 13 9 8" fill="none" stroke="#9f654f" stroke-width="2"/><circle cx="-8" cy="-6" r="1.7" fill="#263a3f"/><circle cx="9" cy="-6" r="1.7" fill="#263a3f"/></g>';
+  }
+  function table(x,y,w){return '<g><rect x="'+x+'" y="'+y+'" width="'+w+'" height="10" rx="2" fill="#b38d64"/><path d="M'+(x+13)+' '+(y+10)+'v16M'+(x+w-13)+' '+(y+10)+'v16" stroke="#907353" stroke-width="7"/></g>';}
+  function packet(x,y,w=72){return '<g class="paper-packet"><rect x="'+x+'" y="'+y+'" width="'+w+'" height="44" rx="3" fill="#d8ba8e" stroke="#8f7355" stroke-width="2"/><path d="M'+x+' '+y+'l'+w/2+' 22L'+(x+w)+' '+y+'M'+(x+w/2)+' '+(y+20)+'v24" fill="none" stroke="#ae8b64" stroke-width="2"/></g>';}
+  function captionCard(text,lang,x,y,w=150){return '<g><rect x="'+x+'" y="'+y+'" width="'+w+'" height="28" rx="2" fill="#faf6e8" stroke="#b6a382"/>'+lines(text,lang,x+8,y+19,w-16,13,'#494e42',1)+'</g>';}
+  const motionStyle='<style>@keyframes r7-lift{0%,18%{transform:translateY(24px)}55%,100%{transform:translateY(0)}}@keyframes r7-lower{0%,20%{transform:translateY(-58px)}68%,100%{transform:translateY(0)}}@keyframes r7-receive{0%,25%{transform:translateX(-46px)}65%,100%{transform:translateX(0)}}@keyframes r7-retitle{0%,25%{transform:translateX(44px);opacity:.25}72%,100%{transform:translateX(0);opacity:1}}@keyframes r7-join-left{0%,20%{transform:translateX(-18px)}75%,100%{transform:translateX(0)}}@keyframes r7-join-right{0%,20%{transform:translateX(18px)}75%,100%{transform:translateX(0)}}.handoff-run .handoff-lift{animation:r7-lift 3.3s ease-in-out both}.handoff-run .handoff-lower{animation:r7-lower 4s ease-in-out both}.handoff-run .handoff-receive{animation:r7-receive 3.3s ease-in-out both}.handoff-run .handoff-retitle{animation:r7-retitle 4s ease-in-out both}.handoff-run .join-left{animation:r7-join-left 3.8s ease-in-out both}.handoff-run .join-right{animation:r7-join-right 3.8s ease-in-out both}@media(prefers-reduced-motion:reduce){.handoff-run .handoff-lift,.handoff-run .handoff-lower,.handoff-run .handoff-receive,.handoff-run .handoff-retitle,.handoff-run .join-left,.handoff-run .join-right{animation:none!important;transform:none!important}}</style>';
+  function handoff(spec,lang){
+    const mode=spec.mode||'cut';let art=motionStyle;
+    if(mode==='cut'){
+      art+='<rect x="28" y="90" width="338" height="304" rx="5" fill="#e8eeea"/><rect x="434" y="90" width="338" height="304" rx="5" fill="#eee6d8"/>'+lines(bi('片段一 · 举起纸框','SHOT A · LIFTING THE FRAME'),lang,45,120,304,16,'#36545b',1)+lines(bi('片段二 · 接住纸包','SHOT B · RECEIVING A PACKET'),lang,451,120,304,16,'#36545b',1);
+      art+=aya(190,199,.83)+table(55,338,284)+'<g class="handoff-lift">'+originalFrame(98,222,190,80)+'<path d="M98 263q-18-4-22 8l22 5M288 263q18-4 22 8l-22 5" fill="#dcb394" stroke="#a6785f" stroke-width="1.5"/></g>';
+      art+='<path d="M742 233l-68 20-24 28 34 16 67-25" fill="#455d65"/><path d="M675 257l-36 8q-18 4-15 17 9 13 25 7l36-14" fill="#dcb394" stroke="#a6785f" stroke-width="1.5"/><g class="handoff-receive">'+packet(563,237,88)+'</g>'+table(456,338,292);
+      art+='<path d="M382 217l36 24-36 24Z" fill="#a3442e"/>'+lines(bi('剪切','CUT'),lang,379,292,43,15,'#a3442e',1)+lines(bi('两只手没有在同一个连续镜头中交接。','No uninterrupted shot shows a hand-to-hand transfer.'),lang,46,418,690,16,'#774835',1);
+    }else if(mode==='uncut'){
+      const xs=[28,284,540],width=232;
+      xs.forEach((x,i)=>{art+='<rect x="'+x+'" y="92" width="'+width+'" height="310" rx="5" fill="'+(i===1?'#f6e5ca':'#e9eee8')+'" stroke="'+(i===1?'#bd7b35':'#bdcac0')+'" stroke-width="'+(i===1?3:1)+'"/>';});
+      art+=lines(bi('1 · 举框拍摄','1 · FRAME SHOT'),lang,42,121,204,16,'#36545b',1)+lines(bi('2 · 放回桌面','2 · PUT IT BACK'),lang,298,121,204,16,'#8a4b24',1)+lines(bi('3 · 换签另拍','3 · RESET / NEW TAKE'),lang,554,121,204,16,'#36545b',1);
+      art+=aya(144,204,.7)+table(42,338,204)+'<g class="handoff-lift">'+originalFrame(66,226,156,66)+'<path d="M66 258q-16-5-17 7l17 5M222 258q16-5 17 7l-17 5" fill="#dcb394"/></g>';
+      art+=aya(400,204,.7)+table(298,338,204)+'<rect x="322" y="214" width="156" height="66" fill="none" stroke="#c9b58f" stroke-dasharray="5 4" stroke-width="2"/><path d="M491 265v50m-8-9 8 10 8-10" fill="none" stroke="#a75a28" stroke-width="4"/><g class="handoff-lower">'+originalFrame(322,272,156,66)+'<path d="M322 299q-16-5-17 7l17 5M478 299q16-5 17 7l-17 5" fill="#dcb394"/></g>';
+      art+=table(554,338,204)+originalFrame(563,229,148,64)+captionCard(bi('上一张题签','PREVIOUS CAPTION'),lang,552,154,132)+'<path d="M612 193h48m-9-7 10 7-10 7" stroke="#a76535" stroke-width="3" fill="none"/><g class="handoff-retitle">'+captionCard(bi('另一张题签','ANOTHER CAPTION'),lang,617,198,143)+'<path d="M771 190l-30 13-2 18 30-6" fill="#dcb394"/></g><g class="handoff-receive">'+packet(593,296,68)+'</g><path d="M766 300l-66 9-17 10 15 14 68-13" fill="#dcb394"/><g fill="#405b64"><rect x="710" y="250" width="33" height="24" rx="4"/><circle cx="721" cy="262" r="7" fill="#dce7e1"/><path d="M744 256l13-6v26l-13-7Z"/></g>';
+      art+=lines(bi('原框在此回到桌面','THE FRAME RETURNS HERE'),lang,300,389,200,13,'#8a4b24',1)+lines(bi('不同片段 · 不等于连续交付','SEPARATE TAKES ≠ ONE TRANSFER'),lang,556,389,200,12,'#36545b',2);
+    }else if(mode==='rebuild'){
+      art+='<rect x="28" y="92" width="336" height="308" rx="5" fill="#eee7da"/><rect x="430" y="92" width="342" height="308" rx="5" fill="#e6eee6"/>'+lines(bi('三条原景 · 同一个来源','THREE ORIGINAL STRIPS'),lang,43,123,307,17,'#36545b',1)+lines(bi('原景接回 · 制作记录保留','REJOINED WITH ITS RECORD'),lang,445,123,313,17,'#36545b',1);
+      const inner=F.scene().split('>').slice(1).join('>').replace(/<\/svg>\s*$/,'');
+      [0,1,2].forEach((i)=>{const x=56+i*96;art+='<g class="'+(i===0?'join-left':i===2?'join-right':'')+'"><rect x="'+x+'" y="192" width="88" height="90" fill="#fffaf0" stroke="#a7987c"/><svg x="'+(x+3)+'" y="198" width="82" height="80" viewBox="'+(i*200)+' 0 200 180" preserveAspectRatio="none">'+inner+'</svg></g>';});
+      art+='<path d="M382 229l30 18-30 18Z" fill="#467163"/>'+originalFrame(453,182,294,105)+captionCard(bi('制作来源 · 保留','SOURCE RECORD · RETAINED'),lang,459,313,282)+lines(spec.record||bi('事实与复原过程一起留档。','Keep the facts and the reconstruction together.'),lang,51,325,293,17,'#425f68',3);
+    }else throw new Error('Unsupported handoff mode: '+mode);
+    return art;
+  }
+  function svg(name,lang='zh',options={}){
+    const spec=source[name];if(!spec)return base[name]?base[name]():'';
+    const title=tr(spec.title,lang),caption=tr(spec.caption,lang),labels=spec.labels||[];
+    let art='<rect width="800" height="480" rx="8" fill="#fbf7ee"/><path d="M32 68H768" stroke="#b9c4bf"/>'+lines(spec.title,lang,32,43,735,23,'#193e45',1);
+    if(spec.kind==='handoff'){
+      art+=handoff(spec,lang);
+    }else if(spec.kind==='timeline'){
+      const items=spec.items||[];art+='<path d="M72 220H728" stroke="#b8894f" stroke-width="5"/>';
+      items.slice(0,5).forEach((it,i)=>{const x=72+(items.length>1?656*i/(Math.min(5,items.length)-1):328);art+='<circle cx="'+x+'" cy="220" r="9" fill="#a3442e"/>'+lines(it.year||it.label,lang,x-54,192,108,23,'#193e45',2)+lines(it.text,lang,x-60,258,120,16,'#425f68',5);});
+    }else if(spec.kind==='comparison'){
+      const a=spec.left||{},b=spec.right||{};
+      art+='<rect x="28" y="94" width="356" height="296" fill="#f2eadd" stroke="#c7b7a0"/><rect x="416" y="94" width="356" height="296" fill="#eaf1ea" stroke="#9fb4aa"/>'+embedded(a.scene||spec.scene,48,135,316,172)+embedded(b.scene||spec.scene,436,135,316,172)+lines(a.title,lang,48,121,316,17,'#8d432f',1)+lines(b.title,lang,436,121,316,17,'#25614f',1)+lines(a.text,lang,48,338,316,16,'#3e5860',2)+lines(b.text,lang,436,338,316,16,'#3e5860',2);
+    }else{
+      const side=labels.length>0;
+      art+='<rect x="28" y="94" width="'+(side?492:744)+'" height="298" fill="#fffdf6" stroke="#b9c4bf"/>'+embedded(spec.scene||'scene',44,110,side?460:712,266);
+      if(side)labels.slice(0,3).forEach((label,i)=>{const y=98+i*99;art+='<rect x="546" y="'+y+'" width="225" height="87" rx="4" fill="'+(i===labels.length-1?'#e5eee5':'#eee7db')+'"/>'+lines(label,lang,562,y+29,193,17,'#1b3d46',2);});
+    }
+    art+=lines(spec.footer||{zh:'原创叙事分镜 · 不是实况、原始录像或现场照片',en:'Original storyboard · not a live feed, source recording or site photograph'},lang,32,443,735,14,'#647875',2);
+    const family=lang==='en'?'DejaVu Sans,Noto Sans CJK SC,sans-serif':'Noto Sans CJK SC,DejaVu Sans,sans-serif';
+    return '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" role="img" aria-label="'+esc(title+'. '+caption)+'" data-narrative="'+esc(name)+'"><title>'+esc(title)+'</title><desc>'+esc(caption)+'</desc><g font-family="'+family+'">'+art+'</g></svg>';
+  }
+  function render(name,lang='zh'){
+    const spec=source[name]||{},image=svg(name,lang);if(!image)return '';
+    return '<figure class="narrative-figure">'+image+(spec.caption?'<figcaption>'+esc(tr(spec.caption,lang))+'</figcaption>':'')+(spec.kind==='handoff'?'<div class="narrative-playback"><button type="button" data-story-replay>'+esc(tr(bi('重看这个动作','Replay this action'),lang))+'</button><span class="quiet">'+esc(tr(bi('所有分镜静态保留；重播不改变进度。','Every panel stays visible; replay never changes progress.'),lang))+'</span></div>':'')+'</figure>';
+  }
+  function activate(container){
+    if(typeof window==='undefined')return;
+    const start=s=>{s.classList.remove('handoff-run');void s.getBoundingClientRect();s.classList.add('handoff-run');};
+    for(const b of container.querySelectorAll('[data-story-replay]'))b.onclick=()=>start(b.closest('figure').querySelector('svg'));
+    const figures=[...container.querySelectorAll('svg[data-narrative]')].filter(s=>source[s.dataset.narrative]?.kind==='handoff');
+    if(window.matchMedia?.('(prefers-reduced-motion: reduce)').matches)return;
+    if(typeof IntersectionObserver!=='undefined'){
+      const observer=new IntersectionObserver(entries=>{for(const e of entries)if(e.isIntersecting){start(e.target);observer.unobserve(e.target);}},{threshold:.25});
+      figures.forEach(s=>observer.observe(s));
+    }else figures.forEach(start);
+  }
+  const api={configure,svg,render,activate,get supported(){return Object.keys(source);}};
+  return api;
+});
+</script><script>(function(){
+'use strict';
+const D=window.R7_DATA,E=window.R3_ENGINE,F=window.R3_FIG,$=id=>document.getElementById(id);
+window.R7_NARRATIVE?.configure(D);
+const key='tokyo-five-sites-r7-progress';let S,feedback=null,reelIndex=0;
+const i18n=(zh,en)=>({zh,en});
+const t=x=>x&&typeof x==='object'&&!Array.isArray(x)?String(x[S?.lang||'zh']??x.zh??x.en??''):String(x??'');
+const e=F.esc;
+const textHTML=x=>e(t(x)).replace(/\n/g,'<br>');
+const dialogue=items=>Array.isArray(items)&&items.length?'<ol class="dialogue">'+items.map(x=>`<li>${x.speaker?`<strong>${e(t(x.speaker))}</strong>`:''}<p>${textHTML(x.text)}</p></li>`).join('')+'</ol>':'';
+function clean(raw){
+ let a=raw;
+ if(typeof a==='string'){try{a=JSON.parse(a);}catch(_){return E.initial();}}
+ if(a?.format==='tokyo-five-sites-progress'){
+  if(a.product!==D.version)return E.initial();
+  a=a.state;
+ }
+ const s=E.restore(a),inputs={};
+ for(let k=0;k<=5;k++){
+  const p=s.inputs[k];if(!p||typeof p!=='object'||Array.isArray(p))continue;
+  const q=k<5?D.stages[k]:null,fs=q?q.fields:D.finalFields,out={};
+  if(q?.cards&&Array.isArray(p.order))out.order=p.order.filter((v,j,arr)=>q.cards.some(c=>c.id===v)&&arr.indexOf(v)===j).slice(0,q.cards.length);
+  if(q&&['river','park'].includes(q.type)){
+   if(Number.isInteger(p.rotation)&&p.rotation>=0&&p.rotation<4){out.rotation=p.rotation;out.mirror=p.mirror===true;}
+  }
+  for(const f of fs){const pair=f.options.find(([v])=>v===p[f.id]);if(pair)out[f.id]=pair[0];}
+  inputs[k]=out;
+ }
+ s.inputs=inputs;
+ for(const name of ['passed','hints','observed','assisted']){
+  const original=s[name];s[name]={};
+  for(let k=0;k<=(name==='assisted'?5:4);k++){
+   if(name==='hints'){const v=Number(original[k]);if(Number.isFinite(v)&&v>0)s[name][k]=Math.min(3,Math.floor(v));}
+   else if(original[k]===true)s[name][k]=true;
+  }
+ }
+ for(let k=0;k<5;k++)if(s.passed[k]&&!E.check(D.stages[k].answer,s.inputs[k]).ok)delete s.passed[k];
+ s.completed=s.completed&&E.check(D.finalAnswer,s.inputs[5]).ok;
+ return s;
+}
+try{S=clean(localStorage.getItem(key));}catch(_){S=E.initial();}
+function persist(){try{localStorage.setItem(key,JSON.stringify({format:'tokyo-five-sites-progress',product:D.version,state:S}));}catch(_){$('storageWarning').hidden=false;$('storageWarning').textContent=t(i18n('此浏览器不能自动保存。请用“导出进度”保留文件。','Automatic saving is unavailable in this browser. Use Export progress to keep your work.'));}}
+function initInput(index){
+ if(!S.inputs[index])S.inputs[index]={};
+ const q=D.stages[index],p=S.inputs[index];
+ if(q&&['river','park'].includes(q.type)&&p.rotation===undefined){
+  Object.assign(p,{rotation:index===1?1:3,mirror:true});
+  if(index===3&&S.choice==='share')Object.assign(p,{rotation:0,mirror:false});
+ }
+ return p;
+}
+function invalidate(){if(S.stage<5)delete S.passed[S.stage];S.completed=false;feedback=null;reelIndex=0;}
+function fields(fs,input){return fs.map(f=>{
+ const selected=f.options.find(([v])=>v===input[f.id]);
+ return `<div class="row"><label for="f-${e(f.id)}">${e(t(f.label))}</label><select id="f-${e(f.id)}" data-field="${e(f.id)}"><option value="">${t(i18n('请选择','Select'))}</option>${f.options.map(([v,label])=>`<option value="${e(v)}" ${selected&&selected[0]===v?'selected':''}>${e(t(label))}</option>`).join('')}</select><div class="selectedText quiet">${selected?e(t(selected[1])):''}</div></div>`;
+ }).join('');}
+function sources(ids){return `<details class="sources"><summary>${t(i18n('随身史料卡与来源 · 免费查看','History cards and sources · free to consult'))}</summary>${ids.map(id=>{
+ const x=D.sources.find(y=>y.id===id);if(!x)return '';
+ return `<div class="source"><strong class="source-heading">${e(id)} · ${e(t(x.title))}</strong><p>${textHTML(x.fact)}</p>${x.url?`<a href="${e(x.url)}" target="_blank" rel="noopener">${e(x.url)}</a>`:''}</div>`;
+ }).join('')}</details>`;}
+function figure(name){if(window.R7_NARRATIVE?.supported.includes(name))return window.R7_NARRATIVE.render(name,S.lang);if(name==='scene')return F.scene();if(name==='river')return F.river({rotation:0,mirror:false});if(name==='park')return F.park({rotation:0,mirror:false});if(name==='memorial')return F.memorial();if(name==='facade')return F.facade();return '';}
+function renderFinale(){
+ const scenes=Array.isArray(D.finale)?D.finale:[];if(!scenes.length)return '';
+ reelIndex=Math.max(0,Math.min(reelIndex,scenes.length-1));const x=scenes[reelIndex];
+ return `<section class="finale no-print" id="finale" aria-live="polite"><div class="finale-progress">${t(i18n('终局演出','FINALE'))} · ${reelIndex+1} / ${scenes.length}</div><h3>${e(t(x.title))}</h3>${x.figure?`<div class="wide">${figure(x.figure)}</div>`:''}${x.text?`<p>${textHTML(x.text)}</p>`:''}${dialogue(x.dialogue)}${x.byChoice?.[S.choice]?`<p>${textHTML(x.byChoice[S.choice])}</p>`:''}${x.byEnding?.[S.ending]?`<p>${textHTML(x.byEnding[S.ending])}</p>`:''}<div class="controls"><button id="previousScene" ${reelIndex===0?'disabled':''}>${t(i18n('上一幕','Previous scene'))}</button><button id="nextScene" ${reelIndex===scenes.length-1?'disabled':''}>${t(i18n('下一幕','Next scene'))}</button><button id="replayScenes">${t(i18n('从头重看','Replay from the beginning'))}</button></div></section>`;
+}
+function render(){
+ document.documentElement.lang=S.lang==='zh'?'zh-CN':'en';document.title=t(D.title);$('title').textContent=t(D.title);$('subtitle').textContent=t(D.subtitle);$('release').textContent=D.version;
+ $('language').textContent=S.lang==='zh'?'English':'中文';$('saveFile').textContent=t(i18n('导出进度','Export progress'));$('loadFile').textContent=t(i18n('导入进度','Import progress'));$('reset').textContent=t(i18n('重新开始','Restart'));$('printKit').textContent=t(i18n('打印题包','Print kit'));$('footer').textContent=t(D.safety);$('privacy').textContent=t(i18n('离线运行，无需登录；不会上传定位、照片或进度。现场场馆不参与本游戏。','Runs offline without login. No location, photographs or progress are uploaded. The venues are not participants in this game.'));
+ $('nav').innerHTML=D.stages.map((x,i)=>`<button data-nav="${i}" class="${S.stage===i?'active':''}" aria-label="${e(t(x.title))}"><span class="num">${String(i+1).padStart(2,'0')}${S.passed[i]?' ✓':''}</span><span class="chapter-label">${e(t(x.shortTitle||x.site))}</span></button>`).join('')+`<button data-nav="5" class="${S.stage===5?'active':''}"><span class="num">${S.completed?'✓':'◇'}</span><span class="chapter-label">${t(i18n('终局','Finale'))}</span></button>`;
+ $('statusline').textContent=t(i18n(`已整理 ${Object.values(S.passed).filter(Boolean).length}/5 组证据 · 可随时查看任一章节`,`Evidence assembled: ${Object.values(S.passed).filter(Boolean).length}/5 · All chapters remain accessible`));
+ document.querySelectorAll('[data-nav]').forEach(b=>b.onclick=()=>{S.stage=Number(b.dataset.nav);feedback=null;persist();render();});
+ const input=initInput(S.stage);let html='';
+ if(S.stage===0){html+=`<section class="panel opening"><div class="eyebrow">${t(i18n('案件开始','THE CASE BEGINS'))}</div><h2>${e(t(D.openingTitle||i18n('出发之前','Before you begin')))}</h2>${D.fictionNotice?`<aside class="fiction-notice">${textHTML(D.fictionNotice)}</aside>`:''}${D.openingFigure?`<div class="story-figure">${figure(D.openingFigure)}</div>`:''}<p class="lead-prose">${textHTML(D.opening)}</p>${dialogue(D.openingDialogue)}${D.originalCaption||D.parkAnnotation?`<aside class="opening-instruction"><strong>${t(i18n('开场留在桌上的工作页','THE WORK PAGE LEFT AT THE OPENING'))}</strong>${D.originalCaption?`<p>${textHTML(D.originalCaption)}</p>`:''}${D.parkAnnotation?`<p>${textHTML(D.parkAnnotation)}</p>`:''}</aside>`:''}${Array.isArray(D.rules)&&D.rules.length?`<details class="play-rules"><summary>${t(i18n('游玩规则与备用材料','Play rules and backup materials'))}</summary><ol>${D.rules.map(r=>`<li>${textHTML(r)}</li>`).join('')}</ol></details>`:''}<div class="row"><label for="team">${t(i18n('小组名（可不填）','Team name (optional)'))}</label><input id="team" maxlength="40" value="${e(S.team)}"></div><div class="row"><label for="mode">${t(i18n('游玩方式','Play mode'))}</label><select id="mode"><option value="desktop" ${S.mode==='desktop'?'selected':''}>${t(i18n('桌面试玩 · 使用题包图示','Desktop · use the kit diagrams'))}</option><option value="field" ${S.mode==='field'?'selected':''}>${t(i18n('实地试玩 · 遵守现场开放边界','On site · respect access boundaries'))}</option></select></div><p class="quiet">${t(i18n('两种方式使用同一组题目和答案；桌面试玩不会自动记为现场观察。','Both modes use the same puzzles and answers. Desktop play never counts automatically as a site observation.'))}</p></section>`;}
+ if(S.stage<5){
+  const q=D.stages[S.stage];html+=`<section class="panel"><div class="site">${e(t(q.site))}</div><h2>${e(t(q.title))}</h2>${dialogue(q.before)}${q.beforeFigure?`<div class="story-figure">${figure(q.beforeFigure)}</div>`:''}<p>${textHTML(q.intro)}</p>${q.operation?`<div class="operation"><strong>${t(i18n('你们现在要做的事','YOUR ACTION'))}</strong>${textHTML(q.operation)}</div>`:''}${q.prompt?`<p><strong>${textHTML(q.prompt)}</strong></p>`:''}<div class="puzzle">`;
+  if(q.cards){const order=input.order||[];html+=`<div class="cardgrid ${q.cards.length===4?'four':''}">${q.cards.map(c=>`<button class="card ${order.includes(c.id)?'selected':''}" data-card="${e(c.id)}" aria-pressed="${order.includes(c.id)}">${c.icon?F.icon(c.icon):''}<span>${e(t(c.label))}</span></button>`).join('')}</div><div class="slots">${order.map(id=>e(t(q.cards.find(c=>c.id===id)?.label||''))).join(' → ')||t(i18n('按顺序点选卡片，放进这里。','Select cards in order to place them here.'))}</div><button id="clearOrder">${t(i18n('清空排列','Clear order'))}</button>`;}
+  if(q.type==='timeline')html+=`<div class="diagram memorial">${F.memorial()}</div><p class="quiet">${t(i18n('题图为自制识别示意，表现现代庭园中的坐像、台座和景观墙。它不是历史照片或馆藏复制。','An original recognition diagram of the monument, plinth and scenery wall in the modern garden. It is not a historical photograph or collection reproduction.'))}</p>`;
+  if(['river','park'].includes(q.type)){
+   html+=`<div class="diagram">${q.type==='river'?F.river(input):F.park(input)}</div><div class="controls"><button id="rotate">${t(i18n('顺时针转90°','Rotate 90° clockwise'))}</button><button id="flip">${t(i18n('翻面','Turn over'))}</button></div><p class="quiet">${t(i18n('这是不按比例的功能示意；图上的线不表示现实通路开放。','This functional diagram is not to scale. Its lines do not establish that a real path is open.'))}</p>`;
+   if(q.type==='park')html+=`<div class="diagram">${F.facade()}</div><p class="quiet">${S.choice==='share'?t(i18n('已交换校准资料：大锚点方向已提供。相机侧、建筑和用途仍由你们判断。','Calibration was shared: the large anchors are oriented. The camera side, building and purpose are still yours to determine.')):t(i18n('独立核验：请翻正图卡，同时对照三个大锚点。','Independent verification: orient the card and compare all three large anchors.'))}</p>`;
+  }
+  html+=fields(q.fields,input)+`</div><label class="observed"><input id="observed" type="checkbox" ${S.observed[S.stage]?'checked':''}><span>${t(i18n('我们已在允许区域实际查看本关的现场物证。不要为勾选越界。','We examined this stage’s on-site evidence from permitted areas. Never trespass to tick this box.'))}</span></label><div class="controls no-print"><button id="submit" class="primary">${t(i18n('提交证据','Submit evidence'))}</button><button id="hint">${t(i18n('免费提示','Free hint'))} ${S.hints[S.stage]||0}/3</button><button id="assist">${t(i18n('辅助完成','Complete with assistance'))}</button></div>`;
+  if(S.hints[S.stage])html+=`<div class="hint">${textHTML(q.hints[Math.min(2,S.hints[S.stage]-1)])}</div>`;
+  if(feedback)html+=`<div class="feedback ${feedback.ok?'good':'bad'}" role="status">${e(feedback.message)}</div>`;
+  if(S.passed[S.stage]){
+   html+=`<section class="reveal" id="stageReveal"><div class="eyebrow">${t(i18n('行动之后','AFTER YOUR ACTION'))}</div><p>${textHTML(q.success)}</p>${q.afterFigure?`<div class="story-figure">${figure(q.afterFigure)}</div>`:(S.stage===0?`<div class="wide">${F.scene()}</div>`:'')}${dialogue(q.after)}`;
+   if(S.stage===2){html+=`<div class="choice">${['challenge','share'].map(id=>`<button id="${id}" class="${S.choice===id?'primary':''}" aria-pressed="${S.choice===id}">${e(t(D.choiceLabels?.[id]||(id==='challenge'?i18n('公开驳回','Formal challenge'):i18n('交换来源','Exchange sources'))))}</button>`).join('')}</div>${D.choiceResponses?.[S.choice]?`<p class="ending-response">${textHTML(D.choiceResponses[S.choice])}</p>`:''}<p class="quiet">${t(i18n('这个选择只影响第一次打开公园图时的校准援助；不会减少真相或纪念物。公园图已经开始后，更改选择不重置已有操作。','This choice affects calibration help when the park diagram is first opened. It never withholds the truth or souvenir. Later changes do not reset work already begun on that diagram.'))}</p>`;}
+   html+=`<p class="route">${textHTML(q.lead)}</p><button id="next" class="primary">${t(i18n('继续','Continue'))}</button></section>`;
+  }
+  html+=sources(q.sources)+'</section>';
+ }else{
+  html+=`<section class="panel"><div class="eyebrow">${t(i18n('最后的行动','THE FINAL ACTION'))}</div><h2>${e(t(D.finalTitle||i18n('把完整证据交到一起','Bring the evidence together')))}</h2><p>${textHTML(D.finalIntro||i18n('提交你们的完整判断。能够提前推理出全部事实时，可以直接结案。','Submit your complete account. If you have inferred every required fact early, you may close the case now.'))}</p>${fields(D.finalFields,input)}<div class="row"><label for="ending">${t(i18n('以什么方式完成？两种都有完整真相。','How will you complete it? Both choices receive the whole truth.'))}</label><select id="ending">${['solo','joint'].map(id=>`<option value="${id}" ${S.ending===id?'selected':''}>${e(t(D.endingLabels?.[id]||(id==='solo'?i18n('独立签收','Independent completion'):i18n('联合签收','Joint completion'))))}</option>`).join('')}</select></div><div class="controls"><button id="submit" class="primary">${t(i18n('确认最终行动','Confirm final action'))}</button><button id="assist">${t(i18n('辅助结案','Close with assistance'))}</button></div><p class="quiet">${t(i18n('正确提前推理同样有效，无需逐章盖章。辅助结案会记录，但不削减结局。','Correct early reasoning is accepted without chapter stamps. Assistance is recorded but never reduces the ending.'))}</p>${feedback?`<div class="feedback ${feedback.ok?'good':'bad'}" role="status">${e(feedback.message)}</div>`:''}`;
+  if(S.completed){
+   html+=renderFinale();
+   const observed=Object.values(S.observed).filter(Boolean).length,assisted=Object.values(S.assisted).filter(Boolean).length;
+   html+=`<details id="receiptDisclosure" class="receipt-disclosure"><summary>${t(i18n('主动查看回执与纪念内容（含结局）','Open receipt and souvenir (contains the ending)'))}</summary><section class="receipt" id="receipt"><div class="eyebrow">${t(i18n('案件回执 · 不是入场券','CASE RECEIPT · NOT AN ADMISSION TICKET'))}</div><h2>${e(S.team||t(i18n('东京探访小队','Tokyo investigation team')))}</h2><p>${textHTML(D.ending?.[S.ending])}</p>${D.choiceResponses?.[S.choice]?`<p class="quiet">${textHTML(D.choiceResponses[S.choice])}</p>`:''}<div class="wide">${F.scene()}</div><dl>${D.finalFields.map(f=>`<dt>${e(t(f.label))}</dt><dd>${e(t(f.options.find(([v])=>v===D.finalAnswer[f.id])[1]))}</dd>`).join('')}</dl><p class="quiet">${t(i18n(`方式：${S.mode==='field'?'实地试玩':'桌面试玩'}；现场自报 ${observed}/5；辅助 ${assisted} 项。策略：${S.choice==='share'?'交换来源':'公开驳回'}。此回执不证明实地验收或商业许可。`,`Mode: ${S.mode}; self-reported observations ${observed}/5; assisted actions ${assisted}. Strategy: ${S.choice==='share'?'source exchange':'formal challenge'}. This receipt is not evidence of field validation or commercial permission.`))}</p><button id="printReceipt">${t(i18n('打印回执','Print receipt'))}</button></section></details>`;
+  }
+  html+='</section>';
+ }
+ $('main').innerHTML=html;bind();window.R7_NARRATIVE?.activate(document);
+}
+function submit(){
+ const expected=S.stage<5?D.stages[S.stage].answer:D.finalAnswer,res=E.check(expected,initInput(S.stage));
+ if(res.ok){if(S.stage<5)S.passed[S.stage]=true;else{S.completed=true;reelIndex=0;}feedback={ok:true,message:t(i18n('核对成立。继续阅读行动结果。','The account checks out. Read what happens next.'))};}
+ else{
+  if(S.stage<5)delete S.passed[S.stage];else S.completed=false;
+  const fs=S.stage<5?D.stages[S.stage].fields:D.finalFields;
+  const names=res.wrong.map(k=>{const f=fs.find(x=>x.id===k);return f?t(f.label):t({order:i18n('卡片顺序','Card order'),rotation:i18n('图的朝向','Diagram orientation'),mirror:i18n('图卡正反面','Diagram face')}[k]||k);});
+  feedback={ok:false,message:t(i18n('还需要核对：','Please check: '))+names.join(S.lang==='zh'?'、':', ')+t(i18n('。可以免费查看史料和提示，不扣分。','. History cards and hints are free; there is no penalty.'))};
+ }
+ persist();render();
+}
+function bind(){
+ document.querySelectorAll('[data-field]').forEach(sel=>sel.onchange=()=>{const fs=S.stage<5?D.stages[S.stage].fields:D.finalFields,f=fs.find(x=>x.id===sel.dataset.field),pair=f.options.find(([v])=>String(v)===sel.value);initInput(S.stage)[f.id]=pair?pair[0]:'';invalidate();persist();render();});
+ if($('team'))$('team').oninput=()=>{S.team=$('team').value.slice(0,40);persist();};
+ if($('mode'))$('mode').onchange=()=>{S.mode=$('mode').value;persist();};
+ if($('observed'))$('observed').onchange=()=>{S.observed[S.stage]=$('observed').checked;persist();};
+ document.querySelectorAll('[data-card]').forEach(b=>b.onclick=()=>{const p=initInput(S.stage);p.order=p.order||[];if(p.order.includes(b.dataset.card))return;p.order.push(b.dataset.card);invalidate();persist();render();});
+ if($('clearOrder'))$('clearOrder').onclick=()=>{initInput(S.stage).order=[];invalidate();persist();render();};
+ if($('rotate'))$('rotate').onclick=()=>{Object.assign(initInput(S.stage),E.rotate(initInput(S.stage)));invalidate();persist();render();};
+ if($('flip'))$('flip').onclick=()=>{Object.assign(initInput(S.stage),E.flip(initInput(S.stage)));invalidate();persist();render();};
+ if($('hint'))$('hint').onclick=()=>{S.hints[S.stage]=Math.min((S.hints[S.stage]||0)+1,3);persist();render();};
+ if($('submit'))$('submit').onclick=submit;
+ if($('assist'))$('assist').onclick=()=>{if(!confirm(t(i18n('查看完整解答继续，并在回执中记录辅助？结局和纪念物不会减少。','Continue using the complete answer and record assistance? The ending and souvenir remain complete.'))))return;S.inputs[S.stage]=E.clone(S.stage<5?D.stages[S.stage].answer:D.finalAnswer);S.assisted[S.stage]=true;submit();};
+ if($('next'))$('next').onclick=()=>{S.stage++;feedback=null;persist();render();window.scrollTo(0,0);};
+ for(const id of ['challenge','share'])if($(id))$(id).onclick=()=>{S.choice=id;persist();render();};
+ if($('ending'))$('ending').onchange=()=>{S.ending=$('ending').value;persist();if(S.completed)render();};
+ if($('printReceipt'))$('printReceipt').onclick=()=>window.print();
+ if($('previousScene'))$('previousScene').onclick=()=>{reelIndex--;render();$('finale').scrollIntoView({block:'start'});};
+ if($('nextScene'))$('nextScene').onclick=()=>{reelIndex++;render();$('finale').scrollIntoView({block:'start'});};
+ if($('replayScenes'))$('replayScenes').onclick=()=>{reelIndex=0;render();$('finale').scrollIntoView({block:'start'});};
+}
+$('language').onclick=()=>{S.lang=S.lang==='zh'?'en':'zh';feedback=null;persist();render();};
+$('reset').onclick=()=>{if(confirm(t(i18n('清除这个版本在本机的试玩进度？已导出的文件不受影响。','Clear this version’s local progress? Exported files are unaffected.')))){S=E.initial();feedback=null;reelIndex=0;persist();render();window.scrollTo(0,0);}};
+$('saveFile').onclick=()=>{const a=document.createElement('a'),url=URL.createObjectURL(new Blob([JSON.stringify({format:'tokyo-five-sites-progress',product:D.version,state:S},null,2)],{type:'application/json'}));a.href=url;a.download='tokyo-five-sites-r7-progress.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);};
+$('loadFile').onclick=()=>$('fileInput').click();
+$('fileInput').onchange=async()=>{
+ const f=$('fileInput').files[0];if(!f)return;
+ try{
+  if(f.size>1000000)throw new Error('size');
+  const parsed=JSON.parse(await f.text());
+  if(!parsed||typeof parsed!=='object'||Array.isArray(parsed))throw new Error('format');
+  if(parsed.format==='tokyo-five-sites-progress'&&parsed.product!==D.version)throw new Error('version');
+  const raw=parsed.format==='tokyo-five-sites-progress'?parsed.state:parsed;
+  if(raw?.version!==E.initial().version)throw new Error('version');
+  S=clean(parsed);feedback=null;reelIndex=0;persist();render();$('importMessage').hidden=false;$('importMessage').textContent=t(i18n('进度已导入；无法识别或不一致的输入已清除。','Progress imported; unrecognised or inconsistent inputs were cleared.'));
+ }catch(_){$('importMessage').hidden=false;$('importMessage').textContent=t(i18n('这个文件不能作为本版进度导入。请使用本版导出的JSON文件；现有进度已保留。','This file cannot be imported for this release. Use a JSON progress export from this game. Your current progress was kept.'));}
+ $('fileInput').value='';
+};
+window.R7_TEST={getState:()=>E.clone(S),setState:x=>{S=clean(x);feedback=null;reelIndex=0;persist();render();},getScene:()=>reelIndex,submit};
+render();
+})();
+</script>
+</body></html>

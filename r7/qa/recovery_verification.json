@@ -1,0 +1,27 @@
+{
+  "base_commit": "9f3557cbb3a4b4ad2a8d7f1bc7aa68b12979cf97",
+  "tracked_files": 177,
+  "unchanged_files": 176,
+  "changed_paths": [
+    "README.md"
+  ],
+  "scope": "Actual byte comparison after README entry update; all other prior tracked files preserved. New R7 files excluded.",
+  "archives": [
+    {
+      "file": "Tokyo_Scene_Express_R3_1(2).zip",
+      "bytes": 1578079,
+      "files": 34,
+      "sha256": "570fdfb2b52f037978e3113f101f3ad6034a3b6219914968ee107aee71903144",
+      "zip_crc_verified": true
+    },
+    {
+      "file": "Tokyo_Five_Sites_R6_Review_20261020.zip",
+      "bytes": 9209682,
+      "files": 104,
+      "sha256": "7f9c35c801c1120db9e41d5a35e1db33765b62fe13aa9d02bc1099c4ff1a6bc6",
+      "zip_crc_verified": true
+    }
+  ],
+  "original_readme_copy": "research/ROOT_README_BEFORE_R7.txt",
+  "original_readme_copy_sha256": "055c7d9a6eb893bc00f59e39e4240cb5361ef5b24ef50fa1d2e7a2c0c2c9b91f"
+}

@@ -1,41 +1,47 @@
-# 东京五景点城市实景悬疑冒险｜R6完整审阅版
+# 东京五景点城市实景冒险
 
-## 先读正式交接
+## 当前完整原型：R7《请别替我签收》 / Before You Sign
 
-接手项目请先完整阅读 [PROJECT_HANDOFF_FOR_NEXT_SESSION.md](PROJECT_HANDOFF_FOR_NEXT_SESSION.md)。其中的来源权威顺序、历史资料与冻结机制仍有效。**R2、R3、R3.1、R4、R5故事均已被用户否决，不能续写或换名重用。** 旧源代码、史料、实拍研究及历次文件全部保留。
+你答应帮忙复原东京旧景，却发现自己的正确操作被剪进一份交付见证。沿着五处真实地点，拆开同景、双名、年代、机位和剧院沿革之间被混淆的关系，最后把开头同一套纸件放回完整制作过程。
 
-## 当前交付：《借景怪盗：消失的隅田川》 / The River Thief
+本分支为独立交付 `delivery/r7-tokyo-20261021`。这是可运行、可打印、可供评测的完整原型；故事吸引力、真人盲测、实际裁切、东京复走和商业使用仍未获得验证。软件测试通过不等于用户已接受故事。
 
-版本：**R6.0-review**，2026-10-20。制作位于独立分支 `story/r6-history-adventure-20261020`，未覆盖旧游戏。完整双语玩家内容已接入新离线程序，并生成实际玩家PDF与设计指南。
+### 直接打开
 
-- [完整交付ZIP](r6/release/Tokyo_Five_Sites_R6_Review_20261020.zip)（下载并解压）
-- [离线试玩HTML](r6/R6_Offline.html)（下载文件后直接打开）
-- [中文玩家题包，30页](r6/output/pdf/R6_Player_Kit_ZH.pdf)
-- [English player kit, 30 pages](r6/output/pdf/R6_Player_Kit_EN.pdf)
-- [完整设计指南](r6/output/pdf/R6_Designer_Guide.pdf)
-- [R6使用方法、构建命令与文件导航](r6/README.md)
+- [完整交付ZIP](r7/release/Tokyo_Five_Sites_R7_Review_20261021.zip)
+- [单文件离线游戏](r7/R7_Offline.html)（下载后用浏览器打开）
+- [中文玩家题包PDF](r7/output/pdf/R7_Player_Kit_ZH.pdf)
+- [English Player Kit PDF](r7/output/pdf/R7_Player_Kit_EN.pdf)
+- [设计指南PDF](r7/output/pdf/R7_Designer_Guide.pdf)（完整剧透）
+- [使用与构建说明](r7/README.md)
 
-游客带着同一幅未完成的河景，沿纽扣博物馆外街角、两国桥、芭蕉免费展望庭园、浜町公园、明治座外的固定路线，拆解一个旅行影戏怪盗的退场。五站的操作逐步改变构图、题签、摄影年代的解释与取景方案；终局在同一景框里完成完整退场。
+### 内容与验证
 
-## 可复核的制作与验证
+- [完整作者稿](r7/design/01_FULL_STORY.md)
+- [五站联合合同](r7/design/02_FIVE_STAGE_CONTRACTS.md)
+- [主持流程与纸面终局](r7/design/03_HOST_AND_PAPER_ENDING.md)
+- [路线、成本与实际待测表](r7/design/04_OPERATIONS_AND_COSTS.md)
+- [全部中英玩家内容、对白、提示与答案](r7/content/game.json)
+- [创作研究与具体决定](r7/research/00_NARRATIVE_DECISIONS.md)
+- [真实候选与淘汰记录](r7/research/02_CANDIDATES_AND_GATE.md)
+- [非正文作者的结构复查](r7/research/03_INDEPENDENT_REVIEW.md)
+- [实际QA记录](r7/qa/)
+- [ZIP逐文件SHA与实际解压验证](r7/release/)
 
-- [创作前论文与叙事研究](r6/research/00_NARRATIVE_RESEARCH.md)
-- [历史来源与因果边界](r6/research/01_HISTORY_AND_CAUSALITY.md)
-- [候选、否决与独立复核入口](r6/research/README.md)
-- [完整剧本、人物行动与真相时间线](r6/design/01_STORY_AND_TRUTH.md)
-- [五关机制与故事合同](r6/design/02_FIVE_STAGE_CONTRACTS.md)
-- [主持与完整纸面结尾](r6/design/03_HOST_AND_PAPER_ENDING.md)
-- [运营、路线与成本假设](r6/design/04_OPERATIONS_AND_COSTS.md)
-- [保留机制、变更边界与剩余体验风险](r6/design/05_MECHANICS_PRESERVATION_AND_LIMITS.md)
-- [实际测试范围与未执行事项](r6/qa/RELEASE_REVIEW.md)
-- [发布包解压校验](r6/release/package_validation.json)
+固定地点：纽扣博物馆外公共街角、两国桥、芭蕉免费庭园、浜町公园开放公共区域、明治座外公共步道。没有第六点、收费入场、真实工作人员任务或现场藏物。人物、案情和制作队均为原创虚构；真实场馆不是合作方或案情参与者。
 
-原机制引擎与原题图保持字节一致，五关答案、终局七项、免费提示、辅助、早解与四种选择组合保留。正式R6内容已执行29项逻辑检查、445种组合枚举、72项离线浏览器检查和49项画面检查；另有71项静态内容核验。逐项证据保存在 `r6/qa/`，这些不是故事质量评分。
+原R3.1机制、卡片类别、答案、三级提示、辅助、独立分支与正确早解通路保留，原引擎和谜题图按字节锁定。新的剧情内容、分镜与纸包在R7目录生成，不改旧版本故事。
 
-**当前状态是完整、可运行、可打印、可测试的审阅产品。** 独立提纲审查仅同意进入完整制作，没有替用户宣布故事好玩或感人。真实游客盲测、东京现场复走、实体打印裁切与商业使用确认尚未执行，记录明确标为 `NOT_RUN`。
+## 交接与旧资产
 
-## 历史档案
+[PROJECT_HANDOFF_FOR_NEXT_SESSION.md](PROJECT_HANDOFF_FOR_NEXT_SESSION.md)仍是正式恢复交接入口。R2、R3、R3.1、R4、R5故事已被拒绝；R6也已因结构问题退回，不把其旧自评当作故事通过。
 
-原69个跟踪文件中，除本入口说明外均保留原字节；此前根README另存于 [ROOT_README_BEFORE_R6.md](revisions/R5_history_first_20261020/ROOT_README_BEFORE_R6.md)。旧目录中的“当前”“最新”等字样是历史记录，不覆盖正式交接对R2—R5故事的否决。
+本轮实际恢复了与交接SHA完全相同的34文件R3.1附件，以及远程R6分支上的104文件ZIP。聊天记录提及的122文件维护ZIP未在当前可访问资产中取得，未用104文件包冒充。详情见[恢复与版本边界](r7/research/04_RECOVERY_AND_VERSION.md)。
 
-本仓库是公开项目。不附私人实拍原件、付费题包、第三方全文或字体文件；示意图不冒充历史原图或现场测绘。现实场馆没有被写成合作方。
+- [保留的R6初次完整包](r6/release/Tokyo_Five_Sites_R6_Review_20261020.zip)（已拒故事，只作恢复资产）
+- [原历史研究](research/)
+- [原现场证据报告](evidence/)
+- [旧修订目录](revisions/)
+- [更新前根README完整副本](r7/research/ROOT_README_BEFORE_R7.txt)
+
+旧源码、交接、研究和历史版本保留；私人原始照片/视频和字体文件不进入公共交付。
