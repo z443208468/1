@@ -1,0 +1,22 @@
+{
+  "place_entity_id": "",
+  "blockout_version": "",
+  "entities": [{
+    "entity_id": "",
+    "design_version": "",
+    "design_path": "",
+    "source": "",
+    "parts": [{
+      "id": "", "kind": "box", "material": "", "center": [], "size": []
+    }]
+  }],
+  "cameras": [{
+    "id": "", "source": "", "pos": [], "target": [], "vfov": null,
+    "near": null, "far": null, "resolution": []
+  }],
+  "states": [{
+    "id": "", "source": "",
+    "light": {"sky": "", "ground": "", "ambient": null, "sun": null, "sun_color": "", "sun_direction": [], "shadows": false},
+    "materials": {}
+  }]
+}
